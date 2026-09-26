@@ -1,0 +1,251 @@
+{
+  "previous_files_unchanged": 481,
+  "files": [
+    {
+      "path": "scenes/08_chupacabras_forma.blend",
+      "bytes": 342331,
+      "sha256": "23a57f968d6bc300fe9b4201f6e38f51967cdec006ac8050754a08c8dae9c309"
+    },
+    {
+      "path": "scenes/08_chupacabras_forma_contexto.blend",
+      "bytes": 452456,
+      "sha256": "363451f94514fead7096ea14b787b32d05d2b390806cfe2a85a62e5ba9157df9"
+    },
+    {
+      "path": "scenes/08_chupacabras_forma_r02.blend",
+      "bytes": 342308,
+      "sha256": "092f2e8987886b7777d7f5462f4045ae123ac39fa0c9f7ff34093ec75367fc75"
+    },
+    {
+      "path": "scenes/08_chupacabras_forma_r02_contexto.blend",
+      "bytes": 452449,
+      "sha256": "11b14ea1be27e77e3adf2ab3aabeeb99ecc9c7a296e3d157fa1cb4277a48b1b1"
+    },
+    {
+      "path": "scenes/08_chupacabras_forma_r03.blend",
+      "bytes": 341843,
+      "sha256": "7e341fe52e0deef5c29789a12f466f273ff294eb7d86fab57a15e3b765ef5a33"
+    },
+    {
+      "path": "scenes/08_chupacabras_forma_r03_contexto.blend",
+      "bytes": 450261,
+      "sha256": "8217c35b32ec5fe531382d3f9b990d322c6cba9c498ac0f4892343f11918175d"
+    },
+    {
+      "path": "scenes/09_chupacabras_acabado.blend",
+      "bytes": 387404,
+      "sha256": "0ab45d1e58b9fdd22af9a49a92766566842f0d46a38b7e959cc27318cb0e92fc"
+    },
+    {
+      "path": "scenes/09_chupacabras_acabado_contexto.blend",
+      "bytes": 498876,
+      "sha256": "36e45472adb35b5d5980839e22b570a8ef4d923b3f798a30f7abacfc6fe86879"
+    },
+    {
+      "path": "exports/08_chupacabras_forma.fbx",
+      "bytes": 342444,
+      "sha256": "e4111501c04688ef280862f6c8ef575286f9d29460b84d1aa3f89a15d8fc30d5"
+    },
+    {
+      "path": "exports/08_chupacabras_forma.json",
+      "bytes": 5774,
+      "sha256": "cbdfa8b498bf2858d0c3eb4f24dbf02d98ffaf6b52dd03aa95f177f5226dc743"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_contexto.fbx",
+      "bytes": 2177100,
+      "sha256": "e68012a09114108f11aca23ffce74ead651ecc8a7d209f64197fcfa6a945da61"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_contexto.json",
+      "bytes": 366,
+      "sha256": "51c9693cb97a95f660dbe0d74e9a36b04550c10765cf963fc7aa9ce04c2b963b"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_r02.fbx",
+      "bytes": 342412,
+      "sha256": "f26166f46ad519590881af76af75ae714c69234e3f95d358f7e095cee736e42c"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_r02.json",
+      "bytes": 5774,
+      "sha256": "cbdfa8b498bf2858d0c3eb4f24dbf02d98ffaf6b52dd03aa95f177f5226dc743"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_r02_contexto.fbx",
+      "bytes": 2193196,
+      "sha256": "282b13862eb0d914262094fd29e51f8b62de8c2d4c707f87a63465b2030b3f83"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_r02_contexto.json",
+      "bytes": 370,
+      "sha256": "5d55249990d4ffa6af576ab7cdae783dd8463e316d5d31823a2a5bff5b86f35d"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_r03.fbx",
+      "bytes": 342412,
+      "sha256": "53a0f865d78b0823a70e4907be121f2c0394d94a8b7d3569d168fc296dcee5ff"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_r03.json",
+      "bytes": 5774,
+      "sha256": "cbdfa8b498bf2858d0c3eb4f24dbf02d98ffaf6b52dd03aa95f177f5226dc743"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_r03_contexto.fbx",
+      "bytes": 2178604,
+      "sha256": "9bef7adc4bdb40227f690f4753c17d29d2552605225a8cddf993b85e7f251c69"
+    },
+    {
+      "path": "exports/08_chupacabras_forma_r03_contexto.json",
+      "bytes": 370,
+      "sha256": "70bda2731ae5ca63ab938b002800204a1671b367be5e5824ff7cd3c2d1ac5889"
+    },
+    {
+      "path": "exports/09_chupacabras_acabado.fbx",
+      "bytes": 410028,
+      "sha256": "0e7d26c29cab1ff59e9094bca8cd94d9360541d638cd5c797e6bff23edb04d1f"
+    },
+    {
+      "path": "exports/09_chupacabras_acabado.json",
+      "bytes": 7688,
+      "sha256": "54c04b16c495d93509f1f7b1204b4dbe510bd87b82414dbaf8bf881df372163d"
+    },
+    {
+      "path": "exports/09_chupacabras_acabado_contexto.fbx",
+      "bytes": 2556604,
+      "sha256": "3c3df5c9d21ea63fcb4b43cbc3a2df3e90b6af69bd644eeb136ae66a6411ebd0"
+    },
+    {
+      "path": "exports/09_chupacabras_acabado_contexto.json",
+      "bytes": 368,
+      "sha256": "91b5952705bbfd042a47c4e31b67d9a9ab475e32c9d62a4ae1cdfe11ca34a59e"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_espalda.png",
+      "bytes": 721184,
+      "sha256": "32636ac8999f9a3b220e2f3e88de97ba1de87e70f386441872916b7712542a2a"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_frente.png",
+      "bytes": 713351,
+      "sha256": "1aff33e924cd2deb5b5bbb1f6b59cfdf1922cd83eb3e7f7319e636d95358ddcf"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_perfil.png",
+      "bytes": 744464,
+      "sha256": "3eed14f93f088a32634b098aeb59f4037f5a3969fff88f60c724c370eca9fb40"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r02_espalda.png",
+      "bytes": 721188,
+      "sha256": "7c368e585c86f495ff38bcaae47dd94acd6e83ce80d594a9667d5722b7b4658e"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r02_frente.png",
+      "bytes": 713355,
+      "sha256": "006be69f76dc4cc78ad0b0e34893cad9545492aaa87fdd2bbe09a15e44812cc1"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r02_perfil.png",
+      "bytes": 744468,
+      "sha256": "914ff790b317fa6ce670f37f9d8d5b1656beccee7a666dd9b3ba43dff3ad7063"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r02_tres_cuartos.png",
+      "bytes": 737108,
+      "sha256": "71bf17e33215c1c798c4506c1185b7134fe6a6287732af69d635bed11dc9d2cc"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r03_espalda.png",
+      "bytes": 721188,
+      "sha256": "61ff1f6cc948d345aa4aa49f5a08f0ffc24a775c4afe3a94c9645caff5b05dce"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r03_frente.png",
+      "bytes": 713355,
+      "sha256": "83a8a2e2ab4319f7508a774cd99fe829d09203545ea09b6c2c5ebb362213d7f9"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r03_perfil.png",
+      "bytes": 744468,
+      "sha256": "45598b8f1c30a63f76234597e874fd94ae19c8b6d54b9c986eaa6c7c11d13178"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r03_tres_cuartos.png",
+      "bytes": 737108,
+      "sha256": "2266b7ae538190532b570ab801255e2077dd2e63aa92c14a94d2a3061ca3dec9"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r03_unity_comparison.png",
+      "bytes": 54448,
+      "sha256": "2278cb6c4de579228f7ecf72df2ea3d08b54acafc30f8ca92da211b517256c6c"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r03_unity_face.png",
+      "bytes": 75968,
+      "sha256": "2b32bfc307455a0c2f4164a3ff62b96ab71f6a6785532bbad577219ebf3e0a34"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_r03_unity_model_three_quarter.png",
+      "bytes": 58084,
+      "sha256": "ed6cdd7a54f231aeb96953e855d5fe79a67ca9057c6de8d57e91e1bbdd1b2b0f"
+    },
+    {
+      "path": "previews/08_chupacabras_forma_tres_cuartos.png",
+      "bytes": 737104,
+      "sha256": "3fa10b5268525b1113d056886026c4fbe0e21fad4667226092a1e02aab8cdf6b"
+    },
+    {
+      "path": "previews/09_chupacabras_acabado_espalda.png",
+      "bytes": 717595,
+      "sha256": "ffd6e244e9d48425b8cf8b93277bb6187dfe6faf85c663167e2ed643630c8f7a"
+    },
+    {
+      "path": "previews/09_chupacabras_acabado_frente.png",
+      "bytes": 709302,
+      "sha256": "9e76f045ef56472a5a09ccab1870b3dc7944bb727e9639aecb8f8e65c92a4924"
+    },
+    {
+      "path": "previews/09_chupacabras_acabado_perfil.png",
+      "bytes": 741070,
+      "sha256": "ffb505d276af861838983b5af34d1f372492b51a7314072bfd6980e91eea152d"
+    },
+    {
+      "path": "previews/09_chupacabras_acabado_tres_cuartos.png",
+      "bytes": 730970,
+      "sha256": "88ee0ac3f5e560d33e43546237eb6754ae5e22e84a6895028c2affc217d77cd2"
+    },
+    {
+      "path": "previews/09_chupacabras_acabado_unity_comparison.png",
+      "bytes": 53140,
+      "sha256": "08638fb83128b0abbb9bf88208edadf420b4213331f6960bcfef36b8cf8eb400"
+    },
+    {
+      "path": "previews/09_chupacabras_acabado_unity_face.png",
+      "bytes": 72673,
+      "sha256": "3c406ca865f7b27780728ed831271f36cf70dd4353ab1891aacc2b4cda1d5d97"
+    },
+    {
+      "path": "previews/09_chupacabras_acabado_unity_model_three_quarter.png",
+      "bytes": 57186,
+      "sha256": "121a905e96bab5aed748fb78f8a35d95ded75bce52e1cd1c1f25e0d9e2c8ef38"
+    },
+    {
+      "path": "scripts/chupacabras.py",
+      "bytes": 13937,
+      "sha256": "324133509f3876c242c60b93b95e046a7b940d5997ac0d92e68e0747e22fc6fb"
+    },
+    {
+      "path": "scripts/chupacabras_contexto.py",
+      "bytes": 4344,
+      "sha256": "430ab25a96fd88839e42250a402d1ec845f54424c2c696c6c33799d51fcfa334"
+    },
+    {
+      "path": "scripts/verificar_chupacabras.py",
+      "bytes": 1812,
+      "sha256": "576243706f41754f2384abd7aca2b8b8d3758e15171a40cf870d85e6372b118f"
+    }
+  ],
+  "physical_device": false
+}

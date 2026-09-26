@@ -1,0 +1,13 @@
+00:00.382  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/09_chupacabras_acabado.blend"
+00:11.368  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/11_rigs_contacto_r02_grip_start.png'
+00:11.474  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/11_rigs_contacto_r02_grip_middle.png'
+00:11.582  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/11_rigs_contacto_r02_grip_end.png'
+00:11.687  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/11_rigs_contacto_r02_contact_close.png'
+Info: Saved as "11_rigs_contacto_r02.blend"
+
+FBX export starting... '/home/cacawatin/code/blender/chupacabras/exports/11_rigs_contacto_r02.fbx'
+export finished in 0.4276 sec.
+RIG_CONTACT_OK {"name": "11_rigs_contacto_r02", "duration": 6, "creature_bones": 23, "max_contact": 1.1099114685974164e-06, "min_height": -5.125102120473457e-08, "upper_vertex": 175, "lower_vertex": 36, "neck_vertex": 174, "physical_device": false}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

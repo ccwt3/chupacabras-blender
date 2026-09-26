@@ -1,0 +1,32 @@
+[
+  {
+    "origen": "/home/cacawatin/Pictures/chupacabras/chupacabras1.jpg",
+    "copia": "references/chupacabras1.jpg",
+    "bytes": 25271,
+    "sha256": "b790471d6d754d97fff7d26ad7872e928782a5af40714a5800278e315b8819de"
+  },
+  {
+    "origen": "/home/cacawatin/Pictures/chupacabras/chupacabras2.jpg",
+    "copia": "references/chupacabras2.jpg",
+    "bytes": 16824,
+    "sha256": "026eb3af91fc0c88682d62f26baaee82fb33d44b841e60c7a1959cab808c3539"
+  },
+  {
+    "origen": "/home/cacawatin/Pictures/chupacabras/chupacabras3.jpg",
+    "copia": "references/chupacabras3.jpg",
+    "bytes": 34576,
+    "sha256": "2aff1dae30305e523c011f1449f8ee5136a15e647dbe1a972eed584cf912025d"
+  },
+  {
+    "origen": "/home/cacawatin/Pictures/chupacabras/ejemplo_de_oveja.jpg",
+    "copia": "references/ejemplo_de_oveja.jpg",
+    "bytes": 11429,
+    "sha256": "e96abdc662090f623d639c99cf5cbe6dd0e252ced21243337451326e8aaa54dc"
+  },
+  {
+    "origen": "/home/cacawatin/Pictures/chupacabras/ejemplo_de_escenario.jpg",
+    "copia": "references/ejemplo_de_escenario.jpg",
+    "bytes": 93553,
+    "sha256": "ce0c9514472852bb6793695d1f6d0de4f6b4a44a78a3ecf64d99f56735029c57"
+  }
+]

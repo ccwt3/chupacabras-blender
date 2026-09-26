@@ -1,0 +1,3 @@
+ M ProjectSettings/GraphicsSettings.asset
+ M ProjectSettings/QualitySettings.asset
+?? ProjectSettings/PackageManagerSettings.asset

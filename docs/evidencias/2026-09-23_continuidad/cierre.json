@@ -1,0 +1,17 @@
+{
+  "archivos_previos_identicos": 428,
+  "referencias_identicas": 5,
+  "sintaxis_python_ok": [
+    "scripts/animar_demo.py",
+    "scripts/demo_lowpoly.py",
+    "scripts/preview_animacion.py",
+    "scripts/verificar_demos.py"
+  ],
+  "png_correlativos": 420,
+  "duracion_video_s": 35,
+  "blender_verificacion": "OK; detalle en blender.log",
+  "suite_preexistente": "No encontrada",
+  "linter_configurado": "No encontrado",
+  "unidad_ar": "Sin pruebas Unity, Android ni físicas",
+  "git": "Ninguna raíz reconocida como repositorio; no commit ni push"
+}

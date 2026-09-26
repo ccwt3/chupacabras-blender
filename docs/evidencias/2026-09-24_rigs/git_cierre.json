@@ -1,0 +1,6 @@
+{
+  "commit": "0f38435aae8975d82e35da959c6d17cef367ac26",
+  "push": false,
+  "blender_repository": false,
+  "remaining_status": " M ProjectSettings/GraphicsSettings.asset\n M ProjectSettings/QualitySettings.asset\n?? ProjectSettings/PackageManagerSettings.asset\n"
+}

@@ -1,0 +1,24 @@
+{
+  "completed_main_steps": [
+    8,
+    9
+  ],
+  "next_main_steps": [
+    10,
+    11
+  ],
+  "unity_commit": "8aa3c292a3eeda9e73b3cc25553f23fe1194c2fd",
+  "unity_worktree_clean": true,
+  "push": false,
+  "blender_git_repository": false,
+  "manual_actions_pending": [],
+  "physical_tests_performed": false,
+  "new_apk": false,
+  "unity_version": "6000.3.22f1",
+  "context_suffix": "_contexto_r02",
+  "previous_files_unchanged": 481,
+  "tracking_assertions": 32,
+  "blender_body_triangles": 10550,
+  "barn_collision_frames_checked": 1200,
+  "final_rig": false
+}

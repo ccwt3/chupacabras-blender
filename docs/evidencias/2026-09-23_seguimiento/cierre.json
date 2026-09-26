@@ -1,0 +1,26 @@
+{
+  "unity_commit": "897b36bb257b0f72e69d30aa88af9937baa0985d",
+  "unity_worktree_clean": true,
+  "push": false,
+  "blender_git_repository": false,
+  "main_steps": [
+    2,
+    3
+  ],
+  "physical_device_tested": false,
+  "manual_action": "M#[2] pendiente",
+  "checks": {
+    "synthetic_assertions": 29,
+    "marker_pdf": true,
+    "android_build_errors": 0,
+    "android_build_warnings": 0,
+    "signature_and_alignment": true,
+    "bash_python_syntax": true,
+    "blender_previous_files_unchanged": 428
+  },
+  "blender_document_sha256": {
+    "docs/estado.md": "3c2b31de361ef920f5665059be4246d13b1c37b19de5304f67cb9d23afaff5b4",
+    "docs/plan_secuencia.md": "4f2264066ef504e894cd0f86e69fbcd9f4e55016936317542cc0f75a70899eb0",
+    "docs/evaluacion_ar_moto_g20.md": "f37022bc0b43e5ab64504027ac4b4deca4c24de16f54c3c727b53aee74cc24f4"
+  }
+}

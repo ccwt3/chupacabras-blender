@@ -1,0 +1,12 @@
+00:01.247  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/08_chupacabras_forma_frente.png'
+00:01.388  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/08_chupacabras_forma_perfil.png'
+00:01.518  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/08_chupacabras_forma_espalda.png'
+00:01.658  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/08_chupacabras_forma_tres_cuartos.png'
+
+FBX export starting... '/home/cacawatin/code/blender/chupacabras/exports/08_chupacabras_forma.fbx'
+export finished in 0.0227 sec.
+Info: Saved as "08_chupacabras_forma.blend"
+CHUPACABRAS_MODEL_OK {"name": "08_chupacabras_forma", "triangles": 8486}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

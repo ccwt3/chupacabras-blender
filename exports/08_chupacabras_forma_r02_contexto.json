@@ -1,0 +1,19 @@
+{
+  "source": "08_chupacabras_forma_r02",
+  "frames": 565,
+  "max_landmark_error": 9.902267292640298e-07,
+  "duration": 40,
+  "neck_landmark": [
+    0.0,
+    -0.550000011920929,
+    0.8700000047683716
+  ],
+  "bite_landmark": [
+    0.0,
+    1.2999999523162842,
+    1.0099999904632568
+  ],
+  "static_sheep_volume": true,
+  "final_rig": false,
+  "physical_device": false
+}

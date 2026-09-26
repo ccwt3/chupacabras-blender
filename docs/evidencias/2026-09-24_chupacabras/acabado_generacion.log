@@ -1,0 +1,17 @@
+00:00.415  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/08_chupacabras_forma_r03.blend"
+Traceback (most recent call last):
+  File "/home/cacawatin/code/blender/chupacabras/scripts/chupacabras.py", line 279, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "/home/cacawatin/code/blender/chupacabras/scripts/chupacabras.py", line 262, in main
+    detail(root)
+    ~~~~~~^^^^^^
+  File "/home/cacawatin/code/blender/chupacabras/scripts/chupacabras.py", line 144, in detail
+    mats={n:bpy.data.materials['Chupa_'+n] for n in COLORS}
+            ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "Chupa_Ridge" not found'
+
+Error: script failed, file: 'scripts/chupacabras.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

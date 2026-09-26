@@ -1,0 +1,15 @@
+{
+  "unity_commit": "a94ac9333fb6cd6c1433d82dcead6a11c4cb6dd5",
+  "print_commit": "17409ba",
+  "unity_clean": true,
+  "push": false,
+  "paper": "Letter",
+  "job_id": 43,
+  "printer": "Brother_DCP-T510W",
+  "completed_sheets": 1,
+  "physical_ruler_mm_user_confirmed": 100,
+  "manual_M3": "resolved",
+  "manual_M2": "pending physical AR walkthrough; print and ruler complete",
+  "phone_app_remains_uninstalled": true,
+  "blender_state_sha256": "a28dfa143ef8f29afa6ec67e656ca53061975c5f563cb85443115d3a9d870f0a"
+}

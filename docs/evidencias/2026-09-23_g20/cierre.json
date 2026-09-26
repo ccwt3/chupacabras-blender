@@ -1,0 +1,28 @@
+{
+  "unity_commit": "c2c813219effddc733873d14855e65372c3485c4",
+  "unity_worktree_clean": true,
+  "push": false,
+  "blender_git_repository": false,
+  "steps_worked": [
+    2,
+    3
+  ],
+  "step_2_complete": true,
+  "step_3_complete": false,
+  "g20_android_api": 30,
+  "g20_abi": "arm64-v8a",
+  "native_detector_image_test": true,
+  "physical_marker_test": false,
+  "manual_action": "M#[2]: impresión medida y recorrido físico pendientes",
+  "cleanup": {
+    "package_absent": true,
+    "process_absent": true,
+    "external_app_directory_absent": true
+  },
+  "blender_previous_files_unchanged": 428,
+  "docs_sha256": {
+    "docs/estado.md": "009847863a6dee7b616d5c2afbf90eb0c7d378673ca0b73bc8410f291af1e5f9",
+    "docs/plan_secuencia.md": "afc4524027292f176baf8e803defc68423e46ad712b97e7cfc93fd79567f2117",
+    "docs/evaluacion_ar_moto_g20.md": "53acc39950d842edca8f7791126b77b17a5bacd762f94a6c1d0c9b19d87f67b4"
+  }
+}

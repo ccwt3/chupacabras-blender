@@ -1,0 +1,18 @@
+{
+  "unity_commit": "fde1295060e982d9a7783aa2cea31da2d415ce5a",
+  "unity_clean": true,
+  "push": false,
+  "blender_git": false,
+  "completed_steps": [
+    4,
+    5
+  ],
+  "next_steps": [
+    6,
+    7
+  ],
+  "manual_actions_pending": [],
+  "video": "previews/05_blocking_r04.mp4",
+  "apk": "/home/cacawatin/code/unity/chupacabras/builds/android/05_blocking_20260924_233453.apk",
+  "physical_test_this_session": false
+}

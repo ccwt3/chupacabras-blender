@@ -1,0 +1,21 @@
+{
+  "completed_main_steps": [
+    6,
+    7
+  ],
+  "next_main_steps": [
+    8,
+    9
+  ],
+  "unity_commit": "0dde327db0619141ea64c4761cd1f280a0dcd803",
+  "unity_worktree_clean": true,
+  "push": false,
+  "blender_git_repository": false,
+  "manual_actions_pending": [],
+  "physical_tests_performed": false,
+  "new_apk": false,
+  "unity_version": "6000.3.22f1",
+  "environment_checks": "/home/cacawatin/code/unity/chupacabras/docs/evidencias/2026-09-24_escenario/checks.json",
+  "sheep_checks": "/home/cacawatin/code/unity/chupacabras/docs/evidencias/2026-09-24_oveja_r04/checks.json",
+  "existing_tracking_assertions_passed": 32
+}

@@ -1,0 +1,18 @@
+{
+  "previous_blender_files_unchanged": 428,
+  "embedded_package_original_files_unchanged": 62,
+  "unity_source_hashes_valid": 113,
+  "asset_meta_files": "OK",
+  "apk_hash_signature_alignment": "OK; apk_verificacion.json",
+  "detector_editor_and_playmode": "PASS, synthetic only",
+  "final_preview": "PASS; startup indexing exception absent",
+  "shell_and_python_syntax": "OK",
+  "local_markdown_links": "OK",
+  "physical_device_validation": false,
+  "manual_action_M1": "resolved",
+  "active_manual_request": null,
+  "next_steps": [
+    "2.4 ABI pendiente",
+    "3 preparaci\u00f3n y prueba f\u00edsica; no iniciado"
+  ]
+}

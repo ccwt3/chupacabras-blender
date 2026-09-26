@@ -1,0 +1,14 @@
+00:00.409  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/assets/oveja/original/Farm Animals by @Quaternius/Blends/Sheep.blend"
+00:00.414  blend.doversion  | WARNING Region type 4 missing in space type "Info" (id: 7) - removing region
+/home/cacawatin/code/blender/chupacabras/scripts/oveja.py:59: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.diffuse_color=color; mat.use_nodes=True
+Info: Saved as "07_oveja.blend"
+
+FBX export starting... '/home/cacawatin/code/blender/chupacabras/exports/07_oveja.fbx'
+export finished in 0.0157 sec.
+
+FBX export starting... '/home/cacawatin/code/blender/chupacabras/exports/07_oveja_poses.fbx'
+export finished in 0.1739 sec.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

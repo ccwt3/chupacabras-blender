@@ -1,0 +1,15 @@
+00:00.398  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/07_oveja_r04.blend"
+00:00.406  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/06_escenario_contexto.blend"
+Traceback (most recent call last):
+  File "/home/cacawatin/code/blender/chupacabras/scripts/chupacabras_contexto.py", line 105, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "/home/cacawatin/code/blender/chupacabras/scripts/chupacabras_contexto.py", line 95, in main
+    assert not overlaps, overlaps[:20]
+           ^^^^^^^^^^^^
+AssertionError: [(347, 'Chupa_Detail_Ivory'), (348, 'Chupa_Detail_Ivory'), (349, 'Chupa_Detail_Ivory'), (350, 'Chupa_Detail_Ivory'), (351, 'Chupa_Detail_Ivory'), (352, 'Chupa_Detail_Ivory'), (353, 'Chupa_Detail_Ivory'), (354, 'Chupa_Detail_Ivory'), (355, 'Chupa_Detail_Ivory'), (356, 'Chupa_Detail_Ivory'), (357, 'Chupa_Detail_Ivory'), (358, 'Chupa_Detail_Ivory'), (359, 'Chupa_Detail_Ivory'), (360, 'Chupa_Detail_Ivory'), (361, 'Chupa_Detail_Ivory')]
+
+Error: script failed, file: 'scripts/chupacabras_contexto.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

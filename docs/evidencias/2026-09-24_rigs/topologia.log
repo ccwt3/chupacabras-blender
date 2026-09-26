@@ -1,0 +1,9 @@
+00:00.441  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/10_rig_oveja.blend"
+00:00.451  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/11_rigs_contacto_r03.blend"
+10_rig_oveja V/E/F/T 307 631 326 612 boundary 0 nonmanifold 1 unused 0 MIN 0.0011690011015161872
+bad_edges [(95, [195, 194])]
+11_rigs_contacto_r03 V/E/F/T 307 915 612 612 boundary 0 nonmanifold 3 unused 0 MIN 0.0011690011015161872
+bad_edges [(168, [192, 195]), (170, [194, 195]), (171, [185, 195])]
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

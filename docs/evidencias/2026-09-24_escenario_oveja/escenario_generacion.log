@@ -1,0 +1,13 @@
+00:00.424  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/05_blocking_r04.blend"
+Traceback (most recent call last):
+  File "/home/cacawatin/code/blender/chupacabras/scripts/escenario.py", line 179, in <module>
+    main()
+    ~~~~^^
+  File "/home/cacawatin/code/blender/chupacabras/scripts/escenario.py", line 116, in main
+    raise AssertionError(('Barn intersects actor bounds',collisions))
+AssertionError: ('Barn intersects actor bounds', [('BarnBacking', 920), ('BarnPlank.004', 919), ('BarnPlank.005', 919), ('BarnPlank.006', 919), ('BarnPlank.007', 919), ('BarnPlank.008', 919), ('BarnPlank.009', 919), ('BarnPlank.010', 933), ('BarnPlank.011', 936), ('BarnPlank.012', 939), ('BarnPlank.013', 943), ('BarnPlank.014', 947), ('BarnPlank.015', 950), ('BarnPlank.016', 954), ('BarnPlank.017', 957), ('SidePlank.007', 959), ('SidePlank.008', 959), ('SidePlank.009', 959), ('DoorRecess', 918), ('DoorBoard', 917), ('DoorBoard.001', 917), ('DoorBoard.002', 917), ('DoorBoard.003', 917), ('DoorBoard.004', 933), ('DoorBoard.005', 936), ('DoorPost', 915), ('DoorPost.001', 940), ('DoorRail', 915), ('DoorRail.001', 955), ('DoorBrace', 915), ('DoorLatch', 954), ('DoorLatch.001', 954)])
+
+Error: script failed, file: 'scripts/escenario.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

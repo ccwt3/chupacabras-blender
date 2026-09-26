@@ -1,0 +1,1926 @@
+[
+  {
+    "path": "scenes/04_intercambio.blend",
+    "sha256": "ac2606cb12bb7a32801d8ab1c6019ce998304001059e8a5d17f8cce16dcac77e"
+  },
+  {
+    "path": "scenes/05_blocking.blend",
+    "sha256": "ab4bfcf20fe4da988dfd8e9c06f6b896415b4ad0808e4ca1a6b9dd8b04c53133"
+  },
+  {
+    "path": "scenes/05_blocking_r02.blend",
+    "sha256": "d98d884c295413ccddcce055bc141b4d32d34006374bef9a0cfb4509511959b5"
+  },
+  {
+    "path": "scenes/05_blocking_r03.blend",
+    "sha256": "3f24dbf1a1af9dfb1c77fd9a2b25b06a26f1184d1f9735692f2deac7e34d50b2"
+  },
+  {
+    "path": "scenes/05_blocking_r04.blend",
+    "sha256": "d25f5cbb53530499b4c32a7d7554a03c851e0e8e30f45cea3d30b1900c3a9d8e"
+  },
+  {
+    "path": "scenes/06_escenario.blend",
+    "sha256": "67757a2c94c9ac428ba634c5eb109ccf9b5c991689dbeb5f8d4e246a007e9578"
+  },
+  {
+    "path": "scenes/06_escenario_contexto.blend",
+    "sha256": "86f33516258548abb05a7cbc7f2ec767ed7b952ecfc0bf7eb2dea786ad9b368e"
+  },
+  {
+    "path": "scenes/07_oveja.blend",
+    "sha256": "fc86f5d08df6f154e55bd7f6bb3592c9cec0b99bd1d84e44def95fa8277212db"
+  },
+  {
+    "path": "scenes/07_oveja_r02.blend",
+    "sha256": "28d511d17d8a77a484b8ff6e315905f28a595b926fe4051c8f33c589b42f1ec1"
+  },
+  {
+    "path": "scenes/07_oveja_r03.blend",
+    "sha256": "cf8345c98a7fbef4522ba9b824688535cb680767c3741f232da37675b5883efc"
+  },
+  {
+    "path": "scenes/07_oveja_r04.blend",
+    "sha256": "61ad0dfcb9028202e3d4061a0bdafc57301f8e7ff957eef79ae1bbf85276b820"
+  },
+  {
+    "path": "scenes/demo_ataque_arrastre.blend",
+    "sha256": "0c83fdd416c5cb87ede55126330b05b53eac4bcecf00edbf8876b32736767be0"
+  },
+  {
+    "path": "scenes/demo_lowpoly.blend",
+    "sha256": "5f718586c201a2588477212af49c61ac1ca621632237df951604f12b88683452"
+  },
+  {
+    "path": "exports/04_intercambio.fbx",
+    "sha256": "20f65daccb8955b58c0306a92c85484a8dcebb48d52ce66d2597078845be09fe"
+  },
+  {
+    "path": "exports/04_intercambio.json",
+    "sha256": "1d5c93c2fbd19552e56bab951e7c02e98c9ffa36a25b1204a4ec474166a22d27"
+  },
+  {
+    "path": "exports/05_blocking.fbx",
+    "sha256": "411a0c208ad6f3a25e1bd5646ab14bd2118c794efe56f304138caf035f85f00e"
+  },
+  {
+    "path": "exports/05_blocking.json",
+    "sha256": "ce79ef73bb845062e5b74efb8b518a39bdf8902411da152844d655f151bbc8dd"
+  },
+  {
+    "path": "exports/05_blocking_r02.fbx",
+    "sha256": "a7131c964fb7796a5be9d83ceb3a4d33876994b7de2198ef5a6687a390edbd70"
+  },
+  {
+    "path": "exports/05_blocking_r02.json",
+    "sha256": "f020358f4d9da48abd5fbc411907575146f8ce337bb69eb7fc574b3828733398"
+  },
+  {
+    "path": "exports/05_blocking_r03.fbx",
+    "sha256": "60d4061866013f38f5abd2ecffa23b0ff29dc8e4b30287aa8f4a024a8e7fb93e"
+  },
+  {
+    "path": "exports/05_blocking_r03.json",
+    "sha256": "5d6d4debdf21ee1e712bea6ecd5cc28b459a25321baa7734ed1b689f99abdddf"
+  },
+  {
+    "path": "exports/05_blocking_r04.fbx",
+    "sha256": "77959ef07b21152040983e8e6fa68a4f62a410720f46d42a597789e78c86612f"
+  },
+  {
+    "path": "exports/05_blocking_r04.json",
+    "sha256": "b11a8f1e7da7a3941f991691fca172ad7bdd349ef72a6872d8f0a45fc8205e03"
+  },
+  {
+    "path": "exports/06_escenario.fbx",
+    "sha256": "c989ef25ec98bdeb382c7a77e4158d5d7884d176cbbe3829e4ca5bb9a410daf2"
+  },
+  {
+    "path": "exports/06_escenario.json",
+    "sha256": "3c0f1f170c2b55079a97fe42e6a5364297b1fd39ecbe2d245acd913d817ef7f0"
+  },
+  {
+    "path": "exports/06_escenario_contexto.fbx",
+    "sha256": "82acc7fcb01201c5712f6a6663dbca6666c957708d1cd8bf726cbd2ada494851"
+  },
+  {
+    "path": "exports/07_oveja.fbx",
+    "sha256": "762c110e77d6496c345a1e598e443cef70fc3661f2604344885c2d1763584ffd"
+  },
+  {
+    "path": "exports/07_oveja.json",
+    "sha256": "79eaed5607424f9e7a0e5c0e7992edc077a1c113f38ee1bd4a0386d35ea965c6"
+  },
+  {
+    "path": "exports/07_oveja_poses.fbx",
+    "sha256": "2b578772a6a6a9956c7cb0f48f4b70655f8617a20d1c7fb07018fe5e5e514792"
+  },
+  {
+    "path": "exports/07_oveja_r02.fbx",
+    "sha256": "13daa14fd68f4365f5dc30950df488ae842bb100e64d4bd743fcc6c20cee0fbb"
+  },
+  {
+    "path": "exports/07_oveja_r02.json",
+    "sha256": "172316b028d39b385384d3f6fad4bca283405f40efdfa983f5a47c7719bdbe3e"
+  },
+  {
+    "path": "exports/07_oveja_r02_poses.fbx",
+    "sha256": "10960753d4d8ad14c0df7c7b4906c9e26de8a27f7596a31b1c232a5d8ce73611"
+  },
+  {
+    "path": "exports/07_oveja_r03.fbx",
+    "sha256": "f9e56ec9e78040f3c2c8a19d2955389a245738993a03c60d990b4efb69051f01"
+  },
+  {
+    "path": "exports/07_oveja_r03.json",
+    "sha256": "172316b028d39b385384d3f6fad4bca283405f40efdfa983f5a47c7719bdbe3e"
+  },
+  {
+    "path": "exports/07_oveja_r03_poses.fbx",
+    "sha256": "42fd30b1126541aa09e85a9ab837f09eacd8a103fe3e0df90dbafc187e1e9be3"
+  },
+  {
+    "path": "exports/07_oveja_r04.fbx",
+    "sha256": "4ea7cea8fcc5c8494425ae6b559bf41384d035518e5dc84ef97b8bef83d0dff7"
+  },
+  {
+    "path": "exports/07_oveja_r04.json",
+    "sha256": "78ec7a6a6cb79817c931cbc9824792665d6f5c5e2f22f87b182c557138276837"
+  },
+  {
+    "path": "exports/07_oveja_r04_poses.fbx",
+    "sha256": "55de321e04f16391655a1d835ee074b1da7684c5a65700d4fcb3ad6bbbece7a3"
+  },
+  {
+    "path": "previews/05_blocking_r03.mp4",
+    "sha256": "05227a46e95e18bf2d82172957b1935b5ed33b759852d6b5569e58aaa34bc385"
+  },
+  {
+    "path": "previews/05_blocking_r04.mp4",
+    "sha256": "5a341bcbb62db2d30601f84f761fd8a8410be7aee0477e25803ae520e374fc6b"
+  },
+  {
+    "path": "previews/06_escenario.png",
+    "sha256": "2b90462d06f7daae3a57d572e3ae4833c7767a198044d74afd476b91ca4a831e"
+  },
+  {
+    "path": "previews/07_oveja.png",
+    "sha256": "9538f1de640562311dca0bb1e388d762d179c2041e94c328adae6269fa111697"
+  },
+  {
+    "path": "previews/07_oveja_caida.png",
+    "sha256": "aa6d5f9c8725d5e21fa0cdabe03bb4d08d3ab0becbfc83bdd32264728b40c9de"
+  },
+  {
+    "path": "previews/07_oveja_pastoreo.png",
+    "sha256": "9c7cfcaf875d0f80bbeb223f25fe6732954cce2a3a873180956cd5b03013416e"
+  },
+  {
+    "path": "previews/animacion_frames/0001.png",
+    "sha256": "d33394691dedff717b76d20d4accdecc2dc7754734715bbcbe91ca0e416f8871"
+  },
+  {
+    "path": "previews/animacion_frames/0002.png",
+    "sha256": "d64df203d6f0c4a50ed6115dbbf587fcc30cc47e13291c9c6a2faf6a47c960a1"
+  },
+  {
+    "path": "previews/animacion_frames/0003.png",
+    "sha256": "c2dbd56ce8aeb4040430a6f7e8ba2471f3543622b2f2f7a3e2fbaabb174927b3"
+  },
+  {
+    "path": "previews/animacion_frames/0004.png",
+    "sha256": "693fd52d16ee7de8e79d5dfc9af70e37496d43e4482db62a62b257acee6b9634"
+  },
+  {
+    "path": "previews/animacion_frames/0005.png",
+    "sha256": "622a5dcc8cfbf872bb75d28566108c6cb97e38c0708802cbe7a2e9a79bc28901"
+  },
+  {
+    "path": "previews/animacion_frames/0006.png",
+    "sha256": "e41dc6f0c99991bd9194f6423ab01fe14742bc2f5d7fc9d5e5c8f0175045ba8e"
+  },
+  {
+    "path": "previews/animacion_frames/0007.png",
+    "sha256": "f1e36bd84a10d99b063c343237e839b632269728b07261a0d09546e106395206"
+  },
+  {
+    "path": "previews/animacion_frames/0008.png",
+    "sha256": "dbfef36fae8723cfe619c11f9692c92ccaaec2fee11a45f2014232b337a2770a"
+  },
+  {
+    "path": "previews/animacion_frames/0009.png",
+    "sha256": "6e512bcdc04f1b34da6ee356f6c28f56ee35a78ca9da7a557261abcce0df2fab"
+  },
+  {
+    "path": "previews/animacion_frames/0010.png",
+    "sha256": "4bfe177f88c53c68e693b532fbb1f20d774baabe31bea6acb2f409c52187b1f7"
+  },
+  {
+    "path": "previews/animacion_frames/0011.png",
+    "sha256": "3b284ebafc6f2ca0d9efc83f9fcb14d91718cb42d1b7b7d9c0137e36b85b2b6a"
+  },
+  {
+    "path": "previews/animacion_frames/0012.png",
+    "sha256": "a81fe7aed401001934b048992bf09fd0de81ef85dcf6c03304440c855faaf8ee"
+  },
+  {
+    "path": "previews/animacion_frames/0013.png",
+    "sha256": "fb9a9d5570f92240f784968fb364d2a39a026f43921e0de04e3e4a3f00c9db0a"
+  },
+  {
+    "path": "previews/animacion_frames/0014.png",
+    "sha256": "2f3dba51de1298a4cdcec94c6214faafa46f32e16c538c44fb18da2f37f20d92"
+  },
+  {
+    "path": "previews/animacion_frames/0015.png",
+    "sha256": "5fb3eaa0f5d975c0c94d3129ad530f908fab4c629f36f91f73cd4c119feafdd2"
+  },
+  {
+    "path": "previews/animacion_frames/0016.png",
+    "sha256": "f959f09dd335e19ac4e82e67db186e2ceefce724a0909d935d13b818920bc9eb"
+  },
+  {
+    "path": "previews/animacion_frames/0017.png",
+    "sha256": "fd6902f78bcd8a01f7183cf0ebe58e2984d255c3085fbd0dddb5c58e4b824564"
+  },
+  {
+    "path": "previews/animacion_frames/0018.png",
+    "sha256": "7713b790f9b4ce3421ad32d7c42b5245ed925c93cdac4c3534fad5a8d532ad02"
+  },
+  {
+    "path": "previews/animacion_frames/0019.png",
+    "sha256": "c0f520e8091a5625284e2ab721a1c201ff053299a4423d27dabe6ecc624fa44f"
+  },
+  {
+    "path": "previews/animacion_frames/0020.png",
+    "sha256": "d4fda8a913461bcf76bffb37335a2e33b8dd45538054acdde0276d0917a4d636"
+  },
+  {
+    "path": "previews/animacion_frames/0021.png",
+    "sha256": "a051268808f87feea19c4d9de2cc586d36c4a99fa6a37e7f7484c0fee5088ef5"
+  },
+  {
+    "path": "previews/animacion_frames/0022.png",
+    "sha256": "ffb6c4caafa132c4ad73c13bceb37190d815f423e9b6bf04effeafba553bdc19"
+  },
+  {
+    "path": "previews/animacion_frames/0023.png",
+    "sha256": "32c072f83b0d7bbf77719b6016166900a7d214c64520ce7d064303ccb37b0901"
+  },
+  {
+    "path": "previews/animacion_frames/0024.png",
+    "sha256": "91866786f8ed55f022303ff7c9fdf3faeee58d9e3d8db9c1d9ee02aab3ca4a31"
+  },
+  {
+    "path": "previews/animacion_frames/0025.png",
+    "sha256": "5e5fc48302ad9b3a5921f95ec3f7342fc927f72c427bc2cebef589a2e72bfaef"
+  },
+  {
+    "path": "previews/animacion_frames/0026.png",
+    "sha256": "c0eccde4762eadf437d38ce85f21c7124b1ccca5e8f2b51501d69dc0fa4a28cb"
+  },
+  {
+    "path": "previews/animacion_frames/0027.png",
+    "sha256": "d743aa49bd2ac59208fffd2ac20bb721debfb3d46d28974ddd8ed4ec316d6958"
+  },
+  {
+    "path": "previews/animacion_frames/0028.png",
+    "sha256": "e6e102d393654228ad991177114b350d468f028396b298f921d3f978d5e27c83"
+  },
+  {
+    "path": "previews/animacion_frames/0029.png",
+    "sha256": "ad2a178aff27e0c1d3428cb77b7c5b62a545a3156cbb80d6c21021ef7e91ba53"
+  },
+  {
+    "path": "previews/animacion_frames/0030.png",
+    "sha256": "23f592bf14095d9b05868014c3e3dbcd6329669d31792183c9616364968321e5"
+  },
+  {
+    "path": "previews/animacion_frames/0031.png",
+    "sha256": "7785496671db4462af65a6844e8872f8bfac5284a2e0b413ce05ba77d0b9e88f"
+  },
+  {
+    "path": "previews/animacion_frames/0032.png",
+    "sha256": "66a5ad1acf670109cb77c65f0655b8910290f5a34aa29e564d8c1827c870a33d"
+  },
+  {
+    "path": "previews/animacion_frames/0033.png",
+    "sha256": "9735a4c08f5e7950a6ee6a489da7a501e922437838c70ea6a9a0b729a4c04046"
+  },
+  {
+    "path": "previews/animacion_frames/0034.png",
+    "sha256": "27d0ab9f0fbdbde4d21bc55aa3179f6db3ff9d095d74ba16360e92da8461ac7c"
+  },
+  {
+    "path": "previews/animacion_frames/0035.png",
+    "sha256": "b699797db10285d2e775fca57fcb192f4d872e77d0ec7e3192de12a050cf46b3"
+  },
+  {
+    "path": "previews/animacion_frames/0036.png",
+    "sha256": "283bf1e3ff9e423245589d4d090f009d4f85d589c1e9406d41862c99a5eafbd9"
+  },
+  {
+    "path": "previews/animacion_frames/0037.png",
+    "sha256": "864b59d1c2d5774f68251464c627070fc32c3b38b5bd531d0043fc9542a17210"
+  },
+  {
+    "path": "previews/animacion_frames/0038.png",
+    "sha256": "6ea96f5e9506b60195989569a89365d8308c9c9832a74f2ef0dffb0e67c7b059"
+  },
+  {
+    "path": "previews/animacion_frames/0039.png",
+    "sha256": "2a6d337638a55238ccc64d9d06d0a1a8f7788c4e81b51c2c2219d7c294879222"
+  },
+  {
+    "path": "previews/animacion_frames/0040.png",
+    "sha256": "9cda48b08f5ac7bbee63341895ac559bca18f91deebbf9632ba04f18410389a4"
+  },
+  {
+    "path": "previews/animacion_frames/0041.png",
+    "sha256": "c75016c8fc6a5596f274f45289bdd039d7fbed890a65ddee27666507ffa60bab"
+  },
+  {
+    "path": "previews/animacion_frames/0042.png",
+    "sha256": "411bc6b6d1c6e6f014b0dad914e0d84c4a48f874986da134e48ae1357d89d303"
+  },
+  {
+    "path": "previews/animacion_frames/0043.png",
+    "sha256": "af920d8da65d0d76941d5972673aac845217df3a36405252e87da87b55a305c9"
+  },
+  {
+    "path": "previews/animacion_frames/0044.png",
+    "sha256": "2527559a8fa79c19dd2b799b7d70a1326fda4eba129270aa5fdbbfdb7eedd2a5"
+  },
+  {
+    "path": "previews/animacion_frames/0045.png",
+    "sha256": "8cd9c0bba31dfedb391974d2815af3d345fc19bebed14291652eb1b77ae8ec69"
+  },
+  {
+    "path": "previews/animacion_frames/0046.png",
+    "sha256": "118d33d1647580b51b4ea3870c52a54b5928bc152ce7cee1d8e07bec1ac80316"
+  },
+  {
+    "path": "previews/animacion_frames/0047.png",
+    "sha256": "02ec37024771c68b75bd5c5af4a4fe11dd79b179c7c84465f200282d41c102f3"
+  },
+  {
+    "path": "previews/animacion_frames/0048.png",
+    "sha256": "706015bd468136d434e2f8c0d09e4bd6af7d7e8fdc90b31b7e6460f0a034c29b"
+  },
+  {
+    "path": "previews/animacion_frames/0049.png",
+    "sha256": "2852f6b554b5406db9f33b96ce150405541563e6e7a7390b295a72befb36fff4"
+  },
+  {
+    "path": "previews/animacion_frames/0050.png",
+    "sha256": "83ccf89d2750e92e2b77196c75335c196952fdd757b63746969e731aeb8f0b56"
+  },
+  {
+    "path": "previews/animacion_frames/0051.png",
+    "sha256": "a95dc2f899317730f81708bb9c7de70e5b9766e3e9690e9dadca6746fa0e40b0"
+  },
+  {
+    "path": "previews/animacion_frames/0052.png",
+    "sha256": "22363b66bd77a639bfc50e7d6a6c805020ebdef711652eedc11b457ad29c1912"
+  },
+  {
+    "path": "previews/animacion_frames/0053.png",
+    "sha256": "db51e2174ecdb1e002d5f1d2ea24e86f1ca805b9220bed597faff857cca9b164"
+  },
+  {
+    "path": "previews/animacion_frames/0054.png",
+    "sha256": "536f6986b8da498ba3386f2003122c276787f66e613c9b9a598c4e798fe35a56"
+  },
+  {
+    "path": "previews/animacion_frames/0055.png",
+    "sha256": "df7595608c5a31dc303c7bf3ca2da2a1ad27a566797483c0c33247a1a53cba0c"
+  },
+  {
+    "path": "previews/animacion_frames/0056.png",
+    "sha256": "044d1ea6141333ddcd87f3810f60565bf27ad3a8ffc49702b196a074ea6c38d2"
+  },
+  {
+    "path": "previews/animacion_frames/0057.png",
+    "sha256": "166e031c127978e35d102cf27002d3036cd1dd55eed2e5f10bcfbea254c971a0"
+  },
+  {
+    "path": "previews/animacion_frames/0058.png",
+    "sha256": "ea17d1f59487f97518c9014a4c8e58d09a186a332dca2446f6e18a8f278e48da"
+  },
+  {
+    "path": "previews/animacion_frames/0059.png",
+    "sha256": "d6c618a6f2086e366d0128358dcd8ef00ad9b40327f050f2f564109cd7de34b6"
+  },
+  {
+    "path": "previews/animacion_frames/0060.png",
+    "sha256": "1e7f7b284dfdb7198f8a127ff1975992c82474a8572e873fc204b919ad36e596"
+  },
+  {
+    "path": "previews/animacion_frames/0061.png",
+    "sha256": "3c49af57049d19dfb7d0d3a56e7fead5f34778c857029f8b56ad45302a8c859b"
+  },
+  {
+    "path": "previews/animacion_frames/0062.png",
+    "sha256": "6ae2841c05fb5f3ba7931d3fe82db926ac3889cf2c89a18f54a43d3d904666dc"
+  },
+  {
+    "path": "previews/animacion_frames/0063.png",
+    "sha256": "2067bb062d688341eb32b82c0c9a50688892f097a40f2ce592f15ad9b8f4a725"
+  },
+  {
+    "path": "previews/animacion_frames/0064.png",
+    "sha256": "3d3c3988f438b7793d800e0b00e88d470b2cf32e6d9b05a15323c1b0cc80496f"
+  },
+  {
+    "path": "previews/animacion_frames/0065.png",
+    "sha256": "9d5392285fcd8c3551fda35cb4ad9d15dfe58e6999aa41971cdce05cc5999238"
+  },
+  {
+    "path": "previews/animacion_frames/0066.png",
+    "sha256": "0a307cc5103907b70d09ddcee837cd8b7732316b1f74f39dfe59aed06a1097ef"
+  },
+  {
+    "path": "previews/animacion_frames/0067.png",
+    "sha256": "6002711fcbf4745b8a9cb5f7601e22ba8389fc6ee8ae0f1739f1ac91d91179a7"
+  },
+  {
+    "path": "previews/animacion_frames/0068.png",
+    "sha256": "ed38b42f6b54127a3308c691f109a0abe2d9ae801405ef6c4b8dbd30093f5b73"
+  },
+  {
+    "path": "previews/animacion_frames/0069.png",
+    "sha256": "078b4789ca188993343c4055288f42ce6e57f0c80d801b1f9c9b755b87f4100d"
+  },
+  {
+    "path": "previews/animacion_frames/0070.png",
+    "sha256": "6596b105cc2c7bc062953e3e416d952559531c55069dd040083a71fbf5b696b3"
+  },
+  {
+    "path": "previews/animacion_frames/0071.png",
+    "sha256": "bb7657b1518a7a51797671057bf41717ade3ad08129174a9533628b23fa9ffc7"
+  },
+  {
+    "path": "previews/animacion_frames/0072.png",
+    "sha256": "d4ff46b767cfcdcbc591951eb6022d6803e129812ac0faf5c6641d28fb658654"
+  },
+  {
+    "path": "previews/animacion_frames/0073.png",
+    "sha256": "c683fa05be9954c53adae6db114f923048883279cbb1ee98fd6d03ae21e4c484"
+  },
+  {
+    "path": "previews/animacion_frames/0074.png",
+    "sha256": "24228d7fd88addfcb2880e4bab3da5bad2d6c6ea957e524827dac66b0c8a832a"
+  },
+  {
+    "path": "previews/animacion_frames/0075.png",
+    "sha256": "de6745a212e38a472ca7c4435fd09dd4310e7c471ca4d8307a0307b77aedcaa3"
+  },
+  {
+    "path": "previews/animacion_frames/0076.png",
+    "sha256": "1c45cec259ba78ed53c462480379b41e2793298ad7856036a5419fb9ad49ffd7"
+  },
+  {
+    "path": "previews/animacion_frames/0077.png",
+    "sha256": "9002bfea9c54feeeb18f5ad48e59c642c06d73010049611455162cb5ebc23c0f"
+  },
+  {
+    "path": "previews/animacion_frames/0078.png",
+    "sha256": "f9bdebd53a5ebafdf02f5a105fa329673a6bde08f8f9c7c7324e7bf37ba7ef91"
+  },
+  {
+    "path": "previews/animacion_frames/0079.png",
+    "sha256": "9f537be4eed6c4adc0eaac3f87feb3ff363b4fb585387f3da6b04753c1186d0e"
+  },
+  {
+    "path": "previews/animacion_frames/0080.png",
+    "sha256": "cae01973b6f9e9cd0f498acf0fa26e4e7cf56aaa3acb1614a4cdeb3d00c73510"
+  },
+  {
+    "path": "previews/animacion_frames/0081.png",
+    "sha256": "5565bc724226769a47c4004b5b3874419c0062c5d588a71cada9a7b8d1c28a47"
+  },
+  {
+    "path": "previews/animacion_frames/0082.png",
+    "sha256": "cef3df73723ada09f6b34bb6dadf453c0527066cae1657f1f1d72b50990d87d4"
+  },
+  {
+    "path": "previews/animacion_frames/0083.png",
+    "sha256": "04cc9f9b0af3c9c4e8502fa802f2d89913072aad2edffb840bc5f4353a08d7f8"
+  },
+  {
+    "path": "previews/animacion_frames/0084.png",
+    "sha256": "79c8cd8fe5ff00173ce208f08f4c6cc0b04513da720211c22b3331c09bf67573"
+  },
+  {
+    "path": "previews/animacion_frames/0085.png",
+    "sha256": "db0f877508cb13a4088ebaa58f0410a5123bc87aa91545a6ceec338e24534824"
+  },
+  {
+    "path": "previews/animacion_frames/0086.png",
+    "sha256": "69bfd04619c0a8a62a77cd3aa0c5876cc5486455676720b60b1e3b9654c8c7d1"
+  },
+  {
+    "path": "previews/animacion_frames/0087.png",
+    "sha256": "1eeecb6a18d12a716510a3dba6b391e1c71096e1865b9d98d6cad2560b298e47"
+  },
+  {
+    "path": "previews/animacion_frames/0088.png",
+    "sha256": "cd751733ef57b5cccd3e156c2404e8ea7a3d3ea42acd4a6c46ed156f6786d98d"
+  },
+  {
+    "path": "previews/animacion_frames/0089.png",
+    "sha256": "64ca384898a714ed8174e9ae60823ea1322611b887008be1386fe1a6cab24d2f"
+  },
+  {
+    "path": "previews/animacion_frames/0090.png",
+    "sha256": "0de3a9f1f42598dfe628d8c70400207c00c2e519b60e1dbf2447f0f25410798b"
+  },
+  {
+    "path": "previews/animacion_frames/0091.png",
+    "sha256": "4aaaf7775606bf6bb62b8c058dae3a5b8033420eacad81609213a5836a8a8f2a"
+  },
+  {
+    "path": "previews/animacion_frames/0092.png",
+    "sha256": "7b7bb7b8049da7349bf9034b4cbfbc0a8b97a2c73369f5c56e220d5f99d8a54a"
+  },
+  {
+    "path": "previews/animacion_frames/0093.png",
+    "sha256": "12db51877647304a3ad672c95cba9e0069a43dd4972fea3cad59c5ef4647cbdc"
+  },
+  {
+    "path": "previews/animacion_frames/0094.png",
+    "sha256": "900f272a0a40424f389cf977e527e8e359a74aebde0129d82a16c4a7c0ebb389"
+  },
+  {
+    "path": "previews/animacion_frames/0095.png",
+    "sha256": "3eb3be821341f444d42f6433e9357d1c97b56573ed1a533665e9ca159cfef32e"
+  },
+  {
+    "path": "previews/animacion_frames/0096.png",
+    "sha256": "b34be920a64d90652b7ecf426e8a76fab426d886a9acd3581c3d07a79ea588bc"
+  },
+  {
+    "path": "previews/animacion_frames/0097.png",
+    "sha256": "72e98d62d8340109a75721ec0ebf273704962b4c346204bd6d43a9d39d04b9b6"
+  },
+  {
+    "path": "previews/animacion_frames/0098.png",
+    "sha256": "a9c3296f34ca3ed7483244ae75b94c14faeb9227c7cc6ce9d9a5e1f27f0eacb2"
+  },
+  {
+    "path": "previews/animacion_frames/0099.png",
+    "sha256": "f0c6cf449910931ef6db4a1ca526afd24ce3d4168c603dfe9050808ca05f9c12"
+  },
+  {
+    "path": "previews/animacion_frames/0100.png",
+    "sha256": "85f1c2c25777965bde465f32f7e6e4ee58d7b8194f0d70dde512705a92bac6eb"
+  },
+  {
+    "path": "previews/animacion_frames/0101.png",
+    "sha256": "75eabe3482206a2204a6e9ddd925845dc8279384310261da9185d95b47da7b4a"
+  },
+  {
+    "path": "previews/animacion_frames/0102.png",
+    "sha256": "ed1d2a5c3d8a9bb8f27a105e2d8fbac3f103e7cb0dc369e52bddadf5a8fef605"
+  },
+  {
+    "path": "previews/animacion_frames/0103.png",
+    "sha256": "8c1f5bc411b95ef2d8dd1dfb8b540318f7a10a66adee1d90ed3130fda76c549f"
+  },
+  {
+    "path": "previews/animacion_frames/0104.png",
+    "sha256": "a7330bc3a5255c1d4f4e66d9d10bb36b31880866bd9ca6b5acd6a46bdd41a55d"
+  },
+  {
+    "path": "previews/animacion_frames/0105.png",
+    "sha256": "125ad2255738748fb21ecd1dac9e1de3942ffcc62911d5d3dac040df5d1bd64c"
+  },
+  {
+    "path": "previews/animacion_frames/0106.png",
+    "sha256": "d33afeef5a6231955fb9cdaddc6f0e80a2e819d1fca344789f1be61dcd98ec08"
+  },
+  {
+    "path": "previews/animacion_frames/0107.png",
+    "sha256": "be47a7493cb1a4c0b2c688cf0b2e1be4a0339c308df4d4698a1079b0e36d9114"
+  },
+  {
+    "path": "previews/animacion_frames/0108.png",
+    "sha256": "b73f8def22288da60fdf12a6d9c60e15ba8c982915935475cd94ba5d043541eb"
+  },
+  {
+    "path": "previews/animacion_frames/0109.png",
+    "sha256": "0a09053c5b8a7c4bacb3c45b77d220d8facf792cdd6cc7a64fdf54bccc87dfd9"
+  },
+  {
+    "path": "previews/animacion_frames/0110.png",
+    "sha256": "3da674ad656858605660547ec33ecf1508fb5af9aa87939c28eb7d3dbb0a422c"
+  },
+  {
+    "path": "previews/animacion_frames/0111.png",
+    "sha256": "0d29a56ac504cd06be265a490d3b17462ce34fa736690af31748af5aa6a20f90"
+  },
+  {
+    "path": "previews/animacion_frames/0112.png",
+    "sha256": "dc5df8107b3bf8eea315d90ba4d52be7a733c7823cef343d58c4cf11eb1fd5f8"
+  },
+  {
+    "path": "previews/animacion_frames/0113.png",
+    "sha256": "24dae6367d8f0972accc3960c99755e7f3380418dcc49fb892ae8013ee97b624"
+  },
+  {
+    "path": "previews/animacion_frames/0114.png",
+    "sha256": "aefd8993a6db5e31184c213e2249c55fd690dbf241033cee658e883fbbc1ae63"
+  },
+  {
+    "path": "previews/animacion_frames/0115.png",
+    "sha256": "6fb0d8e8bfd68e16625b42099aad3af56097de2655bca96d06ff050eb7bf0d92"
+  },
+  {
+    "path": "previews/animacion_frames/0116.png",
+    "sha256": "3b1675753dab3958d2c717534aa2a775bcc51fa9b66702607133305f84e8a51d"
+  },
+  {
+    "path": "previews/animacion_frames/0117.png",
+    "sha256": "5b498798fc5ea91a4ace9924db439b334deb6162ace4a17469ae35ee0fb1b653"
+  },
+  {
+    "path": "previews/animacion_frames/0118.png",
+    "sha256": "9e62770e8d1c97ba3ecd41cbb885f8d2f6ad744948552cf8f59c29744980cf14"
+  },
+  {
+    "path": "previews/animacion_frames/0119.png",
+    "sha256": "9355bc5b84a1be8fb693e37d4b41b23fc2dc07caed0274c37566ac219207009f"
+  },
+  {
+    "path": "previews/animacion_frames/0120.png",
+    "sha256": "4ee66be90718d4fd04867677d0a99028af7524e788d5cbfa27b4f9ddf0eab9b1"
+  },
+  {
+    "path": "previews/animacion_frames/0121.png",
+    "sha256": "c330591d00398c14bb48e43217eaddf1e5f8fbbd5a5f2c9f8bc56c17cabbec4a"
+  },
+  {
+    "path": "previews/animacion_frames/0122.png",
+    "sha256": "cedcc2d372dbb8f96a3644e8305ab71a177692dc8ca9a31dae051ecbbfcb26eb"
+  },
+  {
+    "path": "previews/animacion_frames/0123.png",
+    "sha256": "da411432765635f3b844fb71fe89809f6abaf177191eaaff49e6a547115c3802"
+  },
+  {
+    "path": "previews/animacion_frames/0124.png",
+    "sha256": "812368ccfc06e7b620a2562944e8b8fb2c59abbd2c8127d90782c5311c6122ad"
+  },
+  {
+    "path": "previews/animacion_frames/0125.png",
+    "sha256": "7614fb9a496fd075b3df2d172d9b27592de600d4815f18d946b431b661e122cb"
+  },
+  {
+    "path": "previews/animacion_frames/0126.png",
+    "sha256": "5406a1d6915a33a07ec6133c904daa7c1b292926298f9d3edc7fd90edd9d20d1"
+  },
+  {
+    "path": "previews/animacion_frames/0127.png",
+    "sha256": "206c46fd5f2fdf1bb1e9b37294807b5a3c1ae424e82c9cd41ae0c4487ebb8961"
+  },
+  {
+    "path": "previews/animacion_frames/0128.png",
+    "sha256": "2ee07e81f7a3bba71f9e2f34da463730f04ed97f9ff740559d0238152a2bdf21"
+  },
+  {
+    "path": "previews/animacion_frames/0129.png",
+    "sha256": "100718bbfa3a0be4b354d7e05df54c4d7bc3a008775e958dc4583dffda0b57f0"
+  },
+  {
+    "path": "previews/animacion_frames/0130.png",
+    "sha256": "92e97d5fbcd5e518ed92d2b4cc4e16a3ab3a96dcb57cc34b76c9b4d521987b36"
+  },
+  {
+    "path": "previews/animacion_frames/0131.png",
+    "sha256": "ace62ec2e9936ffc40aa1b41ce11230ed3e8a16c8a327981132abcb6346d2a42"
+  },
+  {
+    "path": "previews/animacion_frames/0132.png",
+    "sha256": "b8ae5f27aeca0bf3f8c36cfeec6b1300142ce91aa807c5c11c7a24701f57e3ff"
+  },
+  {
+    "path": "previews/animacion_frames/0133.png",
+    "sha256": "71bd372aa49973893e98372af3662e252310c7e3e06132e5dc8aa902feff9dde"
+  },
+  {
+    "path": "previews/animacion_frames/0134.png",
+    "sha256": "057d1563f91fa397d85ba12e3503717098b655dd2598bbae5402c5f0970fd3ca"
+  },
+  {
+    "path": "previews/animacion_frames/0135.png",
+    "sha256": "ba1d2063f686a957c0349b35b5f5f1d146b7ce0603776914f630db0ae565796d"
+  },
+  {
+    "path": "previews/animacion_frames/0136.png",
+    "sha256": "8ba7975e94247a3f5bf446e0519c15d45b76061402963297f97f25b8f6dde68f"
+  },
+  {
+    "path": "previews/animacion_frames/0137.png",
+    "sha256": "70638b68878bfcb13ea07c9ce10a20fe8dd83a7d4af0fb9ae9fe08a9de581088"
+  },
+  {
+    "path": "previews/animacion_frames/0138.png",
+    "sha256": "d948fdb92d733a5bcd8083272eb5470f6f3ccc9898530ba85774ebc880e7a12b"
+  },
+  {
+    "path": "previews/animacion_frames/0139.png",
+    "sha256": "574f5a5333c221de31227dadb3c072a9339b1b89eee673bf32406568438069fb"
+  },
+  {
+    "path": "previews/animacion_frames/0140.png",
+    "sha256": "58d46b9c722d00f59930552eaf1351ad63dfc2090af87678cdb4cdcefa396215"
+  },
+  {
+    "path": "previews/animacion_frames/0141.png",
+    "sha256": "5c980406159fc8087e3dbb09dd27409ca7f9fe86f294968e039c434cd87d243d"
+  },
+  {
+    "path": "previews/animacion_frames/0142.png",
+    "sha256": "c2f20f4188a67fb2ef16035f09522f0932497d6ef8be9ef893ecfd061d5aa33b"
+  },
+  {
+    "path": "previews/animacion_frames/0143.png",
+    "sha256": "26306f8c32b2fe95975095e7c75e2e78e5ae0f7e435a5e38c163b634f49058e9"
+  },
+  {
+    "path": "previews/animacion_frames/0144.png",
+    "sha256": "7ebd4e74c1c7a99094f4adf86f92893ba542e99da44140580325547385559cda"
+  },
+  {
+    "path": "previews/animacion_frames/0145.png",
+    "sha256": "879b3a07b9cfd688c5fe6482ca65baa390f72a02ce076c325a988f503a25cb01"
+  },
+  {
+    "path": "previews/animacion_frames/0146.png",
+    "sha256": "d9b0a656ea5b98f9abfcf63b0fe969c337219b417b4cea16c8e523e64b610edb"
+  },
+  {
+    "path": "previews/animacion_frames/0147.png",
+    "sha256": "26d551067fc2e64945f2209f855820d98364f31078050f87e0ca2df9b82f6214"
+  },
+  {
+    "path": "previews/animacion_frames/0148.png",
+    "sha256": "d80af2a713e156707bfe3402f64eee8305127dc0ca31f244aa903e9a5ded1d1c"
+  },
+  {
+    "path": "previews/animacion_frames/0149.png",
+    "sha256": "1832ebb778e8f6860043f7ba82c28e90cac13115e47b070f582a4d6f1f4591a9"
+  },
+  {
+    "path": "previews/animacion_frames/0150.png",
+    "sha256": "0c0e8a4790263a9103a7e88d1d1c69edd9994d0e54092cd68d791b21ba419aeb"
+  },
+  {
+    "path": "previews/animacion_frames/0151.png",
+    "sha256": "e17173ec201af2da4c772a65e2e8199dee7989c34d12d403b708bb6d17db5760"
+  },
+  {
+    "path": "previews/animacion_frames/0152.png",
+    "sha256": "36fc41d70fe71cc47cd994dd3545c3c6f57a31ab19107066a5d1530dfbee5878"
+  },
+  {
+    "path": "previews/animacion_frames/0153.png",
+    "sha256": "66b37bffd20872e8f877c65e0e4f9d2e1eb309997128ada70480c330f68b9c67"
+  },
+  {
+    "path": "previews/animacion_frames/0154.png",
+    "sha256": "6523f9e2fbceaa18c430f1b94571c7c4d7e5f4b65c98410cc56ba36f04d4ec06"
+  },
+  {
+    "path": "previews/animacion_frames/0155.png",
+    "sha256": "1f2b36ec786690a5960d1a10fdf3836ed6851a7680598baabed73c986cca09dc"
+  },
+  {
+    "path": "previews/animacion_frames/0156.png",
+    "sha256": "dd2a102a33ce32d5275fd0ce5f278081ded5ad1208cfe779ac8b7fc147ccfd84"
+  },
+  {
+    "path": "previews/animacion_frames/0157.png",
+    "sha256": "4cbb226eed4f09ff5eabd01c690a71705b392ff5dbee4c48356f2f959b34b501"
+  },
+  {
+    "path": "previews/animacion_frames/0158.png",
+    "sha256": "65c14ca9ee31c19b53d36b8e84d62bd6557d7a1cd1fc16634ecdb67f15407e76"
+  },
+  {
+    "path": "previews/animacion_frames/0159.png",
+    "sha256": "54697bd4944c26afcb33f066a6db4141c939de8aab3df2a6949a12721d6b7c9a"
+  },
+  {
+    "path": "previews/animacion_frames/0160.png",
+    "sha256": "68f2d9d167532788333a3ecb5c2de19c0185ae369fb06fd6c9ef5ca6507d12bb"
+  },
+  {
+    "path": "previews/animacion_frames/0161.png",
+    "sha256": "d82ca9cf2b0c4c1cc5ff17e607ac6fd21ae3c393a508cb18622ee266770b6cb9"
+  },
+  {
+    "path": "previews/animacion_frames/0162.png",
+    "sha256": "2f92ebee2e12c3a86104997d5f4975406a49bd1a7031ce6cd315e1749f6b4072"
+  },
+  {
+    "path": "previews/animacion_frames/0163.png",
+    "sha256": "6ff611795ceb84e836e471a175cf31f749d72f050cf94cf4f9d70ba1b1e03bcf"
+  },
+  {
+    "path": "previews/animacion_frames/0164.png",
+    "sha256": "3334663029c0c2be5d213b9be775e3a0518b3a1c9d72ee980773187827ce5da2"
+  },
+  {
+    "path": "previews/animacion_frames/0165.png",
+    "sha256": "cd492c936e1bc2ce8485daaa3bab1511b715556bd39809a9361b46bf01b8ac99"
+  },
+  {
+    "path": "previews/animacion_frames/0166.png",
+    "sha256": "dca2f9e33349127b5b149137108e48de20cb659069513d2a40254ff5e6d21d52"
+  },
+  {
+    "path": "previews/animacion_frames/0167.png",
+    "sha256": "9c956bdbbea5294ef214f56dd3db95833d71b87c45e1c64736d8776009dc247a"
+  },
+  {
+    "path": "previews/animacion_frames/0168.png",
+    "sha256": "17fcbbddf5fa8c18888a61ee5b7ea95d747cd305232f69713d63b9535c166abb"
+  },
+  {
+    "path": "previews/animacion_frames/0169.png",
+    "sha256": "93de88529a803f9ea8880cca0bd56c86890690bc35745c0e85adc5dba3652f1a"
+  },
+  {
+    "path": "previews/animacion_frames/0170.png",
+    "sha256": "142d297645c9cd47863e5bda2749ac4cceabe1e51dfbc95fcda3f4a014750d2e"
+  },
+  {
+    "path": "previews/animacion_frames/0171.png",
+    "sha256": "eb21a7bd62927dd2daeb6fb6c6579b422d13539992c4d6a92a4a7dd5bfd1d330"
+  },
+  {
+    "path": "previews/animacion_frames/0172.png",
+    "sha256": "9b775f8d7b1b17016a0273e46063a2b046e186b75d518cd4fdd8c39ddaddfaa8"
+  },
+  {
+    "path": "previews/animacion_frames/0173.png",
+    "sha256": "335512d891b0f72a9bcd578cec0e1d2bf2268639d4add1cf6855add58bcd0271"
+  },
+  {
+    "path": "previews/animacion_frames/0174.png",
+    "sha256": "c0e6e1f1633e831ca1125ffc1cf3e72cc643d94004b9fd03039e72b9dd098edc"
+  },
+  {
+    "path": "previews/animacion_frames/0175.png",
+    "sha256": "a29ef0b6e0a6baa464a3c2627d8676fbdacc4cb67fd2d7091f3e32c0a7a6b43a"
+  },
+  {
+    "path": "previews/animacion_frames/0176.png",
+    "sha256": "77794ee56963651a9598ddee8ec055393915ff505a06b36d61a24b00bfce3510"
+  },
+  {
+    "path": "previews/animacion_frames/0177.png",
+    "sha256": "fe05d9cd413458452949258a905b9aaddd88cb49af906f5616b931759040f4f3"
+  },
+  {
+    "path": "previews/animacion_frames/0178.png",
+    "sha256": "71c4ceec82edf4e96d107b878f19e6e83cd40c5abf77ab44edd393233d6c4599"
+  },
+  {
+    "path": "previews/animacion_frames/0179.png",
+    "sha256": "2e30c047d4ee852447cf4fcbf64e5ede9440a22624b68b1e465720994d9f77f7"
+  },
+  {
+    "path": "previews/animacion_frames/0180.png",
+    "sha256": "5a492a21079be9a9f6e89a04ae06e8a207598386e3d6c79d5bd89829f2dcb9f1"
+  },
+  {
+    "path": "previews/animacion_frames/0181.png",
+    "sha256": "148090e397cc539304cc9c210d0d84923474dd943c0a593d9316fcd3c792c742"
+  },
+  {
+    "path": "previews/animacion_frames/0182.png",
+    "sha256": "9e5b2b7ea5b9bc9c01756070f8b5c375528846ddaa75948d323350a02a9bf9dd"
+  },
+  {
+    "path": "previews/animacion_frames/0183.png",
+    "sha256": "af0700e0b4a62209c0bb74bfded7923072a13522fbb605dd385b861547680624"
+  },
+  {
+    "path": "previews/animacion_frames/0184.png",
+    "sha256": "ac9d096c3993ed765f9748a14a578124134a7270bd275adff5e9c50d277e0f90"
+  },
+  {
+    "path": "previews/animacion_frames/0185.png",
+    "sha256": "8d0fa9ec96965c77da10ebd5c19d4813841f2734e027a874525c5bd5a5e9fc97"
+  },
+  {
+    "path": "previews/animacion_frames/0186.png",
+    "sha256": "5cc92fa980d5c62b19319db3c14d42f10f839c7e9090629dceee08695b57b6b2"
+  },
+  {
+    "path": "previews/animacion_frames/0187.png",
+    "sha256": "16c391892afe04de7f621945e030661d2fbc8a95883aa37a517f7a58f57b7a64"
+  },
+  {
+    "path": "previews/animacion_frames/0188.png",
+    "sha256": "813234a4200acf30491efbe383ed36c56d0ac20c3d544c7ca8e03009369704ee"
+  },
+  {
+    "path": "previews/animacion_frames/0189.png",
+    "sha256": "d1a08fd1c55c965a614ec36d933b66ce1a48a21ae85a55e531e945ad80323cb7"
+  },
+  {
+    "path": "previews/animacion_frames/0190.png",
+    "sha256": "48e5a2647223c2a7f272aa4e9676c22e2680f1ab738b4879b70c574f3ad147de"
+  },
+  {
+    "path": "previews/animacion_frames/0191.png",
+    "sha256": "f13fe6d1012a4d65f455e151a74592035f551b4a09dce90f1a13ba6200a74e74"
+  },
+  {
+    "path": "previews/animacion_frames/0192.png",
+    "sha256": "e93691dbcd49103b6780c94006274f0b6cf2b32381f770e95c65755198ce5705"
+  },
+  {
+    "path": "previews/animacion_frames/0193.png",
+    "sha256": "c57e8fd7734959b0c6c5070b6c50389621cf4bf301d120c2d5f01de0ccf395a7"
+  },
+  {
+    "path": "previews/animacion_frames/0194.png",
+    "sha256": "82cd43f84a04e0493df8cf85d239c94b6b56eafb86bacf67ae23b5a3bb32c893"
+  },
+  {
+    "path": "previews/animacion_frames/0195.png",
+    "sha256": "1ef52abcc3cd7c49d504fcd3cdf3af679594c068b248d77b89dd9ccfe10f3822"
+  },
+  {
+    "path": "previews/animacion_frames/0196.png",
+    "sha256": "3c4135f4d8dd71752e8a426b9c21909983878dc3a84729b31c925ced910468f2"
+  },
+  {
+    "path": "previews/animacion_frames/0197.png",
+    "sha256": "e551a964e376aaec0b57422b020e2c53468903b6579da251650a97b87e1c30f6"
+  },
+  {
+    "path": "previews/animacion_frames/0198.png",
+    "sha256": "634830953f305c0b40c3da06e2e54bf823a061b91276c844c35fbb625a6cd4f7"
+  },
+  {
+    "path": "previews/animacion_frames/0199.png",
+    "sha256": "d2e6da32a63cae58fd5e56fea699b1da8f384b6dbc4c380837b57fe6531acff4"
+  },
+  {
+    "path": "previews/animacion_frames/0200.png",
+    "sha256": "03d9963369ed35f91774b6aa9eb65a036713b6f1c740a045a9891a6c9f339d92"
+  },
+  {
+    "path": "previews/animacion_frames/0201.png",
+    "sha256": "4293624a76fe2bd503e6badb8d9fffb2932db7c359b1752122984ff8bb3a2d1e"
+  },
+  {
+    "path": "previews/animacion_frames/0202.png",
+    "sha256": "efccabb2d7ddc7d12709b7793d0bd3084d84a76cdd8c63b16d264464ffb81ee3"
+  },
+  {
+    "path": "previews/animacion_frames/0203.png",
+    "sha256": "04cc90b0be11aeb5fdd60b4263f431bd99f5cd5d3dfc79dcf1953a82097a5511"
+  },
+  {
+    "path": "previews/animacion_frames/0204.png",
+    "sha256": "b1b7af19c2e6cc12fcb3c42e1f3b6477054dd4935f8aeb2172bba3bdefb78546"
+  },
+  {
+    "path": "previews/animacion_frames/0205.png",
+    "sha256": "7f775fc29cf5ad504c77861bb8a63b4f6525814045bf72e32cd79935694c2161"
+  },
+  {
+    "path": "previews/animacion_frames/0206.png",
+    "sha256": "a64efb3883163ae56c83c1c6148050c7cce8561fb65dcf564d6cddae04c4314f"
+  },
+  {
+    "path": "previews/animacion_frames/0207.png",
+    "sha256": "92fbc27e07e7ed425150f97f75813be780301a88bb8ca25e8f00d7ce63cda373"
+  },
+  {
+    "path": "previews/animacion_frames/0208.png",
+    "sha256": "6d73d7cd4655f5f71ba6daea891de000a169ddb646d668cfcabbe8296de1fafa"
+  },
+  {
+    "path": "previews/animacion_frames/0209.png",
+    "sha256": "f6f6ce9e50651e52177e98c9c9c2491ea48210b771831ae118fc5b8e59b9708c"
+  },
+  {
+    "path": "previews/animacion_frames/0210.png",
+    "sha256": "c9b033fc590907943311627666b58c385301049cf3b9ebb1ac592beee764651a"
+  },
+  {
+    "path": "previews/animacion_frames/0211.png",
+    "sha256": "ba251d1348963261de53a0d727a8d0b3d03e53ac2f7e4b518631725c779c7fa0"
+  },
+  {
+    "path": "previews/animacion_frames/0212.png",
+    "sha256": "6fe93f001fc87e78baae8bf561704a9cf48fd009cb5960e8076788ece022252b"
+  },
+  {
+    "path": "previews/animacion_frames/0213.png",
+    "sha256": "6fef7af71f9012e8bab605c4bb7c0640e7c6b33eed08a31a3426912b9bf2aa06"
+  },
+  {
+    "path": "previews/animacion_frames/0214.png",
+    "sha256": "1f18c4d3714fd9e700cd95a84930d5af3562d7655eadffbce9b73ea4f251a71c"
+  },
+  {
+    "path": "previews/animacion_frames/0215.png",
+    "sha256": "6ddc84e0452bcbb7f72feea420c0ff9197dfefa7faccf9d4d17e82fbdeb2184d"
+  },
+  {
+    "path": "previews/animacion_frames/0216.png",
+    "sha256": "d785e079358a2309af8ff7fd8f02b8f4930e60cc50a57f10f24a1839b7652252"
+  },
+  {
+    "path": "previews/animacion_frames/0217.png",
+    "sha256": "59819124d4f4907d5a6ec753263e198bb86ffd4250e0982f7f5afa3da90bca30"
+  },
+  {
+    "path": "previews/animacion_frames/0218.png",
+    "sha256": "21d2660ab1627c4d42b26fde10a57de66a41dcdf2f759a2d8e9f041b65765180"
+  },
+  {
+    "path": "previews/animacion_frames/0219.png",
+    "sha256": "07a0fae0af3d1232d4f721a5a541a2cd5da27968ab2b3c6c4a875053e72f4fea"
+  },
+  {
+    "path": "previews/animacion_frames/0220.png",
+    "sha256": "93577b4f4e6c49be9a85a433965eb97ea2faea4f0cdcef477d27e49c64506c0d"
+  },
+  {
+    "path": "previews/animacion_frames/0221.png",
+    "sha256": "6b245554392c46fa5850920fc2073c9d83e621b208954e99366f5e8b43ed1022"
+  },
+  {
+    "path": "previews/animacion_frames/0222.png",
+    "sha256": "d40d4153d313328ba9bf8e224be99e7139efcd05ae49d2b21bc58c93026785ea"
+  },
+  {
+    "path": "previews/animacion_frames/0223.png",
+    "sha256": "715fcade5271a70389d0d04be498ae00da691f95a6d2c132e9d955f603c5d6bc"
+  },
+  {
+    "path": "previews/animacion_frames/0224.png",
+    "sha256": "bd13fb1a95fbb6eef7eb764fd13ad23d0c7e5b3467a2a00d523acfb12dede8ed"
+  },
+  {
+    "path": "previews/animacion_frames/0225.png",
+    "sha256": "827843c7b4a0d96b16b9f4313ed4ff6b7c55adf024dc0b9f90e02f56827b67bd"
+  },
+  {
+    "path": "previews/animacion_frames/0226.png",
+    "sha256": "f1a1952ebe9ae22cb520574556d615a6b65169a85953c09187f4a08119509953"
+  },
+  {
+    "path": "previews/animacion_frames/0227.png",
+    "sha256": "27e09bc514cfee3fed6e8865cd4970cf5a7832157d570577f2d2f7795ddf6778"
+  },
+  {
+    "path": "previews/animacion_frames/0228.png",
+    "sha256": "419eb393cd7ba4d845133fe8f7b714922cb5023ac01ae47054210005bd026330"
+  },
+  {
+    "path": "previews/animacion_frames/0229.png",
+    "sha256": "ecb38d972e2e5e8f7e5bf0b34fcd7dfcf0501490e616ec73e6d9e87aff4bbeac"
+  },
+  {
+    "path": "previews/animacion_frames/0230.png",
+    "sha256": "da6a69187b013860f05b6c0c37740c717618e59ef32d6225acbdec71a9f1b008"
+  },
+  {
+    "path": "previews/animacion_frames/0231.png",
+    "sha256": "5dce6242b8f24b7f25e0816aae05c2405f1d98e6b7e3f6aa2239c494ad0c2109"
+  },
+  {
+    "path": "previews/animacion_frames/0232.png",
+    "sha256": "98b57e34e7c0738d664e2fff9d0c161b2c8403fd4fda5b6342a74e17dbba8ef2"
+  },
+  {
+    "path": "previews/animacion_frames/0233.png",
+    "sha256": "1f496b91e85c1c415f415b8573ef88a12411c2dac2089656b44a26dc487a5b92"
+  },
+  {
+    "path": "previews/animacion_frames/0234.png",
+    "sha256": "4ff77b7fb181edb1c21bb123ba7bfe79c698af23abf26d1e77926d0eb11f8bb2"
+  },
+  {
+    "path": "previews/animacion_frames/0235.png",
+    "sha256": "f21f16a4555425c5ae4da859e31b6ecb08a214e9f2aec4c7dea0fb0551fa1d8a"
+  },
+  {
+    "path": "previews/animacion_frames/0236.png",
+    "sha256": "2ac79a4f994a48636fcec27fbddd659c10f965ac8c9317d6322aa7ce626ecce7"
+  },
+  {
+    "path": "previews/animacion_frames/0237.png",
+    "sha256": "f0368db20856d51779f3cf406b540605029136064eaa4140f18c6568adc6e1d0"
+  },
+  {
+    "path": "previews/animacion_frames/0238.png",
+    "sha256": "6dc9fb123c8ecd585846ad40708b58522918a5c23121d3bd109fd6018b39ee3b"
+  },
+  {
+    "path": "previews/animacion_frames/0239.png",
+    "sha256": "13bf92fb0af2e5a32bd8ad971c007fb5db5d9e95dd01c75c2d4536b549c580a5"
+  },
+  {
+    "path": "previews/animacion_frames/0240.png",
+    "sha256": "f0561430c3447a60a83c76ff14eb98f19b5e9a39b4cb8f695655667d6c53b1ff"
+  },
+  {
+    "path": "previews/animacion_frames/0241.png",
+    "sha256": "67766db7d2cc7d4c3d03dd1482afeeb7dfd0b3c28dbc3b6042d1ef989a969de2"
+  },
+  {
+    "path": "previews/animacion_frames/0242.png",
+    "sha256": "b4f1c23fb9ba8591b709c662b721143b084be53118448983d459d7149f68f80c"
+  },
+  {
+    "path": "previews/animacion_frames/0243.png",
+    "sha256": "b43519448ba87557880f87b2a6c2d58245f161dde51879ab09c8774c8cf993af"
+  },
+  {
+    "path": "previews/animacion_frames/0244.png",
+    "sha256": "f45e39d793cfc44c2614d6e63025fc63284bf63668a4151f4694eab62f42a4f8"
+  },
+  {
+    "path": "previews/animacion_frames/0245.png",
+    "sha256": "556a4ae3c9cdbd4081ff8097ab5728f3e41f015c57f86bb5104ce9ee241819ac"
+  },
+  {
+    "path": "previews/animacion_frames/0246.png",
+    "sha256": "f5bcfcc9e6be5b59a3afac1794df3e269b8537ccdde63b2ee9d8e16ca9c7d48d"
+  },
+  {
+    "path": "previews/animacion_frames/0247.png",
+    "sha256": "decee1de8cdbceb09410c4c3607d28f88be8da655e3852f8c05d6b33c5e5261a"
+  },
+  {
+    "path": "previews/animacion_frames/0248.png",
+    "sha256": "1e72824d57494c92a53750cf2559e46899ea1d42d602bc4d273da647c366fc0e"
+  },
+  {
+    "path": "previews/animacion_frames/0249.png",
+    "sha256": "ce2a15c76f08cf39d989de8d83d68fce0b747a03742cb614cf7530c0e603b43a"
+  },
+  {
+    "path": "previews/animacion_frames/0250.png",
+    "sha256": "a399683fc8c31e959a0fc6316a2a9d17b02e2e13208267b48755d8e5ae7f21bf"
+  },
+  {
+    "path": "previews/animacion_frames/0251.png",
+    "sha256": "f2da7e022ac140a4204ab4aea722ec9f0cc351d129bcbf698e10203a304515ba"
+  },
+  {
+    "path": "previews/animacion_frames/0252.png",
+    "sha256": "b716f633239e33e32dbf77238f06d2706b196d13b229af185cbea42b0ff8f62f"
+  },
+  {
+    "path": "previews/animacion_frames/0253.png",
+    "sha256": "2027fdcdb2b2931a45301a4ebaf55ec26976e63f3fb1376e74552c5c1780ed30"
+  },
+  {
+    "path": "previews/animacion_frames/0254.png",
+    "sha256": "7e0b1a8ac9e1774f60deea5209e2482d62452c8f4b94df708af7f54600c36bbb"
+  },
+  {
+    "path": "previews/animacion_frames/0255.png",
+    "sha256": "1b6b09c4ff8707ef3ca1706c8cba0e003c9490e556f11876afbb09ca58539f52"
+  },
+  {
+    "path": "previews/animacion_frames/0256.png",
+    "sha256": "a24da01288c3ed065259c1f8b9fc3db9dbe18aac5de87f0f2a1475ef6f3fcbe0"
+  },
+  {
+    "path": "previews/animacion_frames/0257.png",
+    "sha256": "e9512bd813cbaac2c66021b28cf4474d4f5fc539b6025c8464f0dea0df99109e"
+  },
+  {
+    "path": "previews/animacion_frames/0258.png",
+    "sha256": "2d0a4c5a60ea51859e6fd040707b31fd512238cfe36255d3b8e15fdc6b8aa793"
+  },
+  {
+    "path": "previews/animacion_frames/0259.png",
+    "sha256": "7164a8964722c52027626a92ca825d1519e2d9507e156ac2e1e5f187d0c57672"
+  },
+  {
+    "path": "previews/animacion_frames/0260.png",
+    "sha256": "52e95a2d59bd19d0b21d2a51a89c8ac9415cdbff7797f351a5dc945930c0f219"
+  },
+  {
+    "path": "previews/animacion_frames/0261.png",
+    "sha256": "e1d5d5aa7acbca8734e7ccfc203db47b841b86cdc8449f70967d9d181fae1708"
+  },
+  {
+    "path": "previews/animacion_frames/0262.png",
+    "sha256": "7b85e96292ee2f862c7d2afc4abfcd7daee2c2171ab322d133ee456ccdf57a48"
+  },
+  {
+    "path": "previews/animacion_frames/0263.png",
+    "sha256": "ad96ea02e79fbbcfcbad4afbcdb4e963f41e432f3b3adc621b5c46d096d0e301"
+  },
+  {
+    "path": "previews/animacion_frames/0264.png",
+    "sha256": "13ed30bd962f23ca6411326599e4d4856dc69ab31f544c755a81aaef535a2dfb"
+  },
+  {
+    "path": "previews/animacion_frames/0265.png",
+    "sha256": "c1be0ec28f954457ade851548761275aa34c584661058e7b9f58b9e7fd3d9537"
+  },
+  {
+    "path": "previews/animacion_frames/0266.png",
+    "sha256": "6342a83616cb5a6398386c98aabbd64ba942da67d4ba8e52a188d6206f0c467f"
+  },
+  {
+    "path": "previews/animacion_frames/0267.png",
+    "sha256": "deb418608040d982b7b09d746a16516c860bf1674d9e4a5e52918f9a0ad1f46c"
+  },
+  {
+    "path": "previews/animacion_frames/0268.png",
+    "sha256": "e37d171ce3c31783e7c071c4d202c383f21c40a550bfd570b60484258623f923"
+  },
+  {
+    "path": "previews/animacion_frames/0269.png",
+    "sha256": "16297ec502d74e59064a979d3e1f16c871b73c89764248e50164103905048808"
+  },
+  {
+    "path": "previews/animacion_frames/0270.png",
+    "sha256": "133966206602f5d1e6781ac6f3cbd5b990cf593b6fa1a12fb81a9c2c4901c613"
+  },
+  {
+    "path": "previews/animacion_frames/0271.png",
+    "sha256": "e3be972cd1cf9d9a9ca3eed230ed0fdf9885dcaf5bd348d08b3635a3fe97ec59"
+  },
+  {
+    "path": "previews/animacion_frames/0272.png",
+    "sha256": "033642f0c331e849c482418df327ac9a9a8a39f82e68e0f738d20404d7c89c73"
+  },
+  {
+    "path": "previews/animacion_frames/0273.png",
+    "sha256": "467e4da8d12190b69cc7aaaaac2f7177099d062b0dfc7f06d0b5f35fbb402626"
+  },
+  {
+    "path": "previews/animacion_frames/0274.png",
+    "sha256": "c02b8c2b7d5afd719e75f3db290a9045ae7ba5364ea2975c0f248044374d32ac"
+  },
+  {
+    "path": "previews/animacion_frames/0275.png",
+    "sha256": "3f01236aa8c7fe18d61a22da8ccf4f337ea984645026d9b12cf8c68cd135dc3f"
+  },
+  {
+    "path": "previews/animacion_frames/0276.png",
+    "sha256": "c36915d49feb3989770fead0fd14feac1761b5d0a720b0e8673067e0d29ef94f"
+  },
+  {
+    "path": "previews/animacion_frames/0277.png",
+    "sha256": "a3c7e4a5ab4c28240785f38656530eeab717e289a5d471c3b932047ba850578a"
+  },
+  {
+    "path": "previews/animacion_frames/0278.png",
+    "sha256": "95775cacf73e18f88917a1c14e6754e3aca36d103e5035017684b5c1c3aa5157"
+  },
+  {
+    "path": "previews/animacion_frames/0279.png",
+    "sha256": "e109d1778472edc256c9b3929c5501f9e165e6eec9a745cab476d9c248f7eb4c"
+  },
+  {
+    "path": "previews/animacion_frames/0280.png",
+    "sha256": "cfd042cc1fdfedc52e0d4354a0f87036e4d117b1bfe61f48b39212371d220eab"
+  },
+  {
+    "path": "previews/animacion_frames/0281.png",
+    "sha256": "51490fe38a0a193ada3668154e6ea5e7a24703d778af4aa2963afc270d1005d1"
+  },
+  {
+    "path": "previews/animacion_frames/0282.png",
+    "sha256": "74cb3a2b82bf162d39dab4722f667c248a68aef09224aa8bd808301180947bff"
+  },
+  {
+    "path": "previews/animacion_frames/0283.png",
+    "sha256": "76598bec760945f2827b380a5ed83206758ac65fc9a8584520ca7979481e7eb7"
+  },
+  {
+    "path": "previews/animacion_frames/0284.png",
+    "sha256": "32b585333de01334a6937687263f7723f633e209084b03e3df2596c636697ce3"
+  },
+  {
+    "path": "previews/animacion_frames/0285.png",
+    "sha256": "6be01d38d09d9bdf699c569eb5b8e6d5bdddb0902bd18eff51f7b2e86c051952"
+  },
+  {
+    "path": "previews/animacion_frames/0286.png",
+    "sha256": "b4d0e3ed40106f0924f100a48494e5e4f485f504b44d84867bcea72a0524c30d"
+  },
+  {
+    "path": "previews/animacion_frames/0287.png",
+    "sha256": "db793bcb027903091c14ebc1c82086196a5d2901e1f00eae5a2f54075ee0b741"
+  },
+  {
+    "path": "previews/animacion_frames/0288.png",
+    "sha256": "1816a30fb303cf455a09dd88a498c3799df84402fc4780cca25814e5700fbcba"
+  },
+  {
+    "path": "previews/animacion_frames/0289.png",
+    "sha256": "83f106e84e92b959a92697ec53ac01520272640e66bab903868497395eaa7318"
+  },
+  {
+    "path": "previews/animacion_frames/0290.png",
+    "sha256": "f8dc43c076a25396f30db44c88d17c1dc8496b2cd698eb4345c62d943f04e26a"
+  },
+  {
+    "path": "previews/animacion_frames/0291.png",
+    "sha256": "ececb65a7cc7ed87cb3fbe36e5dc33eeb90e20312fb02cac52c25b884a90931d"
+  },
+  {
+    "path": "previews/animacion_frames/0292.png",
+    "sha256": "90733f4b707044cc0cd059f882bc8315e2cab9ad7d9f63fe371fa4aa843b5fc3"
+  },
+  {
+    "path": "previews/animacion_frames/0293.png",
+    "sha256": "be4e11c25a8fe08601360fe555e9851d520c3dcaadd56410d37be141d0129063"
+  },
+  {
+    "path": "previews/animacion_frames/0294.png",
+    "sha256": "4d018ec1d47660d543b663c611b8d82d8c2ebaccb86d4991dbe15fea78a3ab51"
+  },
+  {
+    "path": "previews/animacion_frames/0295.png",
+    "sha256": "0816089cee582f8b84df155b0bba12c45dd1dbe68ba382f0e8ed7ba86e1f9e61"
+  },
+  {
+    "path": "previews/animacion_frames/0296.png",
+    "sha256": "b4d1244ab17c467c94f22c0692f38bb089e872117aa6119654cd812978fe2bdf"
+  },
+  {
+    "path": "previews/animacion_frames/0297.png",
+    "sha256": "e6f5941e6cc42244b50bc72f5170b9f18029a35197642f8603ddf2c5caa079dc"
+  },
+  {
+    "path": "previews/animacion_frames/0298.png",
+    "sha256": "242dcbf69ddc87f7828a987bc8709a77927243ef19701458ab3ddcb22c3ec216"
+  },
+  {
+    "path": "previews/animacion_frames/0299.png",
+    "sha256": "fb0e1b7daebed58026d434024d6054dc1030a8c914b71e91c8999780b7212619"
+  },
+  {
+    "path": "previews/animacion_frames/0300.png",
+    "sha256": "f7d8bd367ec3c770e58dbc3ecc721a569b3f01caebd21b998650c4f6a9563a11"
+  },
+  {
+    "path": "previews/animacion_frames/0301.png",
+    "sha256": "81111a992ff4aa4c4f1237b8d3df87f479f9bbaaefd86a4b713f9028523b97c0"
+  },
+  {
+    "path": "previews/animacion_frames/0302.png",
+    "sha256": "5506dba460433142ce8465b04c8940b1a1be9eb1f57d1731ebce2ff59ebd1100"
+  },
+  {
+    "path": "previews/animacion_frames/0303.png",
+    "sha256": "c12c77e9efd8f8f94ddb86ab9f4f8aa34b6dc85679eafcc55ecc48312d5ef7fb"
+  },
+  {
+    "path": "previews/animacion_frames/0304.png",
+    "sha256": "b6f8e5b54accc63236d98b2ce5efd6660d5a991ec223fa7571cb6de39c1d7955"
+  },
+  {
+    "path": "previews/animacion_frames/0305.png",
+    "sha256": "271f45e7793aef729cee3ba37b85db17aa4980bc25e186b5ed15ef611abd0047"
+  },
+  {
+    "path": "previews/animacion_frames/0306.png",
+    "sha256": "1085fb0489741e680329f93a0a01bea36d3e392a9248078f89a72f4b5a14d12c"
+  },
+  {
+    "path": "previews/animacion_frames/0307.png",
+    "sha256": "abf8036e037068e9af32f70084ab7f0932ca54429b86a87756ec5c809d6b0f07"
+  },
+  {
+    "path": "previews/animacion_frames/0308.png",
+    "sha256": "687e6fd1dfcfc86f66ac58756b95e2cb471b6d68316c06b0a3214098e74eb605"
+  },
+  {
+    "path": "previews/animacion_frames/0309.png",
+    "sha256": "df1d01653c434c3b01159aad0cc6a13b536699c2e9f4f832e459a02178025561"
+  },
+  {
+    "path": "previews/animacion_frames/0310.png",
+    "sha256": "6c66008c78aef68f1103102207168d0f78a6561578961575c86feee4f7257ffe"
+  },
+  {
+    "path": "previews/animacion_frames/0311.png",
+    "sha256": "c1f181087a991925027cb6282b15563c56c56eb5b881462cbeeb299a16451c59"
+  },
+  {
+    "path": "previews/animacion_frames/0312.png",
+    "sha256": "29a8848d1c57209343a95f2bb77e92afd552cb7bc60c78a7f51ddd115a5a6967"
+  },
+  {
+    "path": "previews/animacion_frames/0313.png",
+    "sha256": "9a92cc7855b8928d0f0af433fa047b1eda383e6553c4e432a5669e83fcbb4fde"
+  },
+  {
+    "path": "previews/animacion_frames/0314.png",
+    "sha256": "a720693eb818833341149766daa8cead74f318cd2092229ea9f1f930c5946001"
+  },
+  {
+    "path": "previews/animacion_frames/0315.png",
+    "sha256": "5925cd9bf4210831cfe58c74e74db9e0c73cc50d79cb5cc60e703dc3197de241"
+  },
+  {
+    "path": "previews/animacion_frames/0316.png",
+    "sha256": "c10fe8200cce11c6a8ab9102c5a618434752473e25d392ff9a66f9ae4f4cdf39"
+  },
+  {
+    "path": "previews/animacion_frames/0317.png",
+    "sha256": "4feb388b4bc853a886c2557b722fd6ee2b903b06bfe31e159da11dd6659b55df"
+  },
+  {
+    "path": "previews/animacion_frames/0318.png",
+    "sha256": "7035a4f8c096d0bac4e1d9d4eecf6c568a2e6ca394925501ff394cd1133a54a3"
+  },
+  {
+    "path": "previews/animacion_frames/0319.png",
+    "sha256": "2cad4547ed70cdfa721e3d2006be864beadd44211923635581f26c0fa986f8e3"
+  },
+  {
+    "path": "previews/animacion_frames/0320.png",
+    "sha256": "fea3a73a8d157ebacbc9d23170adeac22d421742a98697e81c7e5a2515ee3a49"
+  },
+  {
+    "path": "previews/animacion_frames/0321.png",
+    "sha256": "de2b8b7855ed4c827548638819a8c8a47959dfb60d75bff19a2028c0e287acb1"
+  },
+  {
+    "path": "previews/animacion_frames/0322.png",
+    "sha256": "a01d7ef557665c5eb18028ac69436a4b524c9ca32454645ebfd2b94b17f91a74"
+  },
+  {
+    "path": "previews/animacion_frames/0323.png",
+    "sha256": "e5f3a3e045ac5936173f96a19da4a8b2316f9df5f6060eb1787e92af68083970"
+  },
+  {
+    "path": "previews/animacion_frames/0324.png",
+    "sha256": "be768563900ed60da9f73789dee00c6289e300a9bb2c88f0be537be917bb5ede"
+  },
+  {
+    "path": "previews/animacion_frames/0325.png",
+    "sha256": "832f6c120dfa6f98d4f2fb1bf32238eaf56df181d5e22cbe81b5827ea50d704f"
+  },
+  {
+    "path": "previews/animacion_frames/0326.png",
+    "sha256": "c41e9f3104736e947be68d9bd493edca5d150d4f7dc379b786b198890ef89e3d"
+  },
+  {
+    "path": "previews/animacion_frames/0327.png",
+    "sha256": "7504d12dbe7ac2d87e2a86a37c7c1969e0a9fa8ef7f5fac00c3df867e2601621"
+  },
+  {
+    "path": "previews/animacion_frames/0328.png",
+    "sha256": "a8f462ff64ed64369ba5bccb803237d2205c49bac8e572de76bde518c4190bd0"
+  },
+  {
+    "path": "previews/animacion_frames/0329.png",
+    "sha256": "73244fd016b50fbd877c3c1e7b2b8f8484174c0c81d8ef1aac5a72707176edc8"
+  },
+  {
+    "path": "previews/animacion_frames/0330.png",
+    "sha256": "5950aec4117996159bfeeea3e2b0f942a21b0b065a83b94a29ff0aa5190e9390"
+  },
+  {
+    "path": "previews/animacion_frames/0331.png",
+    "sha256": "d1bc08166981603c8ecf982cec6d3ca387233ff61f91a58e0eb3e6640cc219bf"
+  },
+  {
+    "path": "previews/animacion_frames/0332.png",
+    "sha256": "424db3e3c5887f5aa3f57218816699f6294476f00f0b47938c4a82ec5726634c"
+  },
+  {
+    "path": "previews/animacion_frames/0333.png",
+    "sha256": "8059693bc806dbe28dff6e984eb410fb234274f96640c31ddb0b0d8ae7470a1e"
+  },
+  {
+    "path": "previews/animacion_frames/0334.png",
+    "sha256": "7c11c8b289db539803f290adf1eb2ca3420b3612e5f193e4d89b714b2292d61f"
+  },
+  {
+    "path": "previews/animacion_frames/0335.png",
+    "sha256": "3f5cfb63f5398452654a03c8231c0b319813908eb4cd47bf17c3badc2899592c"
+  },
+  {
+    "path": "previews/animacion_frames/0336.png",
+    "sha256": "24606f863f1d2122393f7da7a04d7ba3bd7fe77f1ce221a6af22da1f10c30d1a"
+  },
+  {
+    "path": "previews/animacion_frames/0337.png",
+    "sha256": "619e9714c5e338ccc7440ee63a93ba1b019e68428076b528d4e843f908ecf191"
+  },
+  {
+    "path": "previews/animacion_frames/0338.png",
+    "sha256": "97f5c995fcf0f9aae9875bcdf26741a660e846ea775f7a9716f65a80cbfa6bbe"
+  },
+  {
+    "path": "previews/animacion_frames/0339.png",
+    "sha256": "cccc6f63050ff58f53ea21d821f6328d8ba61c928d4061154406d9c2d19069bf"
+  },
+  {
+    "path": "previews/animacion_frames/0340.png",
+    "sha256": "ec199eb5274b448e082d5998745a29f4a93f94272a2bd6b3372ef534a655e604"
+  },
+  {
+    "path": "previews/animacion_frames/0341.png",
+    "sha256": "e4e9022b84ad4508c84a0367b33ec459c77baa2c0c4ed7830aec4a5a9c78d4c4"
+  },
+  {
+    "path": "previews/animacion_frames/0342.png",
+    "sha256": "7377e8bedaff782afdd4d1cb0d00361535d9dac0337a531222896a4ef623afbf"
+  },
+  {
+    "path": "previews/animacion_frames/0343.png",
+    "sha256": "4cadd183e89b67d93fc0e1ef23b4c4211cd7d6f8ac764908d618051e096809d9"
+  },
+  {
+    "path": "previews/animacion_frames/0344.png",
+    "sha256": "ca0c969d4e7f1e7a52de6f9bc7c330518815ef4af4ba480759023b2060a22817"
+  },
+  {
+    "path": "previews/animacion_frames/0345.png",
+    "sha256": "711647e023961c972a7ca426becb35bc6e195aad53132833a53336cdbfa9c95f"
+  },
+  {
+    "path": "previews/animacion_frames/0346.png",
+    "sha256": "d99d364a792b42de82929fbf095dd42e260c1c0ba214d299eaf3f1ec42363604"
+  },
+  {
+    "path": "previews/animacion_frames/0347.png",
+    "sha256": "b215275dc8cee21f0b19de10e7db003ba69fd05f1bb9ff67aa26764f37bfb734"
+  },
+  {
+    "path": "previews/animacion_frames/0348.png",
+    "sha256": "02004d7310b81bbacd77013f92f2f09d632bfce9d0bab86de35b2ac552cf8aa8"
+  },
+  {
+    "path": "previews/animacion_frames/0349.png",
+    "sha256": "afb0c7bd3beeddd688c51dcf9b769f3bc6b17925d814f0352af5bcddc2a253fb"
+  },
+  {
+    "path": "previews/animacion_frames/0350.png",
+    "sha256": "69b1e417123675af1925c6096cb64db983e89450b73a25dbe45366269a1042e8"
+  },
+  {
+    "path": "previews/animacion_frames/0351.png",
+    "sha256": "3ccf0d6aee8f62992bc0aba37ad8bc40db44f3b454078916eb9eef12e2bd1256"
+  },
+  {
+    "path": "previews/animacion_frames/0352.png",
+    "sha256": "19a359897d6264080ec988008ce48ffd95b1d16fa39afc41bf3ed9b2027d48a2"
+  },
+  {
+    "path": "previews/animacion_frames/0353.png",
+    "sha256": "aa5e09e5c9f18a797b0f58c54bf151091281f2081d13eecaf6cb28a1882265a9"
+  },
+  {
+    "path": "previews/animacion_frames/0354.png",
+    "sha256": "1933ab42f85f391bb94df4576a12278f2522ab5d9e71aab5bff2776d18e25920"
+  },
+  {
+    "path": "previews/animacion_frames/0355.png",
+    "sha256": "e5fd7f622e1e71596a99a7b61160b47bf26dc871576957dd5aceb4c5b0e8b625"
+  },
+  {
+    "path": "previews/animacion_frames/0356.png",
+    "sha256": "cd4e26b857e54fe79ccf4e5e2704f70b6cb44cf9b87c22cf0f7077e0b63a3204"
+  },
+  {
+    "path": "previews/animacion_frames/0357.png",
+    "sha256": "4eef67bc1bf334673736dc4b8040f18c338c7b398bf6d29475fa82319fa641e3"
+  },
+  {
+    "path": "previews/animacion_frames/0358.png",
+    "sha256": "448562bddca3281f6e642375d39b6344ea4ed6a6ec7d44164c5608328cc78ec6"
+  },
+  {
+    "path": "previews/animacion_frames/0359.png",
+    "sha256": "b3887ad47c657415db7c433b87ef882756205af1302d9ccdce2c948db5f1f7bd"
+  },
+  {
+    "path": "previews/animacion_frames/0360.png",
+    "sha256": "eee86dc50262a5f13b82f5eb7eb8be7c32d40dd5b293ad0343f0100ce1f80124"
+  },
+  {
+    "path": "previews/animacion_frames/0361.png",
+    "sha256": "c5e88f7f77ca30e858ad3b8cfd4c8b2e135d6fcf913cc60e9b0c0b1827ba6003"
+  },
+  {
+    "path": "previews/animacion_frames/0362.png",
+    "sha256": "4d41d7dbca0e9918301d1846cde64207716dd44857f736c0d1c372f77bfc09f0"
+  },
+  {
+    "path": "previews/animacion_frames/0363.png",
+    "sha256": "dfbd2968c81f07d81f1ffc8750d026f699b3b5d2e7e9dde584fba8e657a0e0ff"
+  },
+  {
+    "path": "previews/animacion_frames/0364.png",
+    "sha256": "403f78635b3ecbf7fcf6eedcbc54800dff95f7cb26fada490ccf92379cfd8122"
+  },
+  {
+    "path": "previews/animacion_frames/0365.png",
+    "sha256": "ee635dc8a8bf298d0318907b1b6a6334c98143b5f23e08bedae88320f15ffbc3"
+  },
+  {
+    "path": "previews/animacion_frames/0366.png",
+    "sha256": "d85fe1777eca139ad99bd7f5dce04ff5c56329c170be137afab441f983cc76d5"
+  },
+  {
+    "path": "previews/animacion_frames/0367.png",
+    "sha256": "65202705f81c8af6f0881e9253004ebba017fa39785f6cf65ae9a7b9a67538b0"
+  },
+  {
+    "path": "previews/animacion_frames/0368.png",
+    "sha256": "48da30392ef23163fa9ff4a3e5c097a6d20e858f674ff6a62245476254cc9d89"
+  },
+  {
+    "path": "previews/animacion_frames/0369.png",
+    "sha256": "83e7f6276a2d5b26a8ae135713e5e8d3995bf05f1945c5b231cfa19356f32e0c"
+  },
+  {
+    "path": "previews/animacion_frames/0370.png",
+    "sha256": "50bb03453f94fbdce9ab5fc9b9815d27dd6a93c7c6d8c141f560964a0d89e121"
+  },
+  {
+    "path": "previews/animacion_frames/0371.png",
+    "sha256": "f1be173e67971e4e1fe46df8b2cbe2975204dac9fc59836f45e3770dd87e605c"
+  },
+  {
+    "path": "previews/animacion_frames/0372.png",
+    "sha256": "2d5bf81ad89dd6ccf3b86775b5c8e3dc3503565e0b4d988c68e2cc8041421b7a"
+  },
+  {
+    "path": "previews/animacion_frames/0373.png",
+    "sha256": "9c5e74c7872660ba314327677a0d59edd9a2ebbe358ae1751c6eec4e0e247559"
+  },
+  {
+    "path": "previews/animacion_frames/0374.png",
+    "sha256": "9dff36cc63b800e59d08f332f049167d056e66ed04efacdc47301415e645e1ac"
+  },
+  {
+    "path": "previews/animacion_frames/0375.png",
+    "sha256": "3c9f60a5af834cc031cffdaa95ea8cf803f21b1aa601df03e0f738f7c97c2408"
+  },
+  {
+    "path": "previews/animacion_frames/0376.png",
+    "sha256": "5580da69d229819aaf77b37e335616462d7012835d72ea5e532911018b7fc46c"
+  },
+  {
+    "path": "previews/animacion_frames/0377.png",
+    "sha256": "4ca8cfc1abbd718116aee9747666da1d13cc6f69094bd5a8bcd9cd4e274b7aa1"
+  },
+  {
+    "path": "previews/animacion_frames/0378.png",
+    "sha256": "d4a8ef748eded156c7d27d363113adc229ca9e7cc4911a6818310425f8448447"
+  },
+  {
+    "path": "previews/animacion_frames/0379.png",
+    "sha256": "7be5e055c337d6fbdff0d8afd9a97c07dc51781870c20d7287b2180eb7e91f44"
+  },
+  {
+    "path": "previews/animacion_frames/0380.png",
+    "sha256": "96ae555c9933cb819ca28c480daa96a358910ac68e5e2c113ffd9b7184a3f22f"
+  },
+  {
+    "path": "previews/animacion_frames/0381.png",
+    "sha256": "b92f2a568e91a66eac1aee38837252c5a153ac634aa750958f7765461968ec3a"
+  },
+  {
+    "path": "previews/animacion_frames/0382.png",
+    "sha256": "e5824d79053d9ebac95e3e7978521eea66cf5c3ffd663faf0480181147811088"
+  },
+  {
+    "path": "previews/animacion_frames/0383.png",
+    "sha256": "85d698cd26463c213bdcaabe49f0397ca0717f9164d505a1df982b8bea873f48"
+  },
+  {
+    "path": "previews/animacion_frames/0384.png",
+    "sha256": "bfb7c8dbc775bb95edf4f5d032e10adbf3e6dfbd794e1227c0721bb29ba55455"
+  },
+  {
+    "path": "previews/animacion_frames/0385.png",
+    "sha256": "2b19aea3b5dbd415261028cccb2a46f16b82f597a213796a15b1af17cd2c1365"
+  },
+  {
+    "path": "previews/animacion_frames/0386.png",
+    "sha256": "585432ebee19355c9f4257804e425097eea8c8b8e86efeb15893fb7f9e0671f7"
+  },
+  {
+    "path": "previews/animacion_frames/0387.png",
+    "sha256": "cb7f553194cb76a4211258b15483bfcf9d00a37ba4d4247356029da136703fd5"
+  },
+  {
+    "path": "previews/animacion_frames/0388.png",
+    "sha256": "a3d57948ba5c9a029cc0779dc8ea82aa5f24707cc2766265d47067f386366680"
+  },
+  {
+    "path": "previews/animacion_frames/0389.png",
+    "sha256": "2ab6f79b531cb2a38a57e12947307946d8c5ddc61204cbee3565a3436c145e6b"
+  },
+  {
+    "path": "previews/animacion_frames/0390.png",
+    "sha256": "d49149f044b6edc64bf67f8630a4104aa2498a5ff8381d99520ed86ea8d655d6"
+  },
+  {
+    "path": "previews/animacion_frames/0391.png",
+    "sha256": "1696fb6592540a4bb3a09cebc9843c82483066b7505108b863d1e11eeba50d3a"
+  },
+  {
+    "path": "previews/animacion_frames/0392.png",
+    "sha256": "698f099186f3411748006e590f925129a37b84b606430698ae034ea3cf4b5d39"
+  },
+  {
+    "path": "previews/animacion_frames/0393.png",
+    "sha256": "ed98ca2a2dc530240b5bae44250d2611d2cecc0b2dd73632c31e654cc92b04c6"
+  },
+  {
+    "path": "previews/animacion_frames/0394.png",
+    "sha256": "dd828b990fd09e4cd4f9ec59593631964669f2ccf8565a25beb283d54b53cfe2"
+  },
+  {
+    "path": "previews/animacion_frames/0395.png",
+    "sha256": "960877d5e8e0859f276885f1cbaf2a2c612213e4029d8789752239f69eb109e6"
+  },
+  {
+    "path": "previews/animacion_frames/0396.png",
+    "sha256": "fbc6b94b827d8af9a90d439fe28e29b2496ed095cd5fba7b2900f41304782252"
+  },
+  {
+    "path": "previews/animacion_frames/0397.png",
+    "sha256": "adb9257fb8080e050ff48febfde7663d5e1538c3cb3db664c69196cf95f7c8b8"
+  },
+  {
+    "path": "previews/animacion_frames/0398.png",
+    "sha256": "84e043ec9105f8e155b5dd3d5ec77e237455c342ad32a1f17865d9bc646daae2"
+  },
+  {
+    "path": "previews/animacion_frames/0399.png",
+    "sha256": "006660c8daca42f50d5a0af23469e2daac8e879af6a1bde86080818fe8d5c3fe"
+  },
+  {
+    "path": "previews/animacion_frames/0400.png",
+    "sha256": "be03697edd20772b0a22d351f06a3e15bff83e014b5dc642ea0da1e679c6ebcc"
+  },
+  {
+    "path": "previews/animacion_frames/0401.png",
+    "sha256": "4702e955911ee7d85c59bdae0cb0f61dcc4dc2e0cb3bdf69263003de0fd8cda5"
+  },
+  {
+    "path": "previews/animacion_frames/0402.png",
+    "sha256": "7426cff19b785d12519f92d7517c44446b22c963bca4fa38cc3d0022641f5eca"
+  },
+  {
+    "path": "previews/animacion_frames/0403.png",
+    "sha256": "32c8c230de8d25a3c6d9a977ced030dd6fc4b6412266a8e287f85f908f986637"
+  },
+  {
+    "path": "previews/animacion_frames/0404.png",
+    "sha256": "625e1b75e54ddce4c3eacfd5521e9d0d7e8a3070476b1294dcd424d249e20676"
+  },
+  {
+    "path": "previews/animacion_frames/0405.png",
+    "sha256": "264c12fff14e3597bf20026e031fdf3f6e948bbadc9137a431e0ecefe6043c73"
+  },
+  {
+    "path": "previews/animacion_frames/0406.png",
+    "sha256": "b64976855da175fdd190205698f587d5d0f14ed17f7304b57b76ede448284a01"
+  },
+  {
+    "path": "previews/animacion_frames/0407.png",
+    "sha256": "238a9b3b569dfe077c34c5a3015167ea5eb3d4610725511fff387d3307a9fd51"
+  },
+  {
+    "path": "previews/animacion_frames/0408.png",
+    "sha256": "0f671b3f6c2c6ed0efcf4f6b1f272c9eba867c7dc0d24f066941615ba092f5de"
+  },
+  {
+    "path": "previews/animacion_frames/0409.png",
+    "sha256": "3215c3a377765333d9473e1d08e961dc9e843621fb4f3817a4aec5f016597208"
+  },
+  {
+    "path": "previews/animacion_frames/0410.png",
+    "sha256": "128a394d93ac5479e01fa02627b2df6c07f1b431d88cab9759a3cb424fc724f6"
+  },
+  {
+    "path": "previews/animacion_frames/0411.png",
+    "sha256": "37766dddee007b2455b76f0de4eb9552e65e078f2e5cc246673bb0869aaa4791"
+  },
+  {
+    "path": "previews/animacion_frames/0412.png",
+    "sha256": "0b6b0569dcedf7ec833d61b90847c2a22a43b7f84ce296cfd0d5258671d53e77"
+  },
+  {
+    "path": "previews/animacion_frames/0413.png",
+    "sha256": "352508de91a42496f720bda8efb7d8a2b663722bdcc2ab89e2db43f9e2b1a65b"
+  },
+  {
+    "path": "previews/animacion_frames/0414.png",
+    "sha256": "5a94a8016a72aac2fd74d8be8227fa0045422ce8812b4494313d866106eab320"
+  },
+  {
+    "path": "previews/animacion_frames/0415.png",
+    "sha256": "a9e258149a2805c6c1a7395c9dc3b4661957bf38051fbb948082d2a94c37e172"
+  },
+  {
+    "path": "previews/animacion_frames/0416.png",
+    "sha256": "8a125880a1dcc178658b4dbed931e7e07756e3256d5585b3953b749b8c2d84bc"
+  },
+  {
+    "path": "previews/animacion_frames/0417.png",
+    "sha256": "dfde410fe46e8a06370e52c5c7097eba5f9e8f0431863d7a853a3f97ed485ab0"
+  },
+  {
+    "path": "previews/animacion_frames/0418.png",
+    "sha256": "9f73490682e324c8da2203fa26793ba2f0de674e5c19c0479b4d272e437ba7a2"
+  },
+  {
+    "path": "previews/animacion_frames/0419.png",
+    "sha256": "70b9c2dade85cb239429721298fb85b662d9a14c14e0e76295d27d0ef51f4342"
+  },
+  {
+    "path": "previews/animacion_frames/0420.png",
+    "sha256": "3ad15e476e0253cf73215b8a1ef4c595068d44be54f27d068c393a2c88d8a69e"
+  },
+  {
+    "path": "previews/demo_arrastre_revision.png",
+    "sha256": "78aa8d7a4b416a634760a8b5414df504615e16caa63ba87631e84868730b7c09"
+  },
+  {
+    "path": "previews/demo_ataque_arrastre.mp4",
+    "sha256": "0c60361bcb96184091a260be601ebb4bf2e4ea0a0ee23d32bae66eba80e832f5"
+  },
+  {
+    "path": "previews/demo_lowpoly.png",
+    "sha256": "32471410e3dbb1de00d961b5c972db3df3c82f45f7a68ed4f4f55b9b2851ae85"
+  },
+  {
+    "path": "references/chupacabras1.jpg",
+    "sha256": "b790471d6d754d97fff7d26ad7872e928782a5af40714a5800278e315b8819de"
+  },
+  {
+    "path": "references/chupacabras2.jpg",
+    "sha256": "026eb3af91fc0c88682d62f26baaee82fb33d44b841e60c7a1959cab808c3539"
+  },
+  {
+    "path": "references/chupacabras3.jpg",
+    "sha256": "2aff1dae30305e523c011f1449f8ee5136a15e647dbe1a972eed584cf912025d"
+  },
+  {
+    "path": "references/ejemplo_de_escenario.jpg",
+    "sha256": "ce0c9514472852bb6793695d1f6d0de4f6b4a44a78a3ecf64d99f56735029c57"
+  },
+  {
+    "path": "references/ejemplo_de_oveja.jpg",
+    "sha256": "e96abdc662090f623d639c99cf5cbe6dd0e252ced21243337451326e8aaa54dc"
+  },
+  {
+    "path": "assets/oveja/Farm_Animals_Quaternius_original.zip",
+    "sha256": "9ff42b7e2445eaf259e4734c08172637db92e4b59a6145909ac56d946152c39b"
+  },
+  {
+    "path": "assets/oveja/original/Farm Animals by @Quaternius/Blends/Sheep.blend",
+    "sha256": "d4f137f393e5b3e5ba28af0977efbaef6e0ba7a6682e35b35f868f5caff47c7e"
+  },
+  {
+    "path": "assets/oveja/original/Farm Animals by @Quaternius/FBX/Sheep.fbx",
+    "sha256": "4a3fc559cc9f37e3e3f216af1dab30cb411ec9b268eb98676f1d5c18a430d33e"
+  },
+  {
+    "path": "assets/oveja/original/Farm Animals by @Quaternius/License.txt",
+    "sha256": "551ec32f604f57be7eca26fc6e6331b3c6d765804726ac259bc7891276634353"
+  },
+  {
+    "path": "assets/oveja/original/Farm Animals by @Quaternius/OBJ/Sheep.mtl",
+    "sha256": "1b2ae95627af9ae088bb2a68af27b7143fa776de524657e0c6476121e37c58c6"
+  },
+  {
+    "path": "assets/oveja/original/Farm Animals by @Quaternius/OBJ/Sheep.obj",
+    "sha256": "bdd9a9fd25bec3927a930fb1a3b2d05c83870b770933b72795abd4db19ee52f9"
+  },
+  {
+    "path": "assets/oveja/procedencia/opengameart.html",
+    "sha256": "301e49913c74f9e6c19905ce10f23a02ed60ae7d04eed638ae7c0c7220e9babb"
+  },
+  {
+    "path": "assets/oveja/procedencia/quaternius.html",
+    "sha256": "8c3b66e96476b40fda3570a0a2396af4fb595e3c53d2f6ad969e1dcf40ce17b4"
+  },
+  {
+    "path": "assets/oveja/procedencia.json",
+    "sha256": "46a76fc0fe2ba2a36cebd1baf981a877931c0a4beb262bad377e30aeb1374081"
+  }
+]

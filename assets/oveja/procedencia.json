@@ -1,0 +1,50 @@
+{
+  "downloaded_utc": "2026-09-25T00:05:56.091633+00:00",
+  "author": "Quaternius",
+  "license": "CC0-1.0",
+  "page": "https://opengameart.org/content/lowpoly-animated-farm-animal-pack",
+  "author_page": "https://quaternius.com/packs/farmanimal.html",
+  "download_url": "https://opengameart.org/sites/default/files/Farm%20Animals%20by%20%40Quaternius.zip",
+  "files": [
+    {
+      "path": "Farm_Animals_Quaternius_original.zip",
+      "bytes": 6965696,
+      "sha256": "9ff42b7e2445eaf259e4734c08172637db92e4b59a6145909ac56d946152c39b"
+    },
+    {
+      "path": "original/Farm Animals by @Quaternius/Blends/Sheep.blend",
+      "bytes": 923936,
+      "sha256": "d4f137f393e5b3e5ba28af0977efbaef6e0ba7a6682e35b35f868f5caff47c7e"
+    },
+    {
+      "path": "original/Farm Animals by @Quaternius/FBX/Sheep.fbx",
+      "bytes": 356796,
+      "sha256": "4a3fc559cc9f37e3e3f216af1dab30cb411ec9b268eb98676f1d5c18a430d33e"
+    },
+    {
+      "path": "original/Farm Animals by @Quaternius/License.txt",
+      "bytes": 581,
+      "sha256": "551ec32f604f57be7eca26fc6e6331b3c6d765804726ac259bc7891276634353"
+    },
+    {
+      "path": "original/Farm Animals by @Quaternius/OBJ/Sheep.mtl",
+      "bytes": 410,
+      "sha256": "1b2ae95627af9ae088bb2a68af27b7143fa776de524657e0c6476121e37c58c6"
+    },
+    {
+      "path": "original/Farm Animals by @Quaternius/OBJ/Sheep.obj",
+      "bytes": 28778,
+      "sha256": "bdd9a9fd25bec3927a930fb1a3b2d05c83870b770933b72795abd4db19ee52f9"
+    },
+    {
+      "path": "procedencia/opengameart.html",
+      "bytes": 38985,
+      "sha256": "301e49913c74f9e6c19905ce10f23a02ed60ae7d04eed638ae7c0c7220e9babb"
+    },
+    {
+      "path": "procedencia/quaternius.html",
+      "bytes": 14945,
+      "sha256": "8c3b66e96476b40fda3570a0a2396af4fb595e3c53d2f6ad969e1dcf40ce17b4"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "04_intercambio.blend",
+    "frames": 1201,
+    "duration_seconds": 40,
+    "contact_samples": 1201,
+    "max_contact_error": 0.0
+  },
+  {
+    "file": "05_blocking_r04.blend",
+    "frames": 1201,
+    "duration_seconds": 40,
+    "contact_samples": 565,
+    "max_contact_error": 9.830249847454215e-07
+  }
+]

@@ -1,0 +1,6 @@
+00:00.537  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/06_escenario.blend"
+00:00.547  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/06_escenario_contexto.blend"
+ENVIRONMENT_REOPEN_OK {"physical_device": false, "meshes": 10, "triangles": 2915, "duration": 40, "contact_frames": 565, "max_contact_m": 9.830249847454215e-07}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

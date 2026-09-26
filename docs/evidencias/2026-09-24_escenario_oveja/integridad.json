@@ -1,0 +1,133 @@
+{
+  "previous_11_hashes_unchanged": true,
+  "physical_device": false,
+  "files": [
+    {
+      "path": "exports/06_escenario.fbx",
+      "bytes": 115180,
+      "sha256": "c989ef25ec98bdeb382c7a77e4158d5d7884d176cbbe3829e4ca5bb9a410daf2"
+    },
+    {
+      "path": "exports/06_escenario.json",
+      "bytes": 3553,
+      "sha256": "3c0f1f170c2b55079a97fe42e6a5364297b1fd39ecbe2d245acd913d817ef7f0"
+    },
+    {
+      "path": "exports/06_escenario_contexto.fbx",
+      "bytes": 2048348,
+      "sha256": "82acc7fcb01201c5712f6a6663dbca6666c957708d1cd8bf726cbd2ada494851"
+    },
+    {
+      "path": "exports/07_oveja.fbx",
+      "bytes": 81532,
+      "sha256": "762c110e77d6496c345a1e598e443cef70fc3661f2604344885c2d1763584ffd"
+    },
+    {
+      "path": "exports/07_oveja.json",
+      "bytes": 159183,
+      "sha256": "79eaed5607424f9e7a0e5c0e7992edc077a1c113f38ee1bd4a0386d35ea965c6"
+    },
+    {
+      "path": "exports/07_oveja_poses.fbx",
+      "bytes": 488988,
+      "sha256": "2b578772a6a6a9956c7cb0f48f4b70655f8617a20d1c7fb07018fe5e5e514792"
+    },
+    {
+      "path": "exports/07_oveja_r02.fbx",
+      "bytes": 81532,
+      "sha256": "13daa14fd68f4365f5dc30950df488ae842bb100e64d4bd743fcc6c20cee0fbb"
+    },
+    {
+      "path": "exports/07_oveja_r02.json",
+      "bytes": 159144,
+      "sha256": "172316b028d39b385384d3f6fad4bca283405f40efdfa983f5a47c7719bdbe3e"
+    },
+    {
+      "path": "exports/07_oveja_r02_poses.fbx",
+      "bytes": 489612,
+      "sha256": "10960753d4d8ad14c0df7c7b4906c9e26de8a27f7596a31b1c232a5d8ce73611"
+    },
+    {
+      "path": "exports/07_oveja_r03.fbx",
+      "bytes": 81532,
+      "sha256": "f9e56ec9e78040f3c2c8a19d2955389a245738993a03c60d990b4efb69051f01"
+    },
+    {
+      "path": "exports/07_oveja_r03.json",
+      "bytes": 159144,
+      "sha256": "172316b028d39b385384d3f6fad4bca283405f40efdfa983f5a47c7719bdbe3e"
+    },
+    {
+      "path": "exports/07_oveja_r03_poses.fbx",
+      "bytes": 489612,
+      "sha256": "42fd30b1126541aa09e85a9ab837f09eacd8a103fe3e0df90dbafc187e1e9be3"
+    },
+    {
+      "path": "exports/07_oveja_r04.fbx",
+      "bytes": 81180,
+      "sha256": "4ea7cea8fcc5c8494425ae6b559bf41384d035518e5dc84ef97b8bef83d0dff7"
+    },
+    {
+      "path": "exports/07_oveja_r04.json",
+      "bytes": 159161,
+      "sha256": "78ec7a6a6cb79817c931cbc9824792665d6f5c5e2f22f87b182c557138276837"
+    },
+    {
+      "path": "exports/07_oveja_r04_poses.fbx",
+      "bytes": 489148,
+      "sha256": "55de321e04f16391655a1d835ee074b1da7684c5a65700d4fcb3ad6bbbece7a3"
+    },
+    {
+      "path": "previews/06_escenario.png",
+      "bytes": 36415,
+      "sha256": "2b90462d06f7daae3a57d572e3ae4833c7767a198044d74afd476b91ca4a831e"
+    },
+    {
+      "path": "previews/07_oveja.png",
+      "bytes": 29587,
+      "sha256": "9538f1de640562311dca0bb1e388d762d179c2041e94c328adae6269fa111697"
+    },
+    {
+      "path": "previews/07_oveja_caida.png",
+      "bytes": 30477,
+      "sha256": "aa6d5f9c8725d5e21fa0cdabe03bb4d08d3ab0becbfc83bdd32264728b40c9de"
+    },
+    {
+      "path": "previews/07_oveja_pastoreo.png",
+      "bytes": 33200,
+      "sha256": "9c7cfcaf875d0f80bbeb223f25fe6732954cce2a3a873180956cd5b03013416e"
+    },
+    {
+      "path": "scenes/06_escenario.blend",
+      "bytes": 165326,
+      "sha256": "67757a2c94c9ac428ba634c5eb109ccf9b5c991689dbeb5f8d4e246a007e9578"
+    },
+    {
+      "path": "scenes/06_escenario_contexto.blend",
+      "bytes": 227191,
+      "sha256": "86f33516258548abb05a7cbc7f2ec767ed7b952ecfc0bf7eb2dea786ad9b368e"
+    },
+    {
+      "path": "scenes/07_oveja.blend",
+      "bytes": 1196627,
+      "sha256": "fc86f5d08df6f154e55bd7f6bb3592c9cec0b99bd1d84e44def95fa8277212db"
+    },
+    {
+      "path": "scenes/07_oveja_r02.blend",
+      "bytes": 1196627,
+      "sha256": "28d511d17d8a77a484b8ff6e315905f28a595b926fe4051c8f33c589b42f1ec1"
+    },
+    {
+      "path": "scenes/07_oveja_r03.blend",
+      "bytes": 1170875,
+      "sha256": "cf8345c98a7fbef4522ba9b824688535cb680767c3741f232da37675b5883efc"
+    },
+    {
+      "path": "scenes/07_oveja_r04.blend",
+      "bytes": 1170539,
+      "sha256": "61ad0dfcb9028202e3d4061a0bdafc57301f8e7ff957eef79ae1bbf85276b820"
+    }
+  ],
+  "unity_version": "m_EditorVersion: 6000.3.22f1\nm_EditorVersionWithRevision: 6000.3.22f1 (1c726e1fb402)\n",
+  "unity_copies_identical": true
+}

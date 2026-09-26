@@ -1,0 +1,14 @@
+00:00.405  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/09_chupacabras_acabado.blend"
+Traceback (most recent call last):
+  File "/home/cacawatin/code/blender/chupacabras/scripts/rig_contacto.py", line 246, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/home/cacawatin/code/blender/chupacabras/scripts/rig_contacto.py", line 132, in main
+    for group,weight in groups:sheep.vertex_groups[group].add([i],weight,'REPLACE')
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^
+IndexError: bpy_prop_collection[index]: index 2 out of range, size 0
+
+Error: script failed, file: 'scripts/rig_contacto.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit
