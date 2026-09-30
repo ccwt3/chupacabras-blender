@@ -1,0 +1,29 @@
+{
+  "apk_version": "0.0.12",
+  "physical_device": "Moto G20",
+  "android": "11",
+  "abi": "arm64-v8a",
+  "page_bytes": 4096,
+  "installation": "success",
+  "launch": "success",
+  "camera": "Camera 0 320x240",
+  "detector": "physical marker ID0 acquired",
+  "telemetry_rows": 592,
+  "visible_rows": 244,
+  "visible_playback_seconds": 39.0319,
+  "frame_ms": {
+    "median": 41.644000000000005,
+    "p95": 129.041,
+    "max": 380.675
+  },
+  "detect_ms": {
+    "median": 23.641,
+    "p95": 36.076,
+    "max": 295.291
+  },
+  "five_minute_acceptance": false,
+  "M4_passed": false,
+  "user_feedback": "Se ve, pero está desfasado: patas mirando hacia mí; panel mirando hacia arriba. Quiere figura encima del marcador y escena al lado mirando al frente.",
+  "correction": "New tabletop revision in preparation; no physical approval yet",
+  "cleanup": "Pending until test ends; USB became unauthorized"
+}

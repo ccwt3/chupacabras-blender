@@ -8,7 +8,7 @@ La entrega principal pasa a ser **el proyecto Unity, sus recursos editables y un
 
 El chupacabras es el protagonista visual: tendrá un modelo original basado en las tres referencias recibidas. La oveja procederá de un modelo low-mid poly existente, adaptado para Blender y Unity.
 
-El trabajo se divide en **24 pasos**, cada uno con subpasos asignados a Astra o al usuario y una entrega verificable. Se han creado demos Blender aparte. Los pasos 1–3 están cerrados con el alcance aceptado y documentado; la ABI, instalación, cámara y seguimiento físico se comprobaron en el G20. Los pasos 4–9 están completados con evidencia de intercambio, bloqueo, escenario, oveja y modelado/acabado del chupacabras; consultar `docs/estado.md`. Los pasos 10–11 también están completados con rigs y contacto R03 validados. La pareja actual es 12–13: 12.1 preparado el 30 de septiembre; 12.2 pendiente de M#[4] física. 13 no iniciado.
+El trabajo se divide en **24 pasos**, cada uno con subpasos asignados a Astra o al usuario y una entrega verificable. Se han creado demos Blender aparte. Los pasos 1–3 están cerrados con el alcance aceptado y documentado; la ABI, instalación, cámara y seguimiento físico se comprobaron en el G20. Los pasos 4–9 están completados con evidencia de intercambio, bloqueo, escenario, oveja y modelado/acabado del chupacabras; consultar `docs/estado.md`. Los pasos 10–11 también están completados con rigs y contacto R03 validados. El paso 12 está cerrado tras la revisión física de R05/0.0.14 en el G20 y aceptación del usuario; M#[4] resuelta. La siguiente pareja es 13–14, sin iniciar.
 
 ## Dispositivos confirmados: G20 para pruebas, posible S23 para exposición
 
@@ -40,7 +40,7 @@ El marcador no es un QR con un enlace. Un QR lateral puede servir para distribuc
 
 ## Presentación confirmada: figura 3D y ventana de cine ancladas en AR
 
-La composición tiene dos elementos AR junto al mismo marcador: (1) un modelo estático del chupacabras, colocado encima o junto al tag a escala de maqueta; y (2) una ventana lateral que muestra la secuencia 3D en tiempo real mediante la cámara cinematográfica interna. El chupacabras de la maqueta permanece quieto; el de la ventana actúa la historia. El tamaño y la separación exactos se fijan al revisar una previsualización en el paso 12. Mantener visible el dibujo AprilTag, sus esquinas de detección y margen.
+La composición tiene dos elementos AR junto al mismo marcador: (1) un modelo estático del chupacabras, de pie y centrado directamente encima del tag a escala de maqueta; y (2) una ventana lateral que muestra la secuencia 3D en tiempo real mediante la cámara cinematográfica interna. El chupacabras de la maqueta permanece quieto; el de la ventana actúa la historia. El tamaño y la separación exactos se fijan al revisar una previsualización en el paso 12. Aclaración del usuario del 30 de septiembre: la figura debe estar directamente encima del símbolo, no desplazada hacia el borde superior del papel. Su oclusión virtual del dibujo es intencional; el detector recibe la imagen de cámara sin superposiciones. Mantener el patrón físico sin obstrucciones y el panel fuera del dibujo.
 
 La cámara exterior AR sigue al teléfono y presenta directamente la figura 3D. La ventana muestra una RenderTexture de la escena, vista desde su cámara de cine. Mover el teléfono cambia la perspectiva de la figura exterior y el conjunto; no mueve la cámara cinematográfica ni altera el encuadre interno del corto. No se construye un portal volumétrico ni se añade seguimiento persistente de la habitación.
 
@@ -381,18 +381,18 @@ independiente. [Detalle](rigs_contacto.md). Pisadas y actuación definitivas son
 
 ### 12. Resolver materiales e iluminación definitiva en Unity
 
-**Trabajo:** reconstruir el aspecto nocturno en URP, ojos amarillos, contornos y sombras; implementar una trama sencilla si aporta al estilo y al rendimiento. Crear una previsualización de la nueva composición con el chupacabras estático en 3D sobre o junto al marcador y el panel cinematográfico a su lado. Ajustar tamaño y separación para que la figura se lea y el tag quede descubierto. Revisar en el teléfono.
+**Trabajo:** reconstruir el aspecto nocturno en URP, ojos amarillos, contornos y sombras; implementar una trama sencilla si aporta al estilo y al rendimiento. Crear una previsualización de la nueva composición con el chupacabras estático en 3D sobre o junto al marcador y el panel cinematográfico a su lado. Ajustar tamaño y separación: figura de pie centrada sobre el símbolo y panel frontal a su lado, según la aclaración del usuario del 30 de septiembre. El panel no cubre el dibujo; la figura puede superponerse virtualmente. Revisar en el teléfono.
 
 **Subpasos y responsables:**
 
 - **12.1 · Astra — ejecución:** Reconstruir la iluminación y materiales en URP, preparar la ventana y una build visual de prueba.
-- **12.2 · Tú — necesario, M#[4]:** cuando estén preparados la build, el marcador y las instrucciones, comprobar en el G20 la maqueta desde varios ángulos, su tamaño junto al panel y que no tape el tag. Revisar también la lectura de ojos, espinas, oveja y sombras.
+- **12.2 · Tú — necesario, M#[4]:** cuando estén preparados la build, el marcador y las instrucciones, comprobar en el G20 la maqueta desde varios ángulos, su tamaño junto al panel y su posición directamente sobre el tag; comprobar que el panel quede al lado. Revisar también la lectura de ojos, espinas, oveja y sombras.
 - **12.3 · Astra — verificación:** Recoger capturas/logs disponibles, contrastar con las referencias y corregir brillo, sombras o materiales.
 - **12.4 · Tú — revisión opcional:** Dar preferencia estética entre ajustes concretos. No necesitas configurar luces ni shaders.
 
 **Entrega:** materiales, iluminación y prefab visual del escenario, la figura AR estática y la ventana de Unity; capturas de los tres momentos y de la composición completa.
 
-**Aceptación:** aspecto fiel a la dirección visual y lectura suficiente en pantalla móvil. Se ven simultáneamente la figura 3D en perspectiva y la secuencia en el panel lateral. Cambiar el punto de vista altera la perspectiva exterior, sin mover la cámara del corto. El tag y sus márgenes permanecen visibles. El cielo o iluminación ficticios no alteran accidentalmente el fondo AR real. Unity es la referencia visual de producción.
+**Aceptación:** aspecto fiel a la dirección visual y lectura suficiente en pantalla móvil. Se ven simultáneamente la figura 3D en perspectiva y la secuencia en el panel lateral. Cambiar el punto de vista altera la perspectiva exterior, sin mover la cámara del corto. La figura puede cubrir virtualmente parte del símbolo por la colocación confirmada; el panel deja libre el dibujo y la cámara física debe seguir viendo el patrón completo. El cielo o iluminación ficticios no alteran accidentalmente el fondo AR real. Unity es la referencia visual de producción.
 
 **Depende de:** paso 11.
 
@@ -668,3 +668,7 @@ Unity Technologies. (s. f.-f). *Google ARCore XR Plug-in 6.3*. Unity Documentati
 - Continuación del 24 de septiembre de 2026: **10–11 cerrados**, rigs y contacto R03 comparados en Blender/Unity. Fuentes, demos y configuraciones ajenas preservadas; sin APK ni prueba física nueva. Próximos **12 + 13**, sin iniciar. Véase [estado](estado.md).
 
 - 30 de septiembre de 2026: **12.1 preparado** en una escena nueva AR de aspecto, con APK 0.0.12, materiales URP, figura estática y tres muestras de luz en panel. Capturas y pruebas sintéticas verificadas; **12.2 / M#[4] pendiente de G20**. 13 no iniciado por dependencia. Fuentes Blender, demos y configuraciones ajenas conservadas. Véase [estado](estado.md).
+
+- 30 de septiembre, prueba G20: usuario aclara figura **centrada directamente encima del símbolo**, de pie, y panel vertical frontal al lado. Esta colocación sustituye el requisito de que la figura no se superponga visualmente al dibujo; el detector conserva la imagen real sin composición. La muestra del paso 12 son vistas de iluminación de pastoreo/agarre, no la animación definitiva de 40 s.
+
+- Cierre físico del 30 de septiembre: **12 completado, M#[4] resuelta**. Figura centrada directamente encima del tag y panel vertical frontal, R05/0.0.14 aceptada por el usuario en G20. Capturas/logs guardados y app desinstalada con limpieza verificada. No hubo nuevos avisos OpenGL en la última muestra; rendimiento sostenido y causa del aviso aislado anterior siguen sin validación final. Próximos **13–14**, no iniciados.
