@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/scenes/10_rig_oveja.blend",
+    "ok": true
+  },
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/exports/10_rig_oveja.fbx",
+    "ok": true
+  },
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/exports/10_rig_oveja.json",
+    "ok": true
+  },
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/scenes/11_rig_chupacabras_poses.blend",
+    "ok": true
+  },
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/exports/11_rig_chupacabras_poses.fbx",
+    "ok": true
+  },
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/exports/11_rig_chupacabras_poses.json",
+    "ok": true
+  },
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/scenes/11_rigs_contacto_r03.blend",
+    "ok": true
+  },
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/exports/11_rigs_contacto_r03.fbx",
+    "ok": true
+  },
+  {
+    "path": "/home/cacawatin/code/blender/chupacabras/exports/11_rigs_contacto_r03.json",
+    "ok": true
+  }
+]

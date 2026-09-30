@@ -1,0 +1,47 @@
+{
+  "completed_substeps": [
+    "12.1"
+  ],
+  "in_progress": [
+    "12.2 / M#[4]"
+  ],
+  "pending_substeps": [
+    "12.3",
+    "12.4 (opcional)"
+  ],
+  "not_started_main_steps": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "historical_files_unchanged": 844,
+  "previous_deliveries_verified": 9,
+  "foreign_unity_settings_unchanged": [
+    "ProjectSettings/GraphicsSettings.asset",
+    "ProjectSettings/QualitySettings.asset",
+    "ProjectSettings/PackageManagerSettings.asset"
+  ],
+  "physical_device": false,
+  "unity_build_errors": 0,
+  "unity_build_warnings": 0,
+  "apk_bytes": 38676908,
+  "manual_actions": {
+    "M#[1]": "resuelta",
+    "M#[2]": "resuelta en alcance previo",
+    "M#[3]": "resuelta",
+    "M#[4]": "pendiente de acceso y revisión física; entregas preparadas",
+    "M#[5]": "prevista para paso20; no solicitada"
+  },
+  "previous_tracking_scene_regression": true,
+  "unity_commit": "296e1c7a2a27ab1fcb0db5f79767d2175201d0ce",
+  "push": false
+}

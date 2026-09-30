@@ -1,0 +1,18 @@
+{
+  "planned_steps": [
+    12,
+    13
+  ],
+  "started_steps": [
+    12
+  ],
+  "completed_main_steps": [],
+  "next_manual_action": "M#[4]",
+  "manual_requested": true,
+  "physical_device": false,
+  "unity": "6000.3.22f1",
+  "previous_delivery_hashes_verified": 9,
+  "historical_files_unchanged": 844,
+  "demos_reopened": true,
+  "python_scripts_syntax": 19
+}

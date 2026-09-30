@@ -8,7 +8,7 @@ La entrega principal pasa a ser **el proyecto Unity, sus recursos editables y un
 
 El chupacabras es el protagonista visual: tendrá un modelo original basado en las tres referencias recibidas. La oveja procederá de un modelo low-mid poly existente, adaptado para Blender y Unity.
 
-El trabajo se divide en **24 pasos**, cada uno con subpasos asignados a Astra o al usuario y una entrega verificable. Se han creado demos Blender aparte. Los pasos 1–3 están cerrados con el alcance aceptado y documentado; la ABI, instalación, cámara y seguimiento físico se comprobaron en el G20. Los pasos 4–9 están completados con evidencia de intercambio, bloqueo, escenario, oveja y modelado/acabado del chupacabras; consultar `docs/estado.md`. Los pasos 10–11 también están completados con rigs y contacto R03 validados. La siguiente pareja es 12–13, todavía no iniciada.
+El trabajo se divide en **24 pasos**, cada uno con subpasos asignados a Astra o al usuario y una entrega verificable. Se han creado demos Blender aparte. Los pasos 1–3 están cerrados con el alcance aceptado y documentado; la ABI, instalación, cámara y seguimiento físico se comprobaron en el G20. Los pasos 4–9 están completados con evidencia de intercambio, bloqueo, escenario, oveja y modelado/acabado del chupacabras; consultar `docs/estado.md`. Los pasos 10–11 también están completados con rigs y contacto R03 validados. La pareja actual es 12–13: 12.1 preparado el 30 de septiembre; 12.2 pendiente de M#[4] física. 13 no iniciado.
 
 ## Dispositivos confirmados: G20 para pruebas, posible S23 para exposición
 
@@ -666,3 +666,5 @@ Unity Technologies. (s. f.-f). *Google ARCore XR Plug-in 6.3*. Unity Documentati
 - Revisión visual del 24 de septiembre de 2026: figura AR estática del chupacabras junto a la ventana lateral, ambas ancladas al AprilTag, con escala/separación a revisar en paso 12 e integración/prueba en 20. La cámara de la animación final anticipa suavemente el salto de 20 s y la criatura entra desde el lateral/detrás del granero; escenas 13–14. M#[4] y M#[5] requieren build, marcador e instrucciones preparados antes de pedir intervención física. Se mantiene intacto R04 y no se inicia ningún paso principal nuevo.
 
 - Continuación del 24 de septiembre de 2026: **10–11 cerrados**, rigs y contacto R03 comparados en Blender/Unity. Fuentes, demos y configuraciones ajenas preservadas; sin APK ni prueba física nueva. Próximos **12 + 13**, sin iniciar. Véase [estado](estado.md).
+
+- 30 de septiembre de 2026: **12.1 preparado** en una escena nueva AR de aspecto, con APK 0.0.12, materiales URP, figura estática y tres muestras de luz en panel. Capturas y pruebas sintéticas verificadas; **12.2 / M#[4] pendiente de G20**. 13 no iniciado por dependencia. Fuentes Blender, demos y configuraciones ajenas conservadas. Véase [estado](estado.md).

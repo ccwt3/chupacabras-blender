@@ -1,119 +1,110 @@
 # Estado de continuidad
 
-Actualizado: **24 de septiembre de 2026, hora local de México** (25 UTC).
-**Pasos 10 y 11 completados.** Se ejecutaron exactamente dos pasos principales.
-**12–24 pendientes, no iniciados.** Sin intervención manual necesaria en esta sesión.
+Actualizado: **30 de septiembre de 2026, hora local de México**.
+**Paso 12 en curso: 12.1 preparado; 12.2 bloqueado por M#[4] física.**
+**13–24 no iniciados.** Se trabajó un solo paso principal de la pareja 12–13;
+no se avanzó al segundo porque depende de la revisión física del primero.
 
 ## Punto de partida comprobado
 
-Se leyeron estado, plan, evaluación AR y alcance de las dos demos. No se
-hallaron AGENTS.md adicionales en los directorios aplicables. Se comprobaron
-55 hashes del cierre anterior y se registraron **533 archivos históricos**
-de escenas, exportaciones, previews, referencias y assets: todos intactos al
-cierre. Estado anterior archivado en `docs/evidencias/2026-09-24_rigs/estado_anterior.md`.
+Se leyeron las instrucciones personales, estado, plan completo, evaluación AR
+y documentos de ambas demos. No se encontraron AGENTS.md adicionales aplicables.
+Se comprobaron los nueve hashes de entregas de rigs del cierre anterior y se
+registraron **844 archivos históricos** de escenas, exportaciones, previews,
+referencias y assets. Todos conservan sus bytes. Las demos se reabrieron en
+Blender 5.2.2 LTS: 328 objetos en la estática y 35 s/contacto en la animada.
 
-Unity comenzó en `9647ab87150ec1cb43d6ad4bb3c47c4464b21195`, versión
-**6000.3.22f1 (1c726e1fb402)**. Ya había cambios ajenos en GraphicsSettings y
-QualitySettings, más PackageManagerSettings sin rastrear. Los tres conservan
-exactamente sus bytes iniciales y se excluyen del commit. Blender no tiene
-repositorio Git utilizable; `.git` expuesto vacío, no se inicializó.
+**Ambas raíces tienen ahora Git utilizable**, a diferencia del estado anterior.
+Blender comenzó en `4e2d007`; Unity en `0f38435`. En Unity ya estaban preparados
+en el índice GraphicsSettings, QualitySettings y PackageManagerSettings. Se
+conservan byte por byte y se excluyen de los commits de esta sesión.
+Estado anterior: `docs/evidencias/2026-09-30_visual/estado_anterior.md`.
 
 ## Pasos y subpasos
 
-| Paso | Estado comprobado |
-| --- | --- |
-| 1–9 | Conservados, sin ampliar las aceptaciones físicas previas. |
-| 10.1 | Rig de oveja reutilizado: 24 huesos, cuatro IK, pesos hasta cuatro influencias. |
-| 10.2 | Lana comprimible (66 vértices), pastoreo a 18,5 mm del suelo, forcejeo y poses de costado. |
-| 10.3 | FBX/shape/poses comparados en 241 cuadros Blender–Unity; capturas corregidas y revisadas. |
-| 10.4 | Sin intervención necesaria. Paso 10 cerrado. |
-| 11.1 | Rig original de 23 huesos FK; patas, pelvis, columna, cuello, cabeza, mandíbula y cinco segmentos de cola. |
-| 11.2 | Agarre establecido y desplazamiento conjunto horneados; oveja deformable apoyada en suelo. |
-| 11.3 | R03 conserva triangulación y contacto sobre superficies; 181 cuadros comparados, raíz exterior independiente. |
-| 11.4 | Sin intervención necesaria. Paso 11 cerrado. |
-| 12–24 | Pendientes. No se inició iluminación definitiva, composición AR ni actuación final. |
-
-No queda un subpaso incompleto de 10–11. Las muestras duran 8 s y 6 s y
-**no reemplazan el corto de 40 s**. La muestra conjunta empieza con el agarre
-establecido y traslada ambos personajes lateralmente; todavía no sincroniza
-pisadas con el desplazamiento ni actúa el ataque/cierre inicial de mordida.
-Esos movimientos se producirán en 13–15, junto con la cámara continua acordada.
+- **1–11 conservados** con su alcance y limitaciones anteriores. Contacto vigente:
+  R03 de paso 11; ni la muestra de 6 s ni la de oveja de 8 s son el corto final.
+- **12.1 preparado:** escena AR nueva, materiales URP, luz nocturna, figura
+  exterior estática y panel con tres muestras de luz. APK compilada y verificada.
+- **12.2 / M#[4] pendiente:** acceso al G20 y revisión física de brillo, tamaño,
+  perspectiva y tag descubierto. No existe aceptación física de esta APK.
+- **12.3 pendiente:** recoger evidencia física, contrastarla y corregir lo necesario.
+- **12.4 opcional:** preferencias estéticas que surjan de la revisión.
+- **13–24 pendientes, sin iniciar.** La cámara continua y actuación 0–20 s
+  del paso 13 no se trabajaron; se respetó la dependencia del paso 12.
 
 ## Cambios y motivo
 
-- Fuente nueva `10_rig_oveja`: compresión localizada y poses extremas sobre el
-  recurso CC0 existente; las IK se hornean en FBX. Apoyo corregido cada cuadro.
-- Fuentes nuevas de paso 11: rig del modelo acabado 09 y dos pruebas distintas,
-  controles FK y contacto. Dientes superiores/inferiores se resuelven contra
-  lana deformada y se hornean; sin solver móvil ni dependencias circulares.
-- La primera comprobación de vértices era correcta pero no garantizaba contacto
-  de superficies: Unity mostró separación de 5,31 mm por diagonales distintas.
-  R02 resolvió contacto pero la triangulación en modo edición descartó una cara.
-  **R03 fija los 612 triángulos originales por índices de loop**, conservando
-  vértices, pesos, UV, materiales y shape. La oveja trae un solapamiento de
-  caras heredado: no se declara manifold; R03 no tiene bordes abiertos ni
-  vértices sueltos. Primer intento y R02 conservados como diagnóstico.
-- Generadores/verificadores nuevos, escenas y prefabs Unity independientes,
-  `RigPreview` para muestras de duración propia y `RigBuild` para comparación.
-  Se conserva `SequencePreview` de 40 s y todo el seguimiento AprilTag existente.
-- Corregidas comprobación de Animator ausente y capturas con matrices de skin
-  desactualizadas. Piso y luz de revisión ayudan a inspeccionar, sin cerrar 12.
-- Documentación de implementación y reproducción: `docs/rigs_contacto.md`;
-  en Unity, `docs/pasos10_11.md`. Logs de intentos fallidos conservados.
+Unity contiene `12_AppearanceAR.unity` y `AppearanceStudy.prefab` nuevos.
+La figura exterior procede del acabado 09; escenario 06 y rigs 10/11 proporcionan
+las muestras interiores. Materiales mate, ojos amarillos, sombras duras de 1024
+y rellenos independientes permiten revisar lectura sin añadir postprocesado.
+Pipeline y materiales propios conservan los anteriores. La ventana mide
+240 × 135 mm y renderiza a 960 × 540; figura a la izquierda, panel a la derecha.
+
+`TrackingProbe` conecta opcionalmente esta muestra a su seguimiento existente,
+sin cambiar detector, FOV ni tecnología. Ambos elementos comparten una raíz;
+la escena/cámara interna permanecen independientes. Tres poses de luz alternan
+cada seis segundos: no son actuación final ni un cambio de los 40 s acordados.
+El paquete `com.chupacabras.ar.appearance12` es independiente de la prueba 03.
+
+Se corrigieron pérdida de rotación de ejes FBX en figura estática, exceso de
+relleno exterior y encuadres mediante capturas. El primer intento de captura
+asíncrona en batch agotó el tiempo; se reemplazó por render explícito de cámara
+en Play Mode, ajustando el viewport al tamaño de la evidencia. Iteraciones
+conservadas. No se cambiaron fuentes Blender, demos ni configuración global.
+Detalles: [materiales_iluminacion.md](materiales_iluminacion.md) y
+[guía Unity](/home/cacawatin/code/unity/chupacabras/docs/paso12_aspecto.md).
 
 ## Entregas y evidencias
 
 Blender: `/home/cacawatin/code/blender/chupacabras`.
 
-- **`scenes/10_rig_oveja.blend`** y FBX/JSON homónimos en `exports/`.
-- **`scenes/11_rig_chupacabras_poses.blend`**, FBX/JSON: aptitud de controles.
-- **`scenes/11_rigs_contacto_r03.blend`**, FBX/JSON y `_surface.json`: contacto vigente.
-- **`previews/11_rigs_contacto_r03.mp4`**: seis segundos, 960 × 540, 15 fps,
-  90 cuadros. Workbench de revisión; no es captura móvil ni el corto definitivo.
-- PNG de oveja y agarre en `previews/`; frames del clip conservados.
-- `scripts/rig_oveja.py`, `rig_contacto.py`, `rig_chupacabras_poses.py`,
-  `verificar_rigs.py`, `preview_rigs.py`.
-- `docs/evidencias/2026-09-24_rigs/`: hashes, reaperturas, regresiones,
-  pruebas de superficie, resultados Unity y metadatos del video.
+- `docs/materiales_iluminacion.md`, plan y este estado actualizados.
+- `docs/evidencias/2026-09-30_visual/`: estado anterior, hashes iniciales,
+  verificación de entregas, reapertura de demos, informes Unity/APK y cierre.
+- Sin nueva escena Blender: este subpaso reconstruye materiales en Unity.
 
 Unity: `/home/cacawatin/code/unity/chupacabras`.
 
-- `Assets/Scenes/10_rig_oveja.unity`, `11_rig_chupacabras_poses.unity` y
-  **`11_rigs_contacto_r03.unity`**; recursos/prefabs en `Assets/Rigs/`.
-- `Assets/Editor/RigBuild.cs`, `Assets/Scripts/RigPreview.cs`,
-  `scripts/verify_rigs.sh` (invocar con Bash).
-- Evidencia vigente bajo `docs/evidencias/2026-09-24_rigs/`:
-  `10_rig_oveja_final/`, `11_rig_chupacabras_poses/`, `11_rigs_contacto_r03/`.
-- Regresiones `environment_20260925_015050/` y `sheep_20260925_015050/`.
-- Sin APK nueva ni instalación en teléfono. Las APK anteriores se conservan.
+- `Assets/Scenes/12_AppearanceAR.unity`, `Assets/Appearance12/` (prefab/materiales/URP).
+- `AppearanceStudy.cs`, `AppearanceBuild.cs`, `AppearancePreview.cs` y extensión
+  opcional de `TrackingProbe.cs`; scripts de build y verificación de APK.
+- **APK:** `builds/android/12_appearance_20260930_223107.apk`, **38.676.908 bytes**.
+  SHA-256: `5f96b6b3632ab7f07f72d64d5b89e00664509263e54a49d0b0553aa473f7ae07`.
+- **Marcador conservado:** `marker/03_marker_carta.pdf`; reutilizar la impresión
+  carta previamente medida. No se pidió ni realizó otra impresión.
+- **Guía física:** `docs/paso12_aspecto.md`, apartado M#[4].
+- **Aspecto/composición vigente:** `docs/evidencias/appearance_20260930_222740/`,
+  `cinema_0..2.png`, `composition_front/left/right.png` y `checks.json`.
+- **Ejecución sintética vigente:** `docs/evidencias/2026-09-30_visual/runtime03/`.
+- Compilación/firma/alineación: `docs/evidencias/2026-09-30_visual/`.
+  No usar el `runtime.json` fallido de `appearance_20260930_222740` como cierre;
+  runtime03 lo sustituye. runtime02 pasó estados pero su captura tenía proporción
+  incorrecta; también queda como diagnóstico.
 
-## Pruebas ejecutadas y límites
+## Pruebas y límites
 
-- Reapertura independiente Blender: duración, vértices, shape, áreas finitas,
-  apoyo, contacto y topología. 241 cuadros de oveja y 181 por muestra de criatura.
-  Contacto R03 sobre superficie: máximo **0,00111 mm**, desplazamiento entre
-  muestras máximo 19,94 mm a 30 fps, sin salto discontinuo detectado.
-- Unity 6000.3.22f1: oveja, **73.987 vértices comparados**, error máximo
-  **0,04261 mm**; controles, **205.435**, error **0,00300 mm**; contacto,
-  **242.359**, error **0,02770 mm**. Shape conservado y duración dentro de 1 μs.
-- R03: **11.162 triángulos** conjuntos (10.550 criatura + 612 oveja).
-  Distancia real diente–triángulos de lana máxima **0,001408 mm** en Unity.
-  Apoyo mínimo importado −0,02516 mm, dentro de tolerancia numérica de 1 mm.
-  Raíz AR de referencia estable con pose identidad y pose/escala exteriores.
-- Capturas Blender/Unity de pastoreo, caída, forcejeo, zancadas, mandíbula y
-  contacto revisadas. FFprobe confirma el clip final de seis segundos.
-- Demos históricas y acabado 09 reabiertos; oveja 07 regresada. Verificadores
-  Unity existentes de escenario y oveja correctos; **32 aserciones de tracking**
-  correctas. Escenario conserva 150/114 cuadros ocultos y 30 finales vacíos.
-- Python: sintaxis comprobada en todos los scripts. Bash del nuevo verificador
-  correcto; C# compilado y clang-format correcto. No hay otro linter configurado.
-- **533 archivos históricos intactos**; FBX/JSON Blender y copias Unity idénticos.
-  Configuraciones ajenas conservadas byte por byte.
+- Unity **6000.3.22f1**: C# compilado; APK IL2CPP/ARM64 con **0 errores / 0
+  advertencias de BuildReport**. Firma, permiso CAMERA y empaquetado verificados.
+  Ocho bibliotecas ELF y ZIP alineados a 16 KB; ejecución física de 16 KB pendiente.
+- **32 aserciones de tracking** existentes correctas. La escena original 03
+  pasó también adquisición/pérdida/recuperación en Play Mode. Tres vistas internas y
+  tres exteriores revisadas. Los límites proyectados de cada mesh exterior dejan
+  libre un cuadrado de 220 mm (dibujo 180 + 20 mm de margen por lado) en las tres
+  vistas de referencia. No garantiza cualquier ángulo ni sustituye el G20.
+- Cámara interna: píxeles idénticos al cambiar pose exterior. Play Mode con
+  detector real sobre imagen sintética: adquisición, ocultación conjunta, reloj
+  detenido y recuperación correctos. No es seguimiento físico.
+- Dos demos reabiertas; sintaxis de los 19 scripts Blender correcta. Scripts
+  Bash verificados; clang-format de C# nuevo correcto. Sin otro linter configurado.
+- **844 archivos históricos intactos** y tres configuraciones ajenas intactas.
+  Fuentes, exports, APK y evidencia anteriores conservados.
 
-No hay nueva aceptación física. Siguen pendientes brillo/legibilidad en G20,
-composición figura/panel, calibración/FOV, costo del corto, cinco minutos
-sostenidos, APK 0.0.5 física, páginas Android de 16 KB y S23 según sus etapas.
-Los resultados del Editor no equivalen a medición del teléfono.
+**No se conectó, instaló ni retiró ninguna app del teléfono en esta sesión.**
+Siguen pendientes la lectura/brillo G20 de este paso, calibración exacta/FOV,
+costo del corto completo, cinco minutos sostenidos, APK 0.0.5 física, Android
+16 KB en ejecución y S23. Los resultados de Editor no amplían aceptación móvil.
 
 ## Decisiones confirmadas y acciones manuales
 
@@ -127,9 +118,10 @@ Los resultados del Editor no equivalen a medición del teléfono.
 - **Composición híbrida solicitada:** sumar al panel lateral una figura 3D
   estática del chupacabras, anclada a la misma pose AprilTag y vista por la
   cámara exterior AR. Mover el teléfono cambia su perspectiva; la animación
-  ocurre dentro de la ventana con su cámara interna. Comprobar escala/separación
-  y dejar visibles las esquinas y márgenes del tag en el paso 12. Las escenas
-  08–09 son revisiones de modelos: aún no integran la composición a una build AR.
+  ocurre dentro de la ventana con su cámara interna. Preparación técnica del paso
+  12 realizada en una build nueva; escala/separación
+  y visibilidad física de esquinas/márgenes pendientes de M#[4]. Las escenas
+  08–09 conservan su función de revisión de modelos.
 - **Cámara del corto:** rehacer el corte brusco del bloqueo en escenas nuevas
   13–14 con anticipación continua alrededor de 18,5–20,5 s y entrada lateral o
   detrás del granero. Se conserva el salto a 20 s y la cámara AR. R04 sigue como
@@ -151,33 +143,30 @@ Los resultados del Editor no equivalen a medición del teléfono.
   confirmados previamente; no se reimprimió ni se pidió medir/conectar teléfono.
 - Mantener aviso de acciones manuales y retirar lo instalado para pruebas al
   terminar. No se instaló nada en el teléfono en esta sesión.
-- No se necesita acción manual ahora. **M#[4]** queda prevista para que el
-  usuario revise en el G20 la figura 3D y el panel cuando estén preparados
-  build, marcador e instrucciones; **M#[5]** para comprobar perspectiva,
-  seguimiento, pérdida/recuperación y reinicio al integrar AR en el paso 20.
-  No pedirlas antes de preparar sus entregas. La revisión estética de vistas
-  08–09 sigue siendo opcional; no se presume aprobación nueva.
-
+- **M#[4] pendiente y necesaria:** conectar/desbloquear el G20 cuando se retome,
+  aceptar USB/cámara si se solicita y revisar las tres muestras conforme a la guía.
+  Debe confirmar lectura de ojos/espinas/lana/sombras, tamaño relativo, perspectiva
+  exterior y dibujo/márgenes libres. APK, marcador e instrucciones están listos.
+  El agente instalará, recogerá logs/capturas y retirará la app propia al terminar.
+- **M#[5] prevista para paso 20**, no solicitada. No sustituirla por pruebas de Editor.
+- Sin nuevas decisiones creativas pendientes. La revisión estética adicional es opcional.
 
 ## Git y reanudación exacta
 
-Unity: commit **`0f38435aae8975d82e35da959c6d17cef367ac26`**; sin push. Se incluyen
-solo nuevos recursos, verificadores, documentación y evidencia propios.
-GraphicsSettings, QualitySettings y PackageManagerSettings permanecen ajenos.
-Blender: sin repositorio Git utilizable, no se inicializó.
+Unity: commit **`296e1c7a2a27ab1fcb0db5f79767d2175201d0ce`**.
+Blender: este estado y su evidencia se incluyen en el commit de cierre de sesión
+(ver `git log -1`). Solo cambios propios; sin push. Los tres cambios ajenos
+preparados en Unity permanecen excluidos. La caché `.utmp` rastreada que regeneró
+el build se restituyó a su estado previo.
 
-**Retomar en 12.1:** usar el acabado 09 como figura exterior estática y los rigs
-validados (contacto R03 con triangulación fija) para revisar materiales/luz.
-Preparar escena AR con figura junto al panel y tag descubierto; mantener las
-cámaras interior/exterior independientes. Crear APK, marcador e instrucciones
-antes de solicitar M#[4]. No solicitar teléfono durante preparación innecesariamente.
+**Retomar exactamente en 12.2 / M#[4]** con la APK y guía indicadas. Antes de
+instalar, comprobar dispositivo autorizado y modelo/ABI; no recompilar ni pedir
+reimprimir por defecto. Obtener la revisión física y completar 12.3; si requiere
+ajustes, preparar una nueva APK y repetir solo los casos afectados. No cerrar 12
+ni iniciar 13 mientras falte esa evidencia.
 
-Próximos dos pasos previstos:
+Próximos dos pasos principales previstos:
 
-1. **12:** materiales, iluminación y composición figura estática/panel; preparar
-   build y después realizar la revisión física M#[4]. Detenerse si esa acción
-   indispensable queda sin respuesta, guardando estado.
-2. **13:** calma y acecho 0–20 s con cámara anticipada continua; depende de cerrar 12.
-
-No se inició un tercer paso. M#[4]/M#[5] siguen previstas, todavía no solicitadas;
-no hay acción manual necesaria pendiente de respuesta en este cierre.
+1. **12 retomado:** revisión G20 M#[4], evidencia y ajustes de materiales/composición.
+2. **13:** calma y acecho 0–20 s, anticipación continua de cámara; únicamente tras
+   cerrar 12. Después detenerse, sin iniciar 14 en esa pareja.
