@@ -1,0 +1,22 @@
+printer Brother_DCP-T530DW now printing Brother_DCP-T530DW-47.  enabled since Sat Oct  3 10:49:46 2026
+	Printer is stopped. No Paper.
+	Form mounted:
+	Content types: any
+	Printer types: unknown
+	Description: Brother DCP-T530DW
+	Alerts: cups-waiting-for-job-completed media-empty-error media-needed-error
+	Location: sala
+	Connection: direct
+	Interface: /etc/cups/ppd/Brother_DCP-T530DW.ppd
+	On fault: no alert
+	After fault: continue
+	Users allowed:
+		(all)
+	Forms allowed:
+		(none)
+	Banner required
+	Charset sets:
+		(none)
+	Default pitch:
+	Default page size:
+	Default port settings:

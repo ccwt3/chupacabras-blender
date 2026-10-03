@@ -1,0 +1,52 @@
+"/tmp/chupacabras_job47.test":
+    Get-Job-Attributes:
+        attributes-charset (charset) = utf-8
+        attributes-natural-language (naturalLanguage) = en
+        job-uri (uri) = ipp://localhost:631/jobs/47
+    Chupacabras marker job 47                                            [PASS]
+        RECEIVED: 1520 bytes in response
+        status-code = successful-ok (successful-ok)
+        attributes-charset (charset) = utf-8
+        attributes-natural-language (naturalLanguage) = en
+        number-of-documents (integer) = 1
+        job-media-progress (integer) = 0
+        job-more-info (uri) = http://localhost:631/jobs/47
+        job-printer-up-time (integer) = 1791046262
+        job-printer-uri (uri) = ipp://localhost:631/printers/Brother_DCP-T530DW
+        job-uri (uri) = ipp://localhost:631/jobs/47
+        printer-uri (uri) = ipp://localhost/printers/Brother_DCP-T530DW
+        ColorModel (nameWithoutLanguage) = Gray
+        copies (integer) = 1
+        finishings (enum) = none
+        fit-to-page (boolean) = false
+        job-cancel-after (integer) = 10800
+        job-hold-until (keyword) = no-hold
+        job-priority (integer) = 50
+        job-sheets (1setOf nameWithoutLanguage) = none,none
+        media (keyword) = Letter
+        number-up (integer) = 1
+        PageSize (nameWithoutLanguage) = Letter
+        print-color-mode (keyword) = color
+        print-scaling (keyword) = none
+        printer-mandatory-job-attributes (nameWithoutLanguage) = attributes-charset,attributes-natural-language,printer-uri
+        scaling (integer) = 100
+        sides (keyword) = one-sided
+        job-uuid (uri) = urn:uuid:75ed9def-6f99-381f-427f-30b3f364e785
+        date-time-at-completed (no-value) = no-value
+        date-time-at-creation (dateTime) = 2026-10-03T16:49:46Z
+        date-time-at-processing (dateTime) = 2026-10-03T16:49:46Z
+        time-at-completed (no-value) = no-value
+        time-at-creation (integer) = 1791046186
+        time-at-processing (integer) = 1791046186
+        job-id (integer) = 47
+        job-state (enum) = processing
+        job-state-reasons (keyword) = job-printing
+        job-impressions-completed (integer) = 0
+        job-media-sheets-completed (integer) = 0
+        job-k-octets (integer) = 15
+        document-format-supplied (mimeMediaType) = application/octet-stream
+        document-format-detected (mimeMediaType) = application/pdf
+        document-format (mimeMediaType) = application/pdf
+        document-name-supplied (nameWithoutLanguage) = 03_marker_carta.pdf
+        job-printer-state-message (textWithoutLanguage) = Unable to detect print-quality, using 'normal'!
+        job-printer-state-reasons (1setOf keyword) = cups-waiting-for-job-completed,media-empty-error,media-needed-error

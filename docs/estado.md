@@ -119,7 +119,14 @@ sin push, conforme a la solicitud de esta sesión.
 - **M#[7]:** prueba de nueva figura en G20, futura F5–F7, no solicitada.
 - **M#[8]:** posible S23 en exposición, futura y no solicitada.
 - **M#[9]: resuelta.** Usuario confirmó continuar figura AR F1–F2; la plantilla
-  del corto era anterior. No queda pregunta pendiente ni bloqueo manual actual.
+  del corto era anterior. No queda decisión de alcance pendiente para continuar F3–F4.
+
+- **M#[10]: resuelta, solo impresión.** Copia adicional del AprilTag enviada
+  una vez a sala (Brother DCP-T530DW), trabajo **47**, carta al 100 % sin ajuste.
+  Hubo aviso inicial de falta de papel; CUPS confirmó después una hoja completada
+  correctamente y la impresora quedó sin alertas. Medida física de esta copia
+  no comprobada. [Estado y evidencia](impresion_sala.md). Sin acciones pendientes
+  por esta impresión; M#[7] sigue futura.
 
 ## Punto exacto de retoma
 

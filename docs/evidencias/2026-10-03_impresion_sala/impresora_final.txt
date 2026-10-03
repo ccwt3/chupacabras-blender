@@ -1,0 +1,22 @@
+printer Brother_DCP-T530DW is idle.  enabled since Sat Oct  3 10:51:42 2026
+	Printer is idle.
+	Form mounted:
+	Content types: any
+	Printer types: unknown
+	Description: Brother DCP-T530DW
+	Alerts: none
+	Location: sala
+	Connection: direct
+	Interface: /etc/cups/ppd/Brother_DCP-T530DW.ppd
+	On fault: no alert
+	After fault: continue
+	Users allowed:
+		(all)
+	Forms allowed:
+		(none)
+	Banner required
+	Charset sets:
+		(none)
+	Default pitch:
+	Default page size:
+	Default port settings:
