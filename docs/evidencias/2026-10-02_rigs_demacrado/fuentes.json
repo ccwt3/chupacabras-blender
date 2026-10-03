@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "creature_meshes": 18,
+  "rest_mesh_error": 0.0,
+  "sheep_r03_triangles_unchanged": true,
+  "sheep_shape_keys_unchanged": true,
+  "physical_device": false
+}

@@ -16,6 +16,7 @@ from oveja import positions, export
 from rig_oveja import key_pose, linear_actions
 
 NAME='11_rigs_contacto'+os.environ.get('CHUPA_SUFFIX','')
+SOURCE=os.environ.get('CHUPA_MODEL','09_chupacabras_acabado')
 
 def segment_distance(p,a,b):
     d=b-a
@@ -43,6 +44,13 @@ def make_rig(root, meshes):
                      (f'Thigh.{side}',(sign*.37,-1.15,1.23),(sign*.63,-.92,.88),'Pelvis'),
                      (f'Shin.{side}',(sign*.63,-.92,.88),(sign*.69,-1.40,.41),f'Thigh.{side}'),
                      (f'Foot.{side}',(sign*.69,-1.40,.41),(sign*.68,-.9,.10),f'Shin.{side}')])
+    if 'demacrado' in SOURCE:
+        # Rest joints follow the revised shoulder/pelvis, not the old body width.
+        heads={'Pelvis':(0,-1.15,1.31),'Tail0':(0,-1.37,1.31)}
+        for side,sign in [('L',1),('R',-1)]:
+            heads['Arm.'+side]=(sign*.40,.32,1.65)
+            heads['Thigh.'+side]=(sign*.28,-1.15,1.31)
+        defs=[(n,heads.get(n,a),b,parent) for n,a,b,parent in defs]
     for name,a,b,parent in defs:
         bone=data.edit_bones.new(name);bone.head=a;bone.tail=b
         if parent:bone.parent=data.edit_bones[parent]
@@ -101,7 +109,7 @@ def bisect(function, lo, hi, tolerance=1e-6):
 def main():
     for d,e in [('scenes','.blend'),('exports','.fbx'),('exports','.json')]:
         if (ROOT/d/(NAME+e)).exists():raise FileExistsError(NAME+e)
-    bpy.ops.wm.open_mainfile(filepath=str(ROOT/'scenes/09_chupacabras_acabado.blend'),use_scripts=False)
+    bpy.ops.wm.open_mainfile(filepath=str(ROOT/'scenes'/(SOURCE+'.blend')),use_scripts=False)
     scene=bpy.context.scene;scene.frame_start=1;scene.frame_end=181;scene.render.fps=30
     root=bpy.data.objects['ChupacabrasAssetRoot']
     meshes=[o for o in root.children if o.type=='MESH']
@@ -154,8 +162,9 @@ def main():
     neck_index=min(wool,key=lambda i:(neutral[i]-Vector((-.10,-.55,.84))).length)
     # Actual distal fang / lower tooth vertices, not empty sockets in air.
     upper_mesh=bpy.data.objects['Chupa_Detail_Ivory'];lower_mesh=bpy.data.objects['Chupa_LowerTeeth']
-    upper_index=min(range(len(upper_mesh.data.vertices)),key=lambda i:(upper_mesh.data.vertices[i].co-Vector((.152,1.36,.99))).length)
-    lower_index=min(range(len(lower_mesh.data.vertices)),key=lambda i:(lower_mesh.data.vertices[i].co-Vector((.12,1.38,1.015))).length)
+    face_width=.76 if 'demacrado' in SOURCE else 1
+    upper_index=min(range(len(upper_mesh.data.vertices)),key=lambda i:(upper_mesh.data.vertices[i].co-Vector((.152*face_width,1.36,.99))).length)
+    lower_index=min(range(len(lower_mesh.data.vertices)),key=lambda i:(lower_mesh.data.vertices[i].co-Vector((.12*face_width,1.38,1.015))).length)
     upper_rest=upper_mesh.data.vertices[upper_index].co.copy();lower_rest=lower_mesh.data.vertices[lower_index].co.copy()
     records=[];max_contact=0;min_floor=100
     for frame in range(1,182):
@@ -232,7 +241,8 @@ def main():
     scene.frame_set(1)
     bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'scenes'/(NAME+'.blend')))
     export(ROOT/'exports'/(NAME+'.fbx'),True)
-    report=dict(name=NAME,duration=6,creature_bones=len(rig.data.bones),max_contact=max_contact,min_height=min_floor,
+    for mesh in meshes+[sheep]:mesh.data.calc_loop_triangles()
+    report=dict(name=NAME,source=SOURCE,triangles=sum(len(m.data.loop_triangles) for m in meshes+[sheep]),duration=6,creature_bones=len(rig.data.bones),max_contact=max_contact,min_height=min_floor,
                 upper_vertex=upper_index,lower_vertex=lower_index,neck_vertex=neck_index,
                 physical_device=False,samples=records)
     (ROOT/'exports'/(NAME+'.json')).write_text(json.dumps(report,separators=(',',':'))+'\n')

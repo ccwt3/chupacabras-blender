@@ -1,0 +1,5 @@
+00:00.570  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/10_rig_oveja.blend"
+RIG_REOPEN_OK {"name": "10_rig_oveja", "triangles": 612, "samples": 241, "max_vertex_error": 0, "min_height": -1.4884825816352532e-07, "min_triangle_area": 3.450372748232825e-05, "max_contact": 0, "max_surface": 0, "max_jump": 0, "physical_device": false}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

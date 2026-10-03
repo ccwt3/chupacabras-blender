@@ -1,0 +1,26 @@
+{
+  "/home/cacawatin/code/blender/chupacabras": {
+    "previous_files": 1104,
+    "unchanged": 1098,
+    "intentional_changes": [
+      ".gitignore",
+      "docs/estado.md",
+      "docs/plan_secuencia.md",
+      "scripts/rig_chupacabras_poses.py",
+      "scripts/rig_contacto.py",
+      "scripts/verificar_rigs.py"
+    ],
+    "unexpected_changes": []
+  },
+  "/home/cacawatin/code/unity/chupacabras": {
+    "previous_files": 1739,
+    "unchanged": 1735,
+    "intentional_changes": [
+      "Assets/Editor/AppearanceBuild.cs",
+      "Assets/Editor/RigBuild.cs",
+      "scripts/build_appearance.sh",
+      "scripts/verify_appearance_apk.py"
+    ],
+    "unexpected_changes": []
+  }
+}

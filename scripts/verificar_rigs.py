@@ -19,7 +19,14 @@ scene=bpy.context.scene
 triangles=0
 for mesh in [o for o in scene.objects if o.type=='MESH']:
     mesh.data.calc_loop_triangles();triangles+=len(mesh.data.loop_triangles)
-assert triangles==(612 if name.startswith('10') else 11162),triangles
+assert triangles==reference.get('triangles',612 if name.startswith('10') else 11162),triangles
+for mesh in [o for o in scene.objects if o.type=='MESH' and o.name.startswith('Chupa_')]:
+    for vertex in mesh.data.vertices:
+        weights=[g.weight for g in vertex.groups if g.weight>0]
+        assert 1<=len(weights)<=2 and abs(sum(weights)-1)<1e-6,(mesh.name,vertex.index,weights)
+    if mesh.name.startswith(('Chupa_Head','Chupa_Eye','Chupa_Ear')):
+        head=mesh.vertex_groups['Head'].index
+        assert all(len(v.groups)==1 and v.groups[0].group==head for v in mesh.data.vertices),mesh.name
 bm=bmesh.new();bm.from_mesh(bpy.data.objects['Sheep_Quaternius'].data)
 assert not any(e.is_boundary for e in bm.edges),'Open wool boundary'
 assert not any(not v.link_faces for v in bm.verts),'Loose wool vertex'

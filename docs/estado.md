@@ -1,193 +1,186 @@
 # Estado de continuidad
 
-Actualizado: **2 de octubre de 2026**, revisión demacrada solicitada.
-**8–9 revisados; modelo nuevo listo para adaptar rig y aspecto (11–12).**
-Se trabajaron únicamente los dos pasos reabiertos por la corrección estética;
-13–24 no iniciados. No se trabajó un tercer paso principal.
+Actualizado: **2 de octubre de 2026**, continuación de rig/aspecto demacrado
+(logs también fechados 3 de octubre UTC).
+
+**11 adaptado y verificado. 12.1 preparada; 12.2–12.3 pendientes de M#[6].**
+Solo se ejecutaron **11 retomado + 12 retomado**. 13–24 no iniciados.
 
 ## Punto de partida comprobado
 
-Blender partía de `6750d68`, limpio; Unity de `630e033`, con tres cambios ajenos
-preparados en ProjectSettings. Se leyeron estado, plan, evaluación AR, demos,
-modelo y rigs; se inspeccionaron las tres referencias originales y el modelo.
-No se encontraron AGENTS.md adicionales en las raíces/ancestros consultados.
+Blender partía de `eae3f25`, limpio; Unity de `b25a97a`, con tres cambios
+ajenos preparados: `GraphicsSettings.asset`, `QualitySettings.asset` y
+`PackageManagerSettings.asset`. Se leyeron estado, plan, evaluación AR,
+demos y documentos técnicos; no se encontraron AGENTS.md adicionales en las
+raíces/ancestros consultados. Se aplicaron las instrucciones de la conversación.
 
-El paso 12/M#[4] anterior estaba cerrado sobre 0.0.14 y modelo fornido.
-El usuario solicita conservar la forma general, volver al aspecto demacrado,
-esquelético y tenebroso de las referencias, permitiendo más polígonos. Esta
-corrección reabre 8–9 antes de avanzar con la actuación. No implica rechazo de
-la colocación AR centrada ni cambio de tecnología, duración o plataforma.
-Estado previo íntegro en `docs/evidencias/2026-10-02_demacrado/estado_anterior.md`.
+Las fuentes demacradas 08 R01/09 R02 y sus contextos R03 existían. El rig
+anterior y APK 0.0.14 todavía usaban el modelo fornido. Se retomó exactamente
+11.1, sin atribuir a M#[4] una prueba de la nueva malla. Estado anterior íntegro:
+`docs/evidencias/2026-10-02_rigs_demacrado/estado_anterior.md`.
 
 ## Pasos y subpasos
 
-- **1–7 y 10:** conservados; no se amplía su aceptación.
-- **8.1/8.2/8.4 revisados:** anatomía demacrada R01, vistas, referencia,
-  importación y ocultamiento comprobados. 8.3: ajuste recibido aplicado;
-  no se inventa una aprobación visual posterior del usuario.
-- **9.1/9.2/9.4 revisados:** acabado R02, rostro/cuencas, piel, espinas y
-  detalle; 9.3 revisión opcional disponible mediante PNG y giro.
-- **11 anterior conservado; adaptación nueva pendiente:** la topología nueva
-  requiere reasignar/verificar pesos, mandíbula y contacto antes de actuar.
-  No usar índices de los vértices del modelo anterior sobre el nuevo.
-- **12 anterior cerrado/M#[4] resuelta; propagación nueva pendiente:** rig,
-  materiales y figura/panel de producción aún contienen el modelo anterior.
-  La aceptación física previa no certifica la nueva malla ni su legibilidad.
-- **13–24:** no iniciados. No se ejecutó calma/acecho ni salto definitivo.
+- **1–10:** conservados, incluidos 8–9 revisados y oveja reutilizada/rig 10.
+  No se amplía la aceptación física ni se inventa aprobación estética posterior.
+- **11.1 completo:** pesos nuevos por posición, articulaciones adaptadas,
+  23 huesos, mandíbula/cabeza/cuencas y dos influencias máximas por vértice.
+- **11.2 completo:** contacto horneado y desplazamiento conjunto de seis
+  segundos, con oveja R03 y sus diagonales conservadas. No es arrastre final.
+- **11.3 completo:** reapertura Blender, importación Unity, deformaciones,
+  contacto contra triángulos, apoyo y raíz AR independiente. 11.4 sin intervención.
+- **12.1 completa:** escena demacrada R02, materiales/pipeline propios,
+  tres estudios de luz, figura sobre el símbolo, panel lateral y APK 0.0.15.
+- **12.2 pendiente M#[6]; 12.3 parcial:** verificaciones Editor/build completas;
+  legibilidad y brillo reales por comprobar y corregir si procede. **12 no cerrado.**
+  12.4 revisión estética opcional, sin decisiones creativas nuevas indispensables.
+- **13–24 pendientes:** no se animaron calma/acecho, cámara continua ni salto final.
 
 ## Cambios y motivo
 
-Tórax/hombros/muslos más secos, abdomen hundido, costillas fusionadas con piel,
-caderas/articulaciones marcadas, cola delgada, rostro estrecho y cuencas oscuras.
-Se mantienen postura, cresta, garras, mandíbula y seis materiales sólidos.
-Volumen de `Chupa_Body` reducido **55,23 %**; acabado **30.880 triángulos**,
-18 mallas. Mayor geometría autorizada, costo móvil aún no medido.
+Fuentes nuevas de contacto y controles parten del acabado demacrado R02.
+No se copian pesos/índices antiguos: contacto superior **174**, inferior **35**,
+cuello **174**, seleccionados sobre la geometría correspondiente. Se ajustan
+hombros, pelvis y nacimiento de cola al cuerpo nuevo. Las 18 mallas en reposo
+coinciden exactamente con la fuente; oveja, triángulos y shape keys coinciden
+con R03. Se conservan 30.880 + 612 triángulos y los 23 huesos del chupacabras.
 
-La cámara antigua dejó ver oveja en el cuerpo estrecho: fallo guardado, sin
-relajar aceptación. Contextos nuevos R03 acercan la cámara interna a
-`(0.3,-4,2.8)` en Blender y ocultan por profundidad real, sin desactivar oveja,
-polvo ni pantallas. Son muestras de volumen del bloqueo, no actuación final:
-conservan cortes y oveja rígida; la cámara continua corresponde a 13–14.
+Unity reemplaza la criatura en figura exterior, pastoreo y muestra de contacto,
+conservando posición/rotación/escala de R05. Materiales propios mantienen piel
+seca y cuencas oscuras. La primera revisión falló `Exterior layer`: el prefab
+heredó la capa de cine. La sustitución ahora conserva también la capa del
+objeto reemplazado; R02 pasó. R01 se conserva como diagnóstico, no entrega aceptada.
 
-Se reutilizan generadores/verificadores existentes. Nuevos scripts de modelado,
-giro y comprobación Unity; presupuesto de geometría explícito por entrega y
-posición de cámara opcional, sin cambiar los valores históricos por defecto.
-Los PNG intermedios del giro son regenerables, quedan en disco y se excluyen de
-Git. [Detalles y comandos](chupacabras_demacrado.md).
+Generadores/verificadores existentes admiten fuentes nuevas y recuento de
+triángulos por entrega; mantienen expectativas y destinos históricos por
+defecto. No se cambiaron tolerancias para aceptar la nueva malla. Selección
+opcional de escena/carpeta/versión en build de aspecto; sin cambios al runtime
+AR, paquetes ni Editor. [Detalle y reproducción](rigs_demacrado.md).
 
 ## Entregas y evidencias
 
-Blender, raíz `/home/cacawatin/code/blender/chupacabras`:
+Blender: `/home/cacawatin/code/blender/chupacabras`:
 
-- `scenes/08_chupacabras_demacrado_r01.blend`.
-- **`scenes/09_chupacabras_demacrado_r02.blend`**, acabado vigente.
-- FBX/JSON homónimos en `exports/`; contextos vigentes **`_contexto_r03`**.
-- Cuatro vistas Blender por fuente y capturas `*_unity_*.png` en `previews/`.
-- `previews/09_chupacabras_demacrado_r02_giro.mp4`: 10 s, 960×720, 12 fps.
-- `docs/evidencias/2026-10-02_demacrado/`: logs, informes, hashes, estado anterior.
+- **`scenes/11_rigs_contacto_demacrado_r01.blend`** y
+  **`scenes/11_rig_chupacabras_poses_demacrado_r01.blend`**.
+- FBX/JSON homónimos en `exports/`; contacto adicional `_surface.json`.
+- **`previews/11_rigs_contacto_demacrado_r01.mp4`**, 6 s, 960 × 540, 15 fps.
+- Cuatro PNG de contacto; 90 PNG de vídeo regenerables excluidos de Git.
+- `docs/evidencias/2026-10-02_rigs_demacrado/`: logs, referencias, informes Unity,
+  hashes, comprobación reproducible de fuentes, FFprobe y estado anterior.
+  El respaldo local `respaldo_unity/` queda fuera de Git.
 
-Unity, raíz `/home/cacawatin/code/unity/chupacabras`:
+Unity: `/home/cacawatin/code/unity/chupacabras`:
 
-- `Assets/Creature/08_chupacabras_demacrado_r01/` y
-  `Assets/Creature/09_chupacabras_demacrado_r02/`: modelos/materiales/prefabs.
-- Escenas homónimas **`_contexto_r03.unity`**, independientes de AR R05.
-- `Assets/Editor/LeanCameraCheck.cs`, `docs/pasos08_09_demacrado.md`.
-- `docs/evidencias/2026-10-02_demacrado_{forma_r03,acabado,fullres}/`.
-- R01 de acabado, R02 de contexto y búsquedas se conservan como diagnóstico.
+- `Assets/Rigs/11_*demacrado_r01.*` y escenas homónimas en `Assets/Scenes/`.
+- **`Assets/Scenes/12_AppearanceAR_demacrado_r02.unity`**.
+- **`Assets/Appearance12DemacradoR02/AppearanceStudy.prefab`**, materiales y URP.
+- `docs/evidencias/2026-10-02_rigs_demacrado/`: capturas y pruebas de rigs.
+- `docs/evidencias/2026-10-02_aspecto_demacrado_r02/`: tres planos internos,
+  tres vistas exteriores, comparación de cámara y ejecución sintética.
+- `docs/evidencias/2026-10-02_aspecto_demacrado_apk/`: firma, alineación, APK.
+- `docs/evidencias/rigs_20261003_012606/`: regresiones existentes.
+- **Guía M#[6]:** `docs/pasos11_12_demacrado.md`.
 
-**APK vigente histórica sin cambios:**
-`builds/android/12_appearance_20260930_225854.apk`, 38.676.888 bytes,
+**APK nueva preparada, sin instalar:**
+`builds/android/12_appearance_20261003_012410.apk`, **0.0.15**, 41.400.738 bytes,
+SHA-256 `b10e73187f762d6691ecea2319fcb8f1676df37283531bee41d4bafaae5ae4a5`.
+Paquete `com.chupacabras.ar.appearance12`, ARM64/IL2CPP.
+La APK contiene estudios de iluminación, **no el corto definitivo**.
+
+APK histórica 0.0.14 conservada: `builds/android/12_appearance_20260930_225854.apk`,
 SHA-256 `4c4b33846b193684dd925fe9a162f3d2da8c52fe0aaba32994b0ce028b275551`.
-No contiene la revisión demacrada. No se construyó otra APK ni se solicitó teléfono.
-Marcador `marker/03_marker_carta.pdf` y demos conservados.
+Marcador conservado `marker/03_marker_carta.pdf`, SHA-256
+`c670fc855c002dea0ad70c458db525b36dfcfff6e14400347bd0c7d1a47f1a83`.
 
-## Pruebas y limitaciones
+## Pruebas, resultados y limitaciones
 
-- Blender 5.2.2 LTS: reaperturas de revisiones nuevas e históricas, mallas
-  cerradas, caras válidas, UV y unidades correctos. Demos verificadas, incluida
-  duración 35 s y contacto. Producción sigue fijada a 40 s.
-- Contextos nuevos: 1.200 cuadros sin cruce AABB del granero, 565 muestras
-  de referencias de contacto con error máximo 0,0000009903 m (no mordida final).
-- Unity **6000.3.22f1**: compilación C#, importación y reapertura de escenas,
-  clip 40 s, escala/ejes/materiales y 32 aserciones de tracking correctas.
-- Ambas fuentes: 150/150 cuadros de criatura oculta, 114/114 de oveja oculta,
-  30/30 de campo vacío. Acabado repetido a **960×540**, 264 cuadros y cero
-  píxeles visibles de los objetivos ocultos; control positivo 12.809 píxeles.
-- Error máximo de límites importados 0,0000004299 m; referencias de contacto
-  0,0000023961 m. Es prueba de volumen, no validación de rig nuevo.
-- Python compila; clang-format y diff de código/documentación correctos.
-  `git diff --check` general de Unity señala espacios finales del YAML generado
-  automáticamente (.meta/escenas/prefabs); se conserva el formato del Editor.
-  No hay suite/linter Python configurado.
-- Giro verificado por FFprobe: H.264, 120 cuadros, 10 s. Vistas y capturas
-  inspeccionadas. **844 archivos históricos y tres configuraciones ajenas intactos.**
-- La primera cámara falló de verdad; se conservan su log e informe separado.
-  Avisos de cierre PlayableGraph/SDL/Vulkan y SDK .NET no impidieron las
-  verificaciones finales. No se cambiaron ajustes globales para silenciarlos.
-- Sin prueba física nueva, sin APK nueva. Ojos del acabado: un píxel en el
-  plano lejano de revisión; legibilidad/luz móviles por revalidar en 12.
-  Rendimiento sostenido, calibración, prueba física 16 KB y S23 pendientes.
-  Se conserva el seguimiento del aviso OpenGL aislado de 0.0.13; no se presume
-  corregido por las pruebas de escritorio. Limpieza del G20 permanece como fue
-  comprobada al cerrar la sesión física anterior, sin nuevo acceso ahora.
+- Blender **5.2.2 LTS**: 181 cuadros por muestra nueva; duración seis segundos,
+  pesos normalizados, sin áreas triangulares nulas, apoyo y coincidencia de
+  superficies. Error contra referencias guardadas cero. Contacto máximo
+  0,001016 mm; salto entre cuadros 19,74 mm, bajo umbral existente de 30 mm.
+- Unity **6000.3.22f1**: contacto 259.735 puntos comparados, error de vértice
+  máximo 0,02780 mm, contacto sobre lana máximo **0,001396 mm**. Controles:
+  222.811 puntos, error máximo 0,009343 mm. Raíz AR independiente.
+- Regresiones Blender: demos, rig oveja, controles antiguos y contacto R03
+  correctos. Demo animada conserva 35 s y contacto. Regresiones Unity mediante
+  `scripts/verify_rigs.sh`: las tres muestras anteriores pasan.
+- Aspecto: geometría/capas/centrado correctos, tres planos y tres perspectivas;
+  panel fuera del dibujo, píxeles internos idénticos al cambiar pose AR.
+  Inspección visual de boca, poses, composición y los tres estudios realizada.
+- Play Mode sintético: adquisición, pérdida, reloj detenido y recuperación
+  correctos. 32 aserciones existentes de tracking pasan en rigs/aspecto.
+- APK: BuildReport **0 errores / 0 advertencias**; firma, CAMERA, ARM64 y ocho
+  bibliotecas ELF/empaquetado a 16 KB comprobados. Sin ejecución física nueva.
+- FFprobe: H.264, 90 cuadros, 6 s. Python compila, Bash válido, clang-format
+  y diff de código/documentación correctos. No hay suite/linter Python configurado.
+- Los hitos/entregas históricos y tres configuraciones ajenas conservan sus
+  hashes. El verificador antiguo reserializó escena 10: diff diagnóstico guardado
+  y bytes originales restituidos. Cachés rastreadas `.utmp` también restituidas.
+- Avisos de entorno GTK/Vulkan, SDL y cierre de PlayableGraph no impidieron los
+  resultados finales. El fallo R01 de capa sí fue real y queda separado.
+- **Sin prueba física de 0.0.15.** Costo de geometría nueva, brillo/legibilidad,
+  calibración/FOV exactos, rendimiento sostenido, prueba física Android 16 KB y
+  S23 pendientes. El aviso OpenGL aislado histórico no se considera resuelto
+  por pruebas de escritorio. No se conectó ni instaló nada en el G20.
 
 ## Decisiones confirmadas y acciones manuales
 
-
 - Dos raíces separadas: Blender/fuentes/animaciones y Unity/AR Android.
-- Exclusivamente **Unity 6000.3.22f1**, instalación existente
+- Exclusivamente **Unity 6000.3.22f1** existente en
   `/home/cacawatin/Unity/Hub/Editor/6000.3.22f1/Editor/Unity`, desde Linux.
-- Corto definitivo **40 s**, 30 fps, claves 1–1201, captura 1–1200. Demo de
-  35 s independiente, conservada.
-- Ventana cinematográfica anclada al marcador: escena 3D en tiempo real,
-  cámaras internas, 16:9, dimensión provisional 240 × 135 mm, RT 960 × 540.
-- **Composición híbrida solicitada:** sumar al panel lateral una figura 3D
-  estática del chupacabras, anclada a la misma pose AprilTag y vista por la
-  cámara exterior AR. Mover el teléfono cambia su perspectiva; la animación
-  ocurre dentro de la ventana con su cámara interna. Preparación técnica del paso
-  12 realizada en una build nueva; figura de pie centrada directamente sobre el símbolo y panel vertical al lado,
-  por aclaración del usuario del 30 de septiembre. Su superposición virtual al
-  dibujo es intencional; el detector recibe la imagen real sin superposiciones. Las escenas
-  08–09 conservan su función de revisión de modelos.
-- **Cámara del corto:** rehacer el corte brusco del bloqueo en escenas nuevas
-  13–14 con anticipación continua alrededor de 18,5–20,5 s y entrada lateral o
-  detrás del granero. Se conserva el salto a 20 s y la cámara AR. R04 sigue como
-  hito histórico y no se modifica.
-- Chupacabras original; oveja reutilizada Quaternius CC0. Blender fuente,
-  FBX métrico Generic, sin root motion; compresión de lana mediante blend shape.
-  Para contacto/actuación, conservar triangulación fija de la oveja R03.
-- Ruta AprilTag heredada y alcance funcional previo del G20 conservados;
-  mediciones reales pendientes sin ampliación de aceptación. Sin ARCore ni
-  cambio de tecnología. G20 para pruebas; S23 solo exposición, aún sin probar.
-- Marcador tagStandard41h12 ID 0, 100 mm entre esquinas de detección, dibujo
-  180 mm; cubo 50 mm y FOV 60° provisional sin calibración exacta.
-- **M#[1] resuelta:** arrastre izquierda, giro/salida derecha, salto 20 s,
-  aterrizaje 21,2 s, ocultamiento hasta 25 s, campo vacío 39–40 s; efectos y
-  ambiente sin música.
-- **M#[2] resuelta para paso 3:** alcance físico anterior aceptado y medición
-  adicional aplazada. No repetir esa solicitud para continuar producción.
-- **M#[3] resuelta:** Brother DCP-T510W, carta/trabajo 43 y regla de 100 mm
-  confirmados previamente; no se reimprimió ni se pidió medir/conectar teléfono.
-- Mantener aviso de acciones manuales y retirar lo instalado para pruebas al
-  terminar. El usuario reiteró expresamente esta limpieza.
-- **M#[4] resuelta:** acceso USB, ubicación centrada directamente encima del
-  símbolo y lectura de figura/panel confirmados por el usuario en 0.0.14. App
-  desinstalada y limpieza comprobada. No hay acciones manuales necesarias pendientes.
-- **M#[5] prevista para paso 20**, no solicitada. No sustituirla por pruebas de Editor.
-- Sin nuevas decisiones creativas pendientes. La revisión estética adicional es opcional.
-
-
-Actualización de esta sesión:
-
-- **Confirmado:** reducir musculatura y añadir anatomía esquelética/tenebrosa,
-  preservando forma general; se permiten más polígonos. No volver a preguntar.
-- M#[1]–M#[4] conservan sus cierres históricos. **Ninguna acción manual necesaria
-  pendiente.** M#[5] sigue prevista para 20, no solicitada.
-- Preparar rig/aspecto y APK antes de pedir una eventual revisión física de la
-  nueva malla. No atribuir a M#[4] la aceptación de un modelo que no se instaló.
-- Revisión estética de las nuevas vistas opcional; no bloquea el trabajo técnico.
+- Corto definitivo **40 s**, 30 fps, claves 1–1201 y captura 1–1200. Demo de
+  **35 s** independiente. Efectos y ambiente sin música.
+- Ventana 3D en tiempo real con cámaras internas: panel 16:9, 240 × 135 mm,
+  RT 960 × 540, lateral vertical; figura estática de pie centrada sobre el tag.
+  Su oclusión virtual del dibujo es intencional; detector usa cámara sin composición.
+- Cámara del corto: continuidad anticipada 18,5–20,5 s, entrada lateral/detrás
+  del granero, salto 20 s, aterrizaje 21,2 s, ocultamiento hasta 25 s y campo
+  vacío 39–40 s. Arrastre izquierda y giro/salida derecha. Cámara AR independiente.
+  Estos trabajos de actuación siguen pendientes; R04 histórico se conserva.
+- Chupacabras original demacrado/esquelético/tenebroso preservando forma general;
+  mayor geometría autorizada. Oveja Quaternius CC0, sin reconstruirla. Blender
+  fuente, FBX métrico Generic, sin root motion, compresión de lana por blend shape.
+  Conservar triangulación fija R03 para actuación/contacto.
+- AprilTag se mantiene conforme a la prueba funcional y aceptación histórica
+  documentada del G20; no ampliar ese alcance ni añadir ARCore/cambiar tecnología.
+  G20 de pruebas; S23 solo exposición y pendiente hasta probarlo.
+- Marcador tagStandard41h12 ID 0; 100 mm entre esquinas de detección y dibujo
+  180 mm. FOV 60° provisional, sin calibración exacta.
+- **M#[1] resuelta:** guion/audio. **M#[2] resuelta** para paso 3, medición
+  adicional aplazada. **M#[3] resuelta:** Brother DCP-T510W/carta, trabajo 43 y
+  medida física confirmados; no repetir impresión/medida sin necesidad.
+- **M#[4] resuelta históricamente:** composición centrada/brillo de R05/0.0.14
+  confirmados en G20; app retirada y limpieza verificada entonces.
+- **M#[5] prevista para paso 20**, no solicitada.
+- **M#[6] necesaria y pendiente:** conectar/desbloquear el G20 y observar esta
+  APK 0.0.15 con la impresión existente durante tres estudios (18 s), moviendo
+  suavemente la vista. Comprobar lectura de ojos, costillas, espinas, dientes,
+  lana y brillo; figura centrada/panel lateral conservados. APK, marcador y
+  guía listos. El agente instala, diagnostica, captura y retira la app al cerrar.
+  No atribuir aceptación física al silencio ni a las capturas del Editor.
+- Retirar lo instalado para pruebas y comprobar limpieza al terminar sigue
+  siendo una instrucción expresa. No se necesita una decisión creativa nueva.
 
 ## Git y reanudación exacta
 
-Unity: commit `b25a97a`, solo archivos propios. Los tres cambios ajenos
+Unity: commit **`d8a173a`**, únicamente cambios propios; los tres ajustes ajenos
 siguen preparados y excluidos. Blender: este estado y las entregas forman el
-commit de cierre de esta sesión. Sin push ni repositorios nuevos.
+commit de cierre de la sesión. No se inicializan repositorios ni se hace push.
 
-**Retomar en 11.1 con la nueva malla:** partir de
-`scenes/09_chupacabras_demacrado_r02.blend`; conservar el hito
-`11_rigs_contacto_r03.blend`, la oveja R03 y sus diagonales. Adaptar pesos y
-resolución de contacto a la topología nueva, guardar fuentes/exportaciones con
-nombres nuevos, comprobar deformaciones en Blender y Unity. No copiar índices
-viejos de dientes/cuello sin comprobarlos sobre la revisión correspondiente.
+**Retomar exactamente en 12.2 / M#[6]** con APK 0.0.15 y escena demacrada R02.
+Primero recibir acceso físico del G20, identificarlo e instalar la APK ya
+verificada. Registrar legibilidad real, corregir únicamente fallos observados,
+completar 12.3 y retirar la app con limpieza comprobada. No repetir decisiones
+cerradas de posición, duración, tecnología ni impresión. No iniciar 13 antes
+de resolver esta dependencia.
 
-Próximos dos pasos principales previstos:
+Próximos **dos pasos principales previstos**:
 
-1. **11 retomado:** adaptar/verificar rig y contacto de la anatomía demacrada.
-2. **12 retomado:** propagarla al aspecto/composición R05, mantener figura de pie
-   centrada encima del símbolo y panel lateral; revisar legibilidad, preparar
-   APK/evidencias antes de cualquier intervención física indispensable.
+1. **12 retomado:** cerrar M#[6]/12.2–12.3 sobre la malla demacrada.
+2. **13:** calma/acecho 0–20 s y anticipación continua de cámara, solo después
+   del cierre físico de 12. No incluir 14 en esa misma sesión de dos pasos.
 
-No ejecutar un tercer paso. **13–14 son la pareja posterior**, una vez cerradas
-esas dependencias: pastoreo/retirada de ojos a 15 s, cámara continua anticipada
-18,5–20,5 s, entrada lateral/detrás del granero, salto a 20 s y aterrizaje 21,2 s.
-La cámara AR permanece independiente y el hito R04 no se sobrescribe.
+Esta sesión se detiene en la intervención física pendiente; no se ejecuta un
+tercer paso. Para actuar después, usar `11_rigs_contacto_demacrado_r01.blend`,
+el acabado `09_chupacabras_demacrado_r02.blend` y las diagonales R03 de la oveja.

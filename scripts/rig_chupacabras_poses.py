@@ -14,7 +14,8 @@ from rig_oveja import key_pose,linear_actions
 name='11_rig_chupacabras_poses'+os.environ.get('CHUPA_SUFFIX','')
 for d,e in [('scenes','.blend'),('exports','.fbx'),('exports','.json')]:
     if (ROOT/d/(name+e)).exists():raise FileExistsError(name+e)
-bpy.ops.wm.open_mainfile(filepath=str(ROOT/'scenes/11_rigs_contacto.blend'),use_scripts=False)
+source=os.environ.get('CHUPA_CONTACT_SOURCE','11_rigs_contacto')
+bpy.ops.wm.open_mainfile(filepath=str(ROOT/'scenes'/(source+'.blend')),use_scripts=False)
 scene=bpy.context.scene
 rig=bpy.data.objects['ChupaRig'];root=bpy.data.objects['ChupacabrasAssetRoot']
 sr=bpy.data.objects['SheepRig'];sw=bpy.data.objects['SheepAssetRoot'];sheep=bpy.data.objects['Sheep_Quaternius']
@@ -70,5 +71,6 @@ for f in range(1,182):
     records.append(dict(time=(f-1)/30,shape=0,label=labels.get(f,''),meshes=samples))
 scene.frame_set(1);bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'scenes'/(name+'.blend')))
 export(ROOT/'exports'/(name+'.fbx'),True)
-(ROOT/'exports'/(name+'.json')).write_text(json.dumps(dict(name=name,duration=6,physical_device=False,samples=records),separators=(',',':'))+'\n')
+for mesh in meshes:mesh.data.calc_loop_triangles()
+(ROOT/'exports'/(name+'.json')).write_text(json.dumps(dict(name=name,source=source,triangles=sum(len(m.data.loop_triangles) for m in meshes),duration=6,physical_device=False,samples=records),separators=(',',':'))+'\n')
 print('RIG_CONTROLS_OK',name)
