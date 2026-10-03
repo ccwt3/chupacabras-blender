@@ -42,9 +42,11 @@ def main():
     # A higher internal landing camera hides the sheep through the anatomical
     # torso instead of relying on the old solid box extending to the ground.
     cam=bpy.data.objects['CinemaCamera']
+    attack_camera=tuple(float(v) for v in os.environ.get('CHUPA_ATTACK_CAMERA','0,-6,2.4').split(','))
+    assert len(attack_camera)==3 and all(math.isfinite(v) for v in attack_camera)
     for frame in (601,750):
         scene.frame_set(frame)
-        cam.location=(0,-6,2.4)
+        cam.location=attack_camera
         cam.rotation_euler=(Vector((0,0,.95))-cam.location).to_track_quat('-Z','Y').to_euler()
         cam.keyframe_insert('location',frame=frame)
         cam.keyframe_insert('rotation_euler',frame=frame)
@@ -111,6 +113,7 @@ def main():
         source=MODEL,frames=565,max_landmark_error=max_error,duration=40,
         neck_landmark=list(neck_local),bite_landmark=list(bite_local),
         barn_aabb_frames=1200,barn_overlaps=overlaps,
+        attack_camera=list(attack_camera),
         static_sheep_volume=True,final_rig=False,physical_device=False),indent=2)+'\n')
     print('CHUPACABRAS_CONTEXT_OK',max_error)
 

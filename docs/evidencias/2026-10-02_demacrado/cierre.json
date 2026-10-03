@@ -1,0 +1,19 @@
+{
+  "scope": [
+    "8 revision",
+    "9 revision"
+  ],
+  "steps_13_14_started": false,
+  "apk_unchanged": {
+    "path": "/home/cacawatin/code/unity/chupacabras/builds/android/12_appearance_20260930_225854.apk",
+    "bytes": 38676888,
+    "sha256": "4c4b33846b193684dd925fe9a162f3d2da8c52fe0aaba32994b0ce028b275551"
+  },
+  "unity_commit": "b25a97a21e599ef879a6fa90565e4f63ba85f779",
+  "physical_test_performed": false,
+  "manual_actions_pending": [],
+  "next_steps": [
+    11,
+    12
+  ]
+}

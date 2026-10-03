@@ -30,7 +30,7 @@ for entry in reference['objects']:
     assert all(e.is_manifold for e in bm.edges),entry['name']
     assert all(f.calc_area()>1e-10 for f in bm.faces),entry['name']
     bm.free()
-assert triangles==reference['triangles'] and triangles<18000
+assert triangles==reference['triangles'] and triangles<reference.get('triangle_budget',18000)
 assert (bpy.data.objects['JawPivot'].location-bpy.data.objects['BiteSocket'].location).length > .1
 assert 'Chupa_Jaw' in bpy.data.objects and 'BiteSocket' in bpy.data.objects
 print('CREATURE_REOPEN_OK '+json.dumps(dict(name=name,triangles=triangles,

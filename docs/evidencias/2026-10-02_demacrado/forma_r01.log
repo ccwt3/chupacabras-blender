@@ -1,0 +1,12 @@
+00:02.927  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/08_chupacabras_demacrado_r01_frente.png'
+00:03.058  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/08_chupacabras_demacrado_r01_perfil.png'
+00:03.185  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/08_chupacabras_demacrado_r01_espalda.png'
+00:03.326  render           | Saved: '/home/cacawatin/code/blender/chupacabras/previews/08_chupacabras_demacrado_r01_tres_cuartos.png'
+
+FBX export starting... '/home/cacawatin/code/blender/chupacabras/exports/08_chupacabras_demacrado_r01.fbx'
+export finished in 0.0431 sec.
+Info: Saved as "08_chupacabras_demacrado_r01.blend"
+LEAN_CREATURE_OK {"name": "08_chupacabras_demacrado_r01", "triangles": 28240}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

@@ -1,0 +1,10 @@
+00:00.392  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/07_oveja_r04.blend"
+00:00.401  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/06_escenario_contexto.blend"
+Info: Saved as "08_chupacabras_demacrado_r01_contexto_r03.blend"
+
+FBX export starting... '/home/cacawatin/code/blender/chupacabras/exports/08_chupacabras_demacrado_r01_contexto_r03.fbx'
+export finished in 0.6943 sec.
+CHUPACABRAS_CONTEXT_OK 9.902267292640298e-07
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

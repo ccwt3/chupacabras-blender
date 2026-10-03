@@ -1,5 +1,7 @@
 # Chupacabras original: pasos 8 y 9
 
+**Revisión vigente de modelado — 2 de octubre de 2026:** [chupacabras demacrado](chupacabras_demacrado.md), forma R01/acabado R02. El resto de este documento conserva el hito anterior y sus comprobaciones; rig/aspecto de producción aún usan ese modelo.
+
 24 de septiembre de 2026, México. Modelado original generado en Blender
 5.2.2 LTS e importado con Unity **6000.3.22f1**. Se completan solamente
 anatomía/silueta y acabado geométrico. Rig, actuación e iluminación definitiva

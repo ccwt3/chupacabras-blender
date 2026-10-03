@@ -1,0 +1,12 @@
+{
+  "09_chupacabras_acabado": {
+    "body_volume_m3": 2.8396890049040935,
+    "body_vertices": 3647
+  },
+  "09_chupacabras_demacrado_r02": {
+    "body_volume_m3": 1.2713621096347716,
+    "body_vertices": 13520
+  },
+  "volume_ratio": 0.44771174147561626,
+  "physical_device": false
+}
