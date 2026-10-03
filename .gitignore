@@ -12,3 +12,11 @@ docs/evidencias/2026-10-02_rigs_demacrado/respaldo_unity/
 /scenes/14_ataque_r0[1-6].blend
 /exports/13_calma_r0[1-6].*
 /exports/14_ataque_r0[1-6].*
+
+# F2 iterations and regenerable frames remain local; final R04 and logs are versioned.
+/previews/F2_chupacabras_forma_*/giro_frames/
+/previews/F2_chupacabras_forma_r0[1-3]/
+/scenes/F2_chupacabras_forma_r0[1-3].blend
+
+# Keep exact compressed logs in Git and preserve raw session logs locally.
+/docs/evidencias/2026-10-03_figura/*.log

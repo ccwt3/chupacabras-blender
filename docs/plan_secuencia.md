@@ -86,7 +86,9 @@ no borrar aserciones de pérdida/timeout para hacer pasar el nuevo flujo.
 ## Etapas nuevas y aceptación
 
 Los identificadores **F1–F7** evitan confundir este plan con los hitos 1–24.
-**Todas están pendientes de ejecución. Esta sesión solo cambia documentación.**
+**Actualización del 3 de octubre de 2026:** F1 y F2 completadas en su alcance
+técnico y de forma; F3–F7 pendientes. La aprobación visual móvil continúa en F5.
+[Entregas, comprobaciones y límites](figura_ar_f1_f2.md).
 Máximo dos etapas principales por sesión, contando una retomada como primera.
 
 ### F1. Aislar la figura AR existente
@@ -262,9 +264,10 @@ sin una ampliación explícita del encargo. Git commit/push según la solicitud.
   alcance, **sin validación física**. No pedir el G20 para cerrar aquella ventana.
 - **M#[7]**: nueva figura en G20, prevista para F5–F7; no solicitada todavía.
 - **M#[8]**: S23 en exposición, prevista solo si llega a estar disponible.
+- **M#[9]**: resuelta el 3 de octubre; el usuario confirmó figura AR y aclaró
+  que el bloque de acuerdos del corto en su solicitud era una plantilla anterior.
 
-No hay intervención física indispensable para esta replanificación ni para
-empezar F1–F2. No pedir decisiones ya confirmadas. Si aparece una nueva decisión
+No hay intervención física indispensable para empezar F3–F4. No pedir decisiones ya confirmadas. Si aparece una nueva decisión
 creativa indispensable, preparar vistas concretas antes de solicitarla y guardar
 el punto de interrupción; el silencio no cuenta como aprobación.
 
@@ -274,4 +277,4 @@ aclaró que «next-job» pertenecía a otro proyecto; no se crea ese archivo. El
 canónico vive en Blender.
 Al continuar, comprobar archivos/resultados y ejecutar como máximo las próximas
 dos etapas pendientes; conservar fuentes anteriores y documentar límites reales.
-**Próxima pareja: F1 + F2. No retomar 15/arrastre ni 16/consolidación del corto.**
+**Próxima pareja: F3 + F4. No retomar 15/arrastre ni 16/consolidación del corto.**
