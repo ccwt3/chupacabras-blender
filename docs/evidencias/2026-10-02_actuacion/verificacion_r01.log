@@ -1,0 +1,11 @@
+00:01.018  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/14_ataque_r01.blend"
+Traceback (most recent call last):
+  File "/home/cacawatin/code/blender/chupacabras/scripts/verificar_actuacion.py", line 51, in <module>
+    assert not collisions, collisions[:20]
+           ^^^^^^^^^^^^^^
+AssertionError: [393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412]
+
+Error: script failed, file: 'scripts/verificar_actuacion.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

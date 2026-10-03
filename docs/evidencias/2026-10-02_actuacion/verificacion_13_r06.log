@@ -1,0 +1,5 @@
+00:00.772  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/13_calma_r06.blend"
+ACTUACION_BLENDER_OK {"passed": true, "name": "13_calma_r06", "frames": 601, "duration": 20.0, "production_duration": 40, "max_reference_error": 0.0, "min_floor": -7.450580596923828e-09, "max_camera_step": 0.25278341929219894, "max_camera_rotation_step_degrees": 0.7465062190276311, "max_creature_step": 0.13324182161889325, "barn_wall_roof_intersections": [], "closest_jump_to_camera_xy": [100, 0], "physical_device": false, "occlusion": "Comprobar m\u00e1scaras Unity separadamente"}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

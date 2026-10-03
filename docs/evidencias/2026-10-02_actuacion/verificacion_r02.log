@@ -1,0 +1,11 @@
+00:00.895  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/14_ataque_r02.blend"
+Traceback (most recent call last):
+  File "/home/cacawatin/code/blender/chupacabras/scripts/verificar_actuacion.py", line 51, in <module>
+    assert not collisions, collisions[:20]
+           ^^^^^^^^^^^^^^
+AssertionError: [606, 607]
+
+Error: script failed, file: 'scripts/verificar_actuacion.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

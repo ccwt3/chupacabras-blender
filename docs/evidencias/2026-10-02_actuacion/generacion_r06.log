@@ -1,0 +1,14 @@
+00:00.403  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/scenes/11_rigs_contacto_demacrado_r01.blend"
+Info: Saved as "13_calma_r06.blend"
+
+FBX export starting... '/home/cacawatin/code/blender/chupacabras/exports/13_calma_r06.fbx'
+export finished in 1.2959 sec.
+ACTUACION_EXPORT_OK 13_calma_r06 20.0
+Info: Saved as "14_ataque_r06.blend"
+
+FBX export starting... '/home/cacawatin/code/blender/chupacabras/exports/14_ataque_r06.fbx'
+export finished in 1.8658 sec.
+ACTUACION_EXPORT_OK 14_ataque_r06 25.0
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

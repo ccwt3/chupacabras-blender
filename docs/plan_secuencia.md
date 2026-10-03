@@ -8,7 +8,27 @@ La entrega principal pasa a ser **el proyecto Unity, sus recursos editables y un
 
 El chupacabras es el protagonista visual: tendrá un modelo original basado en las tres referencias recibidas. La oveja procederá de un modelo low-mid poly existente, adaptado para Blender y Unity.
 
-El trabajo se divide en **24 pasos**, cada uno con subpasos asignados a Astra o al usuario y una entrega verificable. Se han creado demos Blender aparte. Los pasos 1–3 están cerrados con el alcance aceptado y documentado; la ABI, instalación, cámara y seguimiento físico se comprobaron en el G20. Los pasos 4–9 están completados con evidencia de intercambio, bloqueo, escenario, oveja y modelado/acabado del chupacabras; consultar `docs/estado.md`. Los pasos 10–11 también están completados con rigs y contacto R03 validados. El paso 12 está cerrado tras la revisión física de R05/0.0.14 en el G20 y aceptación del usuario; M#[4] resuelta. La solicitud del 2 de octubre de 2026 reabre 8–9 para un chupacabras demacrado; se revisan en esta sesión. La nueva malla requiere propagar y revalidar 11–12 antes de iniciar 13–14. El cierre físico de 12/M#[4] se conserva para el modelo anterior. Véase [revisión demacrada](chupacabras_demacrado.md). **Continuación vigente:** 11 adaptado y verificado con la nueva malla; 12.1 preparado en R02/0.0.15, pendiente de revisión física **M#[6]** antes de cerrar 12.2–12.3. 13–24 no iniciados. Véase [rig/aspecto demacrado](rigs_demacrado.md).
+El trabajo se divide en **24 pasos**, con entregas y aceptación verificables.
+Los pasos 1–11 están completados con el alcance histórico documentado, incluido
+el rig demacrado revalidado. El cierre físico de 12/M#[4] corresponde al modelo
+anterior; para la malla demacrada, 12.1 está preparado en R02/APK 0.0.15 y
+12.2–12.3 siguen pendientes de **M#[6]**, ahora aplazada por el usuario.
+**13–14 completados técnicamente en R07** tras esa autorización: pastoreo,
+retirada, cámara continua, salto/ataque y pruebas de importación/ocultación.
+**15–24 pendientes.** No se extiende la aceptación física a la actuación nueva.
+Véanse [estado vigente](estado.md), [rig/aspecto demacrado](rigs_demacrado.md)
+y [actuación 13–14](actuacion_13_14.md).
+
+## Aplazamiento autorizado del paso 12 — 2 de octubre de 2026
+
+El usuario solicita expresamente **aplazar el cierre físico de 12 y ejecutar
+13–14**. M#[6] queda aplazada, no aprobada ni cancelada. La aceptación histórica
+M#[4] corresponde a la malla anterior. La dependencia de 13 se considera
+habilitada para autoría/exportación/revisión en Editor con el rig demacrado
+verificado y el aspecto 12.1 preparado. Esto sustituye la instrucción anterior
+de detenerse antes de 13; no acredita brillo, legibilidad ni rendimiento móvil.
+No se ejecutará 15 en esta sesión. Consultar `estado.md` para los resultados
+comprobados de 13–14 y el punto de reanudación.
 
 ## Dispositivos confirmados: G20 para pruebas, posible S23 para exposición
 
@@ -411,7 +431,8 @@ independiente. [Detalle](rigs_contacto.md). Pisadas y actuación definitivas son
 
 **Aceptación:** la oveja pasta todo el intervalo; cuerpo y ojos de la criatura quedan ocultos desde los 15 s. No aparecen saltos al evaluar el tramo exportado.
 
-**Depende de:** paso 12.
+**Depende de:** recursos técnicos del paso 12; cierre físico M#[6] aplazado
+por autorización expresa para avanzar 13–14 (véase apartado de aplazamiento).
 
 ### 14. Animar salto y ataque: 20–25 s
 

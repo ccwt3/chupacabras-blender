@@ -7,3 +7,8 @@ Thumbs.db
 previews/*_giro_frames/
 previews/11_rigs_contacto_demacrado_*_frames/
 docs/evidencias/2026-10-02_rigs_demacrado/respaldo_unity/
+# Local acting diagnostics; accepted R07 and failure reports are versioned.
+/scenes/13_calma_r0[1-6].blend
+/scenes/14_ataque_r0[1-6].blend
+/exports/13_calma_r0[1-6].*
+/exports/14_ataque_r0[1-6].*

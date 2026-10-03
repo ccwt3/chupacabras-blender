@@ -1,0 +1,18 @@
+{
+  "/home/cacawatin/code/blender/chupacabras": {
+    "historical_files_checked": 1144,
+    "changed": [
+      ".gitignore",
+      "docs/estado.md",
+      "docs/plan_secuencia.md"
+    ],
+    "unexpected_changes": []
+  },
+  "/home/cacawatin/code/unity/chupacabras": {
+    "historical_files_checked": 2006,
+    "changed": [
+      ".gitignore"
+    ],
+    "unexpected_changes": []
+  }
+}

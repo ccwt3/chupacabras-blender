@@ -1,0 +1,44 @@
+{
+  "completed_main_steps": [
+    13,
+    14
+  ],
+  "deferred_main_step": 12,
+  "third_step_started": false,
+  "physical_device": false,
+  "unity_version": "6000.3.22f1",
+  "unity_commit": "d74fae01a6e94d36e2e6979b1707e56dcbef83e4",
+  "blender_base_commit": "fb39a6d",
+  "manual_actions": {
+    "M#[6]": "aplazada por el usuario; no se solicita conexión ahora",
+    "M#[5]": "prevista para paso 20"
+  },
+  "next_main_steps": [
+    15,
+    16
+  ],
+  "delivery_sha256": {
+    "scenes/13_calma_r07.blend": "91a1743b12205f91c0f87a1d6f4dc52a9a253b4625fd56bcfe3f0601542f62af",
+    "exports/13_calma_r07.fbx": "7281e30a98164866c193f2a44e1bc3dfa6de63a76338581bef110357191cfcd1",
+    "exports/13_calma_r07.json": "30e87de4dee4213dee3d2b296604c63db4333723bca1b30604398f94c8873613",
+    "previews/13_calma_r07.mp4": "937fbef03943294de3ddc1803180f2d7bbc915b7469d84f4e4b0c7062289c4ff",
+    "scenes/14_ataque_r07.blend": "923e4d831973733bd6b9ca0330cf53dd18bbe2c201020d7a5a7ef76237f12a11",
+    "exports/14_ataque_r07.fbx": "86ee7af3699a9b9d031ec6231d672c92511575bd82f2515c7d4efcb483a7ad82",
+    "exports/14_ataque_r07.json": "c7712f855bc4d0ffc532865b7b672fbf7ea4b0e1cec1c48f793fea86264720a8",
+    "previews/14_ataque_r07.mp4": "b44c19bba0a7f9d0816816a37b0cb8d46a54e62ee8b415b61832d114a0fef309"
+  },
+  "verified": [
+    "Blender 601/751 frames",
+    "Unity Playables import",
+    "960x540 depth masks: 150/115 frames",
+    "32 existing tracking assertions",
+    "demos regression",
+    "FFprobe",
+    "Python compilation",
+    "Bash syntax",
+    "clang-format",
+    "historical hashes and foreign Git index"
+  ],
+  "no_new_apk": true,
+  "no_push": true
+}
