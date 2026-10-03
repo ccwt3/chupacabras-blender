@@ -1,0 +1,73 @@
+moto g(20)
+arm64-v8a,armeabi-v7a,armeabi
+11
+30
+4096
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  Max charging voltage: 0
+  Charge counter: 1857872
+  status: 2
+  health: 2
+  present: true
+  level: 66
+  scale: 100
+  voltage: 4001
+  temperature: 385
+  technology: 
+IsStatusOverride: false
+ThermalEventListeners:
+	callbacks: 1
+	killed: false
+	broadcasts count: -1
+ThermalStatusListeners:
+	callbacks: 4
+	killed: false
+	broadcasts count: -1
+Thermal Status: 0
+Cached temperatures:
+	Temperature{mValue=39.1, mType=-1, mName=ank5-thmzone, mStatus=0}
+	Temperature{mValue=34.153, mType=-1, mName=board-thmzone, mStatus=0}
+	Temperature{mValue=41.495, mType=-1, mName=ank0-thmzone, mStatus=0}
+	Temperature{mValue=41.486, mType=-1, mName=prometheus7-thmzone, mStatus=0}
+	Temperature{mValue=42.263, mType=-1, mName=cluster1-thmzone, mStatus=0}
+	Temperature{mValue=38.378, mType=-1, mName=gpuank2-thmzone, mStatus=0}
+	Temperature{mValue=38.826, mType=-1, mName=ank2-thmzone, mStatus=0}
+	Temperature{mValue=32.401, mType=-1, mName=pa-thmzone, mStatus=0}
+	Temperature{mValue=39.1, mType=-1, mName=ank4-thmzone, mStatus=0}
+	Temperature{mValue=42.263, mType=0, mName=soc-thmzone, mStatus=0}
+	Temperature{mValue=41.495, mType=-1, mName=cluster0-thmzone, mStatus=0}
+	Temperature{mValue=40.477, mType=-1, mName=prometheus6-tzone0, mStatus=0}
+	Temperature{mValue=42.263, mType=-1, mName=prometheus6-tzone1, mStatus=0}
+	Temperature{mValue=40.977, mType=-1, mName=ank1-thmzone, mStatus=0}
+	Temperature{mValue=39.85, mType=-1, mName=cputop-thmzone, mStatus=0}
+	Temperature{mValue=34.237, mType=-1, mName=chg-thmzone, mStatus=0}
+	Temperature{mValue=38.838, mType=-1, mName=ank3-thmzone, mStatus=0}
+	Temperature{mValue=39.606, mType=1, mName=gpu-thmzone, mStatus=0}
+HAL Ready: true
+HAL connection:
+	ThermalHAL 2.0 connected: yes
+Current temperatures from HAL:
+	Temperature{mValue=40.831, mType=-1, mName=board-thmzone, mStatus=0}
+	Temperature{mValue=43.567, mType=-1, mName=cluster0-thmzone, mStatus=0}
+	Temperature{mValue=39.997, mType=-1, mName=pa-thmzone, mStatus=0}
+	Temperature{mValue=42.154, mType=-1, mName=cputop-thmzone, mStatus=0}
+	Temperature{mValue=41.654, mType=1, mName=gpu-thmzone, mStatus=0}
+	Temperature{mValue=41.404, mType=-1, mName=ank4-thmzone, mStatus=0}
+	Temperature{mValue=43.567, mType=-1, mName=ank0-thmzone, mStatus=0}
+	Temperature{mValue=41.898, mType=-1, mName=ank2-thmzone, mStatus=0}
+	Temperature{mValue=42.263, mType=-1, mName=prometheus6-tzone1, mStatus=0}
+	Temperature{mValue=43.567, mType=0, mName=soc-thmzone, mStatus=0}
+	Temperature{mValue=42.263, mType=-1, mName=cluster1-thmzone, mStatus=0}
+	Temperature{mValue=40.998, mType=-1, mName=chg-thmzone, mStatus=0}
+	Temperature{mValue=42.004, mType=-1, mName=gpuank2-thmzone, mStatus=0}
+	Temperature{mValue=41.404, mType=-1, mName=ank5-thmzone, mStatus=0}
+	Temperature{mValue=43.308, mType=-1, mName=ank1-thmzone, mStatus=0}
+	Temperature{mValue=41.654, mType=-1, mName=ank3-thmzone, mStatus=0}
+	Temperature{mValue=42.263, mType=-1, mName=prometheus7-thmzone, mStatus=0}
+	Temperature{mValue=41.513, mType=-1, mName=prometheus6-tzone0, mStatus=0}
+Current cooling devices from HAL:
+	CoolingDevice{mValue=100, mType=0, mName=test cooling device}

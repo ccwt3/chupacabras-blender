@@ -1,0 +1,33 @@
+{
+  "stage": "F3",
+  "source": "F2_chupacabras_forma_r04",
+  "triangles": 34026,
+  "meshes": 1,
+  "materials": 1,
+  "atlas_size": 2048,
+  "reduction": {
+    "Chupa_Body": {
+      "max_surface_distance_m": 0.0035947619471699
+    },
+    "Chupa_Head": {
+      "max_surface_distance_m": 0.0018865767633542418
+    },
+    "Chupa_Jaw": {
+      "max_surface_distance_m": 0.000977063667960465
+    }
+  },
+  "physical_device": false,
+  "maps": {
+    "BaseColor": "sRGB; RGB pigment, no baked lighting",
+    "Normal": "linear; tangent +Y/OpenGL",
+    "Roughness": "linear; Blender source, not copied to Android",
+    "MetallicSmoothness": "linear; R=0, A=1-roughness"
+  },
+  "texture_memory_mib": {
+    "runtime_RGBA32_with_mips": 64,
+    "runtime_ASTC_6x6_with_mips_estimate": 7.14
+  },
+  "authorship": "Original procedural surface authored in this project; no third-party textures or reference images distributed.",
+  "license": "CC0-1.0 for the new procedural texture maps",
+  "mobile_budget_approved": false
+}

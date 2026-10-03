@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.chupacabras.ar.figure/com.unity3d.player.UnityPlayerGameActivity }
+Status: ok
+LaunchState: WARM
+Activity: com.android.settings/.SubSettings
+TotalTime: 1645
+WaitTime: 3667
+Complete

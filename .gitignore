@@ -20,3 +20,14 @@ docs/evidencias/2026-10-02_rigs_demacrado/respaldo_unity/
 
 # Keep exact compressed logs in Git and preserve raw session logs locally.
 /docs/evidencias/2026-10-03_figura/*.log
+
+# F3 bake attempts remain local; final R05 and compressed failure logs are retained.
+/scenes/F3_chupacabras_superficie_r0[1-4].blend
+/exports/F3_chupacabras_superficie_r0[1-4].fbx
+/exports/F3_chupacabras_superficie_r0[1-4]/
+/previews/F3_chupacabras_superficie_r0[1-4]/
+/docs/evidencias/2026-10-03_figura_f3_f4/*.log
+/docs/evidencias/2026-10-03_figura_f3_f4/tangent_reference.json
+
+# F6 preserves regenerated build temporaries locally; the restoration report is versioned.
+/docs/evidencias/2026-10-03_figura_f5_f6/temporales_generados/

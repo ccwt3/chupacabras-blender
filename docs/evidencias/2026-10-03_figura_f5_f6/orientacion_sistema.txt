@@ -1,0 +1,10 @@
+0
+0
+  mLastOrientationSource=ActivityRecord{3e858d3 u0 com.chupacabras.ar.figure/com.unity3d.player.UnityPlayerGameActivity t2037}
+      mLastOrientationSource=Task{f1d7309 #2037 visible=true type=standard mode=fullscreen translucent=false A=10270:com.chupacabras.ar.figure U=0 StackId=2037 sz=1}
+        mLastOrientationSource=ActivityRecord{3e858d3 u0 com.chupacabras.ar.figure/com.unity3d.player.UnityPlayerGameActivity t2037}
+        mLastOrientationSource=Task{e4cadcd #1909 visible=true type=home mode=fullscreen translucent=false I=com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher U=0 StackId=1 sz=1}
+          mLastOrientationSource=ActivityRecord{3a20991 u0 com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher t1909}
+    mCurrentAppOrientation=SCREEN_ORIENTATION_PORTRAIT
+    mLastOrientation=1
+    mRotation=0 mDeferredRotationPauseCount=0

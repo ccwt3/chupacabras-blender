@@ -86,9 +86,14 @@ no borrar aserciones de pérdida/timeout para hacer pasar el nuevo flujo.
 ## Etapas nuevas y aceptación
 
 Los identificadores **F1–F7** evitan confundir este plan con los hitos 1–24.
-**Actualización del 3 de octubre de 2026:** F1 y F2 completadas en su alcance
-técnico y de forma; F3–F7 pendientes. La aprobación visual móvil continúa en F5.
-[Entregas, comprobaciones y límites](figura_ar_f1_f2.md).
+**Actualización del 3 de octubre de 2026:** F1–F6 cerradas como demo AR
+funcional; F7 pendiente. [Resultados F5–F6](figura_ar_f5_f6.md).
+El usuario aclaró que basta con que funcione el AR y que no es una aplicación
+comercial. Esta prioridad sustituye el cierre exhaustivo inicialmente previsto:
+se conservan las mediciones y sus límites, sin exigir nuevos perfiles o pulido
+por detalles menores. La APK 0.2.2 tiene comprobación funcional real; el perfil
+largo corresponde a las versiones 0.2.0 y 0.2.1, según el informe.
+[Entrega F3–F4](figura_ar_f3_f4.md) · [Entrega anterior F1–F2](figura_ar_f1_f2.md).
 Máximo dos etapas principales por sesión, contando una retomada como primera.
 
 ### F1. Aislar la figura AR existente
@@ -262,12 +267,14 @@ sin una ampliación explícita del encargo. Git commit/push según la solicitud.
   fuera de alcance, nunca ejecutada ni aprobada como prueba nueva.
 - **M#[6]**: revisión 0.0.15 anteriormente aplazada; sustituida por cambio de
   alcance, **sin validación física**. No pedir el G20 para cerrar aquella ventana.
-- **M#[7]**: nueva figura en G20, prevista para F5–F7; no solicitada todavía.
+- **M#[7]**: ejecutada para F5/F6 en G20; aceptación visual y pruebas físicas registradas.
+  Instalación de prueba retirada. F7 solo requerirá intervención si es necesaria para la entrega.
 - **M#[8]**: S23 en exposición, prevista solo si llega a estar disponible.
 - **M#[9]**: resuelta el 3 de octubre; el usuario confirmó figura AR y aclaró
   que el bloque de acuerdos del corto en su solicitud era una plantilla anterior.
 
-No hay intervención física indispensable para empezar F3–F4. No pedir decisiones ya confirmadas. Si aparece una nueva decisión
+F3–F4 terminaron sin intervención física; F5/F6 ejecutaron M#[7] y cerraron
+la demo funcional. No pedir decisiones ya confirmadas. Si aparece una nueva decisión
 creativa indispensable, preparar vistas concretas antes de solicitarla y guardar
 el punto de interrupción; el silencio no cuenta como aprobación.
 
@@ -277,4 +284,4 @@ aclaró que «next-job» pertenecía a otro proyecto; no se crea ese archivo. El
 canónico vive en Blender.
 Al continuar, comprobar archivos/resultados y ejecutar como máximo las próximas
 dos etapas pendientes; conservar fuentes anteriores y documentar límites reales.
-**Próxima pareja: F3 + F4. No retomar 15/arrastre ni 16/consolidación del corto.**
+**Siguiente etapa: F7, entrega sencilla. No retomar el corto ni añadir pulido comercial.**

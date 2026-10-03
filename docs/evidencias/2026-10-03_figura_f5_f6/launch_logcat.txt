@@ -1,0 +1,41 @@
+--------- beginning of main
+10-03 15:01:11.193  7260  7260 I abras.ar.figur: Late-enabling -Xcheck:jni
+10-03 15:01:11.221  7260  7260 I abras.ar.figur: Unquickening 15 vdex files!
+10-03 15:01:11.790  7260  7260 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-03 15:01:11.792  7260  7260 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-03 15:01:11.915  7260  7260 W linker  : Warning: "/data/app/~~YhCb7wW_gfLiHQy4HUNKig==/com.chupacabras.ar.figure-OZUb36_nu5f6hSw-YbUBlg==/lib/arm64/libc++_shared.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+10-03 15:01:11.926  7260  7260 D GameActivity: GameActivity_register
+10-03 15:01:12.055  7260  7260 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+10-03 15:01:12.096  7260  7260 D gti.InputConnection: InputConnection created
+10-03 15:01:12.097  7260  7260 D gti.InputConnection: setEditorInfo
+10-03 15:01:12.124  7260  7260 I ThreeFingerSwipe: mSwipeDistanceThreshold:18
+10-03 15:01:12.124  7260  7260 I ThreeFingerSwipe: mMaxWidth = 720; mMaxHeight = 1522
+10-03 15:01:12.130  7260  7260 I ThreeFingerSwipe: getPackageName = com.chupacabras.ar.figure
+10-03 15:01:12.306  7260  7260 W abras.ar.figur: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+10-03 15:01:12.307  7260  7260 W abras.ar.figur: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+10-03 15:01:12.320  7260  7260 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+10-03 15:01:12.459  7260  7260 I IL2CPP  : JNI_OnLoad
+10-03 15:01:12.459  7260  7260 V Unity   : Context Type: GameActivity
+10-03 15:01:12.460  7260  7260 D Unity   : CommandLine:  
+10-03 15:01:12.487  7260  7260 I GameActivity: Looking for library libgame.so
+10-03 15:01:12.487  7260  7260 I GameActivity: Found library libgame.so. Loading...
+10-03 15:01:16.019  7260  7260 D GameActivity: SDK version: 30
+10-03 15:01:16.045  7260  7378 I Unity   : UnityApplication::CreateInstance
+10-03 15:01:16.045  7260  7378 I Unity   : GameActivity Package Version '4.4.0'
+10-03 15:01:16.046  7260  7378 I Unity   : Starting Game Loop
+10-03 15:01:16.117  7260  7260 W CheckTime: App running slow: Executing activity onCreate took 4036ms
+10-03 15:01:16.125  7260  7378 I Unity   : Handle cmd APP_CMD_START(11)
+10-03 15:01:16.128  7260  7260 I Unity   : onResume
+10-03 15:01:16.143  7260  7378 I Unity   : Handle cmd APP_CMD_RESUME(12)
+--------- beginning of system
+10-03 15:01:16.146  7260  7260 I ActivityThread: smart_link is  not supported!!!
+10-03 15:01:16.172  7260  7260 I Unity   : onPause
+10-03 15:01:16.174  7260  7260 I Unity   : pauseUnity
+10-03 15:01:16.177  7260  7378 I Unity   : Handle cmd APP_CMD_PAUSE(14)
+10-03 15:01:16.180  7260  7378 I Unity   : Handle cmd APP_CMD_STOP(15)
+10-03 15:01:16.189  7260  7378 I Unity   : Handle cmd APP_CMD_SAVE_STATE(13)
+10-03 15:01:16.194  7260  7378 I Unity   : Handle cmd APP_CMD_LOW_MEMORY(10)
+10-03 15:01:16.205  7260  7260 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:01:16.206  7260  7378 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:01:16.216  7260  7260 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:01:16.217  7260  7378 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)

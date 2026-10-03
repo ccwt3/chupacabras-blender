@@ -1,0 +1,5 @@
+1
+1
+    versionName=0.2.1
+      android.permission.CAMERA
+        android.permission.CAMERA: granted=true, flags=[ USER_SET|USER_FIXED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]

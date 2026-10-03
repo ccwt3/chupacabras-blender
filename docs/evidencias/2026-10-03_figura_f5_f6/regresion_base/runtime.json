@@ -1,0 +1,5 @@
+{
+    "passed": true,
+    "physicalDevice": false,
+    "detail": "Initial, acquisition, loss, recovery, camera timeout, fresh frame, background, resume; same figure and scale; no cine."
+}

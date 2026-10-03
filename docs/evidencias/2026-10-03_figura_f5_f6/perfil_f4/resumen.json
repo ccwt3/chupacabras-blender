@@ -1,0 +1,217 @@
+{
+  "method": "Unique SurfaceFlinger actual-present timestamps (second column), after newest timestamp of first poll; nearest-rank percentiles.",
+  "elapsed_presentation_s": 309.982634394,
+  "frame_ms": {
+    "n": 9301,
+    "min": 16.687615,
+    "median": 33.322576,
+    "p95": 33.420731,
+    "p99": 33.598692,
+    "max": 49.978769,
+    "mean": 33.327882420599934
+  },
+  "fps_mean": 30.004906623827406,
+  "intervals_over_40ms": 6,
+  "intervals_over_50ms": 0,
+  "intervals_over_100ms": 0,
+  "per_minute": [
+    {
+      "minute": 1,
+      "fps": 30.001239091676158,
+      "max_frame_ms": 49.978769
+    },
+    {
+      "minute": 2,
+      "fps": 30.001432949820114,
+      "max_frame_ms": 49.9335
+    },
+    {
+      "minute": 3,
+      "fps": 30.001405874717946,
+      "max_frame_ms": 49.965654
+    },
+    {
+      "minute": 4,
+      "fps": 30.009765918148503,
+      "max_frame_ms": 34.092461
+    },
+    {
+      "minute": 5,
+      "fps": 30.009744935931305,
+      "max_frame_ms": 49.901693
+    }
+  ],
+  "system_samples": [
+    {
+      "elapsed_s": 5.430900000646943e-05,
+      "pss_kib": 413343.0,
+      "rss_kib": 365868.0,
+      "swap_pss_kib": 140388.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.0,
+      "soc_c": 59.098,
+      "gpu_c": 54.966,
+      "cpu_snapshot": "48% 7260/com.chupacabras.ar.figure: 39% user + 9% kernel / faults: 255030 minor 1206 major"
+    },
+    {
+      "elapsed_s": 30.000209742999914,
+      "pss_kib": 411001.0,
+      "rss_kib": 363428.0,
+      "swap_pss_kib": 140355.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.0,
+      "soc_c": 57.544,
+      "gpu_c": 53.686,
+      "cpu_snapshot": "48% 7260/com.chupacabras.ar.figure: 39% user + 9% kernel / faults: 255030 minor 1206 major"
+    },
+    {
+      "elapsed_s": 60.00007321099997,
+      "pss_kib": 410649.0,
+      "rss_kib": 362476.0,
+      "swap_pss_kib": 140579.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.2,
+      "soc_c": 63.51,
+      "gpu_c": 59.83,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 54% user + 11% kernel / faults: 13139 minor 1 major"
+    },
+    {
+      "elapsed_s": 90.000078185,
+      "pss_kib": 410570.0,
+      "rss_kib": 361544.0,
+      "swap_pss_kib": 141496.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.2,
+      "soc_c": 58.33,
+      "gpu_c": 55.478,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 54% user + 11% kernel / faults: 13139 minor 1 major"
+    },
+    {
+      "elapsed_s": 120.00012921199993,
+      "pss_kib": 409933.0,
+      "rss_kib": 360860.0,
+      "swap_pss_kib": 141506.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.3,
+      "soc_c": 57.812,
+      "gpu_c": 54.966,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 54% user + 11% kernel / faults: 13139 minor 1 major"
+    },
+    {
+      "elapsed_s": 150.00016862799998,
+      "pss_kib": 410356.0,
+      "rss_kib": 361300.0,
+      "swap_pss_kib": 141506.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.3,
+      "soc_c": 58.58,
+      "gpu_c": 55.222,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 54% user + 11% kernel / faults: 13139 minor 1 major"
+    },
+    {
+      "elapsed_s": 180.00015920099997,
+      "pss_kib": 410799.0,
+      "rss_kib": 361540.0,
+      "swap_pss_kib": 141738.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.3,
+      "soc_c": 57.812,
+      "gpu_c": 54.198,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 54% user + 11% kernel / faults: 13139 minor 1 major"
+    },
+    {
+      "elapsed_s": 210.00016111899993,
+      "pss_kib": 411255.0,
+      "rss_kib": 361964.0,
+      "swap_pss_kib": 141790.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.3,
+      "soc_c": 61.17,
+      "gpu_c": 57.27,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 54% user + 11% kernel / faults: 13139 minor 1 major"
+    },
+    {
+      "elapsed_s": 240.0000723029999,
+      "pss_kib": 411142.0,
+      "rss_kib": 361520.0,
+      "swap_pss_kib": 141961.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.4,
+      "soc_c": 56.776,
+      "gpu_c": 54.71,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 53% user + 11% kernel / faults: 32595 minor"
+    },
+    {
+      "elapsed_s": 270.0001291929999,
+      "pss_kib": 409917.0,
+      "rss_kib": 360296.0,
+      "swap_pss_kib": 141961.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.4,
+      "soc_c": 60.134,
+      "gpu_c": 55.734,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 53% user + 11% kernel / faults: 32595 minor"
+    },
+    {
+      "elapsed_s": 300.00007707199995,
+      "pss_kib": 410469.0,
+      "rss_kib": 360864.0,
+      "swap_pss_kib": 141962.0,
+      "thermal_status": 0.0,
+      "battery_c": 38.5,
+      "soc_c": 57.553,
+      "gpu_c": 54.71,
+      "cpu_snapshot": "65% 7260/com.chupacabras.ar.figure: 53% user + 11% kernel / faults: 32595 minor"
+    }
+  ],
+  "telemetry": {
+    "csv": "docs/evidencias/2026-10-03_figura_f5_f6/perfil_f4/files/probe_20261003_210145_867/tracking.csv",
+    "start_s": 243.0384,
+    "end_s": 546.9229,
+    "samples": 2499,
+    "visible_samples": 2499,
+    "detector_hz": 15.008991903173738,
+    "frame_ema_ms": {
+      "n": 2499,
+      "min": 32.553,
+      "median": 33.322,
+      "p95": 33.348,
+      "p99": 33.728,
+      "max": 34.156,
+      "mean": 33.32893517406963
+    },
+    "image_ms": {
+      "n": 2499,
+      "min": 0.805,
+      "median": 2.93,
+      "p95": 15.664,
+      "p99": 19.768,
+      "max": 21.468,
+      "mean": 4.299557422969188
+    },
+    "detect_ms": {
+      "n": 2499,
+      "min": 8.097,
+      "median": 12.065,
+      "p95": 15.082,
+      "p99": 16.928,
+      "max": 19.565,
+      "mean": 12.140308923569428
+    },
+    "camera_modes": [
+      [
+        "320",
+        "240",
+        "90",
+        "60.00"
+      ]
+    ]
+  },
+  "limitations": [
+    "Surface presentation is not GPU execution time.",
+    "CSV frame_ms is EMA, not per-frame percentile.",
+    "CPU dumpsys snapshot repeats its window; not a fresh CPU trace.",
+    "Charging over USB; no measured ambient temperature.",
+    "Five-minute observation does not prove absence of longer-duration leaks."
+  ]
+}

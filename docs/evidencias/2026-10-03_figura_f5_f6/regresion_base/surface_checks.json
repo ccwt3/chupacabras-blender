@@ -1,0 +1,31 @@
+{
+    "passed": true,
+    "physicalDevice": false,
+    "triangles": 34026,
+    "vertices": 26063,
+    "meshes": 1,
+    "materials": 1,
+    "views": 6,
+    "bounds": {
+        "x": 2.2960000038146974,
+        "y": 4.741713047027588,
+        "z": 2.6542840003967287
+    },
+    "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "scale": {
+        "x": 0.04500000178813934,
+        "y": 0.04500000178813934,
+        "z": 0.04500000178813934
+    },
+    "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 205.0
+    },
+    "normalConvention": "MikkTSpace +Y; imported normals",
+    "lighting": "Two directional lights, flat neutral ambient, no shadows/sky/environment"
+}

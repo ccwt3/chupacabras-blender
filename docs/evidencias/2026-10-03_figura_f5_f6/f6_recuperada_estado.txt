@@ -1,0 +1,18 @@
+      android.permission.CAMERA
+        android.permission.CAMERA: granted=true, flags=[ USER_SET|USER_FIXED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+Active default network: none
+==> /sdcard/Android/data/com.chupacabras.ar.figure/files/probe_20261003_210145_867/tracking.csv <==
+694.0259,inicio,True,0.0000,33.323,7.104,9.793,False,320,240,90,False,60.00,0.1000,-0.060828,-0.007281,0.215864,-0.362204,0.618807,0.363092,-0.595022,10119
+694.1585,inicio,True,0.0000,33.323,2.530,12.193,False,320,240,90,False,60.00,0.1000,-0.060800,-0.007284,0.215778,-0.361941,0.619043,0.362661,-0.595200,10121
+
+==> /sdcard/Android/data/com.chupacabras.ar.figure/files/probe_20261003_211322_227/tracking.csv <==
+47.7393,inicio,True,0.0000,33.323,16.312,11.061,False,320,240,90,False,60.00,0.1000,-0.060689,-0.007262,0.216300,-0.361864,0.618487,0.363074,-0.595572,542
+47.8781,inicio,True,0.0000,33.322,11.732,9.821,False,320,240,90,False,60.00,0.1000,-0.060612,-0.007306,0.216078,-0.362123,0.618398,0.363150,-0.595461,544
+
+==> /sdcard/Android/data/com.chupacabras.ar.figure/files/probe_20261003_211411_887/tracking.csv <==
+117.4018,inicio,False,0.0000,91.942,0.000,0.000,False,0,0,0,False,60.00,0.1000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,1.000000,0
+117.5691,inicio,False,0.0000,91.215,0.000,0.000,False,0,0,0,False,60.00,0.1000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,1.000000,0
+
+==> /sdcard/Android/data/com.chupacabras.ar.figure/files/probe_20261003_212140_718/tracking.csv <==
+64.9984,inicio,True,0.0000,33.317,18.988,11.410,False,320,240,90,False,60.00,0.1000,-0.060244,-0.007357,0.215902,-0.361298,0.618472,0.363027,-0.595960,205
+65.1385,inicio,True,0.0000,33.318,10.389,15.645,False,320,240,90,False,60.00,0.1000,-0.060220,-0.007387,0.215807,-0.361651,0.618399,0.363208,-0.595711,208

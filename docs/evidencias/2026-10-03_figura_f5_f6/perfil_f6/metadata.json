@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-03T21:23:54.078651+00:00",
+  "model": "moto g(20)",
+  "pid": "13183",
+  "surface": "SurfaceView - com.chupacabras.ar.figure/com.unity3d.player.UnityPlayerGameActivity#0",
+  "duration_requested_s": 310,
+  "limits": "SurfaceFlinger presentation timestamps, not GPU execution times. USB charging and ADB sampling remain active."
+}

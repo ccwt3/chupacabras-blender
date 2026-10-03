@@ -1,0 +1,226 @@
+{
+  "stages": [
+    "F3",
+    "F4"
+  ],
+  "passed": true,
+  "physical_device": false,
+  "F5_started": false,
+  "preservation": {
+    "/home/cacawatin/code/blender/chupacabras": {
+      "tracked_changes": [
+        ".gitignore",
+        "README.md",
+        "docs/estado.md",
+        "docs/plan_secuencia.md",
+        "scripts/resumen_figura.py"
+      ],
+      "unexpected_changes": [],
+      "missing_previous_files": [],
+      "head_preserved": true
+    },
+    "/home/cacawatin/code/unity/chupacabras": {
+      "tracked_changes": [
+        ".gitignore",
+        "Assets/Editor/FigureBuild.cs",
+        "docs/estado.md",
+        "scripts/build_figure.sh",
+        "scripts/verify_figure_apk.py"
+      ],
+      "unexpected_changes": [],
+      "missing_previous_files": [],
+      "head_preserved": true
+    }
+  },
+  "checks": {
+    "blender": {
+      "passed": true,
+      "physical_device": false,
+      "triangles": 34026,
+      "bounds_min": [
+        -1.133,
+        -3.12135,
+        -1e-05
+      ],
+      "bounds_max": [
+        1.163,
+        1.62036,
+        2.65428
+      ],
+      "closed": true,
+      "uv_min_area": 8.118816730018352e-10,
+      "maps": {
+        "BaseColor": {
+          "bytes": 1393059,
+          "minimum_triangle_center_rgb": 0.11372549831867218
+        },
+        "Normal": {
+          "bytes": 4031798,
+          "minimum_triangle_center_rgb": 0.0
+        },
+        "Roughness": {
+          "bytes": 1099165,
+          "minimum_triangle_center_rgb": 0.18431372940540314
+        },
+        "MetallicSmoothness": {
+          "bytes": 1135597,
+          "minimum_triangle_center_rgb": 0.0
+        }
+      },
+      "fbx_roundtrip": true,
+      "visual_acceptance": "Separate six-view review; mobile pending F5"
+    },
+    "unity": {
+      "passed": true,
+      "physicalDevice": false,
+      "triangles": 34026,
+      "vertices": 26063,
+      "meshes": 1,
+      "materials": 1,
+      "views": 6,
+      "bounds": {
+        "x": 2.2960000038146973,
+        "y": 4.741713047027588,
+        "z": 2.6542840003967285
+      },
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.04500000178813934,
+        "y": 0.04500000178813934,
+        "z": 0.04500000178813934
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 205.0
+      },
+      "normalConvention": "MikkTSpace +Y; imported normals",
+      "lighting": "Two directional lights, flat neutral ambient, no shadows/sky/environment"
+    },
+    "runtime": {
+      "passed": true,
+      "physicalDevice": false,
+      "detail": "Initial, acquisition, loss, recovery, camera timeout, fresh frame, background, resume; same figure and scale; no cine."
+    },
+    "regression_f1": {
+      "passed": true,
+      "physicalDevice": false,
+      "triangles": 30880,
+      "views": 3,
+      "cinematicAssetDependencies": 0
+    },
+    "apk": {
+      "apk": "/home/cacawatin/code/unity/chupacabras/builds/android/F4_figure_20261003_172936.apk",
+      "sha256": "e5acda3e837a7054aff879d64de176599695ffc6c73b315b868c9cb2fd268104",
+      "bytes": 42421014,
+      "tools": "/home/cacawatin/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/build-tools/36.0.0",
+      "package": "com.chupacabras.ar.figure",
+      "version": "0.2.0",
+      "checks": {
+        "signature": true,
+        "zipalign": true,
+        "badging": true
+      },
+      "libraries": [
+        {
+          "file": "lib/arm64-v8a/libAprilTag.so",
+          "machine": 183,
+          "load_segment_alignments": [
+            16384,
+            16384,
+            16384,
+            16384
+          ]
+        },
+        {
+          "file": "lib/arm64-v8a/lib_burst_generated.so",
+          "machine": 183,
+          "load_segment_alignments": [
+            16384,
+            16384,
+            16384,
+            16384
+          ]
+        },
+        {
+          "file": "lib/arm64-v8a/libc++_shared.so",
+          "machine": 183,
+          "load_segment_alignments": [
+            16384,
+            16384,
+            16384,
+            16384
+          ]
+        },
+        {
+          "file": "lib/arm64-v8a/libgame.so",
+          "machine": 183,
+          "load_segment_alignments": [
+            16384,
+            16384,
+            16384
+          ]
+        },
+        {
+          "file": "lib/arm64-v8a/libil2cpp.so",
+          "machine": 183,
+          "load_segment_alignments": [
+            16384,
+            16384,
+            16384,
+            16384
+          ]
+        },
+        {
+          "file": "lib/arm64-v8a/libmain.so",
+          "machine": 183,
+          "load_segment_alignments": [
+            16384,
+            16384,
+            16384,
+            16384
+          ]
+        },
+        {
+          "file": "lib/arm64-v8a/libswappywrapper.so",
+          "machine": 183,
+          "load_segment_alignments": [
+            16384,
+            16384,
+            16384
+          ]
+        },
+        {
+          "file": "lib/arm64-v8a/libunity.so",
+          "machine": 183,
+          "load_segment_alignments": [
+            16384,
+            16384,
+            16384,
+            16384
+          ]
+        }
+      ],
+      "physical_device": false,
+      "page_size_runtime_validation": false
+    }
+  },
+  "sha256": {
+    "/home/cacawatin/code/blender/chupacabras/scenes/F2_chupacabras_forma_r04.blend": "5c2e310573db7c11aa7f5f36cf9de71c16f370e1a091e2e2ee4c4b1df490c60b",
+    "/home/cacawatin/code/blender/chupacabras/scenes/F3_chupacabras_superficie_r05.blend": "2858ff369378ca7d38b1dc4b481578907737da0245220ebdf57f9d3c188ef894",
+    "/home/cacawatin/code/blender/chupacabras/exports/F3_chupacabras_superficie_r05.fbx": "2e8ae42921cb9f01d5c469fe78f02966cb6476772be3cc0f42ad6b60d0cc4648",
+    "/home/cacawatin/code/unity/chupacabras/Assets/Scenes/F4_FiguraAR_r02.unity": "3e0b62e0e25c4815adffdbf7b5201f3cacc9e1ef2ea9e33a53e2513bacf88f81",
+    "/home/cacawatin/code/unity/chupacabras/Assets/FiguraAR/F4_r02/Figure.prefab": "88c543fce7cf502c1c53c45b9c5b25aba4d22d091729831946561e85199d97b5",
+    "/home/cacawatin/code/unity/chupacabras/builds/android/F4_figure_20261003_172936.apk": "e5acda3e837a7054aff879d64de176599695ffc6c73b315b868c9cb2fd268104",
+    "/home/cacawatin/code/unity/chupacabras/marker/03_marker_carta.pdf": "c670fc855c002dea0ad70c458db525b36dfcfff6e14400347bd0c7d1a47f1a83",
+    "/home/cacawatin/code/unity/chupacabras/builds/android/F1_figure_20261003_162413.apk": "48f1adf50143ed4c9fa83134a68316529752a12b4e93a50f0b801faca25e5cd5"
+  },
+  "visual_review": "Six Blender/Unity views inspected; stylized source retained; mobile acceptance pending F5",
+  "python_syntax": true,
+  "shell_syntax": true,
+  "diff_whitespace": true
+}

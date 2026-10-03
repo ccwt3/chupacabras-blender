@@ -22,8 +22,9 @@ def sheet(name, entries, columns):
     subprocess.run(args+['-filter_complex',';'.join(filters),'-map','[out]','-frames:v','1','-threads','2','-update','1',str(output)],check=True)
 
 
-sheet('seis_vistas', [('forma_'+v,label) for v,label in [
-    ('frente','Frente'),('perfil','Perfil'),('espalda','Espalda'),
-    ('tres_cuartos','Tres cuartos'),('inferior','Vista inferior'),('rostro','Rostro')]],3)
-sheet('comparacion',[('base_tres_cuartos','Base demacrada R02'),
-                     ('forma_tres_cuartos','F2 '+revision+' - forma y pose')],2)
+if __name__ == '__main__':
+    sheet('seis_vistas', [('forma_'+v,label) for v,label in [
+        ('frente','Frente'),('perfil','Perfil'),('espalda','Espalda'),
+        ('tres_cuartos','Tres cuartos'),('inferior','Vista inferior'),('rostro','Rostro')]],3)
+    sheet('comparacion',[('base_tres_cuartos','Base demacrada R02'),
+                         ('forma_tres_cuartos','F2 '+revision+' - forma y pose')],2)

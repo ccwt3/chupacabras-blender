@@ -1,0 +1,95 @@
+{
+  "apk": "/home/cacawatin/code/unity/chupacabras/builds/android/F6_figure_20261003_211921.apk",
+  "sha256": "cb41903727ab7a8d053286834114b7c9b7e6df398d997ffd35a3ceaca3f529a4",
+  "bytes": 41623751,
+  "tools": "/home/cacawatin/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/build-tools/36.0.0",
+  "package": "com.chupacabras.ar.figure",
+  "version": "0.2.1",
+  "checks": {
+    "signature": true,
+    "zipalign": true,
+    "badging": true
+  },
+  "libraries": [
+    {
+      "file": "lib/arm64-v8a/libAprilTag.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/lib_burst_generated.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libc++_shared.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libgame.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libil2cpp.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libmain.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libswappywrapper.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libunity.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    }
+  ],
+  "physical_device": false,
+  "page_size_runtime_validation": false
+}

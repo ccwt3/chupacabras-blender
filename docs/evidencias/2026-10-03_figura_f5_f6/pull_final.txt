@@ -1,0 +1,1 @@
+/sdcard/Android/data/com.chupacabras.ar.figure/files/: 19 files pulled, 0 skipped. 12.2 MB/s (8096985 bytes in 0.631s)

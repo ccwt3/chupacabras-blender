@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "physical_device": false,
+  "triangles": 34026,
+  "bounds_min": [
+    -1.133,
+    -3.12135,
+    -1e-05
+  ],
+  "bounds_max": [
+    1.163,
+    1.62036,
+    2.65428
+  ],
+  "closed": true,
+  "uv_min_area": 8.118816730018352e-10,
+  "maps": {
+    "BaseColor": {
+      "bytes": 1393059,
+      "minimum_triangle_center_rgb": 0.11372549831867218
+    },
+    "Normal": {
+      "bytes": 4031798,
+      "minimum_triangle_center_rgb": 0.0
+    },
+    "Roughness": {
+      "bytes": 1099165,
+      "minimum_triangle_center_rgb": 0.18431372940540314
+    },
+    "MetallicSmoothness": {
+      "bytes": 1135597,
+      "minimum_triangle_center_rgb": 0.0
+    }
+  },
+  "fbx_roundtrip": true,
+  "visual_acceptance": "Separate six-view review; mobile pending F5"
+}

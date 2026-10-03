@@ -1,0 +1,249 @@
+{
+  "method": "Unique actual-present timestamps (second column), after newest timestamp of first poll; nearest-rank percentiles.",
+  "elapsed_presentation_s": 309.999275394,
+  "frame_ms": {
+    "n": 9178,
+    "min": 30.019115,
+    "median": 33.322788,
+    "p95": 33.408885,
+    "p99": 33.573192,
+    "max": 4131.983035,
+    "mean": 33.77634292808891
+  },
+  "fps_mean": 29.60652081633104,
+  "intervals_over_40ms": 5,
+  "intervals_over_50ms": 2,
+  "intervals_over_100ms": 1,
+  "per_minute": [
+    {
+      "minute": 1,
+      "fps": 30.001362313860493,
+      "max_frame_ms": 49.989769
+    },
+    {
+      "minute": 2,
+      "fps": 30.00974745339251,
+      "max_frame_ms": 33.624154
+    },
+    {
+      "minute": 3,
+      "fps": 30.009750728193605,
+      "max_frame_ms": 36.629462
+    },
+    {
+      "minute": 4,
+      "fps": 30.009750977138008,
+      "max_frame_ms": 34.615231
+    },
+    {
+      "minute": 5,
+      "fps": 27.933498266536542,
+      "max_frame_ms": 4131.983035
+    }
+  ],
+  "system_samples": [
+    {
+      "elapsed_s": 4.390599997350364e-05,
+      "pss_kib": 445162.0,
+      "rss_kib": 540820.0,
+      "swap_pss_kib": 7253.0,
+      "native_heap_alloc_kib": 201081.0,
+      "thermal_status": 0.0,
+      "battery_c": 35.2,
+      "soc_c": 54.954,
+      "gpu_c": 51.894,
+      "cpu_snapshot": ""
+    },
+    {
+      "elapsed_s": 30.000114907999887,
+      "pss_kib": 446513.0,
+      "rss_kib": 543720.0,
+      "swap_pss_kib": 6719.0,
+      "native_heap_alloc_kib": 200682.0,
+      "thermal_status": 0.0,
+      "battery_c": 35.2,
+      "soc_c": 55.213,
+      "gpu_c": 51.894,
+      "cpu_snapshot": ""
+    },
+    {
+      "elapsed_s": 60.000164568999935,
+      "pss_kib": 447562.0,
+      "rss_kib": 544820.0,
+      "swap_pss_kib": 6703.0,
+      "native_heap_alloc_kib": 200574.0,
+      "thermal_status": 0.0,
+      "battery_c": 35.5,
+      "soc_c": 54.963,
+      "gpu_c": 51.894,
+      "cpu_snapshot": ""
+    },
+    {
+      "elapsed_s": 90.00019426799986,
+      "pss_kib": 448234.0,
+      "rss_kib": 545504.0,
+      "swap_pss_kib": 6695.0,
+      "native_heap_alloc_kib": 200598.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.0,
+      "soc_c": 54.186,
+      "gpu_c": 52.15,
+      "cpu_snapshot": "+0% 13183/com.chupacabras.ar.figure: 0% user + 0% kernel\n +0% 13638/<pre-forked-com.chupacabras.ar.figure>: 0% user + 0% kernel"
+    },
+    {
+      "elapsed_s": 120.0000958569999,
+      "pss_kib": 448629.0,
+      "rss_kib": 545904.0,
+      "swap_pss_kib": 6691.0,
+      "native_heap_alloc_kib": 200587.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.0,
+      "soc_c": 54.186,
+      "gpu_c": 52.15,
+      "cpu_snapshot": "+0% 13183/com.chupacabras.ar.figure: 0% user + 0% kernel\n +0% 13638/<pre-forked-com.chupacabras.ar.figure>: 0% user + 0% kernel"
+    },
+    {
+      "elapsed_s": 150.00010214299982,
+      "pss_kib": 449176.0,
+      "rss_kib": 546456.0,
+      "swap_pss_kib": 6691.0,
+      "native_heap_alloc_kib": 200727.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.0,
+      "soc_c": 56.517,
+      "gpu_c": 51.894,
+      "cpu_snapshot": "64% 13183/com.chupacabras.ar.figure: 53% user + 10% kernel / faults: 9196 minor"
+    },
+    {
+      "elapsed_s": 180.00009967799997,
+      "pss_kib": 449257.0,
+      "rss_kib": 546532.0,
+      "swap_pss_kib": 6690.0,
+      "native_heap_alloc_kib": 200605.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.4,
+      "soc_c": 55.222,
+      "gpu_c": 52.662,
+      "cpu_snapshot": "64% 13183/com.chupacabras.ar.figure: 53% user + 10% kernel / faults: 9196 minor"
+    },
+    {
+      "elapsed_s": 210.00007028999994,
+      "pss_kib": 449393.0,
+      "rss_kib": 546668.0,
+      "swap_pss_kib": 6690.0,
+      "native_heap_alloc_kib": 200660.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.4,
+      "soc_c": 55.74,
+      "gpu_c": 52.918,
+      "cpu_snapshot": "64% 13183/com.chupacabras.ar.figure: 53% user + 10% kernel / faults: 9196 minor"
+    },
+    {
+      "elapsed_s": 240.0001056619999,
+      "pss_kib": 448612.0,
+      "rss_kib": 545888.0,
+      "swap_pss_kib": 6690.0,
+      "native_heap_alloc_kib": 200668.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.6,
+      "soc_c": 55.999,
+      "gpu_c": 52.918,
+      "cpu_snapshot": "64% 13183/com.chupacabras.ar.figure: 53% user + 10% kernel / faults: 9196 minor"
+    },
+    {
+      "elapsed_s": 270.00020389199994,
+      "pss_kib": 449109.0,
+      "rss_kib": 546472.0,
+      "swap_pss_kib": 6662.0,
+      "native_heap_alloc_kib": 201738.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.6,
+      "soc_c": 56.249,
+      "gpu_c": 53.174,
+      "cpu_snapshot": "64% 13183/com.chupacabras.ar.figure: 53% user + 10% kernel / faults: 9196 minor"
+    },
+    {
+      "elapsed_s": 300.00012240699994,
+      "pss_kib": 449873.0,
+      "rss_kib": 547452.0,
+      "swap_pss_kib": 6654.0,
+      "native_heap_alloc_kib": 200730.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.9,
+      "soc_c": 55.999,
+      "gpu_c": 53.174,
+      "cpu_snapshot": "64% 13183/com.chupacabras.ar.figure: 53% user + 10% kernel / faults: 9196 minor"
+    },
+    {
+      "elapsed_s": 310.00013182099997,
+      "pss_kib": 449365.0,
+      "rss_kib": 546944.0,
+      "swap_pss_kib": 6654.0,
+      "native_heap_alloc_kib": 198102.0,
+      "thermal_status": 0.0,
+      "battery_c": 36.9,
+      "soc_c": 56.258,
+      "gpu_c": 52.918,
+      "cpu_snapshot": "64% 13183/com.chupacabras.ar.figure: 53% user + 10% kernel / faults: 9196 minor"
+    }
+  ],
+  "telemetry": {
+    "csv": "docs/evidencias/2026-10-03_figura_f5_f6/perfil_f6/files/probe_20261003_212322_315/tracking.csv",
+    "start_s": 35.1114,
+    "end_s": 343.0114,
+    "samples": 2514,
+    "visible_samples": 2513,
+    "lost_samples": [
+      {
+        "previous_s": "304.7402",
+        "sample_s": "308.9308",
+        "next_s": "309.0557"
+      }
+    ],
+    "detector_hz": 14.810003247807732,
+    "frame_ema_ms": {
+      "n": 2514,
+      "min": 32.58,
+      "median": 33.322,
+      "p95": 33.337,
+      "p99": 35.584,
+      "max": 239.803,
+      "mean": 33.82442203659507
+    },
+    "image_ms": {
+      "n": 2514,
+      "min": 0.661,
+      "median": 2.165,
+      "p95": 2.669,
+      "p99": 6.534,
+      "max": 20.563,
+      "mean": 2.2867267303102627
+    },
+    "detect_ms": {
+      "n": 2514,
+      "min": 8.532,
+      "median": 12.47,
+      "p95": 15.857,
+      "p99": 17.267,
+      "max": 19.298,
+      "mean": 12.535431980906921
+    }
+  },
+  "limitations": [
+    "Presentation is not GPU execution time.",
+    "CSV frame_ms is EMA.",
+    "CPU snapshots repeat their measurement window.",
+    "USB charging; ambient temperature not measured.",
+    "Final profile started after cold launch and without network; F4 had longer warmup and network. Not a controlled optimization benchmark.",
+    "One sampled loss occurred and recovered; do not claim uninterrupted tracking.",
+    "Raw 29.607 fps includes a focus-loss interruption. Active-only metric excludes exactly that one documented interval; it is not an uninterrupted 310-second foreground run."
+  ],
+  "foreground_interruption": {
+    "duration_between_presents_ms": 4131.983035,
+    "profile_s": 271.111900807,
+    "evidence": "logcat 15:28:23.959 touch from y=0; 15:28:24.984 LOST_FOCUS; 15:28:28.999 GAINED_FOCUS; CSV gap 304.7402\u2013308.9308 s. Consistent with Android panel interaction, not a measured GPU/CPU stall.",
+    "active_presentation_s": 305.86729235900003,
+    "active_fps": 30.00320802274226,
+    "active_max_frame_ms": 50.042962
+  }
+}

@@ -1,0 +1,377 @@
+--------- beginning of main
+10-03 15:23:19.188 13183 13183 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-03 15:23:19.189 13183 13183 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-03 15:23:19.239 13183 13183 W linker  : Warning: "/data/app/~~4VVj8bg50dD8uMPXSKpWJw==/com.chupacabras.ar.figure-mk0XU9BS3ziokjh7EhW6Rg==/lib/arm64/libc++_shared.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+10-03 15:23:19.240 13183 13183 D GameActivity: GameActivity_register
+10-03 15:23:19.281 13183 13183 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+10-03 15:23:19.302 13183 13183 D gti.InputConnection: InputConnection created
+10-03 15:23:19.302 13183 13183 D gti.InputConnection: setEditorInfo
+10-03 15:23:19.312 13183 13183 I ThreeFingerSwipe: mSwipeDistanceThreshold:18
+10-03 15:23:19.312 13183 13183 I ThreeFingerSwipe: mMaxWidth = 720; mMaxHeight = 1522
+10-03 15:23:19.315 13183 13183 I ThreeFingerSwipe: getPackageName = com.chupacabras.ar.figure
+10-03 15:23:19.332 13183 13183 W abras.ar.figur: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+10-03 15:23:19.332 13183 13183 W abras.ar.figur: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+10-03 15:23:19.344 13183 13183 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+10-03 15:23:19.381 13183 13183 I IL2CPP  : JNI_OnLoad
+10-03 15:23:19.381 13183 13183 V Unity   : Context Type: GameActivity
+10-03 15:23:19.382 13183 13183 D Unity   : CommandLine:  
+10-03 15:23:19.399 13183 13183 I GameActivity: Looking for library libgame.so
+10-03 15:23:19.399 13183 13183 I GameActivity: Found library libgame.so. Loading...
+10-03 15:23:19.405 13183 13183 D GameActivity: SDK version: 30
+10-03 15:23:19.429 13183 13637 I Unity   : UnityApplication::CreateInstance
+10-03 15:23:19.429 13183 13637 I Unity   : GameActivity Package Version '4.4.0'
+10-03 15:23:19.430 13183 13637 I Unity   : Starting Game Loop
+10-03 15:23:19.466 13183 13637 I Unity   : Handle cmd APP_CMD_START(11)
+10-03 15:23:19.467 13183 13183 I Unity   : onResume
+10-03 15:23:19.474 13183 13637 I Unity   : Handle cmd APP_CMD_RESUME(12)
+--------- beginning of system
+10-03 15:23:19.475 13183 13183 I ActivityThread: smart_link is  not supported!!!
+10-03 15:23:19.497 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:23:19.497 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:23:19.512 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:23:19.512 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:23:19.514 13183 13637 I Unity   : Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+10-03 15:23:19.522 13183 13637 I Unity   : Handle cmd APP_CMD_INIT_WINDOW(1)
+10-03 15:23:19.533 13183 13183 I gralloc4: register: id=21e000087b9
+10-03 15:23:19.533 13183 13183 E libc    : Access denied finding property "persist.vendor.sf.fbc"
+10-03 15:23:19.533 13183 13183 E libc    : Access denied finding property "persist.vendor.gpu.fbc"
+10-03 15:23:19.533 13183 13183 E libc    : Access denied finding property "persist.vendor.vsp.fbc"
+10-03 15:23:19.533 13183 13183 E ion     : ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+10-03 15:23:19.541 13183 13637 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-03 15:23:19.542 13183 13637 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+10-03 15:23:19.542 13183 13637 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+10-03 15:23:19.549 13183 13637 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-03 15:23:19.558 13183 13637 D Unity   : Enabling Unity systrace
+10-03 15:23:19.558 13183 13637 D Unity   : Starting Unity systrace
+10-03 15:23:19.570 13183 13183 I gralloc4: register: id=21e000087bb
+10-03 15:23:19.573 13183 13637 D Unity   : [VFS] Mount /data/app/~~4VVj8bg50dD8uMPXSKpWJw==/com.chupacabras.ar.figure-mk0XU9BS3ziokjh7EhW6Rg==/base.apk
+10-03 15:23:19.575 13183 13183 I Unity   : windowFocusChanged: true
+10-03 15:23:19.575 13183 13183 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+10-03 15:23:19.576 13183 13183 I Unity   : resumeUnity
+10-03 15:23:19.581 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:23:19.584 13183 13183 I gralloc4: register: id=21e000087bc
+10-03 15:23:19.604 13183 13637 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3486mb
+10-03 15:23:19.604 13183 13637 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0xc0), 6 little (mask: 0x3f)
+10-03 15:23:19.606 13183 13637 I Unity   : ApplicationInfo 'com.chupacabras.ar.figure', Version '0.2.1', Min API Level '26', Target API Level '35'
+10-03 15:23:19.606 13183 13637 I Unity   : Built from '6000.3/staging' branch, Version '6000.3.22f1 (1c726e1fb402)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+10-03 15:23:19.606 13183 13637 I Unity   : Device Model 'motorola moto g(20)', OS 'Android OS 11 (API 30)'
+10-03 15:23:19.607 13183 13637 D Unity   : Determine if il2cpp resources need to extracted:
+10-03 15:23:19.608 13183 13637 D Unity   :     il2cpp resources are up to date, not extracting
+10-03 15:23:19.615 13183 13183 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+10-03 15:23:19.626 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:23:19.762 13183 13637 D Unity   : [EGL] Attaching window :0xb4000071fa96aaf0
+10-03 15:23:19.762 13183 13637 D Unity   : InitializeScriptEngine OK (0x7000e4cfc0)
+10-03 15:23:19.765 13183 13637 D Unity   : Found NO interfaces on host .
+10-03 15:23:19.765 13183 13637 D Unity   : Player connection [481225387136]  Target information:
+10-03 15:23:19.765 13183 13637 D Unity   : 
+10-03 15:23:19.765 13183 13637 D Unity   : Player connection [481225387136] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+10-03 15:23:19.765 13183 13637 D Unity   : 
+10-03 15:23:19.769 13183 13637 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-03 15:23:19.771 13183 13637 I chatty  : uid=10270(com.chupacabras.ar.figure) UnityMain identical 17 lines
+10-03 15:23:19.771 13183 13637 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-03 15:23:19.775 13183 13637 D Unity   : Input System module state changed to: Initialized.
+10-03 15:23:19.780 13183 13637 D Unity   : [Physics::Module] Initialized fallback backend.
+10-03 15:23:19.780 13183 13637 D Unity   : [Physics::Module] Id: 0xdecafbad
+10-03 15:23:19.781 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:23:19.783 13183 13637 D Unity   : PlayerInitEngineNoGraphics OK
+10-03 15:23:19.783 13183 13637 I Unity   : Company Name: Chupacabras
+10-03 15:23:19.783 13183 13637 I Unity   : Product Name: Chupacabras — Figura AR
+10-03 15:23:19.783 13183 13637 D Unity   : AndroidGraphics::Startup window =  0xb4000071fa96aaf0
+10-03 15:23:19.783 13183 13637 D Unity   : [EGL] Attaching window :0xb4000071fa96aaf0
+10-03 15:23:19.783 13183 13183 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+10-03 15:23:19.786 13183 13637 D Unity   : [Subsystems] Discovering subsystems at path /data/app/~~4VVj8bg50dD8uMPXSKpWJw==/com.chupacabras.ar.figure-mk0XU9BS3ziokjh7EhW6Rg==/base.apk/assets/bin/Data/UnitySubsystems
+10-03 15:23:19.789 13183 13637 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-03 15:23:19.789 13183 13637 D Unity   : [EGL] Checking ES 3.2 support...
+10-03 15:23:19.791 13183 13637 D Unity   : [EGL] ES 3.2 support detected
+10-03 15:23:19.791 13183 13637 D Unity   : [EGL] Found: ID[5] ES 3.2 RGB 565 0/0
+10-03 15:23:19.791 13183 13637 D Unity   : GfxDevice: creating device client; kGfxThreadingModeThreaded
+10-03 15:23:19.792 13183 13637 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+10-03 15:23:19.792 13183 13637 D Unity   : [EGL] Found: ID[5] ES 3.2 RGB 565 0/0
+10-03 15:23:19.792 13183 13637 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+10-03 15:23:19.792 13183 13637 D Unity   : [EGL] Found: ID[1] ES 3.0 RGBA 8888 0/0
+10-03 15:23:19.792 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:23:19.797 13183 13183 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+10-03 15:23:19.798 13183 13637 D Unity   : ANativeWindow: (720/1600) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (720/1600)
+10-03 15:23:19.800 13183 13637 D Unity   : Renderer: Mali-G52
+10-03 15:23:19.800 13183 13637 D Unity   : Vendor:   ARM
+10-03 15:23:19.800 13183 13637 D Unity   : Version:  OpenGL ES 3.2 v1.r25p1-01bet0.###other-sha0123456789ABCDEF0###
+10-03 15:23:19.800 13183 13637 D Unity   : GLES:     3
+10-03 15:23:19.801 13183 13637 D Unity   :  GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_EXT_texture_compression_astc_decode_mode GL_EXT_texture_compression_astc_decode_mode_rgb9e5 GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer
+10-03 15:23:19.801 13183 13637 D Unity   :  GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_
+10-03 15:23:19.801 13183 13637 D Unity   : box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_shader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_EGL_image_array GL_EXT_texture_filter_anisotropic GL_ARM_texture_unnormalized_coordinates
+10-03 15:23:19.803 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:23:19.809 13183 13637 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -359059040
+10-03 15:23:19.810 13183 13637 D Unity   : [EGL] Attaching window :0xb4000071fa96aaf0
+10-03 15:23:19.811 13183 13637 D Unity   : Requested framebuffer: resolution[720x1600], rgba[8/8/8/8], depth+stencil[on], samples[1]
+10-03 15:23:19.811 13183 13637 D Unity   : Created framebuffer: resolution[720x1600], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+10-03 15:23:19.815 13183 13637 I SwappyWrapper: SwappyWrapperInit() succeeded. Build: Sat Oct  3 15:19:31 2026
+10-03 15:23:19.815 13183 13637 D Unity   : SwappyWrapper: InitSwappyWrapper() succeeded.
+10-03 15:23:19.822 13183 13637 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[0, -5476376661105168176]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+10-03 15:23:19.823 13183 13701 I SwappyDisplayManager: Starting looper thread
+10-03 15:23:19.824 13183 13637 D Unity   : [EGL] Attaching window :0xb4000071fa96aaf0
+10-03 15:23:19.824 13183 13637 D Unity   : Initialize engine version: 6000.3.22f1 (1c726e1fb402)
+10-03 15:23:19.836 13183 13637 I AAudio  : AAudioStreamBuilder_openStream() called ----------------------------------------
+10-03 15:23:19.836 13183 13637 I AudioStreamBuilder: rate   =  24000, channels  = 2, format   = 5, sharing = SH, dir = OUTPUT
+10-03 15:23:19.836 13183 13637 I AudioStreamBuilder: device =      0, sessionId = 0, perfMode = 12, callback: ON with frames = 512
+10-03 15:23:19.836 13183 13637 I AudioStreamBuilder: usage  =      0, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+10-03 15:23:19.836 13183 13637 I AudioStreamBuilder: privacy sensitive = false
+10-03 15:23:19.836 13183 13637 D AudioStreamBuilder: build() MMAP not used because sessionId specified.
+10-03 15:23:19.836 13183 13637 D abras.ar.figur: PlayerBase::PlayerBase()
+10-03 15:23:19.836 13183 13637 D AudioStreamTrack: open(), request notificationFrames = 512, frameCount = 8192
+10-03 15:23:19.836 13183 13637 I AudioTrack: set(): streamType -1, sampleRate 24000, format 0x5, channelMask 0x3, frameCount 8192, flags #4, notificationFrames 512, sessionId 0, transferType 1, uid -1, pid -1
+10-03 15:23:19.842 13183 13637 D AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 8192 -> 8192
+10-03 15:23:19.842 13183 13637 D AAudioStream: setState(s#1) from 0 to 2
+10-03 15:23:19.842 13183 13637 W AudioStreamTrack: open() flags changed from 0x00000004 to 0x00000000
+10-03 15:23:19.842 13183 13637 W AudioStreamTrack: open() perfMode changed from 12 to 10
+10-03 15:23:19.843 13183 13637 I AAudio  : AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+10-03 15:23:19.843 13183 13637 D AAudio  : AAudioStream_requestStart(s#1) called --------------
+10-03 15:23:19.843 13183 13637 D AAudioStream: setState(s#1) from 2 to 3
+10-03 15:23:19.843 13183 13637 I AudioTrack: start  mClientUid:10270 mClientPid:13183  mSessionId:16353 app name:com.chupacabras.ar.figure 
+10-03 15:23:19.844 13183 13637 D abras.ar.figur: PlayerBase::start() from IPlayer
+10-03 15:23:19.844 13183 13637 D AAudio  : AAudioStream_requestStart(s#1) returned 0 ---------
+10-03 15:23:19.858 13183 13697 D AudioStreamLegacy: onAudioDeviceUpdate() devId 2 => 2
+10-03 15:23:19.859 13183 13704 D AAudioStream: setState(s#1) from 3 to 4
+10-03 15:23:19.939 13183 13637 D Unity   : [Physics::Module] Selected backend.
+10-03 15:23:19.939 13183 13637 D Unity   : [Physics::Module] Name: PhysX
+10-03 15:23:19.939 13183 13637 D Unity   : [Physics::Module] Id: 0xf2b8ea05
+10-03 15:23:19.939 13183 13637 D Unity   : [Physics::Module] SDK Version: 4.1.2
+10-03 15:23:19.939 13183 13637 D Unity   : [Physics::Module] Integration Version: 1.0.0
+10-03 15:23:19.939 13183 13637 D Unity   : [Physics::Module] Threading Mode: Multi-Threaded
+10-03 15:23:20.090 13183 13637 D Unity   : PlayerInitEngineGraphics OK
+10-03 15:23:20.093 13183 13637 D Unity   : Found 63 native sensors
+10-03 15:23:20.094 13183 13637 D Unity   : Sensor :        Accelerometer ( 1) ; 0.010000 / 0.00s ; icm42607 Accelerometer / INV 
+10-03 15:23:20.095 13183 13637 D Unity   : Sensor :        Accelerometer ( 1) ; 0.010000 / 0.00s ; icm42607 Accelerometer / INV 
+10-03 15:23:20.095 13183 13637 D Unity   : enabled Accelerometer sensor
+10-03 15:23:20.100 13183 13637 D Unity   : Input: mapping [16:AXIS_GENERIC_1]
+10-03 15:23:20.100 13183 13637 D Unity   : Input: attaching joystick ["uinput-fpc"][0x00000007:0a2365ce4f51162539f3bf91469900de3a450172] at pos [0x01]
+10-03 15:23:20.100 13183 13637 I Unity   :     HasWindow = 1, HasFocus = 0
+10-03 15:23:20.100 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_RESIZED(3)
+10-03 15:23:20.100 13183 13637 D Unity   : NativeWindow resized 720x1600
+10-03 15:23:20.101 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+10-03 15:23:20.101 13183 13637 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+10-03 15:23:20.101 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:23:20.102 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:23:20.103 13183 13637 W libEGL  : EGLNativeWindowType 0xb4000071fa96aaf0 disconnect failed
+10-03 15:23:20.104 13183 13637 D Unity   : ANativeWindow: (720/1600) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (720/1600)
+10-03 15:23:20.109 13183 13637 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-03 15:23:20.196 13183 13698 I gralloc4: register: id=21e000087bd
+10-03 15:23:20.208 13183 13698 I gralloc4: register: id=21e000087be
+10-03 15:23:20.231 13183 13698 I gralloc4: register: id=21e000087bf
+10-03 15:23:20.300 13183 13635 I abras.ar.figur: Waiting for a blocking GC ProfileSaver
+10-03 15:23:22.224 13183 13183 D GameActivity: ************** mainWorkCallback *********
+10-03 15:23:22.225 13183 13183 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-03 15:23:22.226 13183 13637 D Unity   : UnloadTime: 1.480000 ms
+10-03 15:23:22.267 13183 13637 D CompatibilityChangeReporter: Compat change id reported: 147600208; UID 10270; state: ENABLED
+10-03 15:23:22.274 13183 13637 D Unity   : Sensor :        Accelerometer ( 1) ; 0.010000 / 0.00s ; icm42607 Accelerometer / INV 
+10-03 15:23:22.274 13183 13637 D Unity   : Using NDK Choreographer.
+10-03 15:23:22.307 13183 13637 D Unity   : Stopping Unity systrace
+10-03 15:23:22.317 13183 13637 I IL2CPP  : Locale en-US
+10-03 15:23:22.535 13183 13637 D Unity   : Failed to load native plugin: Unable to lookup library path for '_burst_0_0'.
+10-03 15:23:22.586 13183 13637 I Unity   : CHUPACABRAS_DEVICE_DETECTOR_OK {
+10-03 15:23:22.586 13183 13637 I Unity   :     "unity": "6000.3.22f1",
+10-03 15:23:22.586 13183 13637 I Unity   :     "platform": "Android",
+10-03 15:23:22.586 13183 13637 I Unity   :     "family": "tagStandard41h12",
+10-03 15:23:22.586 13183 13637 I Unity   :     "id": 0,
+10-03 15:23:22.586 13183 13637 I Unity   :     "detections": 1,
+10-03 15:23:22.586 13183 13637 I Unity   :     "blankDetections": 0,
+10-03 15:23:22.586 13183 13637 I Unity   :     "position": {
+10-03 15:23:22.586 13183 13637 I Unity   :         "x": -0.000030418614187510684,
+10-03 15:23:22.586 13183 13637 I Unity   :         "y": 0.0001228229666594416,
+10-03 15:23:22.586 13183 13637 I Unity   :         "z": 0.27718374133110049
+10-03 15:23:22.586 13183 13637 I Unity   :     },
+10-03 15:23:22.586 13183 13637 I Unity   :     "rotation": {
+10-03 15:23:22.586 13183 13637 I Unity   :         "x": 0.002918973797932267,
+10-03 15:23:22.586 13183 13637 I Unity   :         "y": -0.0010334892431274057,
+10-03 15:23:22.586 13183 13637 I Unity   :         "z": -0.00016976076585706323,
+10-03 15:23:22.586 13183 13637 I Unity   :         "w": 0.9999952912330627
+10-03 15:23:22.586 13183 13637 I Unity   :     },
+10-03 15:23:22.586 13183 13637 I Unity   :     "passed": true,
+10-03 15:23:22.586 13183 13637 I Unity   :     "limitation": "Imagen incluida; no valida marcador físico, escala ni calibración."
+10-03 15:23:22.586 13183 13637 I Unity   : }
+10-03 15:23:22.586 13183 13637 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-03 15:23:22.586 13183 13637 I Unity   : Chupacabras.TrackingProbe:Start()
+10-03 15:23:22.586 13183 13637 I Unity   : 
+10-03 15:23:22.602 13183 13637 I CameraManagerGlobal: Connecting to camera service
+10-03 15:23:22.607 13183 13637 I Unity   : Camera2 0 is a simple camera
+10-03 15:23:22.609 13183 13637 I Unity   : Camera2 1 is a simple camera
+10-03 15:23:22.610 13183 13637 I Unity   : Camera2 2 is a simple camera
+10-03 15:23:22.611 13183 13637 I Unity   : Camera2 3 is a simple camera
+10-03 15:23:22.612 13183 13637 I Unity   : Camera2 4 is a simple camera
+10-03 15:23:22.615 13183 13637 I Unity   : Camera2: 0 focal length 4.71
+10-03 15:23:22.616 13183 13637 I Unity   : Camera2: sensor size 6.4 x 4.8
+10-03 15:23:22.616 13183 13637 I Unity   : Camera2: focal length equivalent 26
+10-03 15:23:22.633 13183 13637 I Unity   : Camera2: 1 focal length 3.748
+10-03 15:23:22.633 13183 13637 I Unity   : Camera2: sensor size 4.712 x 3.494
+10-03 15:23:22.633 13183 13637 I Unity   : Camera2: focal length equivalent 28
+10-03 15:23:22.648 13183 13637 I Unity   : Camera2: 2 focal length 4.222
+10-03 15:23:22.648 13183 13637 I Unity   : Camera2: sensor size 4.614 x 3.444
+10-03 15:23:22.648 13183 13637 I Unity   : Camera2: focal length equivalent 32
+10-03 15:23:22.655 13183 13637 I Unity   : Camera2: 3 focal length 1.66
+10-03 15:23:22.656 13183 13637 I Unity   : Camera2: sensor size 3.655 x 2.741
+10-03 15:23:22.656 13183 13637 I Unity   : Camera2: focal length equivalent 16
+10-03 15:23:22.662 13183 13637 I Unity   : Camera2: 4 focal length 1.93
+10-03 15:23:22.662 13183 13637 I Unity   : Camera2: sensor size 2.8 x 2.1
+10-03 15:23:22.662 13183 13637 I Unity   : Camera2: focal length equivalent 24
+10-03 15:23:22.672 13183 13637 I Unity   : Camera2: Hardware level: 0
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 4000 x 3000 [5.051457288616511]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 4000 x 2250 [4.7637752161647295]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 4000 x 2000 [4.645992180508347]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 4000 x 1800 [4.540631664850521]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 4000 x 1896 [4.592591403781231]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 3840 x 2160 [4.68213122712422]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 3264 x 2448 [4.64477544058045]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 3264 x 1836 [4.35709336812867]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 3264 x 1632 [4.239310332472286]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 3264 x 1552 [4.189048497691398]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 3264 x 1468 [4.133405006122695]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 2592 x 1944 [4.1837281233567865]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 2592 x 1458 [3.8960460509050057]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 2592 x 1296 [3.778263015248622]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 2592 x 1224 [3.7211046014086735]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 2560 x 1920 [4.1588830833596715]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 2560 x 1440 [3.8712010109078907]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 2448 x 2448 [4.35709336812867]
+10-03 15:23:22.676 13183 13637 I Unity   : Camera2: FrameSize 2320 x 1740 [3.9620029377331667]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 2304 x 1728 [3.9481620520440193]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 2272 x 1080 [3.464172180823544]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 2160 x 1080 [3.413619901660713]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 2048 x 1536 [3.7125959807312525]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 2048 x 1152 [3.4249139082794713]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 1920 x 1080 [3.295836866004329]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 1920 x 1072 [3.2884018875168106]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 1600 x 1200 [3.2188758248682006]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 1440 x 1080 [3.0081547935525483]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 1600 x 720 [2.70805020110221]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 1280 x 720 [2.4849066497880004]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 960 x 720 [2.1972245773362196]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 800 x 600 [1.83258146374831]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 720 x 480 [1.5040773967762742]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 640 x 480 [1.3862943611198906]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 352 x 288 [0.2776317365982795]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 320 x 240 [0.0]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 320 x 180 [0.28768207245178085]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 320 x 144 [0.5108256237659907]
+10-03 15:23:22.677 13183 13637 I Unity   : Camera2: FrameSize 176 x 144 [1.1086626245216111]
+10-03 15:23:22.678 13183 13637 I Unity   : Camera2: FPS requested: 15 set: 15
+10-03 15:23:22.679 13183 13637 I Unity   : Camera2: Open logical camera 0
+10-03 15:23:22.918 13183 13715 I Unity   : Camera2: CameraDevice opened.
+10-03 15:23:22.921 13183 13637 I Unity   : Camera2: Start preview.
+10-03 15:23:22.930 13183 13715 I Unity   : Camera2: CaptureSession is configured.
+10-03 15:23:22.934 13183 13206 I gralloc4: register: id=21e000087c0
+10-03 15:23:23.025 13183 13206 I gralloc4: register: id=21e000087c1
+10-03 15:23:23.027 13183 13206 I gralloc4: register: id=21e000087c2
+10-03 15:23:23.029 13183 13206 I gralloc4: register: id=21e000087c3
+10-03 15:23:23.258 13183 13205 I gralloc4: register: id=21e000087c4
+10-03 15:23:24.124 13183 13206 I gralloc4: register: id=21e000087c5
+10-03 15:23:24.398 13183 13637 I Unity   : CHUPACABRAS_CAMERA Camera 0 320x240 rotation=90 mirrored=False
+10-03 15:23:24.398 13183 13637 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-03 15:23:24.398 13183 13637 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-03 15:23:24.398 13183 13637 I Unity   : Chupacabras.TrackingProbe:Update()
+10-03 15:23:24.398 13183 13637 I Unity   : 
+10-03 15:23:24.412 13183 13637 I Unity   : CHUPACABRAS_TRACK acquired
+10-03 15:23:24.412 13183 13637 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-03 15:23:24.412 13183 13637 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-03 15:23:24.412 13183 13637 I Unity   : Chupacabras.TrackingProbe:Update()
+10-03 15:23:24.412 13183 13637 I Unity   : 
+10-03 15:23:54.095 13183 13205 I abras.ar.figur: Explicit concurrent copying GC freed 55514(2957KB) AllocSpace objects, 2(40KB) LOS objects, 88% free, 3118KB/27MB, paused 119us total 25.840ms
+10-03 15:24:24.105 13183 13206 I abras.ar.figur: Explicit concurrent copying GC freed 24481(772KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3096KB/27MB, paused 120us total 35.125ms
+10-03 15:24:54.084 13183 13697 I abras.ar.figur: Explicit concurrent copying GC freed 23767(750KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3096KB/27MB, paused 47us total 25.688ms
+10-03 15:25:24.068 13183 13206 I abras.ar.figur: Explicit concurrent copying GC freed 23759(766KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3096KB/27MB, paused 44us total 20.985ms
+10-03 15:25:54.083 13183 13697 I abras.ar.figur: Explicit concurrent copying GC freed 23788(750KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3096KB/27MB, paused 57us total 27.944ms
+10-03 15:26:24.102 13183 13206 I abras.ar.figur: Explicit concurrent copying GC freed 23769(750KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3096KB/27MB, paused 53us total 27.185ms
+10-03 15:26:54.078 13183 13206 I abras.ar.figur: Explicit concurrent copying GC freed 23757(766KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3096KB/27MB, paused 99us total 24.833ms
+10-03 15:27:24.080 13183 13206 I abras.ar.figur: Explicit concurrent copying GC freed 23788(766KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3064KB/26MB, paused 48us total 21.403ms
+10-03 15:27:54.077 13183 14382 I abras.ar.figur: Explicit concurrent copying GC freed 23762(766KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3096KB/27MB, paused 53us total 24.097ms
+10-03 15:28:23.959 13183 13183 I ThreeFingerSwipe: 0 ACTION_DOWN point count = 1
+10-03 15:28:23.962 13183 13183 I ThreeFingerSwipe: onPointDown... pointIndex = 0, pointId = 0
+10-03 15:28:23.962 13183 13183 I ThreeFingerSwipe: currentX = 440.0, currentY = 0.0
+10-03 15:28:24.074 13183 14382 I abras.ar.figur: Explicit concurrent copying GC freed 23788(780KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3097KB/27MB, paused 102us total 25.445ms
+10-03 15:28:24.110 13183 13183 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-03 15:28:24.126 13183 13183 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-03 15:28:24.143 13183 13183 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-03 15:28:24.160 13183 13183 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-03 15:28:24.176 13183 13183 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-03 15:28:24.193 13183 13183 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-03 15:28:24.209 13183 13183 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-03 15:28:24.216 13183 13183 I ThreeFingerSwipe: 0 ACTION_UP point count = 1
+10-03 15:28:24.845 13183 13183 I Unity   : windowFocusChanged: false
+10-03 15:28:24.858 13183 13637 I Unity   : Handle cmd APP_CMD_LOST_FOCUS(8)
+10-03 15:28:24.858 13183 13637 D AAudio  : AAudioStream_requestStop(s#1) called
+10-03 15:28:24.858 13183 13637 D AAudioStream: setState(s#1) from 4 to 9
+10-03 15:28:24.858 13183 13637 I AudioTrack: stop  mClientUid:10270 mClientPid:13183  mSessionId:16353 app name:com.chupacabras.ar.figure 
+10-03 15:28:24.858 13183 13637 D AudioTrack: stop(2101): called with 7321920 frames delivered
+10-03 15:28:24.858 13183 13637 D abras.ar.figur: PlayerBase::stop() from IPlayer
+10-03 15:28:24.859 13183 13637 D AAudioStream: setState(s#1) from 9 to 10
+10-03 15:28:24.877 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:28:24.878 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:28:24.881 13183 13183 I Unity   : windowFocusChanged: true
+10-03 15:28:24.881 13183 13183 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+10-03 15:28:24.881 13183 13637 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+10-03 15:28:24.886 13183 13637 D AAudio  : AAudioStream_requestStart(s#1) called --------------
+10-03 15:28:24.886 13183 13637 D AAudioStream: setState(s#1) from 10 to 3
+10-03 15:28:24.886 13183 13637 I AudioTrack: start  mClientUid:10270 mClientPid:13183  mSessionId:16353 app name:com.chupacabras.ar.figure 
+10-03 15:28:24.886 13183 13637 D abras.ar.figur: PlayerBase::start() from IPlayer
+10-03 15:28:24.886 13183 13637 D AAudio  : AAudioStream_requestStart(s#1) returned 0 ---------
+10-03 15:28:24.894 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:28:24.896 13183 13183 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-03 15:28:24.898 13183 13704 D AAudioStream: setState(s#1) from 3 to 4
+10-03 15:28:24.911 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:28:24.979 13183 13183 I Unity   : windowFocusChanged: false
+10-03 15:28:24.984 13183 13637 I Unity   : Handle cmd APP_CMD_LOST_FOCUS(8)
+10-03 15:28:24.984 13183 13637 D AAudio  : AAudioStream_requestStop(s#1) called
+10-03 15:28:24.984 13183 13637 D AAudioStream: setState(s#1) from 4 to 9
+10-03 15:28:24.984 13183 13637 I AudioTrack: stop  mClientUid:10270 mClientPid:13183  mSessionId:16353 app name:com.chupacabras.ar.figure 
+10-03 15:28:24.984 13183 13637 D AudioTrack: stop(2101): called with 3360 frames delivered
+10-03 15:28:24.984 13183 13637 D abras.ar.figur: PlayerBase::stop() from IPlayer
+10-03 15:28:24.984 13183 13637 D AAudioStream: setState(s#1) from 9 to 10
+10-03 15:28:26.058 13183 13183 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10270; state: ENABLED
+10-03 15:28:28.992 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:28:28.993 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:28:28.999 13183 13183 I Unity   : windowFocusChanged: true
+10-03 15:28:28.999 13183 13183 I Unity   : applyWindowUIChanges fullScreen = true, renderOutsideSafeArea = true
+10-03 15:28:28.999 13183 13637 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+10-03 15:28:29.009 13183 13183 V GameActivity: onImeInsetsChanged from Text Listener
+10-03 15:28:29.013 13183 13637 D AAudio  : AAudioStream_requestStart(s#1) called --------------
+10-03 15:28:29.013 13183 13637 D AAudioStream: setState(s#1) from 10 to 3
+10-03 15:28:29.013 13183 13637 I AudioTrack: start  mClientUid:10270 mClientPid:13183  mSessionId:16353 app name:com.chupacabras.ar.figure 
+10-03 15:28:29.015 13183 13637 D abras.ar.figur: PlayerBase::start() from IPlayer
+10-03 15:28:29.015 13183 13637 D AAudio  : AAudioStream_requestStart(s#1) returned 0 ---------
+10-03 15:28:29.015 13183 13697 D AudioStreamLegacy: onAudioDeviceUpdate() devId 2 => 2
+10-03 15:28:29.017 13183 13183 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-03 15:28:29.098 13183 13704 D AAudioStream: setState(s#1) from 3 to 4
+10-03 15:28:29.125 13183 13637 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-03 15:28:29.156 13183 13637 I Unity   : CHUPACABRAS_TRACK acquired
+10-03 15:28:29.156 13183 13637 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-03 15:28:29.156 13183 13637 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-03 15:28:29.156 13183 13637 I Unity   : Chupacabras.TrackingProbe:Update()
+10-03 15:28:29.156 13183 13637 I Unity   : 
+10-03 15:28:54.086 13183 13697 I abras.ar.figur: Explicit concurrent copying GC freed 31515(1029KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3076KB/27MB, paused 63us total 23.309ms
+10-03 15:29:04.087 13183 13697 I abras.ar.figur: Explicit concurrent copying GC freed 12549(458KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3054KB/26MB, paused 170us total 26.168ms

@@ -1,0 +1,127 @@
+{
+  "elapsed_s": 309.999275394,
+  "fps": 29.60652081633104,
+  "frame_ms": {
+    "n": 9178,
+    "min": 30.019115,
+    "median": 33.322788,
+    "p95": 33.408885,
+    "p99": 33.573192,
+    "max": 4131.983035
+  },
+  "over_50ms": 2,
+  "over_100ms": 1,
+  "system": [
+    {
+      "seconds": 4.390599997350364e-05,
+      "pss_kib": 445162.0,
+      "native_alloc_kib": 201081.0,
+      "battery_tenths_c": 352.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 30.000114907999887,
+      "pss_kib": 446513.0,
+      "native_alloc_kib": 200682.0,
+      "battery_tenths_c": 352.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 60.000164568999935,
+      "pss_kib": 447562.0,
+      "native_alloc_kib": 200574.0,
+      "battery_tenths_c": 355.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 90.00019426799986,
+      "pss_kib": 448234.0,
+      "native_alloc_kib": 200598.0,
+      "battery_tenths_c": 360.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 120.0000958569999,
+      "pss_kib": 448629.0,
+      "native_alloc_kib": 200587.0,
+      "battery_tenths_c": 360.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 150.00010214299982,
+      "pss_kib": 449176.0,
+      "native_alloc_kib": 200727.0,
+      "battery_tenths_c": 360.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 180.00009967799997,
+      "pss_kib": 449257.0,
+      "native_alloc_kib": 200605.0,
+      "battery_tenths_c": 364.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 210.00007028999994,
+      "pss_kib": 449393.0,
+      "native_alloc_kib": 200660.0,
+      "battery_tenths_c": 364.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 240.0001056619999,
+      "pss_kib": 448612.0,
+      "native_alloc_kib": 200668.0,
+      "battery_tenths_c": 366.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 270.00020389199994,
+      "pss_kib": 449109.0,
+      "native_alloc_kib": 201738.0,
+      "battery_tenths_c": 366.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 300.00012240699994,
+      "pss_kib": 449873.0,
+      "native_alloc_kib": 200730.0,
+      "battery_tenths_c": 369.0,
+      "thermal_status": 0.0
+    },
+    {
+      "seconds": 310.00013182099997,
+      "pss_kib": 449365.0,
+      "native_alloc_kib": 198102.0,
+      "battery_tenths_c": 369.0,
+      "thermal_status": 0.0
+    }
+  ],
+  "tracking": {
+    "csv": "docs/evidencias/2026-10-03_figura_f5_f6/perfil_f6/files/probe_20261003_212322_315/tracking.csv",
+    "seconds": 307.9,
+    "samples": 2514,
+    "visible": 2513,
+    "lost_seconds": [
+      308.9308
+    ],
+    "detector_hz": 14.810003247807732,
+    "image_ms": {
+      "n": 2514,
+      "min": 0.661,
+      "median": 2.165,
+      "p95": 2.669,
+      "p99": 6.534,
+      "max": 20.563
+    },
+    "detector_ms": {
+      "n": 2514,
+      "min": 8.532,
+      "median": 12.47,
+      "p95": 15.857,
+      "p99": 17.267,
+      "max": 19.298
+    }
+  },
+  "limits": "All gaps retained. Surface presentation is not GPU execution time. CSV frame time is an EMA. USB charging and ADB sampling active."
+}
