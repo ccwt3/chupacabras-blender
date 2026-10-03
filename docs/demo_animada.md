@@ -1,3 +1,7 @@
+> **Demo independiente conservada.** Las referencias al corto definitivo de
+> 40 s describen el alcance anterior, sustituido por el [plan de figura AR](plan_secuencia.md).
+> Esta demo no es la nueva entrega. Ver [estado](estado.md).
+
 # Demo animada: ataque y arrastre
 
 Se añadió una animación de **35 segundos** a los modelos del borrador estático, conservando intacto `scenes/demo_lowpoly.blend`. Es una prueba sencilla de actuación y tiempos; no ejecuta la producción definitiva ni cambia sus 40 segundos acordados.

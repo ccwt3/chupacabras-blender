@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Calma y ataque: pasos 13–14
 
 Sesión del 2 de octubre de 2026. El usuario autoriza aplazar **12.2–12.3 /

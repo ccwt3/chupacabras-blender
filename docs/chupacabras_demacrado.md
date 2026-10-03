@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Chupacabras demacrado — revisión de pasos 8 y 9
 
 2 de octubre de 2026, México (los logs finales usan también 3 de octubre UTC).

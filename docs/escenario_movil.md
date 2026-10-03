@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Escenario para la ventana cinematográfica — paso 6
 
 Se construye un granero de tablas envejecidas con puertas, travesaños, techo y

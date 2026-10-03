@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Paso 5: bloqueo de 40 segundos
 
 El bloqueo usa formas provisionales para fijar espacio, tiempos y cámaras.

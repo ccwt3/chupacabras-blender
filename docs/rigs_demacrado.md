@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Revisión demacrada: rig y aspecto, pasos 11–12
 
 Continuación del 2 de octubre de 2026 (logs también fechados 3 de octubre UTC).

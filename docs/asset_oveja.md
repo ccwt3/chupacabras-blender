@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Oveja reutilizada — paso 7
 
 Se seleccionó **Sheep, de Farm Animals Pack, por Quaternius (2018)**. La página

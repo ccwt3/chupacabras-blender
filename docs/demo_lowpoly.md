@@ -1,3 +1,7 @@
+> **Demo independiente conservada.** Las referencias al corto definitivo de
+> 40 s describen el alcance anterior, sustituido por el [plan de figura AR](plan_secuencia.md).
+> Esta demo no es la nueva entrega. Ver [estado](estado.md).
+
 # Demo visual lowpoly
 
 ## Alcance

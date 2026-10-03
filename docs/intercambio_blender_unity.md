@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Paso 4: contrato de intercambio comprobable
 
 Sesión del 24 de septiembre de 2026. Fuente: `scenes/04_intercambio.blend`;

@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Materiales, iluminación y composición — paso 12
 
 Trabajo del 30 de septiembre de 2026, limitado al paso **12.1** y sus pruebas

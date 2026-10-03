@@ -1,54 +1,59 @@
-# Ficha de producción — paso 1
+# Ficha vigente: figura realista del chupacabras
 
-Fecha: 23 de septiembre de 2026. Fuente: instrucciones de esta sesión, plan vigente y archivos inspeccionados. Esta ficha no certifica Unity, Android ni seguimiento físico.
+Actualizada el 2 de octubre de 2026 por el cambio de alcance solicitado.
+[Plan y aceptación](plan_secuencia.md) · [Continuidad](estado.md).
+La [ficha cinematográfica anterior](ficha_produccion_40s_historica.md) es histórica.
 
-## Acuerdos confirmados
+## Experiencia de entrega
 
-- Fuente Blender, animaciones, referencias y exportaciones: `/home/cacawatin/code/blender/chupacabras`.
-- Aplicación AR Android: `/home/cacawatin/code/unity/chupacabras`. Proyecto creado allí durante la continuación del paso 2; ver estado para resultados.
-- Desarrollo y compilación desde Linux; exclusivamente `/home/cacawatin/Unity/Hub/Editor/6000.3.22f1/Editor/Unity`. No cambiar el Editor ni instalaciones globales.
-- Corto definitivo de 40 s, con cámaras internas y escena 3D en tiempo real sobre una ventana anclada al marcador. La demo de 35 s conserva su alcance independiente.
-- Cronología: pastoreo/acecho 0–15 s; criatura y ojos ocultos 15–20 s; salto iniciado a los 20 s y ataque hasta 25 s; arrastre/salida 25–39 s; campo vacío 39–40 s como margen provisional del plan; reinicio instantáneo a los 40 s.
-- Chupacabras original prioritario, cuadrúpedo fibroso, espalda arqueada, hombros marcados, garras, mandíbula articulable, orejas, cola y cresta. Ojos amarillos; mechones geométricos, sin pelo simulado.
-- Oveja reutilizada con licencia para modificación y distribución Android, pendiente de selección en el paso 7. La oveja de las demos es un proxy, y la referencia JPG no es un modelo ni una licencia de distribución.
-- Paleta nocturna índigo, sombras marcadas, luna geométrica, tierra seca, granero pequeño y una oveja. Violencia mediante actuación y polvo, sin requerir sangre.
-- AprilTag es candidato inicial. No añadir ARCore ni sustituir tecnología antes de resolver su prueba. Ocultar y pausar al perder pose; continuar al recuperar. No hay seguimiento persistente fuera de vista.
-- Moto G20 para pruebas; posible S23 solo en exposición, pendiente de prueba física propia.
+Al reconocer el marcador AprilTag existente, mostrar una sola figura 3D del
+chupacabras, centrada sobre él. El visitante mueve el teléfono para inspeccionar
+la criatura. Figura estática como base, sin ventana, oveja, ataque, arrastre,
+escenario ni duración narrativa. No se añaden animaciones o interacción en
+esta replanificación. Las demos anteriores permanecen disponibles por separado.
 
-## Referencias organizadas y revisadas
+## Dirección visual
 
-Las cinco copias de `references/` coinciden byte por byte con sus originales en `/home/cacawatin/Pictures/chupacabras/`. Procedencia, tamaño y SHA-256 en [referencias.json](evidencias/2026-09-23_continuidad/referencias.json).
+Realismo mediante anatomía, pose, superficie e iluminación coherentes, no solo
+mayor cantidad de polígonos. Conservar la identidad original demacrada: espalda
+arqueada, costillas, extremidades angulosas, cresta, cola y ojos amarillos.
+Partir de `scenes/09_chupacabras_demacrado_r02.blend`; el rig de
+`scenes/11_rigs_contacto_demacrado_r01.blend` puede servir para autoría de pose.
+No adoptar de nuevo la versión fornida ni usar un encuadre para ocultar defectos.
 
-| Archivo | Aplicación al diseño |
-| --- | --- |
-| `chupacabras1.jpg` | Postura baja, garras largas, hocico agresivo y cresta alta. |
-| `chupacabras2.jpg` | Orejas puntiagudas, cara oscura, ojos grandes y hombros fuertes; conservar amarillo acordado. |
-| `chupacabras3.jpg` | Espalda arqueada, anatomía fibrosa, cola, cresta y tratamiento gráfico de sombras. |
-| `ejemplo_de_oveja.jpg` | Lana clara facetada, cabeza y patas oscuras; orientar búsqueda de un recurso existente. |
-| `ejemplo_de_escenario.jpg` | Noche azul, luna, refugio rural y bosque en silueta; adaptar a tierra seca y una oveja. |
+Pose tensa y asimétrica con apoyos creíbles. Revisar rostro, uniones anatómicas,
+garras, cola y cresta desde seis vistas y de cerca. Acabado de piel, normales y
+rugosidad con materiales compatibles con URP; los colores planos y la noche
+índigo del corto dejan de ser restricciones. El detalle y las sombras deben
+justificarse en pantalla y medirse en G20. No se promete fotorrealismo antes de
+producir y evaluar una candidata.
 
-Se conservan como referencias visuales. No se ha comprobado una licencia para redistribuir estas imágenes dentro de la APK; no confundirlas con los recursos de producción autorizados.
+Las tres imágenes `references/chupacabras1.jpg`, `chupacabras2.jpg` y
+`chupacabras3.jpg` siguen orientando identidad y proporciones. Su procedencia
+está en [el registro de referencias](evidencias/2026-09-23_continuidad/referencias.json).
+Las referencias de oveja/escenario se conservan como historia. No hay licencia
+comprobada para distribuir las imágenes de referencia dentro de la aplicación;
+registrar autoría/licencia de cualquier textura o recurso nuevo.
 
-## Decisiones confirmadas — M#[1] resuelta
+## Condiciones técnicas
 
-El usuario respondió explícitamente: «Izquierda y giro a la derecha; ocultamiento hasta 25 s; ambiente y efectos sin música». Subpaso 1.3 completado; cierre 1.4 registrado.
+- Fuente Blender en `/home/cacawatin/code/blender/chupacabras`;
+  aplicación en `/home/cacawatin/code/unity/chupacabras`.
+- Android desde Linux, exclusivamente Unity **6000.3.22f1** instalado.
+- Reutilizar URP, cámara, AprilTag y marcador medido actuales; no añadir ARCore.
+- Mostrar con pose válida; ocultar al perderla o detenerse la cámara; recuperar
+  sin duplicación. No hay reloj del corto ni seguimiento fuera de vista.
+- Moto G20 valida la candidata; S23 sigue pendiente hasta probarlo.
+- No modificar ni borrar entregas anteriores; crear fuentes y escenas nuevas.
 
-| Decisión | Acuerdo |
-| --- | --- |
-| Trayectoria | Arrastre inicial a la izquierda, giro amplio y salida por la derecha; el paso 5 fijará coordenadas y encuadres. |
-| Ocultamiento | Desde el aterrizaje hasta los 25 s, conservando salto a los 20 s y duración total de 40 s. |
-| Audio | Ambiente y efectos de pastoreo, balidos, impacto, pasos y arrastre; sin música. |
+## Revisión y aceptación
 
-Orientación de pantalla, dimensiones físicas del marcador y parámetros de cámara siguen pendientes para la preparación técnica y validación del stand; no se solicitan ahora. No hay nueva pregunta sobre dispositivo, presentación o versión de Unity.
+F2 revisa forma y pose antes del detalle; F3–F4 comprueban superficie y aspecto
+en Unity; F5–F6 validan calidad visual y rendimiento reales. Una exportación
+correcta o un test geométrico no constituyen aprobación estética. Documentar
+objeciones del usuario y resolverlas. Las medidas del modelo actual son una
+referencia inicial, no un presupuesto móvil aprobado.
 
-## Requisitos técnicos por comprobar
-
-Se revisó [evaluacion_ar_moto_g20.md](evaluacion_ar_moto_g20.md); su evaluación documental previa no acredita ejecución real. Antes de adoptar AprilTag:
-
-1. Abrir/crear el proyecto con 6000.3.22f1, fijar URP y revisión del candidato, comprobar manifest/bloqueo y carga nativa Linux.
-2. Verificar SDK/NDK/JDK y compilar APK mínima desde Linux con el detector. Su ubicación física se observó, pero su funcionamiento no se ha probado.
-3. Preparar APK, marcador con familia/ID/medidas e instrucciones antes de pedir el teléfono. Consultar las ABIs reales por ADB antes de cerrar arquitectura.
-4. Probar cámara trasera, orientación/reflejo, proyección/intrínsecos, pose y escala con la impresión medida; pérdida/recuperación y costo de RenderTexture en el G20.
-5. Registrar resultados físicos y decidir viabilidad. Mantener S23 pendiente hasta disponer de él.
-
-Continuación: dependencias revisadas e integradas en el paso 2. La carga Linux, detección sintética y compilación Android pasaron; la aceptación física y ABI siguen pendientes en `estado.md`.
+El antiguo guion, audio y recorrido resueltos en M#[1] quedan fuera de alcance.
+M#[6] no se aprueba: su revisión de figura con panel se sustituye por M#[7],
+prueba futura de esta figura en G20. No se solicita una prueba física ahora.

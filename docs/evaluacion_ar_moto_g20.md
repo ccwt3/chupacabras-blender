@@ -1,3 +1,23 @@
+# Ruta AR vigente y evaluación histórica
+
+**2 de octubre de 2026:** reutilizar cámara, AprilTag y anclaje existentes para
+una sola figura realista; retirar del nuevo flujo la ventana cinematográfica.
+Ver [plan F1–F7](plan_secuencia.md) y [estado comprobado](estado.md).
+La infraestructura no se reinicia; su aceptación histórica limitada tampoco
+valida la futura geometría/materiales ni su carga de rendimiento.
+
+F1 separará la presentación estática de `AppearanceStudy` y del fallback de
+ventana de `TrackingProbe`. F5–F6 medirán figura y detector juntos en G20,
+con candidata preparada antes de solicitar M#[7]. M#[6] queda sustituida sin
+aprobar su antigua prueba física. S23 conserva su validación independiente.
+Se mantienen Unity 6000.3.22f1, Linux/Android y el marcador medido existente.
+
+**A continuación se conserva íntegro el informe histórico.** Sus referencias
+a ventana, corto, pasos antiguos y solicitudes manuales describen aquel alcance;
+no deben usarse como lista actual de tareas ni como validación de la figura nueva.
+
+---
+
 # Evaluación AR: Moto G20 de pruebas y posible Galaxy S23 de exposición
 
 **Estado vigente tras aceptación del usuario (23 de septiembre de 2026): paso 3 completado.** Distancia/escala aproximada aceptada como hecha y rendimiento adicional aplazado; AprilTag es la ruta aceptada para continuar. **Pasos 4–5 ejecutados el 24 de septiembre de 2026; ver estado y evidencia de intercambio/bloqueo.** M#[2] cerrada para esta etapa. Los apartados siguientes conservan la evaluación y pruebas en su orden histórico; sus bloqueos anteriores quedan superados por esta decisión. Las lecturas originales y la ausencia de prueba física de 0.0.5 no cambian. S23 sigue pendiente.

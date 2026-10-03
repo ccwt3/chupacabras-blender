@@ -1,3 +1,7 @@
+> **Referencia histórica del alcance anterior.** Sus resultados se conservan;
+> sus próximos pasos y requisitos cinematográficos no son tareas vigentes.
+> Consultar el [plan de figura AR](plan_secuencia.md) y el [estado](estado.md).
+
 # Chupacabras original: pasos 8 y 9
 
 **Revisión vigente de modelado — 2 de octubre de 2026:** [chupacabras demacrado](chupacabras_demacrado.md), forma R01/acabado R02. El resto de este documento conserva el hito anterior y sus comprobaciones; rig/aspecto de producción aún usan ese modelo.
