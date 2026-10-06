@@ -1,0 +1,10 @@
+{
+  "user_observation": "si, suficiente como demo",
+  "before": "2163",
+  "tracking_before": "==> /sdcard/Android/data/com.chupacabras.ar.figure/files/probe_20261006_180300_270/tracking.csv <==\n837.8365,inicio,True,0.0000,33.325,5.231,16.369,False,320,240,0,False,60.00,0.1000,-0.028245,-0.011406,0.237906,0.609933,-0.194920,0.223195,0.734964,12222\n837.9696,inicio,True,0.0000,33.325,4.471,17.456,False,320,240,0,False,60.00,0.1000,-0.028269,-0.011411,0.237896,0.610116,-0.194725,0.222670,0.735023,12224\n\n==> /sdcard/Android/data/com.chupacabras.ar.figure/files/probe_20261006_182024_563/tracking.csv <==\n548.8333,inicio,True,0.0000,38.000,13.992,31.294,False,320,240,0,False,60.00,0.1000,0.025001,-0.028177,0.242727,0.429578,0.504936,-0.567587,0.488209,8153\n548.9592,inicio,True,0.0000,40.792,13.327,23.705,False,320,240,0,False,60.00,0.1000,0.025043,-0.028179,0.242822,0.429748,0.504711,-0.567800,0.488045,8155\n",
+  "home": "",
+  "background": "    mResumedActivity: ActivityRecord{3a20991 u0 com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher t1909}\n",
+  "resume": "Starting: Intent { cmp=com.chupacabras.ar.figure/com.unity3d.player.UnityPlayerGameActivity }\n",
+  "after": "2163",
+  "tracking_after": "==> /sdcard/Android/data/com.chupacabras.ar.figure/files/probe_20261006_180300_270/tracking.csv <==\n837.8365,inicio,True,0.0000,33.325,5.231,16.369,False,320,240,0,False,60.00,0.1000,-0.028245,-0.011406,0.237906,0.609933,-0.194920,0.223195,0.734964,12222\n837.9696,inicio,True,0.0000,33.325,4.471,17.456,False,320,240,0,False,60.00,0.1000,-0.028269,-0.011411,0.237896,0.610116,-0.194725,0.222670,0.735023,12224\n\n==> /sdcard/Android/data/com.chupacabras.ar.figure/files/probe_20261006_182024_563/tracking.csv <==\n559.5958,inicio,True,0.0000,36.613,2.790,25.560,False,320,240,0,False,60.00,0.1000,0.024973,-0.028157,0.242847,0.428899,0.505501,-0.567760,0.488020,8233\n559.7182,inicio,True,0.0000,36.002,2.614,24.495,False,320,240,0,False,60.00,0.1000,0.024963,-0.028178,0.242782,0.428674,0.505284,-0.567937,0.488236,8235\n"
+}

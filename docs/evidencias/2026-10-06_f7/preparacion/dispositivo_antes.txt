@@ -1,0 +1,19 @@
+moto g(20)
+11
+arm64-v8a
+4096
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  Max charging voltage: 0
+  Charge counter: 1519314
+  status: 2
+  health: 2
+  present: true
+  level: 54
+  scale: 100
+  voltage: 3916
+  temperature: 360
+  technology: 

@@ -1,0 +1,14 @@
+{
+  "gpu-thmzone": {
+    "min_c": 59.062,
+    "max_c": 61.366,
+    "first_c": 61.366,
+    "last_c": 59.574
+  },
+  "soc-thmzone": {
+    "min_c": 59.884,
+    "max_c": 65.573,
+    "first_c": 65.573,
+    "last_c": 59.884
+  }
+}

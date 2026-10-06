@@ -1,0 +1,11 @@
+{
+  "changed_existing": [
+    "Assets/Editor/FigureNocturno.cs",
+    "Assets/FiguraAR/F4_r02/Figure.prefab"
+  ],
+  "runtime_unchanged": true,
+  "scene_unchanged": true,
+  "lights_scale_mesh_materials_unchanged": true,
+  "packages_projectsettings_unchanged": true,
+  "basis": "Hash de 1207 archivos; diff del prefab solo cambia GUID del controlador tras normalizar espacios."
+}

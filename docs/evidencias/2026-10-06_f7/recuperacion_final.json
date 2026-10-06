@@ -1,0 +1,114 @@
+{
+  "source": "docs/evidencias/2026-10-06_f7/final_files/probe_20261006_182024_563/tracking.csv",
+  "after_profile_visibility_transitions": [
+    {
+      "seconds": 401.0974,
+      "visible": "True"
+    },
+    {
+      "seconds": 467.8266,
+      "visible": "False"
+    },
+    {
+      "seconds": 484.0244,
+      "visible": "True"
+    },
+    {
+      "seconds": 484.128,
+      "visible": "False"
+    },
+    {
+      "seconds": 486.2053,
+      "visible": "True"
+    },
+    {
+      "seconds": 488.8654,
+      "visible": "False"
+    },
+    {
+      "seconds": 489.6168,
+      "visible": "True"
+    },
+    {
+      "seconds": 489.7461,
+      "visible": "False"
+    },
+    {
+      "seconds": 492.2535,
+      "visible": "True"
+    },
+    {
+      "seconds": 492.3923,
+      "visible": "False"
+    },
+    {
+      "seconds": 492.503,
+      "visible": "True"
+    },
+    {
+      "seconds": 492.853,
+      "visible": "False"
+    },
+    {
+      "seconds": 493.7085,
+      "visible": "True"
+    },
+    {
+      "seconds": 494.0627,
+      "visible": "False"
+    },
+    {
+      "seconds": 494.9221,
+      "visible": "True"
+    },
+    {
+      "seconds": 508.1427,
+      "visible": "False"
+    },
+    {
+      "seconds": 508.2728,
+      "visible": "True"
+    },
+    {
+      "seconds": 508.7647,
+      "visible": "False"
+    },
+    {
+      "seconds": 509.5348,
+      "visible": "True"
+    },
+    {
+      "seconds": 509.6644,
+      "visible": "False"
+    },
+    {
+      "seconds": 510.0414,
+      "visible": "True"
+    },
+    {
+      "seconds": 517.6249,
+      "visible": "False"
+    },
+    {
+      "seconds": 517.83,
+      "visible": "True"
+    },
+    {
+      "seconds": 518.0509,
+      "visible": "False"
+    },
+    {
+      "seconds": 519.0279,
+      "visible": "True"
+    },
+    {
+      "seconds": 555.0762,
+      "visible": "False"
+    },
+    {
+      "seconds": 555.4361,
+      "visible": "True"
+    }
+  ],
+  "user_observation": "si, suficiente como demo"
+}

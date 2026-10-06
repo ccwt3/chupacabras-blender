@@ -1,0 +1,55 @@
+Load: 10.86 / 10.53 / 10.22
+CPU usage from 117120ms to 108940ms ago (2026-10-06 12:25:51.822 to 2026-10-06 12:26:00.001):
+  103% 2163/com.chupacabras.ar.figure: 92% user + 10% kernel / faults: 2393 minor
+  93% 313/logd: 93% user + 0% kernel / faults: 10 minor
+  48% 563/vendor.sprd.hardware.thermal@2.0-service: 16% user + 31% kernel
+  38% 537/android.hardware.camera.provider@2.4-service: 29% user + 9.1% kernel / faults: 10887 minor
+  23% 533/android.hardware.audio.service: 21% user + 1.9% kernel
+  18% 963/system_server: 12% user + 6.3% kernel / faults: 1793 minor 1 major
+  12% 571/surfaceflinger: 8.4% user + 4.4% kernel / faults: 1 minor
+  7.5% 543/android.hardware.graphics.composer@2.1-service: 2.2% user + 5.3% kernel
+  7.3% 18190/kworker/0:1: 0% user + 7.3% kernel
+  5.1% 159/spi4: 0% user + 5.1% kernel
+  2.8% 2153/com.spreadtrum.vowifi: 2.4% user + 0.3% kernel / faults: 160 minor
+  2.6% 548/android.hardware.sensors@1.0-service: 1.1% user + 1.5% kernel
+  2.2% 566/audioserver: 1.7% user + 0.4% kernel / faults: 1 major
+  1.9% 660/cameraserver: 1.4% user + 0.4% kernel / faults: 5 minor
+  1.9% 30453/kworker/u16:5: 0% user + 1.9% kernel / faults: 11 minor
+  1.8% 1732/com.discord: 1.2% user + 0.6% kernel / faults: 477 minor 2 major
+  1.2% 154/gsp-core[0]: 0% user + 1.2% kernel
+  1.2% 30591/kworker/u16:8: 0% user + 1.2% kernel / faults: 31 minor
+  0.9% 2438/isp_ctx0_offlin: 0% user + 0.9% kernel
+  0.8% 20153/kworker/u17:4: 0% user + 0.8% kernel
+  0.7% 30104/com.zhiliaoapp.musically: 0.4% user + 0.2% kernel / faults: 388 minor 5 major
+  0.6% 186/shub_rd_nwu: 0% user + 0.6% kernel
+  0.3% 144/sbuf-6-4: 0% user + 0.3% kernel
+  0.3% 526/netd: 0.1% user + 0.2% kernel / faults: 242 minor
+  0.3% 1315/com.android.phone: 0.3% user + 0% kernel / faults: 45 minor 1 major
+  0.3% 8607/<pre-forked-com.whatsapp>: 0.1% user + 0.2% kernel / faults: 34 minor
+  0.3% 26443/adbd: 0% user + 0.3% kernel / faults: 689 minor
+  0.3% 30156/kworker/u17:1: 0% user + 0.3% kernel
+  0.2% 167/sugov:6: 0% user + 0.2% kernel
+  0.2% 4901/com.android.bluetooth: 0.1% user + 0.1% kernel / faults: 12 minor
+  0.2% 25399/kworker/u17:2: 0% user + 0.2% kernel
+  0.1% 8/rcu_preempt: 0% user + 0.1% kernel
+  0% 14/migration/1: 0% user + 0% kernel
+  0.1% 15/ksoftirqd/1: 0% user + 0.1% kernel
+  0% 19/migration/2: 0% user + 0% kernel
+  0.1% 30/ksoftirqd/4: 0% user + 0.1% kernel
+  0.1% 179/mmcqd/0: 0% user + 0.1% kernel
+  0.1% 220/sdiohal_tx_thre: 0% user + 0.1% kernel
+  0.1% 221/sdiohal_rx_thre: 0% user + 0.1% kernel
+  0.1% 525/statsd: 0.1% user + 0% kernel / faults: 5 minor
+  0% 550/android.hardware.wifi@1.0-service: 0% user + 0% kernel
+  0% 568/iptables-restore: 0% user + 0% kernel / faults: 41 minor 174 major
+  0% 712/thermald: 0% user + 0% kernel
+  0.1% 1396/com.android.networkstack.process: 0.1% user + 0% kernel / faults: 83 minor
+  0.1% 1437/com.android.systemui: 0.1% user + 0% kernel / faults: 54 minor
+  0.1% 8049/com.facebook.services: 0.1% user + 0% kernel
+  0.1% 11912/com.google.android.gms: 0.1% user + 0% kernel / faults: 38 minor
+  0% 19275/com.motorola.ccc.notification: 0% user + 0% kernel / faults: 84 minor
+  0.1% 29275/kworker/1:0: 0% user + 0.1% kernel
+  0.1% 30721/kworker/3:2: 0% user + 0.1% kernel
+  0.1% 32391/kworker/u16:9: 0% user + 0.1% kernel / faults: 22 minor
+  0.1% 32397/com.instagram.android: 0.1% user + 0% kernel / faults: 11 minor
+49% TOTAL: 35% user + 12% kernel + 1.1% irq + 0.4% softirq

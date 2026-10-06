@@ -1,0 +1,9 @@
+{
+    "passed": true,
+    "physicalDevice": false,
+    "triangles": 110294,
+    "vertices": 72963,
+    "maxMotion": 0.1499001532793045,
+    "loopSeam": 2.6656007889869218e-7,
+    "footDrift": 0.0
+}

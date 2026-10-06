@@ -10,16 +10,17 @@ nombre de archivo como entrada de continuidad. El plan de 24 pasos y corto de
 
 Una aplicación Android, desarrollada y compilada desde Linux con **Unity
 6000.3.22f1**, reconoce el **AprilTag existente** y muestra **un chupacabras
-original, estático, centrado directamente sobre el símbolo**, con anatomía,
+original, centrado directamente sobre el símbolo y con respiración**, con anatomía,
 pose y materiales de mayor realismo. El usuario mueve el teléfono para
 observarlo desde distintos ángulos. Blender sigue siendo la fuente editable.
 
 La escena de entrega no incluye ventana cinematográfica, RenderTexture de
 cine, cámaras internas, oveja, escenario, ataque, arrastre, polvo, audio
 narrativo ni Timeline. **La duración de 40 s deja de ser requisito vigente.**
-Tampoco se añade por defecto respiración, idle, autorrotación, interacción,
-seguimiento persistente de la habitación o plataforma decorativa. Una figura
-estática es el alcance base; ampliar eso requiere una petición nueva.
+La ampliación autorizada el 3 de octubre incorpora el personaje Nocturno R08
+y su respiración de cuatro segundos. No añade locomoción, autorrotación,
+interacción, seguimiento persistente de la habitación ni plataforma decorativa.
+La revisión física de ese nuevo personaje se integra en F7, antes de la entrega.
 
 Se conservan físicamente todas las demos, escenas, exportaciones, scripts,
 APKs y evidencias anteriores. Excluirlos del nuevo flujo y build no significa
@@ -86,8 +87,9 @@ no borrar aserciones de pérdida/timeout para hacer pasar el nuevo flujo.
 ## Etapas nuevas y aceptación
 
 Los identificadores **F1–F7** evitan confundir este plan con los hitos 1–24.
-**Actualización del 3 de octubre de 2026:** F1–F6 cerradas como demo AR
-funcional; F7 pendiente. [Resultados F5–F6](figura_ar_f5_f6.md).
+**Actualización del 6 de octubre de 2026:** F1–F7 cerradas como demo AR
+funcional en G20. [Informe F7](figura_ar_f7.md): respiración R02 aceptada y
+310 s a 28,532 fps; no cumple 30 fps sostenidos, límite aceptado por el usuario. [Resultados F5–F6](figura_ar_f5_f6.md).
 El usuario aclaró que basta con que funcione el AR y que no es una aplicación
 comercial. Esta prioridad sustituye el cierre exhaustivo inicialmente previsto:
 se conservan las mediciones y sus límites, sin exigir nuevos perfiles o pulido
@@ -95,6 +97,12 @@ por detalles menores. La APK 0.2.2 tiene comprobación funcional real; el perfil
 largo corresponde a las versiones 0.2.0 y 0.2.1, según el informe.
 [Entrega F3–F4](figura_ar_f3_f4.md) · [Entrega anterior F1–F2](figura_ar_f1_f2.md).
 Máximo dos etapas principales por sesión, contando una retomada como primera.
+
+**Acuerdo posterior al rediseño del 3 de octubre:** F7 incluye ahora la revisión
+visual y un perfil breve de Nocturno R08 en G20. Las mediciones anteriores no
+acreditan ese personaje. Las descripciones F1–F6 conservan el alcance de la figura
+estática con que se completaron; esta ampliación autoriza la respiración y su
+validación final sin reiniciar esas etapas ni abrir otra fase.
 
 ### F1. Aislar la figura AR existente
 
@@ -225,22 +233,44 @@ aprobación ficticia. Cierre solo después de resolver sus fallos.
 rendimiento de la misma configuración que se entregará, no de una anterior.
 Sin crecimiento continuo de memoria o degradación que impida la exposición.
 
-### F7. Entregar y preparar la exposición
+### F7. Revisión final, entrega y cierre
 
-**Depende de:** F6 aprobado en G20.
+**Depende de:** infraestructura F6 aprobada y revisión Nocturno R08 integrada.
+La validación física se completó dentro de esta etapa el 6 de octubre de 2026.
+**Cerrada como demo funcional aceptada**, con los límites del [informe F7](figura_ar_f7.md).
 
+- Verificar la APK candidata del personaje nuevo: inicialmente
+  `builds/android/F6_figure_20261003_222832.apk`, versión 0.2.2 / 202. Comprobar
+  identidad/hash contra el estado vigente y reutilizar el marcador existente.
+- Revisar en G20 apariencia desde varios ángulos, piel/ojos/espinas, escala,
+  respiración continua y patas apoyadas. Registrar la observación visual real.
+- Medir unos cinco minutos con cámara, detector y personaje activos: fps/tiempos
+  de cuadro, memoria y temperatura disponibles. Mantener 30 fps sostenidos como
+  objetivo de referencia y distinguir presentación de frecuencia del detector.
+  No reutilizar los perfiles F3 como prueba del personaje nuevo.
+- Comprobar pérdida/recuperación del marcador y segundo plano/reanudación.
+  Limitar las correcciones a defectos observados del personaje; no cambiar la
+  aplicación, detector, marcador, iluminación o configuración global por inercia.
+  Si el fallo requiere ampliar ese alcance, explicarlo antes de intervenir.
+  Repetir los casos afectados y medir la candidata final si se modifica.
 - Reabrir/compilar desde Linux; empaquetar fuentes Blender, proyecto Unity,
   recursos/licencias, APK versionada con hash, marcador y guía de uso breve.
-- Verificar instalación de esa APK final en G20 dentro de M#[7], y retirar lo
-  instalado para pruebas al cerrar conforme a la instrucción vigente.
+- Identificar inequívocamente la APK medida y entregada. No recompilar después
+  de la validación sin necesidad; si cambia el paquete, verificar esa entrega.
+  Retirar únicamente lo instalado para pruebas, respetando instalaciones y datos
+  previos. Conservar fuentes, APKs y evidencias históricas.
 - Preparar **M#[8]** para el posible S23 cuando esté disponible: misma APK,
   cámara trasera, permiso, orientación, pose, escala y observación de la figura.
   Comprobar proyección en ese equipo; no extrapolar aceptación del G20.
 
-**Entrega:** APK y documentación reproducibles, inventario de entregas vigentes
-y comprobación de fuentes. Rótulo «verificado en G20; S23 pendiente» hasta
-obtener evidencia real. No publicar en tienda ni añadir AAB/cuentas de firma
-sin una ampliación explícita del encargo. Git commit/push según la solicitud.
+**Entrega:** evidencia de revisión visual/rendimiento de la candidata final,
+APK y documentación reproducibles, inventario de entregas y fuentes comprobadas.
+**Cierre:** demo funcional en G20, sin fallos críticos pendientes de apariencia,
+respiración, seguimiento o rendimiento; resultados y límites registrados. Si falta
+el teléfono, avanzar en la preparación y dejar explícitamente pendiente la prueba;
+no declarar F7 completo. S23 pendiente si no está disponible, sin bloquear la
+entrega G20 ni atribuirle validación. No abrir otra fase, perseguir pulido comercial,
+publicar en tienda ni añadir AAB/cuentas de firma. Git commit/push según solicitud.
 
 ## Correspondencia con el plan anterior
 
@@ -268,7 +298,8 @@ sin una ampliación explícita del encargo. Git commit/push según la solicitud.
 - **M#[6]**: revisión 0.0.15 anteriormente aplazada; sustituida por cambio de
   alcance, **sin validación física**. No pedir el G20 para cerrar aquella ventana.
 - **M#[7]**: ejecutada para F5/F6 en G20; aceptación visual y pruebas físicas registradas.
-  Instalación de prueba retirada. F7 solo requerirá intervención si es necesaria para la entrega.
+  Retomada y completada dentro de F7: Nocturno R08, corrección de respiración R02
+  y perfil final físico registrados. Instalación de prueba retirada.
 - **M#[8]**: S23 en exposición, prevista solo si llega a estar disponible.
 - **M#[9]**: resuelta el 3 de octubre; el usuario confirmó figura AR y aclaró
   que el bloque de acuerdos del corto en su solicitud era una plantilla anterior.
@@ -284,4 +315,5 @@ aclaró que «next-job» pertenecía a otro proyecto; no se crea ese archivo. El
 canónico vive en Blender.
 Al continuar, comprobar archivos/resultados y ejecutar como máximo las próximas
 dos etapas pendientes; conservar fuentes anteriores y documentar límites reales.
-**Siguiente etapa: F7, entrega sencilla. No retomar el corto ni añadir pulido comercial.**
+**F1–F7 cerradas para la demo G20; no hay siguiente etapa automática.**
+No retomar el corto ni añadir pulido comercial.

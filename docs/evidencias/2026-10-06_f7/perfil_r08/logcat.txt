@@ -1,0 +1,8 @@
+--------- beginning of system
+10-06 12:02:56.472 27796 27796 I ActivityThread: smart_link is  not supported!!!
+10-06 12:03:03.976 27796 27796 I ActivityThread: smart_link is  not supported!!!
+--------- beginning of main
+10-06 12:11:44.913 27796 27816 I abras.ar.figur: Explicit concurrent copying GC freed 23526(751KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3126KB/27MB, paused 51us total 32.336ms
+10-06 12:12:14.845 27796 27815 I abras.ar.figur: Explicit concurrent copying GC freed 23529(749KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3127KB/27MB, paused 48us total 24.107ms
+10-06 12:12:44.879 27796 27816 I abras.ar.figur: Explicit concurrent copying GC freed 23636(749KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3095KB/27MB, paused 67us total 31.935ms
+10-06 12:12:54.886 27796 27815 I abras.ar.figur: Explicit concurrent copying GC freed 12208(435KB) AllocSpace objects, 1(20KB) LOS objects, 88% free, 3048KB/26MB, paused 51us total 23.143ms
