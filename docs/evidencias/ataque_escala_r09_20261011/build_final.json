@@ -1,0 +1,23 @@
+{
+  "aab": "builds/google_play/chupacabras_0.2.8_208_20261011_203007.aab",
+  "apk_for_local_testing": "docs/evidencias/play_ataque_escala_r09_20261011/universal.apk",
+  "evidence": "docs/evidencias/play_ataque_escala_r09_20261011",
+  "bytes": 36121838,
+  "sha256": "c83f5be9b9d39f67e2df9ac8822fffbacbb02d16e58f0d61ac09e249d144aa2b",
+  "version": "0.2.8",
+  "version_code": 208,
+  "package": "com.chupacabras.ar.figure",
+  "target_sdk": 36,
+  "release_signature": true,
+  "bundletool_valid": true,
+  "bundle_requests_16kb_alignment": true,
+  "generated_apk_verified": true,
+  "physical_device": true,
+  "page_size_runtime_validation": false,
+  "physical_device_model": "Moto G20",
+  "physical_validation": "/home/cacawatin/code/blender/chupacabras/docs/evidencias/ataque_escala_r09_20261011/physical_validation.json",
+  "user_visual_acceptance": true,
+  "final_clean_install_verified": true,
+  "measured_fps": 29.326648518886913,
+  "measurement_seconds": 180.6952194680007
+}

@@ -1,0 +1,28 @@
+--- prefab_antes
++++ prefab_despues
+@@ -310,7 +310,7 @@
+       objectReference: {fileID: 0}
+     - target: {fileID: -8068012865159379869, guid: a35774097254e99a29837ce12c2d7a3b, type: 3}
+       propertyPath: 'm_Materials.Array.data[0]'
+-      value:
++      value: 
+       objectReference: {fileID: 2100000, guid: f7450db8d1599379b94543c88093a5f2, type: 2}
+     - target: {fileID: 919132149155446097, guid: a35774097254e99a29837ce12c2d7a3b, type: 3}
+       propertyPath: m_Name
+@@ -344,14 +344,14 @@
+   m_GameObject: {fileID: 4334744213552926947}
+   m_Enabled: 1
+   m_Avatar: {fileID: 0}
+-  m_Controller: {fileID: 9100000, guid: f0e4a60a775a9446880fd6bcd3cda9d9, type: 2}
++  m_Controller: {fileID: 9100000, guid: 65850422d6cf161ea8bea56dd0ee11b7, type: 2}
+   m_CullingMode: 0
+   m_UpdateMode: 0
+   m_ApplyRootMotion: 0
+   m_LinearVelocityBlending: 0
+   m_StabilizeFeet: 0
+   m_AnimatePhysics: 0
+-  m_WarningMessage:
++  m_WarningMessage: 
+   m_HasTransformHierarchy: 1
+   m_AllowConstantClipSamplingOptimization: 1
+   m_KeepAnimatorStateOnDisable: 0

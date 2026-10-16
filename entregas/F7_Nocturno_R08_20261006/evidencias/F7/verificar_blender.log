@@ -1,0 +1,6 @@
+00:00.679  blend            | Read blend: "/home/cacawatin/code/blender/chupacabras/entregas/F7_Nocturno_R08_20261006/Blender/scenes/chupacabras_nocturno_r08.blend"
+FBX version: 7400
+NOCTURNO_CHECKS_OK {"passed": true, "triangles": 110294, "bones": 4, "materials": 1, "loop_seconds": 4, "max_motion_m": 0.06925612688064575, "loop_seam_m": 0.0, "foot_drift_m": 0.0, "minimum_z": 0.00018440413987264037, "fbx_errors_m": [4.76837158203125e-07, 7.183534194155072e-07, 5.331201577973843e-07, 5.462856051963172e-07, 4.76837158203125e-07], "physical_device": false}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-22 17:10:25)
+
+Blender quit

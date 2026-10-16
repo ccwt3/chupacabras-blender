@@ -1,0 +1,5 @@
+{
+    "passed": true,
+    "physicalDevice": false,
+    "detail": "Initial, acquisition, loss, recovery, camera timeout, fresh frame, background, resume, wrong ID rejected, correct ID recovered; welcome, menu pause/resume, return, reopen and privacy; same figure and scale; restart from grazing after every tracking loss, including completed attack; no cine."
+}

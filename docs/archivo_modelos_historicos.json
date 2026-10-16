@@ -1,0 +1,806 @@
+{
+  "fecha": "2026-10-08",
+  "estado": "completo; 131 archivos trasladados y verificados",
+  "alcance": [
+    "scenes",
+    "exports",
+    "assets"
+  ],
+  "excluidos": [
+    "entregas y comprimidos",
+    "Unity",
+    "texturas, previews y otros recursos no .blend/.fbx"
+  ],
+  "movidos": [
+    {
+      "origen": "scenes/04_intercambio.blend",
+      "destino": "historicos/scenes/04_intercambio.blend",
+      "bytes": 98975,
+      "sha256": "ac2606cb12bb7a32801d8ab1c6019ce998304001059e8a5d17f8cce16dcac77e"
+    },
+    {
+      "origen": "scenes/05_blocking.blend",
+      "destino": "historicos/scenes/05_blocking.blend",
+      "bytes": 149857,
+      "sha256": "ab4bfcf20fe4da988dfd8e9c06f6b896415b4ad0808e4ca1a6b9dd8b04c53133"
+    },
+    {
+      "origen": "scenes/05_blocking_r02.blend",
+      "destino": "historicos/scenes/05_blocking_r02.blend",
+      "bytes": 150852,
+      "sha256": "d98d884c295413ccddcce055bc141b4d32d34006374bef9a0cfb4509511959b5"
+    },
+    {
+      "origen": "scenes/05_blocking_r03.blend",
+      "destino": "historicos/scenes/05_blocking_r03.blend",
+      "bytes": 151196,
+      "sha256": "3f24dbf1a1af9dfb1c77fd9a2b25b06a26f1184d1f9735692f2deac7e34d50b2"
+    },
+    {
+      "origen": "scenes/05_blocking_r04.blend",
+      "destino": "historicos/scenes/05_blocking_r04.blend",
+      "bytes": 230301,
+      "sha256": "d25f5cbb53530499b4c32a7d7554a03c851e0e8e30f45cea3d30b1900c3a9d8e"
+    },
+    {
+      "origen": "scenes/06_escenario.blend",
+      "destino": "historicos/scenes/06_escenario.blend",
+      "bytes": 165326,
+      "sha256": "67757a2c94c9ac428ba634c5eb109ccf9b5c991689dbeb5f8d4e246a007e9578"
+    },
+    {
+      "origen": "scenes/06_escenario_contexto.blend",
+      "destino": "historicos/scenes/06_escenario_contexto.blend",
+      "bytes": 227191,
+      "sha256": "86f33516258548abb05a7cbc7f2ec767ed7b952ecfc0bf7eb2dea786ad9b368e"
+    },
+    {
+      "origen": "scenes/07_oveja.blend",
+      "destino": "historicos/scenes/07_oveja.blend",
+      "bytes": 1196627,
+      "sha256": "fc86f5d08df6f154e55bd7f6bb3592c9cec0b99bd1d84e44def95fa8277212db"
+    },
+    {
+      "origen": "scenes/07_oveja_r02.blend",
+      "destino": "historicos/scenes/07_oveja_r02.blend",
+      "bytes": 1196627,
+      "sha256": "28d511d17d8a77a484b8ff6e315905f28a595b926fe4051c8f33c589b42f1ec1"
+    },
+    {
+      "origen": "scenes/07_oveja_r03.blend",
+      "destino": "historicos/scenes/07_oveja_r03.blend",
+      "bytes": 1170875,
+      "sha256": "cf8345c98a7fbef4522ba9b824688535cb680767c3741f232da37675b5883efc"
+    },
+    {
+      "origen": "scenes/07_oveja_r04.blend",
+      "destino": "historicos/scenes/07_oveja_r04.blend",
+      "bytes": 1170539,
+      "sha256": "61ad0dfcb9028202e3d4061a0bdafc57301f8e7ff957eef79ae1bbf85276b820"
+    },
+    {
+      "origen": "scenes/08_chupacabras_demacrado_r01.blend",
+      "destino": "historicos/scenes/08_chupacabras_demacrado_r01.blend",
+      "bytes": 967338,
+      "sha256": "2fd06b8a142c00c909b65feaa642e3420c155a134ae5f2a5ad52e3b1208256d2"
+    },
+    {
+      "origen": "scenes/08_chupacabras_demacrado_r01_contexto_r02.blend",
+      "destino": "historicos/scenes/08_chupacabras_demacrado_r01_contexto_r02.blend",
+      "bytes": 1069307,
+      "sha256": "58e6d7b0eeb4df025a657ed5ee223d4123151009a4c473bf9ef59401b198a2b2"
+    },
+    {
+      "origen": "scenes/08_chupacabras_demacrado_r01_contexto_r03.blend",
+      "destino": "historicos/scenes/08_chupacabras_demacrado_r01_contexto_r03.blend",
+      "bytes": 1069435,
+      "sha256": "b18f5e51188f7ab3093a391f08e3069e60f506e8835f9272ba8d296bc77a3281"
+    },
+    {
+      "origen": "scenes/08_chupacabras_forma.blend",
+      "destino": "historicos/scenes/08_chupacabras_forma.blend",
+      "bytes": 342331,
+      "sha256": "23a57f968d6bc300fe9b4201f6e38f51967cdec006ac8050754a08c8dae9c309"
+    },
+    {
+      "origen": "scenes/08_chupacabras_forma_contexto.blend",
+      "destino": "historicos/scenes/08_chupacabras_forma_contexto.blend",
+      "bytes": 452456,
+      "sha256": "363451f94514fead7096ea14b787b32d05d2b390806cfe2a85a62e5ba9157df9"
+    },
+    {
+      "origen": "scenes/08_chupacabras_forma_r02.blend",
+      "destino": "historicos/scenes/08_chupacabras_forma_r02.blend",
+      "bytes": 342308,
+      "sha256": "092f2e8987886b7777d7f5462f4045ae123ac39fa0c9f7ff34093ec75367fc75"
+    },
+    {
+      "origen": "scenes/08_chupacabras_forma_r02_contexto.blend",
+      "destino": "historicos/scenes/08_chupacabras_forma_r02_contexto.blend",
+      "bytes": 452449,
+      "sha256": "11b14ea1be27e77e3adf2ab3aabeeb99ecc9c7a296e3d157fa1cb4277a48b1b1"
+    },
+    {
+      "origen": "scenes/08_chupacabras_forma_r03.blend",
+      "destino": "historicos/scenes/08_chupacabras_forma_r03.blend",
+      "bytes": 341843,
+      "sha256": "7e341fe52e0deef5c29789a12f466f273ff294eb7d86fab57a15e3b765ef5a33"
+    },
+    {
+      "origen": "scenes/08_chupacabras_forma_r03_contexto.blend",
+      "destino": "historicos/scenes/08_chupacabras_forma_r03_contexto.blend",
+      "bytes": 450261,
+      "sha256": "8217c35b32ec5fe531382d3f9b990d322c6cba9c498ac0f4892343f11918175d"
+    },
+    {
+      "origen": "scenes/08_chupacabras_forma_r03_contexto_r02.blend",
+      "destino": "historicos/scenes/08_chupacabras_forma_r03_contexto_r02.blend",
+      "bytes": 450236,
+      "sha256": "a19a93dd6a97dc0fdaf3d00a38d897ea2a8079058c1583535ad67d313d2ef7cc"
+    },
+    {
+      "origen": "scenes/09_chupacabras_acabado.blend",
+      "destino": "historicos/scenes/09_chupacabras_acabado.blend",
+      "bytes": 387404,
+      "sha256": "0ab45d1e58b9fdd22af9a49a92766566842f0d46a38b7e959cc27318cb0e92fc"
+    },
+    {
+      "origen": "scenes/09_chupacabras_acabado_contexto.blend",
+      "destino": "historicos/scenes/09_chupacabras_acabado_contexto.blend",
+      "bytes": 498876,
+      "sha256": "36e45472adb35b5d5980839e22b570a8ef4d923b3f798a30f7abacfc6fe86879"
+    },
+    {
+      "origen": "scenes/09_chupacabras_acabado_contexto_r02.blend",
+      "destino": "historicos/scenes/09_chupacabras_acabado_contexto_r02.blend",
+      "bytes": 498924,
+      "sha256": "00872e6206d3cf20943a37731b75b510742dbe2956265c09d9bc1da36f84d223"
+    },
+    {
+      "origen": "scenes/09_chupacabras_demacrado_r01.blend",
+      "destino": "historicos/scenes/09_chupacabras_demacrado_r01.blend",
+      "bytes": 1010351,
+      "sha256": "0dbee976ac964a72331714c4760d77c8219913376191acd0e23af4003aa02499"
+    },
+    {
+      "origen": "scenes/09_chupacabras_demacrado_r02.blend",
+      "destino": "historicos/scenes/09_chupacabras_demacrado_r02.blend",
+      "bytes": 1018236,
+      "sha256": "0e043fa6cbfb46851058a98426f203de66040a15b8f4168b879337c633b495f9"
+    },
+    {
+      "origen": "scenes/09_chupacabras_demacrado_r02_contexto_r02.blend",
+      "destino": "historicos/scenes/09_chupacabras_demacrado_r02_contexto_r02.blend",
+      "bytes": 1125179,
+      "sha256": "78460cd00990cf63b4c4fc6f229722859aef1d7ecf4179dea50d3c50c807bacb"
+    },
+    {
+      "origen": "scenes/09_chupacabras_demacrado_r02_contexto_r03.blend",
+      "destino": "historicos/scenes/09_chupacabras_demacrado_r02_contexto_r03.blend",
+      "bytes": 1125312,
+      "sha256": "dc8230db320fa1e21dd2c74e5140bd86e31ad1d51dc76fb38ff3a8b854c91e28"
+    },
+    {
+      "origen": "scenes/10_rig_oveja.blend",
+      "destino": "historicos/scenes/10_rig_oveja.blend",
+      "bytes": 1428925,
+      "sha256": "7ed12a79ba5941968d8af2130db8b0ba6dea2077321122c9d3b508f972363405"
+    },
+    {
+      "origen": "scenes/11_rig_chupacabras_poses.blend",
+      "destino": "historicos/scenes/11_rig_chupacabras_poses.blend",
+      "bytes": 496413,
+      "sha256": "c00fe48a9db8fdc0784f2aae81e3d2da9fefd188cc2cd575c2596122f2cd54e8"
+    },
+    {
+      "origen": "scenes/11_rig_chupacabras_poses_demacrado_r01.blend",
+      "destino": "historicos/scenes/11_rig_chupacabras_poses_demacrado_r01.blend",
+      "bytes": 1241997,
+      "sha256": "16d6132e3c7da314ce57ef80c8be9d8b0d763e711528ed8247051594be180185"
+    },
+    {
+      "origen": "scenes/11_rigs_contacto.blend",
+      "destino": "historicos/scenes/11_rigs_contacto.blend",
+      "bytes": 635088,
+      "sha256": "9ee2b997ad0cbf68acdae2db8a75fce5f04530e531008946cacdaa6210f811eb"
+    },
+    {
+      "origen": "scenes/11_rigs_contacto_demacrado_r01.blend",
+      "destino": "historicos/scenes/11_rigs_contacto_demacrado_r01.blend",
+      "bytes": 1376292,
+      "sha256": "4c486047bf20b4abbcf9c7dc48ee70134780a3dc58de3c988aaf661f66aa4a0b"
+    },
+    {
+      "origen": "scenes/11_rigs_contacto_r02.blend",
+      "destino": "historicos/scenes/11_rigs_contacto_r02.blend",
+      "bytes": 637689,
+      "sha256": "2e4d7ee81223f584ab06b6e0d7efd51c627f0d60eed37022c0426a423146f3eb"
+    },
+    {
+      "origen": "scenes/11_rigs_contacto_r03.blend",
+      "destino": "historicos/scenes/11_rigs_contacto_r03.blend",
+      "bytes": 637367,
+      "sha256": "71c3d4a423faac36c62d7bfd57fddc3a60e7edca47b280c3d82e23252ad13577"
+    },
+    {
+      "origen": "scenes/13_calma_r01.blend",
+      "destino": "historicos/scenes/13_calma_r01.blend",
+      "bytes": 1782017,
+      "sha256": "863fd781a0543c0e143292f17f7747ec43d3f3432d40d694d73ee850f8f3ffd5"
+    },
+    {
+      "origen": "scenes/13_calma_r02.blend",
+      "destino": "historicos/scenes/13_calma_r02.blend",
+      "bytes": 1779809,
+      "sha256": "a2953fb787658a1390b9c37cbb7a61fd2ca0f7a0503142d123f76fae915dcb21"
+    },
+    {
+      "origen": "scenes/13_calma_r03.blend",
+      "destino": "historicos/scenes/13_calma_r03.blend",
+      "bytes": 1780257,
+      "sha256": "e29c606bde7e4bdc8f8e6a2ae7d81d803c06b02515da72284ea5b4b3d536cf83"
+    },
+    {
+      "origen": "scenes/13_calma_r04.blend",
+      "destino": "historicos/scenes/13_calma_r04.blend",
+      "bytes": 1791521,
+      "sha256": "9b82d5a5bf6073fb7c2536ab6d01bdf8a12f5f76e8007f290573f2e6cedec1fa"
+    },
+    {
+      "origen": "scenes/13_calma_r05.blend",
+      "destino": "historicos/scenes/13_calma_r05.blend",
+      "bytes": 1795092,
+      "sha256": "4f5bdb2f51ceceb0f9ce49c39a5cb40da44f0eeaa734263a3c5ec16eee515a59"
+    },
+    {
+      "origen": "scenes/13_calma_r06.blend",
+      "destino": "historicos/scenes/13_calma_r06.blend",
+      "bytes": 1795281,
+      "sha256": "4667e53112ed0dfd68b6de28fb6b8f7d26c46b1ed0540228ad2ac10691704bd8"
+    },
+    {
+      "origen": "scenes/13_calma_r07.blend",
+      "destino": "historicos/scenes/13_calma_r07.blend",
+      "bytes": 1795308,
+      "sha256": "91a1743b12205f91c0f87a1d6f4dc52a9a253b4625fd56bcfe3f0601542f62af"
+    },
+    {
+      "origen": "scenes/14_ataque_r01.blend",
+      "destino": "historicos/scenes/14_ataque_r01.blend",
+      "bytes": 1782033,
+      "sha256": "92dfcfdc808d0d29bd8761f8b79598bbb20ae2ebb0df1bdcaa81cd637ab3b072"
+    },
+    {
+      "origen": "scenes/14_ataque_r02.blend",
+      "destino": "historicos/scenes/14_ataque_r02.blend",
+      "bytes": 1779825,
+      "sha256": "8441c4c0a4fbcb769b5d5da2946980f71a415113a08ebe9e584188b47ba18105"
+    },
+    {
+      "origen": "scenes/14_ataque_r03.blend",
+      "destino": "historicos/scenes/14_ataque_r03.blend",
+      "bytes": 1780273,
+      "sha256": "06d9ab432379097106b73f11379e555a19305fc8d18b80c4dc434adecaa0f6ff"
+    },
+    {
+      "origen": "scenes/14_ataque_r04.blend",
+      "destino": "historicos/scenes/14_ataque_r04.blend",
+      "bytes": 1791537,
+      "sha256": "46350f2a29a31b804447363d7dacc1c1810e15b15fe38282624f8b135ee4b918"
+    },
+    {
+      "origen": "scenes/14_ataque_r05.blend",
+      "destino": "historicos/scenes/14_ataque_r05.blend",
+      "bytes": 1795106,
+      "sha256": "987bdfbc1e211b8fd9725eda308360e1ad82d3f7b854ddccf2538393636bba5c"
+    },
+    {
+      "origen": "scenes/14_ataque_r06.blend",
+      "destino": "historicos/scenes/14_ataque_r06.blend",
+      "bytes": 1795295,
+      "sha256": "696935fc77d960660ae65481d00a95586f92a6f757449346ca7dce87a28d5f92"
+    },
+    {
+      "origen": "scenes/14_ataque_r07.blend",
+      "destino": "historicos/scenes/14_ataque_r07.blend",
+      "bytes": 1795322,
+      "sha256": "923e4d831973733bd6b9ca0330cf53dd18bbe2c201020d7a5a7ef76237f12a11"
+    },
+    {
+      "origen": "scenes/F2_chupacabras_forma_r01.blend",
+      "destino": "historicos/scenes/F2_chupacabras_forma_r01.blend",
+      "bytes": 1575257,
+      "sha256": "1aad98daac3faea85e4af9cb474b1221d9373740346b19ee89767de585b6b2c9"
+    },
+    {
+      "origen": "scenes/F2_chupacabras_forma_r02.blend",
+      "destino": "historicos/scenes/F2_chupacabras_forma_r02.blend",
+      "bytes": 2064809,
+      "sha256": "eba1315302066f8ce3c3ac8d859fdd4922f3968e11209e9eda617a55e914db15"
+    },
+    {
+      "origen": "scenes/F2_chupacabras_forma_r03.blend",
+      "destino": "historicos/scenes/F2_chupacabras_forma_r03.blend",
+      "bytes": 2064763,
+      "sha256": "4a40511119230fd38c0029b1a1d30673d5b4114457a6b4dea776e84244be7f28"
+    },
+    {
+      "origen": "scenes/F3_chupacabras_superficie_r01.blend",
+      "destino": "historicos/scenes/F3_chupacabras_superficie_r01.blend",
+      "bytes": 1280813,
+      "sha256": "c0a5c5b1a36dea6313e4c5b064c0bf63ed9ecf37ee3b618f5d3b8f21b1a89b77"
+    },
+    {
+      "origen": "scenes/F3_chupacabras_superficie_r02.blend",
+      "destino": "historicos/scenes/F3_chupacabras_superficie_r02.blend",
+      "bytes": 1280806,
+      "sha256": "50e02e7a33a4831d79168d039458ebcbdfcdd4113c20dcfa421b4313cf598bb3"
+    },
+    {
+      "origen": "scenes/F3_chupacabras_superficie_r03.blend",
+      "destino": "historicos/scenes/F3_chupacabras_superficie_r03.blend",
+      "bytes": 1284453,
+      "sha256": "33673ed14a8ca58df7f3cc6303b9c1752629da8d8a57ee2a3214102adccb9bb9"
+    },
+    {
+      "origen": "scenes/F3_chupacabras_superficie_r04.blend",
+      "destino": "historicos/scenes/F3_chupacabras_superficie_r04.blend",
+      "bytes": 1285568,
+      "sha256": "6ca21b3eb033e76f6024bf99e79bf56537fb89a85c30a81b54fc9f4d911d7c62"
+    },
+    {
+      "origen": "scenes/F3_chupacabras_superficie_r05.blend",
+      "destino": "historicos/scenes/F3_chupacabras_superficie_r05.blend",
+      "bytes": 1285686,
+      "sha256": "2858ff369378ca7d38b1dc4b481578907737da0245220ebdf57f9d3c188ef894"
+    },
+    {
+      "origen": "scenes/chupacabras_nocturno_r02.blend",
+      "destino": "historicos/scenes/chupacabras_nocturno_r02.blend",
+      "bytes": 10039097,
+      "sha256": "d71facf8b1f80391946dad7dbb8a0fd73bde88fdfd1cf2dfdb801a8c94f5b832"
+    },
+    {
+      "origen": "scenes/chupacabras_nocturno_r03.blend",
+      "destino": "historicos/scenes/chupacabras_nocturno_r03.blend",
+      "bytes": 9895355,
+      "sha256": "c02b1f9fb7e8dfa72c37e9e6b36aa177b3a804d4996e0f89d7188f4f8a9347f8"
+    },
+    {
+      "origen": "scenes/chupacabras_nocturno_r04.blend",
+      "destino": "historicos/scenes/chupacabras_nocturno_r04.blend",
+      "bytes": 12436447,
+      "sha256": "264828bbadafb0a3418586877eea10ee1af3f05aa8dc514a62de6ed3974ce167"
+    },
+    {
+      "origen": "scenes/chupacabras_nocturno_r05.blend",
+      "destino": "historicos/scenes/chupacabras_nocturno_r05.blend",
+      "bytes": 12334963,
+      "sha256": "b2799c6d17e5dd444a654366316bdeb741ee79248f9ef43f24a85dfaed62b0d3"
+    },
+    {
+      "origen": "scenes/chupacabras_nocturno_r06.blend",
+      "destino": "historicos/scenes/chupacabras_nocturno_r06.blend",
+      "bytes": 12337145,
+      "sha256": "88b9e42bab8d6299c487280954ef627f8e20c34ec3678f029c50758a2e2d9849"
+    },
+    {
+      "origen": "scenes/chupacabras_nocturno_r07.blend",
+      "destino": "historicos/scenes/chupacabras_nocturno_r07.blend",
+      "bytes": 12675287,
+      "sha256": "fd8f5b69021803a3c6d83394fdb4c4a4b27890b6e7bc85b3924a76ad97b72a39"
+    },
+    {
+      "origen": "scenes/demo_ataque_arrastre.blend",
+      "destino": "historicos/scenes/demo_ataque_arrastre.blend",
+      "bytes": 417886,
+      "sha256": "0c83fdd416c5cb87ede55126330b05b53eac4bcecf00edbf8876b32736767be0"
+    },
+    {
+      "origen": "scenes/demo_lowpoly.blend",
+      "destino": "historicos/scenes/demo_lowpoly.blend",
+      "bytes": 235425,
+      "sha256": "5f718586c201a2588477212af49c61ac1ca621632237df951604f12b88683452"
+    },
+    {
+      "origen": "exports/04_intercambio.fbx",
+      "destino": "historicos/exports/04_intercambio.fbx",
+      "bytes": 698332,
+      "sha256": "20f65daccb8955b58c0306a92c85484a8dcebb48d52ce66d2597078845be09fe"
+    },
+    {
+      "origen": "exports/05_blocking.fbx",
+      "destino": "historicos/exports/05_blocking.fbx",
+      "bytes": 1999612,
+      "sha256": "411a0c208ad6f3a25e1bd5646ab14bd2118c794efe56f304138caf035f85f00e"
+    },
+    {
+      "origen": "exports/05_blocking_r02.fbx",
+      "destino": "historicos/exports/05_blocking_r02.fbx",
+      "bytes": 1999820,
+      "sha256": "a7131c964fb7796a5be9d83ceb3a4d33876994b7de2198ef5a6687a390edbd70"
+    },
+    {
+      "origen": "exports/05_blocking_r03.fbx",
+      "destino": "historicos/exports/05_blocking_r03.fbx",
+      "bytes": 1998956,
+      "sha256": "60d4061866013f38f5abd2ecffa23b0ff29dc8e4b30287aa8f4a024a8e7fb93e"
+    },
+    {
+      "origen": "exports/05_blocking_r04.fbx",
+      "destino": "historicos/exports/05_blocking_r04.fbx",
+      "bytes": 2048076,
+      "sha256": "77959ef07b21152040983e8e6fa68a4f62a410720f46d42a597789e78c86612f"
+    },
+    {
+      "origen": "exports/06_escenario.fbx",
+      "destino": "historicos/exports/06_escenario.fbx",
+      "bytes": 115180,
+      "sha256": "c989ef25ec98bdeb382c7a77e4158d5d7884d176cbbe3829e4ca5bb9a410daf2"
+    },
+    {
+      "origen": "exports/06_escenario_contexto.fbx",
+      "destino": "historicos/exports/06_escenario_contexto.fbx",
+      "bytes": 2048348,
+      "sha256": "82acc7fcb01201c5712f6a6663dbca6666c957708d1cd8bf726cbd2ada494851"
+    },
+    {
+      "origen": "exports/07_oveja.fbx",
+      "destino": "historicos/exports/07_oveja.fbx",
+      "bytes": 81532,
+      "sha256": "762c110e77d6496c345a1e598e443cef70fc3661f2604344885c2d1763584ffd"
+    },
+    {
+      "origen": "exports/07_oveja_poses.fbx",
+      "destino": "historicos/exports/07_oveja_poses.fbx",
+      "bytes": 488988,
+      "sha256": "2b578772a6a6a9956c7cb0f48f4b70655f8617a20d1c7fb07018fe5e5e514792"
+    },
+    {
+      "origen": "exports/07_oveja_r02.fbx",
+      "destino": "historicos/exports/07_oveja_r02.fbx",
+      "bytes": 81532,
+      "sha256": "13daa14fd68f4365f5dc30950df488ae842bb100e64d4bd743fcc6c20cee0fbb"
+    },
+    {
+      "origen": "exports/07_oveja_r02_poses.fbx",
+      "destino": "historicos/exports/07_oveja_r02_poses.fbx",
+      "bytes": 489612,
+      "sha256": "10960753d4d8ad14c0df7c7b4906c9e26de8a27f7596a31b1c232a5d8ce73611"
+    },
+    {
+      "origen": "exports/07_oveja_r03.fbx",
+      "destino": "historicos/exports/07_oveja_r03.fbx",
+      "bytes": 81532,
+      "sha256": "f9e56ec9e78040f3c2c8a19d2955389a245738993a03c60d990b4efb69051f01"
+    },
+    {
+      "origen": "exports/07_oveja_r03_poses.fbx",
+      "destino": "historicos/exports/07_oveja_r03_poses.fbx",
+      "bytes": 489612,
+      "sha256": "42fd30b1126541aa09e85a9ab837f09eacd8a103fe3e0df90dbafc187e1e9be3"
+    },
+    {
+      "origen": "exports/07_oveja_r04.fbx",
+      "destino": "historicos/exports/07_oveja_r04.fbx",
+      "bytes": 81180,
+      "sha256": "4ea7cea8fcc5c8494425ae6b559bf41384d035518e5dc84ef97b8bef83d0dff7"
+    },
+    {
+      "origen": "exports/07_oveja_r04_poses.fbx",
+      "destino": "historicos/exports/07_oveja_r04_poses.fbx",
+      "bytes": 489148,
+      "sha256": "55de321e04f16391655a1d835ee074b1da7684c5a65700d4fcb3ad6bbbece7a3"
+    },
+    {
+      "origen": "exports/08_chupacabras_demacrado_r01.fbx",
+      "destino": "historicos/exports/08_chupacabras_demacrado_r01.fbx",
+      "bytes": 1060764,
+      "sha256": "acdeb02bf1686fe3a901a79ac299cefa8f1ab21d981f183c3f1d239c2b66876f"
+    },
+    {
+      "origen": "exports/08_chupacabras_demacrado_r01_contexto_r02.fbx",
+      "destino": "historicos/exports/08_chupacabras_demacrado_r01_contexto_r02.fbx",
+      "bytes": 2896652,
+      "sha256": "b12427a36f9cd273cc7204315d7bf534b31abb4cf45c201e6eaaf5e69f641570"
+    },
+    {
+      "origen": "exports/08_chupacabras_demacrado_r01_contexto_r03.fbx",
+      "destino": "historicos/exports/08_chupacabras_demacrado_r01_contexto_r03.fbx",
+      "bytes": 2896668,
+      "sha256": "6301eba03901887d935467019ff050aa1143a8c744efe0bfafaa5d69603c2586"
+    },
+    {
+      "origen": "exports/08_chupacabras_forma.fbx",
+      "destino": "historicos/exports/08_chupacabras_forma.fbx",
+      "bytes": 342444,
+      "sha256": "e4111501c04688ef280862f6c8ef575286f9d29460b84d1aa3f89a15d8fc30d5"
+    },
+    {
+      "origen": "exports/08_chupacabras_forma_contexto.fbx",
+      "destino": "historicos/exports/08_chupacabras_forma_contexto.fbx",
+      "bytes": 2177100,
+      "sha256": "e68012a09114108f11aca23ffce74ead651ecc8a7d209f64197fcfa6a945da61"
+    },
+    {
+      "origen": "exports/08_chupacabras_forma_r02.fbx",
+      "destino": "historicos/exports/08_chupacabras_forma_r02.fbx",
+      "bytes": 342412,
+      "sha256": "f26166f46ad519590881af76af75ae714c69234e3f95d358f7e095cee736e42c"
+    },
+    {
+      "origen": "exports/08_chupacabras_forma_r02_contexto.fbx",
+      "destino": "historicos/exports/08_chupacabras_forma_r02_contexto.fbx",
+      "bytes": 2193196,
+      "sha256": "282b13862eb0d914262094fd29e51f8b62de8c2d4c707f87a63465b2030b3f83"
+    },
+    {
+      "origen": "exports/08_chupacabras_forma_r03.fbx",
+      "destino": "historicos/exports/08_chupacabras_forma_r03.fbx",
+      "bytes": 342412,
+      "sha256": "53a0f865d78b0823a70e4907be121f2c0394d94a8b7d3569d168fc296dcee5ff"
+    },
+    {
+      "origen": "exports/08_chupacabras_forma_r03_contexto.fbx",
+      "destino": "historicos/exports/08_chupacabras_forma_r03_contexto.fbx",
+      "bytes": 2178604,
+      "sha256": "9bef7adc4bdb40227f690f4753c17d29d2552605225a8cddf993b85e7f251c69"
+    },
+    {
+      "origen": "exports/08_chupacabras_forma_r03_contexto_r02.fbx",
+      "destino": "historicos/exports/08_chupacabras_forma_r03_contexto_r02.fbx",
+      "bytes": 2178300,
+      "sha256": "4eb71f75a750eab75d6c57511125fbf7ad9ea2fb897d94c5bd9190110402e5cb"
+    },
+    {
+      "origen": "exports/09_chupacabras_acabado.fbx",
+      "destino": "historicos/exports/09_chupacabras_acabado.fbx",
+      "bytes": 410028,
+      "sha256": "0e7d26c29cab1ff59e9094bca8cd94d9360541d638cd5c797e6bff23edb04d1f"
+    },
+    {
+      "origen": "exports/09_chupacabras_acabado_contexto.fbx",
+      "destino": "historicos/exports/09_chupacabras_acabado_contexto.fbx",
+      "bytes": 2556604,
+      "sha256": "3c3df5c9d21ea63fcb4b43cbc3a2df3e90b6af69bd644eeb136ae66a6411ebd0"
+    },
+    {
+      "origen": "exports/09_chupacabras_acabado_contexto_r02.fbx",
+      "destino": "historicos/exports/09_chupacabras_acabado_contexto_r02.fbx",
+      "bytes": 2556172,
+      "sha256": "6db8573c967d6c11eae0a3240b2f55b11a15a5aa528506083f6063951a57b123"
+    },
+    {
+      "origen": "exports/09_chupacabras_demacrado_r01.fbx",
+      "destino": "historicos/exports/09_chupacabras_demacrado_r01.fbx",
+      "bytes": 1127388,
+      "sha256": "76ddb1b58bfc49ed93dfea6563937b1066a8fa4f6169661c175385f51039b8a7"
+    },
+    {
+      "origen": "exports/09_chupacabras_demacrado_r02.fbx",
+      "destino": "historicos/exports/09_chupacabras_demacrado_r02.fbx",
+      "bytes": 1143356,
+      "sha256": "472c96d4385ef09ec2582a00d522290311cfc9a6998935c8e67810a1219b0e3b"
+    },
+    {
+      "origen": "exports/09_chupacabras_demacrado_r02_contexto_r02.fbx",
+      "destino": "historicos/exports/09_chupacabras_demacrado_r02_contexto_r02.fbx",
+      "bytes": 3351084,
+      "sha256": "ce0b8b4122d089ccd86b6eda4b60671745fc24aa0ad1346c93684f4d022cbf5a"
+    },
+    {
+      "origen": "exports/09_chupacabras_demacrado_r02_contexto_r03.fbx",
+      "destino": "historicos/exports/09_chupacabras_demacrado_r02_contexto_r03.fbx",
+      "bytes": 3351100,
+      "sha256": "0c57f72c4b13af7ea82f1d29b8e1d4ace79efc0c6e79156371eac774d5f5f0e4"
+    },
+    {
+      "origen": "exports/10_rig_oveja.fbx",
+      "destino": "historicos/exports/10_rig_oveja.fbx",
+      "bytes": 561628,
+      "sha256": "1a888a9832d8ca7f48b04a85d8fe0d029b2cef3398268469b136e2bf557af5ad"
+    },
+    {
+      "origen": "exports/11_rig_chupacabras_poses.fbx",
+      "destino": "historicos/exports/11_rig_chupacabras_poses.fbx",
+      "bytes": 1762316,
+      "sha256": "1fe80d49c09560999b00c8ff6ec025f5fa92c54bac6771abc71f5df37b7057ad"
+    },
+    {
+      "origen": "exports/11_rig_chupacabras_poses_demacrado_r01.fbx",
+      "destino": "historicos/exports/11_rig_chupacabras_poses_demacrado_r01.fbx",
+      "bytes": 2626316,
+      "sha256": "7353685ffefb9e92d1067258d90c7266141aab8b0df203d0ca079017ea23cd8a"
+    },
+    {
+      "origen": "exports/11_rigs_contacto.fbx",
+      "destino": "historicos/exports/11_rigs_contacto.fbx",
+      "bytes": 1799052,
+      "sha256": "41d49cb181b96299ccb0d37f3b7b784ffbeea20da199003998a090cffe8ea30a"
+    },
+    {
+      "origen": "exports/11_rigs_contacto_demacrado_r01.fbx",
+      "destino": "historicos/exports/11_rigs_contacto_demacrado_r01.fbx",
+      "bytes": 2662796,
+      "sha256": "ccc30ab18122d115f35f8959907cded3c97e3f0ec3882116e9966b021ac1a82f"
+    },
+    {
+      "origen": "exports/11_rigs_contacto_r02.fbx",
+      "destino": "historicos/exports/11_rigs_contacto_r02.fbx",
+      "bytes": 1805148,
+      "sha256": "1c4e8ee976c5e3bde2d948585cc8d3bfb00edf198f6b0cc71436ae438fcb5cc8"
+    },
+    {
+      "origen": "exports/11_rigs_contacto_r03.fbx",
+      "destino": "historicos/exports/11_rigs_contacto_r03.fbx",
+      "bytes": 1803276,
+      "sha256": "597d343468309379d0243fba6297ca741bd24e829c744cc52206696b593013a3"
+    },
+    {
+      "origen": "exports/13_calma_r01.fbx",
+      "destino": "historicos/exports/13_calma_r01.fbx",
+      "bytes": 4113996,
+      "sha256": "46c6c8c143d71f4c8a1193e6f7ea50c7cfc591d0e01787195e7dc6d7e306362b"
+    },
+    {
+      "origen": "exports/13_calma_r02.fbx",
+      "destino": "historicos/exports/13_calma_r02.fbx",
+      "bytes": 4113292,
+      "sha256": "51819551ed8a62535e466e24fe1c2ceab6500c248b4c8d3ccd75e3507b6c3565"
+    },
+    {
+      "origen": "exports/13_calma_r03.fbx",
+      "destino": "historicos/exports/13_calma_r03.fbx",
+      "bytes": 4113308,
+      "sha256": "86d3b12f7b383ff45f43cb4358616f348c62cd9c50f55e76104d6decbce63cab"
+    },
+    {
+      "origen": "exports/13_calma_r04.fbx",
+      "destino": "historicos/exports/13_calma_r04.fbx",
+      "bytes": 4123196,
+      "sha256": "3daf72e86855e32e6d45d8d5314d1318cbe479a54fb9f1465e64adebcec691ab"
+    },
+    {
+      "origen": "exports/13_calma_r05.fbx",
+      "destino": "historicos/exports/13_calma_r05.fbx",
+      "bytes": 4123212,
+      "sha256": "8435222c1e96f85bce8ceb2fe09ab53dca70094fc6c9b882b13119a09f252738"
+    },
+    {
+      "origen": "exports/13_calma_r06.fbx",
+      "destino": "historicos/exports/13_calma_r06.fbx",
+      "bytes": 4123212,
+      "sha256": "89f3c509d82a078f487609c76e573cda206be0a6b45068e4e32fd7c969c0bd25"
+    },
+    {
+      "origen": "exports/13_calma_r07.fbx",
+      "destino": "historicos/exports/13_calma_r07.fbx",
+      "bytes": 4123212,
+      "sha256": "7281e30a98164866c193f2a44e1bc3dfa6de63a76338581bef110357191cfcd1"
+    },
+    {
+      "origen": "exports/14_ataque_r01.fbx",
+      "destino": "historicos/exports/14_ataque_r01.fbx",
+      "bytes": 4595244,
+      "sha256": "1b47bab394186698d9120ccef675f1fdb0cb89fbb95187268d7ade3402aa1853"
+    },
+    {
+      "origen": "exports/14_ataque_r02.fbx",
+      "destino": "historicos/exports/14_ataque_r02.fbx",
+      "bytes": 4594604,
+      "sha256": "f1eeeaeaf89ad7243ba7633de6f8896be8f7359e6ecd722be34e020698b10ed3"
+    },
+    {
+      "origen": "exports/14_ataque_r03.fbx",
+      "destino": "historicos/exports/14_ataque_r03.fbx",
+      "bytes": 4594828,
+      "sha256": "38f1c1123aebc726b69d4261a54e5c8f470eeb974d449b70d7a0392b7bc45ef4"
+    },
+    {
+      "origen": "exports/14_ataque_r04.fbx",
+      "destino": "historicos/exports/14_ataque_r04.fbx",
+      "bytes": 4603564,
+      "sha256": "68af16a36c2aea7e51c8b07c11653bd22463f269b1c525fb9d4ce0208293f034"
+    },
+    {
+      "origen": "exports/14_ataque_r05.fbx",
+      "destino": "historicos/exports/14_ataque_r05.fbx",
+      "bytes": 4605516,
+      "sha256": "dee1db93e8dd679bda15ae37b376f3facd4928af8fbc45a614799b1c7a0f2267"
+    },
+    {
+      "origen": "exports/14_ataque_r06.fbx",
+      "destino": "historicos/exports/14_ataque_r06.fbx",
+      "bytes": 4605548,
+      "sha256": "7c4f667a2b1fea120374986f3472ae792c9d0593f88857e2683d415776f5256a"
+    },
+    {
+      "origen": "exports/14_ataque_r07.fbx",
+      "destino": "historicos/exports/14_ataque_r07.fbx",
+      "bytes": 4605628,
+      "sha256": "86ee7af3699a9b9d031ec6231d672c92511575bd82f2515c7d4efcb483a7ad82"
+    },
+    {
+      "origen": "exports/F3_chupacabras_superficie_r01.fbx",
+      "destino": "historicos/exports/F3_chupacabras_superficie_r01.fbx",
+      "bytes": 1102572,
+      "sha256": "fe61f463fc7c19d12d9da0c8f5d06daded48734cc1633cd8e205f8fefadfa779"
+    },
+    {
+      "origen": "exports/F3_chupacabras_superficie_r02.fbx",
+      "destino": "historicos/exports/F3_chupacabras_superficie_r02.fbx",
+      "bytes": 1102572,
+      "sha256": "54a7cc6044d9efd7a46d910ab04d392bd724b2bbcb6808fb1b736b9f0dbb8092"
+    },
+    {
+      "origen": "exports/F3_chupacabras_superficie_r03.fbx",
+      "destino": "historicos/exports/F3_chupacabras_superficie_r03.fbx",
+      "bytes": 1099644,
+      "sha256": "3261610db34a255d187f4d99667b7ae8db7dd32c4a3d90af03e43f5e53c6bc10"
+    },
+    {
+      "origen": "exports/F3_chupacabras_superficie_r04.fbx",
+      "destino": "historicos/exports/F3_chupacabras_superficie_r04.fbx",
+      "bytes": 1105068,
+      "sha256": "c4c6180e48b8bacb00444ddc77ccfd87bdcfbd154df04a28bf6589d2ec4a1073"
+    },
+    {
+      "origen": "exports/F3_chupacabras_superficie_r05.fbx",
+      "destino": "historicos/exports/F3_chupacabras_superficie_r05.fbx",
+      "bytes": 1104540,
+      "sha256": "2e8ae42921cb9f01d5c469fe78f02966cb6476772be3cc0f42ad6b60d0cc4648"
+    },
+    {
+      "origen": "exports/chupacabras_nocturno_r02.fbx",
+      "destino": "historicos/exports/chupacabras_nocturno_r02.fbx",
+      "bytes": 3245052,
+      "sha256": "78d8e253f06351eb65ff9d81e863b584e1bb7d4138ea7c6b7163134c32da74d7"
+    },
+    {
+      "origen": "exports/chupacabras_nocturno_r03.fbx",
+      "destino": "historicos/exports/chupacabras_nocturno_r03.fbx",
+      "bytes": 3506684,
+      "sha256": "2fa819485604ab5ca26cfa205b3b55234b9c6f7b10a0cc31b326dbd80697b910"
+    },
+    {
+      "origen": "exports/chupacabras_nocturno_r04.fbx",
+      "destino": "historicos/exports/chupacabras_nocturno_r04.fbx",
+      "bytes": 3561324,
+      "sha256": "50596da3725a5ebfdab7cd28e329066cf57ef12dec79c17f42b8adecffc94559"
+    },
+    {
+      "origen": "exports/chupacabras_nocturno_r05.fbx",
+      "destino": "historicos/exports/chupacabras_nocturno_r05.fbx",
+      "bytes": 3564412,
+      "sha256": "def5787b84c96d89b2a425cde0d493bdd1818ef03450905af716fd29a7b63839"
+    },
+    {
+      "origen": "exports/chupacabras_nocturno_r06.fbx",
+      "destino": "historicos/exports/chupacabras_nocturno_r06.fbx",
+      "bytes": 3562012,
+      "sha256": "f4e454d957d636f19d1868e23274f17c7066198900ef654e11ed58eb2f217e63"
+    },
+    {
+      "origen": "exports/chupacabras_nocturno_r07.fbx",
+      "destino": "historicos/exports/chupacabras_nocturno_r07.fbx",
+      "bytes": 3862652,
+      "sha256": "98f240cd6f1bfed0c9d16ed1721cb048bf9f31c62c04f544b57726d1d450112d"
+    },
+    {
+      "origen": "assets/oveja/original/Farm Animals by @Quaternius/Blends/Sheep.blend",
+      "destino": "historicos/assets/oveja/original/Farm Animals by @Quaternius/Blends/Sheep.blend",
+      "bytes": 923936,
+      "sha256": "d4f137f393e5b3e5ba28af0977efbaef6e0ba7a6682e35b35f868f5caff47c7e"
+    },
+    {
+      "origen": "assets/oveja/original/Farm Animals by @Quaternius/FBX/Sheep.fbx",
+      "destino": "historicos/assets/oveja/original/Farm Animals by @Quaternius/FBX/Sheep.fbx",
+      "bytes": 356796,
+      "sha256": "4a3fc559cc9f37e3e3f216af1dab30cb411ec9b268eb98676f1d5c18a430d33e"
+    }
+  ],
+  "fuente_generadora_conservada": {
+    "path": "scenes/F2_chupacabras_forma_r04.blend",
+    "motivo": "Dependencia de scripts/chupacabras_nocturno.py; conservación confirmada por el usuario."
+  }
+}

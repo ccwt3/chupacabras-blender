@@ -1,0 +1,32 @@
+--------- beginning of system
+10-11 14:32:23.856 14392 14392 I ActivityThread: smart_link is  not supported!!!
+10-11 14:34:38.798 14392 14392 I ActivityThread: smart_link is  not supported!!!
+--------- beginning of main
+10-11 14:35:04.144 14392 14448 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:35:04.144 14392 14448 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:35:04.144 14392 14448 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:35:04.144 14392 14448 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:35:04.144 14392 14448 I Unity   : 
+10-11 14:35:04.485 14392 14448 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:35:04.485 14392 14448 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:35:04.485 14392 14448 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:35:04.485 14392 14448 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:35:04.485 14392 14448 I Unity   : 
+10-11 14:35:06.943 14392 14448 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:35:06.943 14392 14448 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:35:06.943 14392 14448 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:35:06.943 14392 14448 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:35:06.943 14392 14448 I Unity   : 
+10-11 14:35:07.750 14392 14448 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:35:07.750 14392 14448 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:35:07.750 14392 14448 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:35:07.750 14392 14448 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:35:07.750 14392 14448 I Unity   : 
+10-11 14:35:52.372 14392 14409 I abras.ar.figur: Explicit concurrent copying GC freed 65374(2084KB) AllocSpace objects, 0(0B) LOS objects, 89% free, 2981KB/26MB, paused 72us total 33.198ms
+10-11 14:35:52.677 14392 14489 I abras.ar.figur: Explicit concurrent copying GC freed 9975(373KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2800KB/26MB, paused 56us total 22.194ms
+10-11 14:36:23.144 14392 14456 I abras.ar.figur: Explicit concurrent copying GC freed 21422(695KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2839KB/26MB, paused 41us total 23.947ms
+10-11 14:36:53.256 14392 14456 I abras.ar.figur: Explicit concurrent copying GC freed 23451(767KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2870KB/26MB, paused 48us total 37.985ms
+10-11 14:37:23.958 14392 14489 I abras.ar.figur: Explicit concurrent copying GC freed 23773(780KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2872KB/26MB, paused 50us total 25.760ms
+10-11 14:37:54.360 14392 14489 I abras.ar.figur: Explicit concurrent copying GC freed 23666(798KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2871KB/26MB, paused 93us total 26.824ms
+10-11 14:38:24.695 14392 14489 I abras.ar.figur: Explicit concurrent copying GC freed 23572(766KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2871KB/26MB, paused 45us total 28.347ms
+10-11 14:38:53.022 14392 14489 I abras.ar.figur: Explicit concurrent copying GC freed 22390(722KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2866KB/26MB, paused 38us total 25.253ms

@@ -1,0 +1,15 @@
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  Max charging voltage: 0
+  Charge counter: 1208736
+  status: 2
+  health: 2
+  present: true
+  level: 43
+  scale: 100
+  voltage: 3778
+  temperature: 412
+  technology:

@@ -1,0 +1,17 @@
+{
+  "status": "defecto observado: respiración imperceptible",
+  "candidate_sha256": "0bf9b53293e4035d2decba069845bace2afc0c8330f8a77ad131b333a47b3e16",
+  "screenshot": "revision_01.png",
+  "video": "revision.mp4",
+  "video_seconds": 9.736033,
+  "agent_observation": "Figura única visible sobre marcador, piel oscura, ojos, dientes y cresta visibles; revisión registrada con movimiento de cámara y giro de pantalla. No permite atribuir por sí sola continuidad exacta de respiración ni calibración métrica.",
+  "performance_claim": false,
+  "user_observation": "La percepcion de que esta respirando  es nula o no parece, se ve mas estitico, de ahi en fuera esta bien",
+  "requires_character_fix": true,
+  "r02": {
+    "candidate_sha256": "7db6358cdb13c37467a3d42f76d163ef8359c0ef25583441065ed5b869863aae",
+    "user_observation": "respiracion bien, listo",
+    "status": "respiración corregida aceptada visualmente; perfil final en curso",
+    "video": "respiracion_r02_g20.mp4"
+  }
+}

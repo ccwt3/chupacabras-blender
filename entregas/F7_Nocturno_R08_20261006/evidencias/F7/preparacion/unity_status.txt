@@ -1,0 +1,21 @@
+ M .gitignore
+ M Assets/Editor/FigureBuild.cs
+ M Assets/Editor/FigurePreview.cs
+ M Assets/FiguraAR/F4_r02/Figure.prefab
+ M README.md
+ M docs/estado.md
+?? Assets/Editor/FigureNocturno.cs
+?? Assets/Editor/FigureNocturno.cs.meta
+?? Assets/FiguraAR/Nocturno_r08.meta
+?? Assets/FiguraAR/Nocturno_r08/
+?? docs/evidencias/2026-10-03_nocturno_r06/
+?? docs/evidencias/2026-10-03_nocturno_r07/
+?? docs/evidencias/2026-10-03_nocturno_r08/
+?? docs/evidencias/editor_probe_20261003_222038_456/
+?? docs/evidencias/editor_probe_20261003_222718_468/
+?? docs/evidencias/tracking_checks_20261003_220605.json
+?? docs/evidencias/tracking_checks_20261003_221342.json
+?? docs/evidencias/tracking_checks_20261003_221941.json
+?? docs/evidencias/tracking_checks_20261003_222452.json
+?? docs/evidencias/tracking_checks_20261003_222633.json
+?? docs/rediseno_nocturno.md

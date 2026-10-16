@@ -1,0 +1,90 @@
+--------- beginning of system
+10-11 13:29:38.573 28126 28126 I ActivityThread: smart_link is  not supported!!!
+10-11 13:31:12.700 28126 28126 I ActivityThread: smart_link is  not supported!!!
+--------- beginning of main
+10-11 13:36:06.519 28126 28142 I abras.ar.figur: Explicit concurrent copying GC freed 23531(766KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 45us total 21.881ms
+10-11 13:36:37.212 28126 28142 I abras.ar.figur: Explicit concurrent copying GC freed 23794(765KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2842KB/26MB, paused 78us total 28.350ms
+10-11 13:37:07.870 28126 28996 I abras.ar.figur: Explicit concurrent copying GC freed 23789(750KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2842KB/26MB, paused 69us total 22.721ms
+10-11 13:37:20.155 28126 28126 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 13:37:35.119 28126 28996 I abras.ar.figur: Explicit concurrent copying GC freed 21851(708KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2834KB/26MB, paused 50us total 27.024ms
+10-11 13:38:59.829 28126 28178 I Unity   : CHUPACABRAS_TRACK lost
+10-11 13:38:59.829 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:38:59.829 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:38:59.829 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:38:59.829 28126 28178 I Unity   : 
+10-11 13:39:04.696 28126 28178 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 13:39:04.696 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:39:04.696 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:39:04.696 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:39:04.696 28126 28178 I Unity   : 
+10-11 13:39:28.631 28126 28178 I Unity   : Handle cmd APP_CMD_PAUSE(14)
+10-11 13:39:28.632 28126 28126 I ThreeFingerSwipe: 1 ACTION_CANCEL point count = 1
+10-11 13:39:28.743 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:39:29.020 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:39:29.251 28126 28178 I gralloc4: unregister: id=21e0004ae5f
+10-11 13:39:29.252 28126 28178 I gralloc4: unregister: id=21e0004ae60
+10-11 13:39:29.252 28126 28178 I gralloc4: unregister: id=21e0004ae61
+10-11 13:39:29.252 28126 28178 I gralloc4: unregister: id=21e0004ae62
+10-11 13:39:29.253 28126 28178 I gralloc4: unregister: id=21e0004ae63
+10-11 13:39:29.331 28126 28178 D AAudio  : AAudioStream_requestStop(s#1) called
+10-11 13:39:29.331 28126 28178 D AAudioStream: setState(s#1) from 4 to 9
+10-11 13:39:29.331 28126 28178 I AudioTrack: stop  mClientUid:10700 mClientPid:28126  mSessionId:122161 app name:com.chupacabras.ar.figure 
+10-11 13:39:29.331 28126 28178 D AudioTrack: stop(15657): called with 11907360 frames delivered
+10-11 13:39:29.334 28126 28178 D abras.ar.figur: PlayerBase::stop() from IPlayer
+10-11 13:39:29.334 28126 28178 D AAudioStream: setState(s#1) from 9 to 10
+10-11 13:39:29.335 28126 28178 I Unity   : Handle cmd APP_CMD_LOST_FOCUS(8)
+10-11 13:39:29.335 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:39:29.336 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:39:29.634 28126 28178 I Unity   : Handle cmd APP_CMD_TERM_WINDOW(2)
+10-11 13:39:29.646 28126 31664 I gralloc4: register: id=21e0004ae50
+10-11 13:39:29.750 28126 28126 I gralloc4: unregister: id=21e0004ae4a
+10-11 13:39:29.751 28126 28126 I gralloc4: unregister: id=21e0004ae4d
+10-11 13:39:29.752 28126 28178 I Unity   : Handle cmd APP_CMD_LOW_MEMORY(10)
+10-11 13:39:29.753 28126 31664 I gralloc4: unregister: id=21e0004ae50
+10-11 13:39:29.753 28126 28178 I Unity   : Handle cmd APP_CMD_STOP(15)
+10-11 13:39:29.754 28126 28178 I Unity   : Handle cmd APP_CMD_SAVE_STATE(13)
+10-11 13:39:31.073 28126 28178 I Unity   : Handle cmd APP_CMD_START(11)
+10-11 13:39:31.086 28126 28178 I Unity   : Handle cmd APP_CMD_RESUME(12)
+10-11 13:39:31.086 28126 28126 I ActivityThread: smart_link is  not supported!!!
+10-11 13:39:31.097 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:39:31.097 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:39:31.102 28126 28178 I Unity   : Handle cmd APP_CMD_INIT_WINDOW(1)
+10-11 13:39:31.104 28126 28178 I gralloc4: unregister: id=21e0004ae4e
+10-11 13:39:31.105 28126 28178 I gralloc4: unregister: id=21e0004ae4f
+10-11 13:39:31.106 28126 28178 I gralloc4: unregister: id=21e0004ae50
+10-11 13:39:31.112 28126 28126 I gralloc4: register: id=21e0004ae7d
+10-11 13:39:31.130 28126 28178 I Unity   :     HasWindow = 1, HasFocus = 0
+10-11 13:39:31.130 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+10-11 13:39:31.139 28126 28126 I gralloc4: register: id=21e0004ae7e
+10-11 13:39:31.146 28126 28178 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+10-11 13:39:31.155 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:39:31.299 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:39:31.607 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:39:31.607 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:39:31.611 28126 28143 I gralloc4: register: id=21e0004ae80
+10-11 13:39:31.613 28126 28178 D AAudio  : AAudioStream_requestStart(s#1) called --------------
+10-11 13:39:31.613 28126 28178 D AAudioStream: setState(s#1) from 10 to 3
+10-11 13:39:31.613 28126 28178 I AudioTrack: start  mClientUid:10700 mClientPid:28126  mSessionId:122161 app name:com.chupacabras.ar.figure 
+10-11 13:39:31.615 28126 28178 D abras.ar.figur: PlayerBase::start() from IPlayer
+10-11 13:39:31.615 28126 28178 D AAudio  : AAudioStream_requestStart(s#1) returned 0 ---------
+10-11 13:39:31.616 28126 28126 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-11 13:39:31.620 28126 28143 D AudioStreamLegacy: onAudioDeviceUpdate() devId 2 => 2
+10-11 13:39:31.703 28126 28143 I gralloc4: register: id=21e0004ae81
+10-11 13:39:31.706 28126 31658 I gralloc4: register: id=21e0004ae82
+10-11 13:39:31.708 28126 31658 I gralloc4: register: id=21e0004ae83
+10-11 13:39:31.721 28126 28257 D AAudioStream: setState(s#1) from 3 to 4
+10-11 13:39:31.724 28126 28240 I gralloc4: register: id=21e0004ae84
+10-11 13:39:31.755 28126 28240 I gralloc4: register: id=21e0004ae85
+10-11 13:39:31.822 28126 28240 I gralloc4: register: id=21e0004ae86
+10-11 13:39:31.921 28126 31658 I gralloc4: register: id=21e0004ae87
+10-11 13:39:31.986 28126 31658 I gralloc4: register: id=21e0004ae88
+10-11 13:39:32.255 28126 28178 I Unity   : CHUPACABRAS_CAMERA Camera 0 320x240 rotation=90 mirrored=False
+10-11 13:39:32.255 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:39:32.255 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:39:32.255 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:39:32.255 28126 28178 I Unity   : 
+10-11 13:39:32.269 28126 28178 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 13:39:32.269 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:39:32.269 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:39:32.269 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:39:32.269 28126 28178 I Unity   :

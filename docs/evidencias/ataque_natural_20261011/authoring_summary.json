@@ -1,0 +1,16 @@
+{
+  "revision": "r05",
+  "requested_blood": false,
+  "duration_until_idle": 13.5,
+  "idle_loop": 4,
+  "uniform_scale": 0.1403191238641739,
+  "unity_size_m": [
+    0.9000005722045898,
+    0.833098292350769,
+    0.4160728454589844
+  ],
+  "tag_detector_m": 0.1,
+  "marker_changed": false,
+  "build": "0.2.6",
+  "version_code": 206
+}

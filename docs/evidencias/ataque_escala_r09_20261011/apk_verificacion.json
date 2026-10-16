@@ -1,0 +1,97 @@
+{
+  "apk": "/home/cacawatin/code/unity/chupacabras/google_play/docs/evidencias/play_ataque_escala_r09_20261011/universal.apk",
+  "sha256": "c21908ed5de43ff079b22d1d480246d3ce24e3c4fb23a67b7535b894ef63b53a",
+  "bytes": 36245340,
+  "tools": "/home/cacawatin/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/build-tools/36.0.0",
+  "package": "com.chupacabras.ar.figure",
+  "version": "0.2.8",
+  "checks": {
+    "signature": true,
+    "zipalign": true,
+    "badging": true,
+    "non_development": true,
+    "explicit_camera_permission": true
+  },
+  "libraries": [
+    {
+      "file": "lib/arm64-v8a/libAprilTag.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/lib_burst_generated.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libc++_shared.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libgame.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libil2cpp.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libmain.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libswappywrapper.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libunity.so",
+      "machine": 183,
+      "load_segment_alignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ]
+    }
+  ],
+  "physical_device": false,
+  "page_size_runtime_validation": false
+}

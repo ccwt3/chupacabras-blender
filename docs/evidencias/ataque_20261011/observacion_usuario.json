@@ -1,0 +1,8 @@
+{
+  "device": "Moto G20",
+  "version": "0.2.5 / 205",
+  "question": "Aparición de ambos, ataque, oveja recostada y respiración final",
+  "answer": "Sí, se ve toda la secuencia correctamente",
+  "physical_device": true,
+  "marker_recovery_answer": "Sí, se ocultan y regresan sin reiniciar"
+}

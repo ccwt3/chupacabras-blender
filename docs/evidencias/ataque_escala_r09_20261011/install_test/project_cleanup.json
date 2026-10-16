@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/sdcard/Android/data/com.chupacabras.ar.figure",
+    "previously_present": false,
+    "absent_after_cleanup": true
+  },
+  {
+    "path": "/sdcard/Android/obb/com.chupacabras.ar.figure",
+    "previously_present": false,
+    "absent_after_cleanup": true
+  },
+  {
+    "path": "/sdcard/Android/media/com.chupacabras.ar.figure",
+    "previously_present": false,
+    "absent_after_cleanup": true
+  }
+]

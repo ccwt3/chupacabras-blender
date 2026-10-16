@@ -1,0 +1,362 @@
+--------- beginning of system
+10-11 14:00:02.594  5897  5897 I ActivityThread: smart_link is  not supported!!!
+10-11 14:00:40.850  5897  5897 I ActivityThread: smart_link is  not supported!!!
+--------- beginning of main
+10-11 14:01:03.885  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:03.885  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:03.885  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:03.885  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:03.885  5897  5982 I Unity   : 
+10-11 14:01:04.883  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:04.883  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:04.883  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:04.883  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:04.883  5897  5982 I Unity   : 
+10-11 14:01:04.951  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:04.951  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:04.951  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:04.951  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:04.951  5897  5982 I Unity   : 
+10-11 14:01:05.016  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:05.016  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:05.016  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:05.016  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:05.016  5897  5982 I Unity   : 
+10-11 14:01:05.150  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:05.150  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:05.150  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:05.150  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:05.150  5897  5982 I Unity   : 
+10-11 14:01:05.949  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:05.949  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:05.949  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:05.949  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:05.949  5897  5982 I Unity   : 
+10-11 14:01:05.949  5897  5897 I ThreeFingerSwipe: 0 ACTION_DOWN point count = 1
+10-11 14:01:05.950  5897  5897 I ThreeFingerSwipe: onPointDown... pointIndex = 0, pointId = 0
+10-11 14:01:05.950  5897  5897 I ThreeFingerSwipe: currentX = 16.0, currentY = 830.0
+10-11 14:01:06.059  5897  5897 I ThreeFingerSwipe: 1 ACTION_POINTER_DOWN point count = 2
+10-11 14:01:06.085  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:06.101  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:06.118  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:06.134  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:06.151  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:06.168  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:06.242  5897  5897 I ThreeFingerSwipe: 0 ACTION_POINTER_UP point count = 2
+10-11 14:01:06.268  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.284  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.301  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.318  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.334  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.351  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.368  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.384  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.401  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.418  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.434  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.451  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.468  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.484  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.501  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.518  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.534  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.551  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.568  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.584  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.601  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.618  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.634  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.651  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.668  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.847  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:06.847  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:06.847  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:06.847  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:06.847  5897  5982 I Unity   : 
+10-11 14:01:06.851  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.884  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.901  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.917  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.935  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.951  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.967  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:06.984  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:07.001  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:07.018  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:07.034  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:07.068  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:07.384  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:07.401  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:07.414  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:07.414  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:07.414  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:07.414  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:07.414  5897  5982 I Unity   : 
+10-11 14:01:07.417  5897  5897 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 14:01:07.447  5897  5897 I ThreeFingerSwipe: 0 ACTION_POINTER_DOWN point count = 2
+10-11 14:01:07.484  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.517  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.534  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.551  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.567  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.584  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.601  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.617  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.735  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.767  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.781  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:01:07.781  5897  5897 I ThreeFingerSwipe: 1 ACTION_POINTER_UP point count = 2
+10-11 14:01:07.800  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:08.134  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:08.417  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:08.534  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:08.601  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:08.700  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:08.750  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:08.817  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:08.881  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:08.881  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:08.881  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:08.881  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:08.881  5897  5982 I Unity   : 
+10-11 14:01:11.080  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:11.080  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:11.080  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:11.080  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:11.080  5897  5982 I Unity   : 
+10-11 14:01:11.748  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:11.748  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:11.748  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:11.748  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:11.748  5897  5982 I Unity   : 
+10-11 14:01:13.279  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:13.279  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:13.279  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:13.279  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:13.279  5897  5982 I Unity   : 
+10-11 14:01:32.293  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:32.309  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:32.326  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:32.393  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:32.509  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:34.543  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:34.543  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:34.543  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:34.543  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:34.543  5897  5982 I Unity   : 
+10-11 14:01:34.575  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:34.592  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:34.609  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:34.625  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:34.638  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:34.638  5897  5897 I ThreeFingerSwipe: 0 ACTION_UP point count = 1
+10-11 14:01:34.678  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:34.678  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:34.678  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:34.678  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:34.678  5897  5982 I Unity   : 
+10-11 14:01:34.707  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:34.707  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:34.707  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:34.707  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:34.707  5897  5982 I Unity   : 
+10-11 14:01:35.206  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:35.206  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:35.206  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:35.206  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:35.206  5897  5982 I Unity   : 
+10-11 14:01:40.775  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:40.775  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:40.775  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:40.775  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:40.775  5897  5982 I Unity   : 
+10-11 14:01:41.637  5897  5897 I ThreeFingerSwipe: 0 ACTION_DOWN point count = 1
+10-11 14:01:41.638  5897  5897 I ThreeFingerSwipe: onPointDown... pointIndex = 0, pointId = 0
+10-11 14:01:41.638  5897  5897 I ThreeFingerSwipe: currentX = 11.0, currentY = 881.0
+10-11 14:01:41.906  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:41.923  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:41.940  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:41.956  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:42.006  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:42.023  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:42.039  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:43.729  5897  5914 I abras.ar.figur: Explicit concurrent copying GC freed 59518(1909KB) AllocSpace objects, 0(0B) LOS objects, 89% free, 2959KB/26MB, paused 64us total 29.988ms
+10-11 14:01:44.058  5897  5914 I abras.ar.figur: Explicit concurrent copying GC freed 9200(348KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2771KB/26MB, paused 45us total 19.207ms
+10-11 14:01:45.042  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:45.042  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:45.042  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:45.042  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:45.042  5897  5982 I Unity   : 
+10-11 14:01:45.143  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:45.143  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:45.143  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:45.143  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:45.143  5897  5982 I Unity   : 
+10-11 14:01:45.242  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:45.242  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:45.242  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:45.242  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:45.242  5897  5982 I Unity   : 
+10-11 14:01:45.505  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:45.505  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:45.505  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:45.505  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:45.505  5897  5982 I Unity   : 
+10-11 14:01:54.671  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:54.671  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:54.671  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:54.671  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:54.671  5897  5982 I Unity   : 
+10-11 14:01:54.941  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:54.941  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:54.941  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:54.941  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:54.941  5897  5982 I Unity   : 
+10-11 14:01:55.242  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:55.242  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:55.242  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:55.242  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:55.242  5897  5982 I Unity   : 
+10-11 14:01:55.473  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:55.473  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:55.473  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:55.473  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:55.473  5897  5982 I Unity   : 
+10-11 14:01:55.805  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:01:55.805  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:55.805  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:55.805  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:55.805  5897  5982 I Unity   : 
+10-11 14:01:56.002  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:56.468  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:56.485  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:56.686  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:56.701  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:56.718  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:56.735  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:57.118  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:57.151  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:57.251  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:01:57.968  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:01:57.968  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:01:57.968  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:01:57.968  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:01:57.968  5897  5982 I Unity   : 
+10-11 14:01:58.384  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:00.157  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:02:00.157  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:00.157  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:00.157  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:00.157  5897  5982 I Unity   : 
+10-11 14:02:00.565  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:02:00.565  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:00.565  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:00.565  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:00.565  5897  5982 I Unity   : 
+10-11 14:02:02.034  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:02:02.034  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:02.034  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:02.034  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:02.034  5897  5982 I Unity   : 
+10-11 14:02:04.790  5897  5897 I ThreeFingerSwipe: 1 ACTION_POINTER_DOWN point count = 2
+10-11 14:02:04.849  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 14:02:04.856  5897  5897 I ThreeFingerSwipe: 1 ACTION_POINTER_UP point count = 2
+10-11 14:02:08.597  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:08.614  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:08.631  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:08.648  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:09.530  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:09.547  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:09.564  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.247  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.264  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.280  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.297  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.313  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.330  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.347  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.363  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.413  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.448  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.463  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.480  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.547  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.563  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.580  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:10.597  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:11.815  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:02:11.815  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:11.815  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:11.815  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:11.815  5897  5982 I Unity   : 
+10-11 14:02:11.960  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:02:11.960  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:11.960  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:11.960  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:11.960  5897  5982 I Unity   : 
+10-11 14:02:12.070  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:02:12.070  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:12.070  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:12.070  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:12.070  5897  5982 I Unity   : 
+10-11 14:02:12.163  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:02:12.163  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:12.163  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:12.163  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:12.163  5897  5982 I Unity   : 
+10-11 14:02:12.304  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:02:12.304  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:12.304  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:12.304  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:12.304  5897  5982 I Unity   : 
+10-11 14:02:12.428  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:02:12.428  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:12.428  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:12.428  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:12.428  5897  5982 I Unity   : 
+10-11 14:02:13.268  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:02:13.268  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:13.268  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:13.268  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:13.268  5897  5982 I Unity   : 
+10-11 14:02:13.425  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:02:13.425  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:13.425  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:13.425  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:13.425  5897  5982 I Unity   : 
+10-11 14:02:13.499  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:02:13.499  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:13.499  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:13.499  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:13.499  5897  5982 I Unity   : 
+10-11 14:02:13.561  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:02:13.561  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:13.561  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:13.561  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:13.561  5897  5982 I Unity   : 
+10-11 14:02:14.505  5897  6294 I abras.ar.figur: Explicit concurrent copying GC freed 21549(727KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2874KB/26MB, paused 40us total 19.608ms
+10-11 14:02:15.445  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:15.462  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:16.628  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:16.837  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:02:16.837  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:16.837  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:16.837  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:16.837  5897  5982 I Unity   : 
+10-11 14:02:16.845  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:16.958  5897  5982 I Unity   : CHUPACABRAS_TRACK lost
+10-11 14:02:16.958  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:16.958  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:16.958  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:16.958  5897  5982 I Unity   : 
+10-11 14:02:17.578  5897  5897 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 14:02:18.633  5897  5982 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 14:02:18.633  5897  5982 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 14:02:18.633  5897  5982 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 14:02:18.633  5897  5982 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 14:02:18.633  5897  5982 I Unity   : 
+10-11 14:02:44.708  5897  5915 I abras.ar.figur: Explicit concurrent copying GC freed 23526(766KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 49us total 22.539ms
+10-11 14:03:15.016  5897  6294 I abras.ar.figur: Explicit concurrent copying GC freed 23557(765KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2874KB/26MB, paused 193us total 23.688ms
+10-11 14:03:45.322  5897  5915 I abras.ar.figur: Explicit concurrent copying GC freed 23561(766KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2874KB/26MB, paused 38us total 28.214ms
+10-11 14:04:15.638  5897  5915 I abras.ar.figur: Explicit concurrent copying GC freed 23539(750KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 52us total 25.508ms
+10-11 14:04:44.886  5897  6294 I abras.ar.figur: Explicit concurrent copying GC freed 22959(736KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2871KB/26MB, paused 47us total 24.607ms

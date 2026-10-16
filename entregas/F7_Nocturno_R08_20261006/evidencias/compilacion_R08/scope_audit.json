@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "changed_tracked": [
+    ".gitignore",
+    "Assets/Editor/FigureBuild.cs",
+    "Assets/Editor/FigurePreview.cs",
+    "Assets/FiguraAR/F4_r02/Figure.prefab",
+    "README.md",
+    "docs/estado.md"
+  ],
+  "unexpected": [],
+  "lights_unchanged": true,
+  "character_scale_unchanged": true,
+  "scene_unchanged": true,
+  "runtime_unchanged": true,
+  "settings_unchanged": true
+}

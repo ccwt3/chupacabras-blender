@@ -1,0 +1,8 @@
+Starting: Intent { cmp=com.chupacabras.ar.figure/com.unity3d.player.UnityPlayerGameActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: com.chupacabras.ar.figure/com.unity3d.player.UnityPlayerGameActivity
+TotalTime: 81
+WaitTime: 92
+Complete

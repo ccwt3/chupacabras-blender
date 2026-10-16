@@ -1,0 +1,6 @@
+{
+  "same_process": true,
+  "background_seconds": 2,
+  "resumed": true,
+  "physical_device": true
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "triangles": 110294,
+  "bones": 4,
+  "materials": 1,
+  "loop_seconds": 4,
+  "max_motion_m": 0.1498999148607254,
+  "loop_seam_m": 0.0,
+  "foot_drift_m": 0.0,
+  "minimum_z": 0.00018440413987264037,
+  "fbx_errors_m": [
+    4.76837158203125e-07,
+    5.462856051963172e-07,
+    7.158763537518098e-07,
+    5.462856051963172e-07,
+    4.76837158203125e-07
+  ],
+  "physical_device": false
+}

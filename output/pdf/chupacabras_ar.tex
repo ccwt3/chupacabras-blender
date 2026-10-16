@@ -1,0 +1,114 @@
+% Fuente editable. Compilar con XeLaTeX; no requiere imágenes externas.
+\documentclass[11pt,letterpaper]{article}
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage{fontspec}
+\setmainfont{Noto Serif}
+\setsansfont{Noto Sans}
+\setmonofont{Liberation Mono}[Scale=0.88]
+\usepackage[margin=2.05cm,top=1.85cm,bottom=1.9cm]{geometry}
+\usepackage{xcolor,microtype,tikz,fancyhdr}
+\usetikzlibrary{arrows.meta,positioning}
+\definecolor{ink}{HTML}{253536}
+\definecolor{accent}{HTML}{315F63}
+\definecolor{muted}{HTML}{687579}
+\definecolor{rulegray}{HTML}{D6DEDC}
+\definecolor{pale}{HTML}{EFF3F1}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,
+  pdftitle={Chupacabras AR: desarrollo, tecnologías y estado},
+  pdfauthor={Proyecto Chupacabras AR},pdfsubject={Síntesis del proyecto y sus dos fases de desarrollo},
+  pdflang={es-MX}}
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.35pt}
+\fancyfoot[L]{\sffamily\footnotesize\color{muted}Chupacabras AR}
+\fancyfoot[R]{\sffamily\footnotesize\color{muted}\thepage}
+\setlength{\footskip}{24pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+\linespread{1.06}
+\setlength{\emergencystretch}{1.5em}
+\widowpenalty=10000
+\clubpenalty=10000
+\newcommand{\heading}[1]{\par{\sffamily\bfseries\fontsize{18}{22}\selectfont\color{ink}#1}\par\vspace{5pt}}
+\newcommand{\refentry}[1]{\par\begingroup\hangindent=1.1em\hangafter=1 #1\par\endgroup}
+\newcommand{\file}[1]{\texttt{\detokenize{#1}}}
+\begin{document}
+\color{ink}
+{\sffamily\bfseries\fontsize{29}{34}\selectfont Chupacabras AR\par}
+\vspace{3pt}
+{\sffamily\fontsize{13}{17}\selectfont Desarrollo, tecnologías y funcionamiento\par}
+\vspace{11pt}
+
+Chupacabras AR es una aplicación Android que sitúa personajes tridimensionales animados sobre un marcador impreso. Al abrir la cámara y enfocar el AprilTag, aparecen el chupacabras y una oveja; el usuario puede observar la escena desde distintos ángulos moviendo el teléfono. El desarrollo que aquí se presenta comprende dos fases: la figura con respiración y su evolución hacia una secuencia de ataque.
+
+La experiencia incluye pantalla de inicio, solicitud de permiso de cámara, acceso a privacidad y avisos, seguimiento del marcador y animación sincronizada. La escena se oculta cuando el marcador deja de detectarse y reinicia al recuperarlo. También reinicia al volver de segundo plano o comenzar otra sesión desde Inicio. El posicionamiento se mantiene relativo al tag mientras este es detectado.
+
+El chupacabras se construyó en \href{https://www.blender.org/}{Blender} a partir de referencias visuales. Se combinaron volúmenes anatómicos y formas tubulares, aplicando remallado, suavizado y reducción de geometría. La revisión Nocturno R08 refinó cráneo, hocico, órbitas, dentadura, orejas y cresta. La piel se creó mediante materiales procedurales, con pigmentación, poros y pliegues, y se preparó un atlas de texturas de 2048 × 2048 píxeles. Las referencias visuales guiaron la forma; las texturas se generaron dentro del proceso de producción.
+
+La primera fase culminó al colocar ese modelo sobre el marcador y añadirle un ciclo de respiración de cuatro segundos. Un esqueleto inicial de cuatro huesos permitía expandir el tórax y acompañar el movimiento con cabeza y cola, conservando el apoyo de las patas. El modelo, las texturas y la animación se integraron en Unity y se validaron en el Moto G20.
+
+En la segunda fase se añadió la oveja del \href{https://quaternius.com/packs/farmanimal.html}{\textit{Farm Animal Pack}, de Quaternius (2018)}, distribuido con licencia \href{https://creativecommons.org/publicdomain/zero/1.0/}{CC0 1.0}. Se adaptaron colores, escala y pesos del esqueleto original; una subdivisión suavizó su silueta. El rig del chupacabras se amplió a 17 huesos para articular patas y mandíbula, conservando su geometría y sus texturas. La oveja mantiene 24 huesos. El conjunto suma 112.822 triángulos.
+
+La actuación final comprende pastoreo, anticipación, salto con desplazamiento, mordida y forcejeo sin sangre, liberación y regreso caminando. Se corrigieron el alcance de las patas, el contacto, la deformación de la cola y la continuidad del recorrido. A los 13,5 segundos el chupacabras entra en respiración continua de cuatro segundos y la oveja queda inmóvil. El cierre conserva al chupacabras sobre el marcador.
+
+\newpage
+\heading{Tecnologías y procesos de producción}
+
+Las herramientas principales son \href{https://www.blender.org/}{Blender 5.2.2 LTS}, para crear los recursos, y \href{https://docs.unity3d.com/6000.3/Documentation/Manual/}{Unity 6.3 LTS, versión 6000.3.22f1}, para integrarlos y ejecutar la aplicación. En Unity se utiliza \href{https://learn.microsoft.com/es-es/dotnet/csharp/}{C\#} para la lógica y \href{https://docs.unity3d.com/6000.3/Documentation/Manual/urp/urp-introduction.html}{Universal Render Pipeline (URP) 17.3.0} para iluminación y materiales. Los materiales PBR describen color, relieve y respuesta de la superficie a la luz.
+
+\href{https://www.python.org/}{Python} es el lenguaje de automatización de Blender. Los scripts usan su \href{https://docs.blender.org/api/current/index.html}{API: \texttt{bpy}, \texttt{bmesh} y \texttt{mathutils}}, junto con \href{https://numpy.org/doc/stable/}{NumPy}, para trabajar con geometría, materiales, transformaciones y datos numéricos. Generan recursos y verificaciones reproducibles; Python participa en la producción, mientras que la aplicación Android ejecuta el resultado preparado.
+
+El seguimiento utiliza \href{https://github.com/keijiro/jp.keijiro.apriltag}{\texttt{jp.keijiro.apriltag} 1.0.3, de Keijiro Takahashi}, que conecta \href{https://github.com/AprilRobotics/apriltag}{AprilTag} con Unity. Reconoce el marcador y entrega posición y rotación para ubicar los personajes. Su función es comparable a la detección y posicionamiento de objetivos de \href{https://developer.vuforia.com/library/vuforia-engine/getting-started/vuforia-features/}{Vuforia}, cuyo SDK tiene un alcance más amplio. La integración utilizada se apoya en bibliotecas nativas y en \href{https://docs.unity3d.com/6000.3/Documentation/Manual/JobSystem.html}{Unity Jobs}, \href{https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html}{Burst 1.8.30} y \href{https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html}{Mathematics 1.3.2}.
+
+\begin{center}
+\begin{tikzpicture}[node distance=6mm,box/.style={draw=rulegray,fill=pale,rounded corners=2pt,minimum height=14mm,text width=30mm,align=center,font=\sffamily\small},arr/.style={-{Stealth[length=2mm]},draw=accent}]
+\node[box] (a) {Blender\\\footnotesize Modelado y animación};
+\node[box,right=of a] (b) {FBX + PNG\\\footnotesize Intercambio};
+\node[box,right=of b] (c) {Unity\\\footnotesize Escena y aplicación};
+\node[box,right=of c] (d) {AAB \(\rightarrow\) APK\\\footnotesize Entrega Android};
+\draw[arr] (a)--(b);\draw[arr] (b)--(c);\draw[arr] (c)--(d);
+\end{tikzpicture}
+\end{center}
+
+La exportación \href{https://docs.blender.org/manual/en/4.5/addons/import_export/scene_fbx.html}{FBX} pertenece al flujo de intercambio de Blender y Unity. El archivo lleva mallas, esqueletos y animación horneada; las texturas se entregan como PNG y los JSON registran datos de verificación. Hornear significa guardar las poses calculadas: el móvil reproduce esas curvas sin resolver IK ni simular físicamente el ataque. Unity importa el rig como Generic y utiliza un Animator compartido para sincronizar ambos personajes. El ancla del marcador queda fuera de las curvas de animación.
+
+La \href{https://docs.unity3d.com/6000.3/Documentation/Manual/android-BuildProcess.html}{compilación Android de Unity} utiliza IL2CPP y ARM64 para producir el AAB firmado. Después, \href{https://developer.android.com/tools/bundletool}{bundletool} genera la APK universal instalable a partir de ese AAB. FBX y AAB son formatos de producción y entrega; bundletool es una herramienta del ecosistema Android. Como apoyo se usaron \href{https://developer.android.com/tools/adb}{ADB} para instalar y revisar la app, \href{https://ffmpeg.org/}{FFmpeg} para videos de revisión y \href{https://git-scm.com/}{Git} con \href{https://git-lfs.com/}{Git LFS} para versionar fuentes y archivos grandes. Los comandos se automatizaron con \href{https://www.gnu.org/software/bash/}{Bash}.
+
+\newpage
+\heading{Funcionamiento y estado final}
+
+Al pulsar «Abrir cámara», la app solicita permiso y obtiene imágenes mediante \href{https://docs.unity3d.com/6000.3/Documentation/ScriptReference/WebCamTexture.html}{WebCamTexture}, una API de Unity. Corrige giro y reflejo, procesa el AprilTag de familia \texttt{tagStandard41h12}, ID 0, y coloca el conjunto en su pose. El lado de detección configurado mide 10 cm. El modelo y sus luces dependen de esa ancla; un Animator reproduce el ataque una vez y después el reposo en bucle. La interfaz usa IMGUI, también integrado en Unity.
+
+La versión final documentada es la \textbf{0.2.8 / 208}, entregada el 11 de octubre de 2026 y aceptada en Moto G20 con Android 11. Su envolvente animada es de aproximadamente 80,2 × 91,6 × 35,1 cm virtuales. El perfil de 180,70 segundos registró \textbf{29,33 fps de media}. Se verificaron seguimiento, reproducción, geometría, recuperación de cámara y empaquetado; la entrega contiene AAB firmado y APK derivada. Requiere Android 8.0 o superior y ARM64. No se ha publicado en Google Play. La escala física exacta depende de la calibración existente; siguen pendientes pruebas prolongadas, S23 y ejecución en equipos con páginas de memoria de 16 KB.
+
+\vspace{3pt}
+{\sffamily\bfseries\fontsize{13}{17}\selectfont Referencias\par}
+\vspace{3pt}
+\begingroup
+\fontsize{9}{11.4}\selectfont
+\setlength{\parskip}{4pt}
+\refentry{Android Developers. (s. f.-a). \textit{Android Debug Bridge (adb)}. \url{https://developer.android.com/tools/adb}}
+\refentry{Android Developers. (s. f.-b). \textit{bundletool}. \url{https://developer.android.com/tools/bundletool}}
+\refentry{AprilRobotics. (s. f.). \textit{AprilTag} [Software]. GitHub. \url{https://github.com/AprilRobotics/apriltag}}
+\refentry{Blender Foundation. (s. f.-a). \textit{Blender} [Software]. \url{https://www.blender.org/}}
+\refentry{Blender Foundation. (s. f.-b). \textit{Blender Python API}. \url{https://docs.blender.org/api/current/index.html}}
+\refentry{Blender Foundation. (s. f.-c). \textit{FBX}. Blender 4.5 Manual. \url{https://docs.blender.org/manual/en/4.5/addons/import_export/scene_fbx.html}}
+\refentry{FFmpeg Developers. (s. f.). \textit{FFmpeg} [Software]. \url{https://ffmpeg.org/}}
+\refentry{Git Project. (s. f.). \textit{Git} [Software]. \url{https://git-scm.com/}}
+\refentry{GitHub. (s. f.). \textit{Git Large File Storage} [Software]. \url{https://git-lfs.com/}}
+\refentry{GNU Project. (s. f.). \textit{Bash} [Software]. \url{https://www.gnu.org/software/bash/}}
+\refentry{Microsoft. (s. f.). \textit{Documentación de C\#}. \url{https://learn.microsoft.com/es-es/dotnet/csharp/}}
+\refentry{NumPy Developers. (s. f.). \textit{NumPy documentation}. \url{https://numpy.org/doc/stable/}}
+\refentry{PTC. (s. f.). \textit{Vuforia features}. Vuforia Engine Library.\\\url{https://developer.vuforia.com/library/vuforia-engine/getting-started/vuforia-features/}}
+\refentry{Python Software Foundation. (s. f.). \textit{Python} [Lenguaje de programación]. \url{https://www.python.org/}}
+\refentry{Quaternius. (2018, junio). \textit{Farm Animal Pack} [Modelos 3D]. \url{https://quaternius.com/packs/farmanimal.html}}
+\refentry{Takahashi, K. (s. f.). \textit{jp.keijiro.apriltag} (versión 1.0.3) [Software]. GitHub. \url{https://github.com/keijiro/jp.keijiro.apriltag}}
+\refentry{Unity Technologies. (s. f.). \textit{Unity 6.3 documentation}. \url{https://docs.unity3d.com/6000.3/Documentation/Manual/}}
+\endgroup
+
+\vspace{5pt}
+{\footnotesize\color{muted}Las versiones y los resultados del proyecto proceden de sus fuentes y registros locales: \file{docs/rediseno_nocturno.md}, \file{docs/asset_oveja.md}, \file{docs/ataque_natural_1m.md} y la configuración de la copia Unity \file{google_play}. Los enlaces públicos documentan las herramientas y la procedencia de los recursos.}
+\end{document}

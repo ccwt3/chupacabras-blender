@@ -1,0 +1,5 @@
+  Package [com.chupacabras.ar.figure] (585dd6b):
+    codePath=/data/app/~~rgbesuB9o3_bvOfYfSYhfQ==/com.chupacabras.ar.figure-bywvo54uzLjg5Irie-fXDQ==
+    primaryCpuAbi=arm64-v8a
+    versionCode=206 minSdk=26 targetSdk=36
+    versionName=0.2.6

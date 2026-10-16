@@ -1,0 +1,24 @@
+{
+  "uninstall": {
+    "returncode": 0,
+    "stdout": "Success\n",
+    "stderr": ""
+  },
+  "packages": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "process": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  "external_data": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "ls: /sdcard/Android/data/com.chupacabras.ar.figure: No such file or directory\n"
+  },
+  "previous_installation_absent": true,
+  "only_removed_package": "com.chupacabras.ar.figure"
+}

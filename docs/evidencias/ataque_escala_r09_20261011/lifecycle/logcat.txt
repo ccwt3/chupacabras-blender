@@ -1,0 +1,79 @@
+--------- beginning of system
+I/ActivityThread(14392): smart_link is  not supported!!!
+I/ActivityThread(14392): smart_link is  not supported!!!
+--------- beginning of main
+I/abras.ar.figur(14392): Explicit concurrent copying GC freed 65374(2084KB) AllocSpace objects, 0(0B) LOS objects, 89% free, 2981KB/26MB, paused 72us total 33.198ms
+I/abras.ar.figur(14392): Explicit concurrent copying GC freed 9975(373KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2800KB/26MB, paused 56us total 22.194ms
+I/abras.ar.figur(14392): Explicit concurrent copying GC freed 21422(695KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2839KB/26MB, paused 41us total 23.947ms
+I/abras.ar.figur(14392): Explicit concurrent copying GC freed 23451(767KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2870KB/26MB, paused 48us total 37.985ms
+I/abras.ar.figur(14392): Explicit concurrent copying GC freed 23773(780KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2872KB/26MB, paused 50us total 25.760ms
+I/abras.ar.figur(14392): Explicit concurrent copying GC freed 23666(798KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2871KB/26MB, paused 93us total 26.824ms
+I/abras.ar.figur(14392): Explicit concurrent copying GC freed 23572(766KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2871KB/26MB, paused 45us total 28.347ms
+I/abras.ar.figur(14392): Explicit concurrent copying GC freed 22390(722KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2866KB/26MB, paused 38us total 25.253ms
+I/Unity   (14392): Handle cmd APP_CMD_PAUSE(14)
+V/GameActivity(14392): onImeInsetsChanged from Text Listener
+I/gralloc4(14392): unregister: id=21e0004af2b
+I/gralloc4(14392): unregister: id=21e0004af2c
+I/gralloc4(14392): unregister: id=21e0004af2d
+I/gralloc4(14392): unregister: id=21e0004af2e
+D/AAudio  (14392): AAudioStream_requestStop(s#1) called
+D/AAudioStream(14392): setState(s#1) from 4 to 9
+I/AudioTrack(14392): stop  mClientUid:10704 mClientPid:14392  mSessionId:122201 app name:com.chupacabras.ar.figure 
+D/AudioTrack(14392): stop(15661): called with 6924480 frames delivered
+D/abras.ar.figur(14392): PlayerBase::stop() from IPlayer
+D/AAudioStream(14392): setState(s#1) from 9 to 10
+I/Unity   (14392): Handle cmd APP_CMD_LOST_FOCUS(8)
+I/Unity   (14392): Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+I/Unity   (14392): Handle cmd APP_CMD_TERM_WINDOW(2)
+I/gralloc4(14392): register: id=21e0004af21
+I/gralloc4(14392): unregister: id=21e0004af1b
+I/gralloc4(14392): unregister: id=21e0004af1e
+I/Unity   (14392): Handle cmd APP_CMD_LOW_MEMORY(10)
+I/gralloc4(14392): unregister: id=21e0004af21
+I/Unity   (14392): Handle cmd APP_CMD_STOP(15)
+I/Unity   (14392): Handle cmd APP_CMD_SAVE_STATE(13)
+I/Unity   (14392): Handle cmd APP_CMD_START(11)
+I/Unity   (14392): Handle cmd APP_CMD_RESUME(12)
+I/ActivityThread(14392): smart_link is  not supported!!!
+V/GameActivity(14392): onImeInsetsChanged from Text Listener
+I/Unity   (14392): Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+I/Unity   (14392): Handle cmd APP_CMD_INIT_WINDOW(1)
+I/gralloc4(14392): unregister: id=21e0004af1f
+I/gralloc4(14392): unregister: id=21e0004af20
+I/gralloc4(14392): unregister: id=21e0004af21
+I/gralloc4(14392): register: id=21e0004af42
+V/GameActivity(14392): onImeInsetsChanged from Text Listener
+I/gralloc4(14392): register: id=21e0004af43
+I/Unity   (14392):     HasWindow = 1, HasFocus = 0
+I/Unity   (14392): Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+I/Unity   (14392): Handle cmd APP_CMD_GAINED_FOCUS(7)
+I/Unity   (14392): Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+V/GameActivity(14392): onImeInsetsChanged from Text Listener
+I/Unity   (14392): Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+I/gralloc4(14392): register: id=21e0004af44
+D/AAudio  (14392): AAudioStream_requestStart(s#1) called --------------
+D/AAudioStream(14392): setState(s#1) from 10 to 3
+I/AudioTrack(14392): start  mClientUid:10704 mClientPid:14392  mSessionId:122201 app name:com.chupacabras.ar.figure 
+D/abras.ar.figur(14392): PlayerBase::start() from IPlayer
+D/AAudio  (14392): AAudioStream_requestStart(s#1) returned 0 ---------
+V/MediaRouter(14392): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+D/AudioStreamLegacy(14392): onAudioDeviceUpdate() devId 2 => 2
+I/gralloc4(14392): register: id=21e0004af45
+I/gralloc4(14392): register: id=21e0004af46
+I/gralloc4(14392): register: id=21e0004af47
+D/AAudioStream(14392): setState(s#1) from 3 to 4
+I/gralloc4(14392): register: id=21e0004af48
+I/gralloc4(14392): register: id=21e0004af49
+I/gralloc4(14392): register: id=21e0004af4a
+I/gralloc4(14392): register: id=21e0004af4b
+I/gralloc4(14392): register: id=21e0004af4c
+I/Unity   (14392): CHUPACABRAS_CAMERA Camera 0 320x240 rotation=90 mirrored=False
+I/Unity   (14392): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   (14392): Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+I/Unity   (14392): Chupacabras.TrackingProbe:Update()
+I/Unity   (14392): 
+I/Unity   (14392): CHUPACABRAS_TRACK acquired
+I/Unity   (14392): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   (14392): Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+I/Unity   (14392): Chupacabras.TrackingProbe:Update()
+I/Unity   (14392):

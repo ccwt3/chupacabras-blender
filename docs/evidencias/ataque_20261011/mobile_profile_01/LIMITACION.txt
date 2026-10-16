@@ -1,0 +1,4 @@
+Diagnóstico inicial detenido: la consulta SurfaceFlinger enviaba el nombre de
+superficie sin comillas al shell remoto y devolvía solo el periodo de refresco.
+No se atribuyen fps a ese resultado. Las capturas y muestras de memoria sí son
+reales. La medición corregida está en mobile_profile_02.

@@ -1,0 +1,14 @@
+ M .gitignore
+ M README.md
+ M docs/estado.md
+ M docs/plan_secuencia.md
+?? docs/evidencias/2026-10-03_rediseno/
+?? docs/evidencias/2026-10-06_f7/
+?? docs/rediseno_nocturno.md
+?? exports/chupacabras_nocturno_r08.fbx
+?? exports/chupacabras_nocturno_r08/
+?? previews/chupacabras_nocturno_r08/
+?? scenes/chupacabras_nocturno_r08.blend
+?? scripts/chupacabras_nocturno.py
+?? scripts/preview_nocturno.py
+?? scripts/verificar_nocturno.py

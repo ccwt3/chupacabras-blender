@@ -1,0 +1,22 @@
+{
+  "revision": "r08",
+  "blood": false,
+  "duration_until_idle_s": 13.5,
+  "idle_loop_s": 4,
+  "uniform_scale": 0.08,
+  "initial_clear_gap_m": 0.3,
+  "initial_root_y_authoring": -2.970430374145508,
+  "jump_displacement_m": 0.35763,
+  "final_root_xy": [
+    0,
+    0
+  ],
+  "unity_volume_m": [
+    0.5831074118614197,
+    0.6659878492355347,
+    0.25555896759033203
+  ],
+  "marker_changed": false,
+  "version": "0.2.7",
+  "version_code": 207
+}

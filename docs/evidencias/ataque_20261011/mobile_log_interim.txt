@@ -1,0 +1,183 @@
+--------- beginning of main
+10-11 13:29:37.712 28126 28126 E abras.ar.figur: Not starting debugger since process cannot load the jdwp agent.
+10-11 13:29:37.753 28126 28126 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-11 13:29:37.754 28126 28126 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-11 13:29:37.893 28126 28126 W linker  : Warning: "/data/app/~~CFXAc9lD76-_hizYIYND4A==/com.chupacabras.ar.figure-0xI1rAKKm8GVY4H87A-d2w==/lib/arm64/libc++_shared.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+10-11 13:29:37.907 28126 28126 D GameActivity: GameActivity_register
+10-11 13:29:37.916 28126 28126 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+10-11 13:29:37.938 28126 28126 D gti.InputConnection: InputConnection created
+10-11 13:29:37.939 28126 28126 D gti.InputConnection: setEditorInfo
+10-11 13:29:37.942 28126 28126 I ThreeFingerSwipe: mSwipeDistanceThreshold:18
+10-11 13:29:37.942 28126 28126 I ThreeFingerSwipe: mMaxWidth = 720; mMaxHeight = 1522
+10-11 13:29:37.945 28126 28126 I ThreeFingerSwipe: getPackageName = com.chupacabras.ar.figure
+10-11 13:29:38.169 28126 28126 I IL2CPP  : JNI_OnLoad
+10-11 13:29:38.169 28126 28126 V Unity   : Context Type: GameActivity
+10-11 13:29:38.177 28126 28126 I GameActivity: Looking for library libgame.so
+10-11 13:29:38.178 28126 28126 I GameActivity: Found library libgame.so. Loading...
+10-11 13:29:38.547 28126 28126 D GameActivity: SDK version: 30
+10-11 13:29:38.550 28126 28178 I Unity   : UnityApplication::CreateInstance
+10-11 13:29:38.550 28126 28178 I Unity   : GameActivity Package Version '4.4.0'
+10-11 13:29:38.550 28126 28178 I Unity   : Starting Game Loop
+10-11 13:29:38.564 28126 28178 I Unity   : Handle cmd APP_CMD_START(11)
+10-11 13:29:38.572 28126 28178 I Unity   : Handle cmd APP_CMD_RESUME(12)
+--------- beginning of system
+10-11 13:29:38.573 28126 28126 I ActivityThread: smart_link is  not supported!!!
+10-11 13:29:38.581 28126 28178 I Unity   : Handle cmd APP_CMD_LOW_MEMORY(10)
+10-11 13:29:38.584 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:29:38.584 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:29:38.596 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:29:38.596 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:29:38.596 28126 28178 I Unity   : Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+10-11 13:29:38.605 28126 28178 I Unity   : Handle cmd APP_CMD_INIT_WINDOW(1)
+10-11 13:29:38.641 28126 28178 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+10-11 13:29:38.647 28126 28126 I gralloc4: register: id=21e0004ae4a
+10-11 13:29:38.647 28126 28126 E libc    : Access denied finding property "persist.vendor.sf.fbc"
+10-11 13:29:38.647 28126 28126 E libc    : Access denied finding property "persist.vendor.gpu.fbc"
+10-11 13:29:38.647 28126 28126 E libc    : Access denied finding property "persist.vendor.vsp.fbc"
+10-11 13:29:38.650 28126 28126 E ion     : ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+10-11 13:29:38.664 28126 28126 I gralloc4: register: id=21e0004ae4d
+10-11 13:29:38.683 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:29:38.691 28126 28178 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 3486mb
+10-11 13:29:38.691 28126 28178 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0xc0), 6 little (mask: 0x3f)
+10-11 13:29:38.692 28126 28178 I Unity   : ApplicationInfo 'com.chupacabras.ar.figure', Version '0.2.5', Min API Level '26', Target API Level '36'
+10-11 13:29:38.692 28126 28178 I Unity   : Built from '6000.3/staging' branch, Version '6000.3.22f1 (1c726e1fb402)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+10-11 13:29:38.692 28126 28178 I Unity   : Device Model 'motorola moto g(20)', OS 'Android OS 11 (API 30)'
+10-11 13:29:38.716 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:29:38.932 28126 28178 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-11 13:29:38.933 28126 28178 I chatty  : uid=10700(com.chupacabras.ar.figure) UnityMain identical 14 lines
+10-11 13:29:38.934 28126 28178 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-11 13:29:38.934 28126 28178 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-11 13:29:38.934 28126 28178 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-11 13:29:38.935 28126 28178 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-11 13:29:38.953 28126 28178 I Unity   : Company Name: reicot
+10-11 13:29:38.953 28126 28178 I Unity   : Product Name: Chupacabras AR
+10-11 13:29:38.961 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:29:38.972 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:29:38.994 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:29:39.240 28126 28178 I SwappyWrapper: SwappyWrapperInit() succeeded. Build: Sun Oct 11 13:26:48 2026
+10-11 13:29:39.263 28126 28178 W abras.ar.figur: ClassLoaderContext classpath element mismatch. expected=/data/app/~~tVXLCmzPqHFS8FrRgzx07g==/com.chupacabras.ar.figure-CDgy_qr5aDi1TZXAwD5O_g==/base.apk, found=/data/app/~~CFXAc9lD76-_hizYIYND4A==/com.chupacabras.ar.figure-0xI1rAKKm8GVY4H87A-d2w==/base.apk (IMC[];PCL[/data/app/~~tVXLCmzPqHFS8FrRgzx07g==/com.chupacabras.ar.figure-CDgy_qr5aDi1TZXAwD5O_g==/base.apk*3772991310] | IMC[];PCL[/data/app/~~CFXAc9lD76-_hizYIYND4A==/com.chupacabras.ar.figure-0xI1rAKKm8GVY4H87A-d2w==/base.apk*3772991310])
+10-11 13:29:39.263 28126 28178 W abras.ar.figur: Mismatch of class loader context in vdex (expected=IMC[];PCL[/data/app/~~tVXLCmzPqHFS8FrRgzx07g==/com.chupacabras.ar.figure-CDgy_qr5aDi1TZXAwD5O_g==/base.apk*3772991310], actual=IMC[];PCL[/data/app/~~CFXAc9lD76-_hizYIYND4A==/com.chupacabras.ar.figure-0xI1rAKKm8GVY4H87A-d2w==/base.apk*3772991310])
+10-11 13:29:39.265 28126 28178 E SwappyDisplayManager: dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[0, -5476376661105063792]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+10-11 13:29:39.266 28126 28247 I SwappyDisplayManager: Starting looper thread
+10-11 13:29:39.300 28126 28178 I AAudio  : AAudioStreamBuilder_openStream() called ----------------------------------------
+10-11 13:29:39.300 28126 28178 I AudioStreamBuilder: rate   =  24000, channels  = 2, format   = 5, sharing = SH, dir = OUTPUT
+10-11 13:29:39.300 28126 28178 I AudioStreamBuilder: device =      0, sessionId = 0, perfMode = 12, callback: ON with frames = 512
+10-11 13:29:39.300 28126 28178 I AudioStreamBuilder: usage  =      0, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+10-11 13:29:39.300 28126 28178 I AudioStreamBuilder: privacy sensitive = false
+10-11 13:29:39.300 28126 28178 D AudioStreamBuilder: build() MMAP not used because sessionId specified.
+10-11 13:29:39.300 28126 28178 D abras.ar.figur: PlayerBase::PlayerBase()
+10-11 13:29:39.301 28126 28178 D AudioStreamTrack: open(), request notificationFrames = 512, frameCount = 8192
+10-11 13:29:39.307 28126 28178 I AudioTrack: set(): streamType -1, sampleRate 24000, format 0x5, channelMask 0x3, frameCount 8192, flags #4, notificationFrames 512, sessionId 0, transferType 1, uid -1, pid -1
+10-11 13:29:39.340 28126 28178 D AudioTrack: createTrack_l(84542726): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 8192 -> 8192
+10-11 13:29:39.343 28126 28178 D AAudioStream: setState(s#1) from 0 to 2
+10-11 13:29:39.343 28126 28178 W AudioStreamTrack: open() flags changed from 0x00000004 to 0x00000000
+10-11 13:29:39.343 28126 28178 W AudioStreamTrack: open() perfMode changed from 12 to 10
+10-11 13:29:39.344 28126 28178 I AAudio  : AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+10-11 13:29:39.345 28126 28178 D AAudio  : AAudioStream_requestStart(s#1) called --------------
+10-11 13:29:39.345 28126 28178 D AAudioStream: setState(s#1) from 2 to 3
+10-11 13:29:39.345 28126 28178 I AudioTrack: start  mClientUid:10700 mClientPid:28126  mSessionId:122161 app name:com.chupacabras.ar.figure 
+10-11 13:29:39.351 28126 28178 D abras.ar.figur: PlayerBase::start() from IPlayer
+10-11 13:29:39.351 28126 28178 D AAudio  : AAudioStream_requestStart(s#1) returned 0 ---------
+10-11 13:29:39.352 28126 28142 D AudioStreamLegacy: onAudioDeviceUpdate() devId 2 => 2
+10-11 13:29:39.454 28126 28257 D AAudioStream: setState(s#1) from 3 to 4
+10-11 13:29:39.797 28126 28178 I Unity   :     HasWindow = 1, HasFocus = 0
+10-11 13:29:39.798 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_RESIZED(3)
+10-11 13:29:39.799 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+10-11 13:29:39.799 28126 28178 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+10-11 13:29:39.799 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:29:39.800 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:29:39.801 28126 28178 W libEGL  : EGLNativeWindowType 0xb4000071fa96cd00 disconnect failed
+10-11 13:29:39.809 28126 28178 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-11 13:29:40.004 28126 28240 I gralloc4: register: id=21e0004ae4e
+10-11 13:29:40.021 28126 28240 I gralloc4: register: id=21e0004ae4f
+10-11 13:29:40.060 28126 28240 I gralloc4: register: id=21e0004ae50
+10-11 13:29:41.972 28126 28126 D GameActivity: ************** mainWorkCallback *********
+10-11 13:29:41.973 28126 28126 D gti.InputConnection: setSoftKeyboardActive, active: false
+10-11 13:29:42.010 28126 28178 D CompatibilityChangeReporter: Compat change id reported: 147600208; UID 10700; state: ENABLED
+10-11 13:29:42.364 28126 28178 I IL2CPP  : Locale en-US
+10-11 13:29:42.466 28126 28178 I Unity   : CHUPACABRAS_DEVICE_DETECTOR_OK {
+10-11 13:29:42.466 28126 28178 I Unity   :     "unity": "6000.3.22f1",
+10-11 13:29:42.466 28126 28178 I Unity   :     "platform": "Android",
+10-11 13:29:42.466 28126 28178 I Unity   :     "family": "tagStandard41h12",
+10-11 13:29:42.466 28126 28178 I Unity   :     "id": 0,
+10-11 13:29:42.466 28126 28178 I Unity   :     "detections": 1,
+10-11 13:29:42.466 28126 28178 I Unity   :     "blankDetections": 0,
+10-11 13:29:42.466 28126 28178 I Unity   :     "position": {
+10-11 13:29:42.466 28126 28178 I Unity   :         "x": -0.000030418614187510684,
+10-11 13:29:42.466 28126 28178 I Unity   :         "y": 0.0001228229666594416,
+10-11 13:29:42.466 28126 28178 I Unity   :         "z": 0.27718374133110049
+10-11 13:29:42.466 28126 28178 I Unity   :     },
+10-11 13:29:42.466 28126 28178 I Unity   :     "rotation": {
+10-11 13:29:42.466 28126 28178 I Unity   :         "x": 0.002918973797932267,
+10-11 13:29:42.466 28126 28178 I Unity   :         "y": -0.0010334892431274057,
+10-11 13:29:42.466 28126 28178 I Unity   :         "z": -0.00016976076585706323,
+10-11 13:29:42.466 28126 28178 I Unity   :         "w": 0.9999952912330627
+10-11 13:29:42.466 28126 28178 I Unity   :     },
+10-11 13:29:42.466 28126 28178 I Unity   :     "passed": true,
+10-11 13:29:42.466 28126 28178 I Unity   :     "limitation": "Imagen incluida; no valida marcador físico, escala ni calibración."
+10-11 13:29:42.466 28126 28178 I Unity   : }
+10-11 13:29:42.466 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:29:42.466 28126 28178 I Unity   : Chupacabras.TrackingProbe:Start()
+10-11 13:29:42.466 28126 28178 I Unity   : 
+10-11 13:30:49.173 28126 28126 I ThreeFingerSwipe: 0 ACTION_DOWN point count = 1
+10-11 13:30:49.178 28126 28126 I ThreeFingerSwipe: onPointDown... pointIndex = 0, pointId = 0
+10-11 13:30:49.178 28126 28126 I ThreeFingerSwipe: currentX = 356.0, currentY = 941.0
+10-11 13:30:49.181 28126 28126 I ThreeFingerSwipe: 0 ACTION_UP point count = 1
+10-11 13:30:49.181 28126 28126 I ThreeFingerSwipe: onPointUp
+10-11 13:30:49.385 28126 28178 I Unity   : Handle cmd APP_CMD_PAUSE(14)
+10-11 13:30:49.432 28126 28178 D AAudio  : AAudioStream_requestStop(s#1) called
+10-11 13:30:49.432 28126 28178 D AAudioStream: setState(s#1) from 4 to 9
+10-11 13:30:49.432 28126 28178 I AudioTrack: stop  mClientUid:10700 mClientPid:28126  mSessionId:122161 app name:com.chupacabras.ar.figure 
+10-11 13:30:49.432 28126 28178 D AudioTrack: stop(15657): called with 1683360 frames delivered
+10-11 13:30:49.432 28126 28178 D abras.ar.figur: PlayerBase::stop() from IPlayer
+10-11 13:30:49.432 28126 28178 D AAudioStream: setState(s#1) from 9 to 10
+10-11 13:30:49.434 28126 28178 I Unity   : Handle cmd APP_CMD_LOST_FOCUS(8)
+10-11 13:31:12.699 28126 28178 I Unity   : Handle cmd APP_CMD_RESUME(12)
+10-11 13:31:12.700 28126 28126 I ActivityThread: smart_link is  not supported!!!
+10-11 13:31:12.708 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:31:12.709 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:31:12.722 28126 28178 I Unity   : Handle cmd APP_CMD_GAINED_FOCUS(7)
+10-11 13:31:12.727 28126 28126 V GameActivity: onImeInsetsChanged from Text Listener
+10-11 13:31:12.750 28126 28178 I CameraManagerGlobal: Connecting to camera service
+10-11 13:31:13.262 28126 28178 I Unity   : Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+10-11 13:31:13.268 28126 28142 I gralloc4: register: id=21e0004ae5e
+10-11 13:31:13.269 28126 28178 D AAudio  : AAudioStream_requestStart(s#1) called --------------
+10-11 13:31:13.269 28126 28178 D AAudioStream: setState(s#1) from 10 to 3
+10-11 13:31:13.269 28126 28178 I AudioTrack: start  mClientUid:10700 mClientPid:28126  mSessionId:122161 app name:com.chupacabras.ar.figure 
+10-11 13:31:13.270 28126 28178 D abras.ar.figur: PlayerBase::start() from IPlayer
+10-11 13:31:13.270 28126 28178 D AAudio  : AAudioStream_requestStart(s#1) returned 0 ---------
+10-11 13:31:13.272 28126 28144 D AudioStreamLegacy: onAudioDeviceUpdate() devId 2 => 2
+10-11 13:31:13.273 28126 28126 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-11 13:31:13.351 28126 28257 D AAudioStream: setState(s#1) from 3 to 4
+10-11 13:31:13.391 28126 28142 I gralloc4: register: id=21e0004ae5f
+10-11 13:31:13.394 28126 28142 I gralloc4: register: id=21e0004ae60
+10-11 13:31:13.413 28126 28142 I gralloc4: register: id=21e0004ae61
+10-11 13:31:13.654 28126 28144 I gralloc4: register: id=21e0004ae62
+10-11 13:31:13.719 28126 28144 I gralloc4: register: id=21e0004ae63
+10-11 13:31:13.964 28126 28178 I Unity   : CHUPACABRAS_CAMERA Camera 0 320x240 rotation=90 mirrored=False
+10-11 13:31:13.964 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:31:13.964 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:31:13.964 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:31:13.964 28126 28178 I Unity   : 
+10-11 13:31:14.656 28126 28178 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 13:31:14.656 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:31:14.656 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:31:14.656 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:31:14.656 28126 28178 I Unity   : 
+10-11 13:31:15.785 28126 28178 I Unity   : CHUPACABRAS_TRACK lost
+10-11 13:31:15.785 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:31:15.785 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:31:15.785 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:31:15.785 28126 28178 I Unity   : 
+10-11 13:31:15.825 28126 28178 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 13:31:15.825 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:31:15.825 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:31:15.825 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:31:15.825 28126 28178 I Unity   : 
+10-11 13:31:22.421 28126 28144 I abras.ar.figur: Explicit concurrent copying GC freed 28317(900KB) AllocSpace objects, 0(0B) LOS objects, 89% free, 2831KB/26MB, paused 182us total 25.004ms
+10-11 13:31:22.720 28126 28144 I abras.ar.figur: Explicit concurrent copying GC freed 5176(239KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2816KB/26MB, paused 26us total 17.403ms
+10-11 13:31:53.140 28126 28996 I abras.ar.figur: Explicit concurrent copying GC freed 21480(708KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 42us total 21.840ms
+10-11 13:32:23.400 28126 28144 I abras.ar.figur: Explicit concurrent copying GC freed 23553(782KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 49us total 22.820ms
+10-11 13:32:34.139 28126 28144 I abras.ar.figur: Explicit concurrent copying GC freed 12401(434KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2827KB/26MB, paused 102us total 21.766ms
+10-11 13:32:34.480 28126 28996 I abras.ar.figur: Explicit concurrent copying GC freed 4999(216KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2803KB/26MB, paused 44us total 29.136ms
+10-11 13:33:04.838 28126 28142 I abras.ar.figur: Explicit concurrent copying GC freed 21350(695KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 52us total 22.915ms

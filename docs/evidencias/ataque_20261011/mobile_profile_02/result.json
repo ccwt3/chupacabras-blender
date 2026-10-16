@@ -1,0 +1,17 @@
+{
+  "duration_s": 301.0463447500001,
+  "unique_presented_frames": 8883,
+  "same_process": true,
+  "method": "SurfaceFlinger actualPresentTime; includes only this app SurfaceView; visibility requires separate observation",
+  "fps": 29.637705238251492,
+  "median_ms": 33.322692,
+  "p95_ms": 33.470769,
+  "max_ms": 99.267077,
+  "presented_span_s": 299.685820093,
+  "history_before_first_sample_excluded": true,
+  "pss_start_mib": 404.984375,
+  "battery_start_c": 39.9,
+  "pss_end_mib": 402.0849609375,
+  "battery_end_c": 41.0,
+  "error_lines": []
+}

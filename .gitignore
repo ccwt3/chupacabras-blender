@@ -45,3 +45,6 @@ docs/evidencias/2026-10-02_rigs_demacrado/respaldo_unity/
 /docs/evidencias/2026-10-06_f7/serializacion/temporales_compilacion/
 /docs/evidencias/2026-10-06_f7/**/il2cpp/
 /docs/evidencias/2026-10-06_f7/**/f7_*.mp4
+
+# Local archive for manual removal; movement inventories stay in docs/.
+/historicos/

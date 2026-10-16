@@ -1,0 +1,36 @@
+{
+  "version": "0.2.8",
+  "version_code": 208,
+  "device": "Moto G20",
+  "user_acceptance": "todo bien 10/10",
+  "physical_device": true,
+  "performance": {
+    "duration_s": 180.6952194680007,
+    "unique_presented_frames": 5260,
+    "same_process": true,
+    "method": "SurfaceFlinger actualPresentTime; includes only this app SurfaceView; visibility requires separate observation",
+    "fps": 29.326648518886913,
+    "median_ms": 33.322808,
+    "p95_ms": 33.606692,
+    "max_ms": 83.308192
+  },
+  "lifecycle": {
+    "same_process": true,
+    "camera_reopened": true,
+    "passed": true
+  },
+  "final_installation": {
+    "package": "com.chupacabras.ar.figure",
+    "source": "/home/cacawatin/code/blender/chupacabras/entregas/Ataque_Natural_AR_0.2.8_20261011/Chupacabras_AR_0.2.8_208_desde_AAB.apk",
+    "sha256": "c21908ed5de43ff079b22d1d480246d3ce24e3c4fb23a67b7535b894ef63b53a",
+    "installed_bytes_verified": true
+  },
+  "visual_sample_checks": [
+    "screen_000.png",
+    "screen_060.png",
+    "screen_151.png"
+  ],
+  "runtime_page_size": 4096,
+  "page_size_runtime_validation_16kb": false,
+  "long_duration_memory_validation": false
+}

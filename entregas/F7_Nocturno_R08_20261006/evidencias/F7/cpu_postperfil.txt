@@ -1,0 +1,87 @@
+Load: 12.05 / 10.39 / 9.88
+CPU usage from 176003ms to 170196ms ago (2026-10-06 12:11:03.256 to 2026-10-06 12:11:09.062):
+  96% 27796/com.chupacabras.ar.figure: 85% user + 11% kernel / faults: 1801 minor
+  88% 30104/com.zhiliaoapp.musically: 81% user + 6.3% kernel / faults: 51822 minor 290 major
+  40% 29840/com.sirma.mobile.bible.android: 31% user + 8.2% kernel / faults: 8554 minor 25 major
+  37% 313/logd: 36% user + 0.8% kernel / faults: 114 minor
+  32% 963/system_server: 21% user + 11% kernel / faults: 6159 minor 371 major
+  30% 105/kswapd0: 0% user + 30% kernel
+  23% 533/android.hardware.audio.service: 23% user + 0.6% kernel
+  22% 537/android.hardware.camera.provider@2.4-service: 16% user + 6.3% kernel / faults: 59 minor
+  22% 563/vendor.sprd.hardware.thermal@2.0-service: 0% user + 22% kernel / faults: 1 minor 4 major
+  18% 676/keystore: 9.8% user + 8.4% kernel / faults: 52 minor
+  11% 179/mmcqd/0: 0% user + 11% kernel
+  10% 19351/com.motorola.launcher3: 4.4% user + 6% kernel / faults: 6808 minor 557 major
+  8.4% 571/surfaceflinger: 4.6% user + 3.7% kernel / faults: 69 minor 7 major
+  7.9% 26110/com.google.android.googlequicksearchbox:googleapp: 4.2% user + 3.6% kernel / faults: 6055 minor 60 major
+  7.5% 364/android.hardware.keymaster@4.1-unisoc.service: 4.4% user + 3% kernel
+  6.5% 1437/com.android.systemui: 4.3% user + 2.2% kernel / faults: 808 minor 29 major
+  5.6% 18190/kworker/0:1: 0% user + 5.6% kernel
+  5.5% 14036/kworker/u16:13: 0% user + 5.5% kernel / faults: 3 minor
+  4.6% 11912/com.google.android.gms: 3.4% user + 1.2% kernel / faults: 848 minor 48 major
+  3.4% 543/android.hardware.graphics.composer@2.1-service: 1.3% user + 2% kernel / faults: 2 minor 2 major
+  3.2% 30156/kworker/u17:1: 0% user + 3.2% kernel
+  2.9% 314/lmkd: 0.3% user + 2.5% kernel
+  2.9% 13703/kworker/u16:1: 0% user + 2.9% kernel / faults: 5 minor
+  2.7% 22049/kworker/u17:5: 0% user + 2.7% kernel
+  2.5% 548/android.hardware.sensors@1.0-service: 1.3% user + 1.2% kernel
+  2.5% 660/cameraserver: 1.7% user + 0.8% kernel / faults: 10 minor 1 major
+  2.5% 20153/kworker/u17:4: 0% user + 2.5% kernel
+  2.4% 17688/kworker/u17:6: 0% user + 2.4% kernel
+  2% 26382/kworker/u16:16: 0% user + 2% kernel
+  2% 29357/kworker/0:2: 0% user + 2% kernel
+  1.8% 566/audioserver: 1.5% user + 0.3% kernel
+  1.8% 30453/kworker/u16:5: 0% user + 1.8% kernel / faults: 6 minor
+  1.5% 525/statsd: 1.2% user + 0.3% kernel / faults: 8 minor
+  1.5% 28773/com.google.android.apps.docs.editors.slides: 0.8% user + 0.6% kernel / faults: 434 minor 5 major
+  1.3% 159/spi4: 0% user + 1.3% kernel
+  1.3% 25993/com.google.android.permissioncontroller: 1% user + 0.3% kernel / faults: 249 minor 4 major
+  1.3% 30191/kworker/u16:2: 0% user + 1.3% kernel
+  1% 24787/kworker/u16:0: 0% user + 1% kernel
+  0.6% 186/shub_rd_nwu: 0% user + 0.6% kernel
+  0.6% 4077/kworker/u17:0: 0% user + 0.6% kernel
+  0.6% 28621/isp_ctx0_offlin: 0% user + 0.6% kernel
+  0.5% 154/gsp-core[0]: 0% user + 0.5% kernel
+  0.5% 527/zygote64: 0.1% user + 0.3% kernel / faults: 368 minor 7 major
+  0.5% 2153/com.spreadtrum.vowifi: 0.1% user + 0.3% kernel
+  0.5% 30486/kworker/u16:7: 0% user + 0.5% kernel
+  0.3% 144/sbuf-6-4: 0% user + 0.3% kernel
+  0.3% 278/kworker/5:1H: 0% user + 0.3% kernel
+  0.3% 526/netd: 0% user + 0.3% kernel / faults: 79 minor 1 major
+  0.3% 1315/com.android.phone: 0.1% user + 0.1% kernel / faults: 18 minor 13 major
+  0.3% 22728/com.google.process.gservices: 0.1% user + 0.1% kernel / faults: 100 minor 1 major
+  0.1% 7/ksoftirqd/0: 0% user + 0.1% kernel
+  0.1% 8/rcu_preempt: 0% user + 0.1% kernel
+  0.1% 20/ksoftirqd/2: 0% user + 0.1% kernel
+  0.1% 30/ksoftirqd/4: 0% user + 0.1% kernel
+  0.1% 35/ksoftirqd/5: 0% user + 0.1% kernel
+  0.1% 182/system: 0% user + 0.1% kernel
+  0.1% 220/sdiohal_tx_thre: 0% user + 0.1% kernel
+  0.1% 221/sdiohal_rx_thre: 0% user + 0.1% kernel
+  0.1% 234/kworker/0:1H: 0% user + 0.1% kernel
+  0.1% 236/kworker/2:1H: 0% user + 0.1% kernel
+  0.1% 237/kworker/1:1H: 0% user + 0.1% kernel
+  0.1% 238/kworker/4:1H: 0% user + 0.1% kernel
+  0.1% 239/kworker/3:1H: 0% user + 0.1% kernel
+  0.1% 315/servicemanager: 0.1% user + 0% kernel
+  0.1% 363/android.system.suspend@1.0-service: 0% user + 0.1% kernel / faults: 38 minor 11 major
+  0% 494/loop23: 0% user + 0% kernel
+  0% 498/loop25: 0% user + 0% kernel
+  0.1% 544/android.hardware.health@2.1-service: 0% user + 0.1% kernel / faults: 4 major
+  0.1% 587/urild: 0.1% user + 0% kernel / faults: 8 minor 18 major
+  0.1% 712/thermald: 0% user + 0.1% kernel / faults: 3 minor 4 major
+  0.1% 1396/com.android.networkstack.process: 0% user + 0.1% kernel / faults: 45 minor 1 major
+  0.1% 4901/com.android.bluetooth: 0.1% user + 0% kernel / faults: 10 minor 2 major
+  0% 4972/wpa_supplicant: 0% user + 0% kernel / faults: 1 minor 34 major
+  0.1% 8607/<pre-forked-com.whatsapp>: 0.1% user + 0% kernel / faults: 38 minor
+  0.1% 11525/com.motorola.motocare: 0% user + 0.1% kernel / faults: 200 minor 14 major
+  0.1% 19275/com.motorola.ccc.notification: 0% user + 0.1% kernel / faults: 10 minor 1 major
+  0.1% 26159/kworker/4:1: 0% user + 0.1% kernel
+  0.1% 26443/adbd: 0% user + 0.1% kernel / faults: 158 minor
+  0.1% 26689/com.instagram.android: 0% user + 0.1% kernel / faults: 366 minor
+  0% 27817/kworker/6:0: 0% user + 0% kernel
+ +0% 30541/com.google.android.googlequicksearchbox:search: 0% user + 0% kernel
+ +0% 30591/kworker/u16:8: 0% user + 0% kernel
+ +0% 30592/com.google.android.apps.turbo: 0% user + 0% kernel
+ +0% 30623/kworker/5:2: 0% user + 0% kernel
+72% TOTAL: 45% user + 24% kernel + 1.1% iowait + 1.4% irq + 0.8% softirq

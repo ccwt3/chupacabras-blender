@@ -1,0 +1,20 @@
+{
+  "name": "chupacabras_nocturno_r04",
+  "source": "F2_chupacabras_forma_r04",
+  "triangles": 100652,
+  "meshes": 1,
+  "materials": 1,
+  "bones": 4,
+  "atlas_size": 2048,
+  "animation": "Respiracion_4s",
+  "duration": 4,
+  "fps": 24,
+  "physical_device": false,
+  "texture_authorship": "Original procedural skin, wrinkles, pores, keratin and eyes; no external image copies.",
+  "maps": {
+    "BaseColor": "sRGB",
+    "Normal": "Tangent +Y, linear",
+    "Roughness": "linear, authoring",
+    "MetallicSmoothness": "linear, R=0 A=1-roughness"
+  }
+}

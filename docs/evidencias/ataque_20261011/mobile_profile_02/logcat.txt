@@ -1,0 +1,111 @@
+--------- beginning of system
+10-11 13:29:38.573 28126 28126 I ActivityThread: smart_link is  not supported!!!
+10-11 13:31:12.700 28126 28126 I ActivityThread: smart_link is  not supported!!!
+--------- beginning of main
+10-11 13:34:05.387 28126 28144 I abras.ar.figur: Explicit concurrent copying GC freed 23563(766KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 67us total 22.589ms
+10-11 13:34:35.666 28126 28996 I abras.ar.figur: Explicit concurrent copying GC freed 23544(750KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 47us total 27.277ms
+10-11 13:35:05.959 28126 28142 I abras.ar.figur: Explicit concurrent copying GC freed 23557(750KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 52us total 23.229ms
+10-11 13:35:14.926 28126 28126 I ThreeFingerSwipe: 0 ACTION_DOWN point count = 1
+10-11 13:35:14.928 28126 28126 I ThreeFingerSwipe: onPointDown... pointIndex = 0, pointId = 0
+10-11 13:35:14.928 28126 28126 I ThreeFingerSwipe: currentX = 677.0, currentY = 0.0
+10-11 13:35:15.112 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 13:35:15.163 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 13:35:15.196 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 13:35:15.212 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 1
+10-11 13:35:15.242 28126 28126 I ThreeFingerSwipe: 0 ACTION_UP point count = 1
+10-11 13:35:15.600 28126 28178 I Unity   : CHUPACABRAS_TRACK lost
+10-11 13:35:15.600 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:35:15.600 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:35:15.600 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:35:15.600 28126 28178 I Unity   : 
+10-11 13:35:16.638 28126 28178 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 13:35:16.638 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:35:16.638 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:35:16.638 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:35:16.638 28126 28178 I Unity   : 
+10-11 13:35:30.638 28126 28126 I ThreeFingerSwipe: 0 ACTION_DOWN point count = 1
+10-11 13:35:30.638 28126 28126 I ThreeFingerSwipe: onPointDown... pointIndex = 0, pointId = 0
+10-11 13:35:30.638 28126 28126 I ThreeFingerSwipe: currentX = 254.0, currentY = 0.0
+10-11 13:35:30.670 28126 28126 I ThreeFingerSwipe: 1 ACTION_POINTER_DOWN point count = 2
+10-11 13:35:30.757 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.774 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.807 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.841 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.891 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.907 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.924 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.940 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.957 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.974 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:30.990 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.007 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.024 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.040 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.057 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.074 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.091 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.107 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.124 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.141 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.157 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.174 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.340 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.457 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.474 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.490 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.507 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.524 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.540 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.557 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.574 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.590 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.607 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.625 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.640 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.657 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.674 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.690 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.707 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.724 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.740 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.757 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.774 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:31.781 28126 28126 I ThreeFingerSwipe: 1 ACTION_POINTER_UP point count = 2
+10-11 13:35:31.937 28126 28126 I ThreeFingerSwipe: 1 ACTION_POINTER_DOWN point count = 2
+10-11 13:35:31.990 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.007 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.024 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.040 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.057 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.074 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.090 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.107 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.123 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.140 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.290 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.540 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.574 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.723 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.923 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.940 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.957 28126 28126 I ThreeFingerSwipe: 0 ACTION_MOVE point count = 2
+10-11 13:35:32.986 28126 28126 I ThreeFingerSwipe: 0 ACTION_POINTER_UP point count = 2
+10-11 13:35:33.073 28126 28126 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 13:35:33.456 28126 28126 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 13:35:33.473 28126 28126 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 13:35:34.664 28126 28178 I Unity   : CHUPACABRAS_TRACK lost
+10-11 13:35:34.664 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:35:34.664 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:35:34.664 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:35:34.664 28126 28178 I Unity   : 
+10-11 13:35:36.250 28126 28996 I abras.ar.figur: Explicit concurrent copying GC freed 23894(782KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2841KB/26MB, paused 58us total 25.997ms
+10-11 13:35:36.747 28126 28178 I Unity   : CHUPACABRAS_TRACK acquired
+10-11 13:35:36.747 28126 28178 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+10-11 13:35:36.747 28126 28178 I Unity   : Chupacabras.TrackingProbe:Process(Color32[], Int32, Int32, Int32, Boolean, Double, Boolean)
+10-11 13:35:36.747 28126 28178 I Unity   : Chupacabras.TrackingProbe:Update()
+10-11 13:35:36.747 28126 28178 I Unity   : 
+10-11 13:36:06.519 28126 28142 I abras.ar.figur: Explicit concurrent copying GC freed 23531(766KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2873KB/26MB, paused 45us total 21.881ms
+10-11 13:36:37.212 28126 28142 I abras.ar.figur: Explicit concurrent copying GC freed 23794(765KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2842KB/26MB, paused 78us total 28.350ms
+10-11 13:37:07.870 28126 28996 I abras.ar.figur: Explicit concurrent copying GC freed 23789(750KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2842KB/26MB, paused 69us total 22.721ms
+10-11 13:37:20.155 28126 28126 I ThreeFingerSwipe: 1 ACTION_MOVE point count = 1
+10-11 13:37:35.119 28126 28996 I abras.ar.figur: Explicit concurrent copying GC freed 21851(708KB) AllocSpace objects, 1(20KB) LOS objects, 89% free, 2834KB/26MB, paused 50us total 27.024ms

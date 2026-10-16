@@ -1,0 +1,10 @@
+{
+  "fbx_sha256": {
+    "/home/cacawatin/code/blender/chupacabras/exports/ataque_ar_r08.fbx": "f3b5b40b3f46849b3ddcf52cfc5bc32a87f57dedb03338e4eaf2c30ee45a5eaa",
+    "/home/cacawatin/code/unity/chupacabras/google_play/Assets/FiguraAR/Ataque_r08/ataque_ar_r08.fbx": "f3b5b40b3f46849b3ddcf52cfc5bc32a87f57dedb03338e4eaf2c30ee45a5eaa",
+    "/home/cacawatin/code/unity/chupacabras/google_play/Assets/FiguraAR/Ataque_r09/ataque_ar_r08.fbx": "f3b5b40b3f46849b3ddcf52cfc5bc32a87f57dedb03338e4eaf2c30ee45a5eaa"
+  },
+  "tracking_sha256": "69247823852fdae648be3d903e2e9eb7285c618a770a2ec94da994d0774d43ac",
+  "uniform_scale_ratio": 1.375,
+  "blender_regeneration": "not needed; identical models and animation"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/.cmake/api/v1/reply/cache-v2-0134f3db0f78dcc19cdb.json",
+    "restored_sha256": "52294ea5bbcc1ae91d39a9a18e6e82e7a6f2fcee88ee6ed41ef31b60fd45332e",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  },
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-59a83bcd0a91ffc8309a.json",
+    "restored_sha256": "f2bfaf2bfcc7094087c69250402cdd876a67e57fb4d4f9989d98336151ec6a50",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  },
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/.cmake/api/v1/reply/index-2026-09-23T21-07-21-0883.json",
+    "restored_sha256": "e52101a8ea2e3e6a71eeedc48144715714123c5e8c8b76eba5893762112c9ae8",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  },
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/.ninja_deps",
+    "restored_sha256": "ff17b37a4236e87bfd9c211676fc2e30c8262bb414dcdc1754ddcdee9792a17b",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  },
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/.ninja_log",
+    "restored_sha256": "f4b8b05cd404d801aba76cbc8e2b3c43d5d2300e6caff9be14b0ee2036abcc6b",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  },
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/CMakeCache.txt",
+    "restored_sha256": "55fc0f96882c1ef854915600f7344a922c2195330fb96c26aa889ff151d4db9b",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  },
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o",
+    "restored_sha256": "bd35aecde38d1b24f388205aed714b170ae13209119e3e675dfdbbe4b361c7bb",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  },
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/build.ninja",
+    "restored_sha256": "ec8d7576c3729816d5cc52363b189bad6408903a1458298cbe322533aab86054",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  },
+  {
+    "path": ".utmp/Debug/5t4b1a4u/arm64-v8a/configure_fingerprint.bin",
+    "restored_sha256": "96ee09b58244c1587e4d88426e6a7988f10e2737e8478247e7e40fe9c76cf0e6",
+    "reason": "Archivo limpio al inicio, regenerado por la compilaci\u00f3n actual."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "completed": true,
+  "criterion": "Demo funcional en G20 aceptada por el usuario, no 30 fps sostenidos",
+  "date": "2026-10-06",
+  "apk": "APK/F6_figure_20261006_181916.apk",
+  "apk_sha256": "7db6358cdb13c37467a3d42f76d163ef8359c0ef25583441065ed5b869863aae",
+  "version": "0.2.2",
+  "version_code": 202,
+  "apk_bytes": 55348110,
+  "package": "com.chupacabras.ar.figure",
+  "character": "Nocturno R08 / respiración R02",
+  "blender_source": "Blender/scenes/chupacabras_nocturno_r08_respira_r02.blend",
+  "unity_version": "6000.3.22f1",
+  "profile_seconds": 309.999191547,
+  "presentation_fps": 28.53233247435415,
+  "frame_ms": {
+    "n": 8845,
+    "min": 16.649962,
+    "median": 33.323693,
+    "p95": 49.984577,
+    "p99": 50.051346,
+    "max": 83.303269
+  },
+  "detector_hz": 15.007108886969512,
+  "visible_samples": 2530,
+  "total_samples": 2530,
+  "user_acceptance": "si, suficiente como demo",
+  "test_installation_removed": true,
+  "s23_tested": false,
+  "commits_or_push": false,
+  "limits": [
+    "30 fps sostenidos no alcanzados",
+    "FOV 60° provisional; sin calibración métrica exacta",
+    "No acredita sesiones de horas ni Android con páginas de 16 KB",
+    "Carga USB, consultas ADB y procesos ajenos preservados"
+  ]
+}
